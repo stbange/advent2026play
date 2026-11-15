@@ -26,7 +26,9 @@ GitHub Pages hosts the web client and its assets. **Online co-op requires a sepa
 
 This repository contains the ready-to-play Emscripten/WebGL 2 build and external Lua/glTF/PNG/WAV content. The source project is [stbange/advent2026](https://github.com/stbange/advent2026), revision [`015070e`](https://github.com/stbange/advent2026/commit/015070e22d99aa1da5793b53f34dd66bb273f972). See [build-info.json](build-info.json) for exact build and content hashes.
 
-GitHub Pages publishes the root of the `main` branch. `.nojekyll` preserves the static runtime files. To update, build the source revision with Emscripten 4.0.10, install its CMake **Runtime** component, and publish the complete runtime together so manifests and asset bytes stay in sync. Preserve this README, `.nojekyll` and the license files.
+To enable GitHub Pages, the repository owner can open **[Settings → Pages](https://github.com/stbange/advent2026play/settings/pages)**, choose **Deploy from a branch**, select **main** and **/ (root)**, then **Save**. The game files are already at that location; GitHub publishes the site after its Pages build finishes.
+
+`.nojekyll` preserves the static runtime files. To update, build the source revision with Emscripten 4.0.10, install its CMake **Runtime** component, and publish the complete runtime together so manifests and asset bytes stay in sync. Preserve this README, `.nojekyll` and the license files.
 
 ## Licenses and credits
 
