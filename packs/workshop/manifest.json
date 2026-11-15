@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "engine_api": 1,
+  "save_version": 2,
+  "id": "engine-workshop",
+  "preview_only": true,
+  "title": "ENGINE WORKSHOP",
+  "day": 24,
+  "min_players": 1,
+  "max_players": 4,
+  "entry": "rules.lua",
+  "dependencies": [],
+  "mesh": "workshop.gltf",
+  "hall_mesh": "hall.gltf",
+  "texture": "atlas.png",
+  "files": [
+    {
+      "path": "atlas.png",
+      "sha256": "590f52915b7cf74e89e139845b2fd5c79c8396426eed1d46fdf579d682809dfe",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "effects.wav",
+      "sha256": "c9b196731e95bbe190fb1540e28278cba2645558f71b5117095765dd07ec180d",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "font.txt",
+      "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.bin",
+      "sha256": "1b7948e6cd5f287e3555f2c333e9832ef843591760e0853ab3e17d8d7e1c4872",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.gltf",
+      "sha256": "98d63cc4e1e405af2559dbe37a01be2ad28252d718ac246a6b13300830222a16",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.map",
+      "sha256": "e6920ec85c61496f3fb51edaf27e4898beff82932948e505388d40f50287bc9a",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hud.txt",
+      "sha256": "d30b6af250c0b4c318ce7a0a7dbe4b21ad0f5c1f074bc35e9df8489f82026323",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "music.wav",
+      "sha256": "1c4d6cd2664a0399e01b0cc2dc9e560a46ac8de9c72bfe8316b39ec9ed0c916e",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "navigation.json",
+      "sha256": "c16b23c52546da4d6ba3bf3dc6c7715c600f48db3f10ea58df6f8be60960e17c",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "palette.txt",
+      "sha256": "042aada322d97bbf16ac801f6c0eb91b1aa5349e6572286787a51d7e77bb6335",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "red-furnace.map",
+      "sha256": "997995ebfa2e98011a69d9ea687438f3db004ed38d8a630f706fbe6ce266a9bd",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "rules.lua",
+      "sha256": "4f10e382da92360172034747c82af219cc7c842d91293519960cbef682f53956",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "scene.frag",
+      "sha256": "38e688328ef00e1192f50fce8f81c235292b68d83097c6cd61b7e16b763f3c72",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "scene.vert",
+      "sha256": "1c6c5f495df421bb70ad291e4417a227d64fd58455cc45ad0ed7053eaf13f650",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "workshop.bin",
+      "sha256": "e2674398bd16750235891a3f85be6f1c58390f78d4d56d82b04fa6de713a0c6e",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "workshop.gltf",
+      "sha256": "5a04db92c6209d044e11e86faf1d11d0cfb36776b8e7e02e09031f6d851eefa1",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

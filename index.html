@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Advent 2026 · The Winter Hall</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<main>
+  <header><span class="eyebrow">24 DOORS · ONE WINTER</span><h1>ADVENT <em>2026</em></h1><p>A winter hall of original retro worlds.</p></header>
+  <section id="lobby" aria-label="Join a game">
+    <form id="join"><label for="mode">Play mode</label><select id="mode"><option value="offline">Local / offline</option><option value="online">Join friends online</option></select><label>Friend room <select id="room"><option>1</option><option>2</option><option>3</option><option>4</option></select></label><label><input id="preview" type="checkbox"> Preview all available doors</label><label><input id="split" type="checkbox"> Two local players (desktop, second player uses a gamepad)</label><label>World <select id="initial-world"><option value="assets/">Red Furnace</option><option value="packs/workshop/">Engine workshop</option></select></label><label for="server">Your friend's server</label><div class="row"><input id="server" name="server" type="url" aria-describedby="connection-help"><button type="submit">Enter the hall</button></div></form>
+    <p id="connection-help">Move with WASD. Look with the mouse. Click to fire. Press E to use a portal or valve.</p>
+    <p>On touch screens, drag the left side to move and the right side to look. Use the Fire and Use buttons.</p>
+    <p class="note">This prototype includes Portal 13: Red Furnace, for up to four friends. Other episodes are still being built. Before December 13, the host must enable preview mode.</p>
+  </section>
+  <p id="status" role="status" aria-live="polite">Ready when you are.</p>
+  <section id="stage" aria-label="First person game" hidden>
+    <canvas id="canvas" width="960" height="600" tabindex="0" aria-label="Advent first person view"></canvas>
+    <div id="touch" hidden><span class="move-hint">DRAG TO MOVE</span><button id="fire" type="button" aria-label="Hold to fire">FIRE</button><button id="use" type="button" aria-label="Hold to interact">USE</button><button id="jump" type="button">JUMP</button><button id="alt" type="button">ALT</button><button id="command" type="button">ORDER</button><button id="next" type="button">NEXT</button><button id="return" type="button">HALL</button><button id="up" type="button">UP</button><button id="down" type="button">DOWN</button></div>
+  </section>
+  <details id="controls" hidden><summary>Controls &amp; settings</summary><div class="settings-panel">
+    <button id="xr" type="button" disabled>Enter / leave VR</button><button id="calibrate" type="button">Recalibrate seated height</button>
+    <label>Sensitivity <input id="sensitivity" type="range" min="0.0001" max="0.02" step="0.0001" value="0.0025"></label>
+    <label>Field of view <input id="fov" type="range" min="60" max="110" value="75"></label>
+    <label>Volume <input id="volume" type="range" min="0" max="1" step="0.05" value="0.6"></label>
+    <label><input id="invert" type="checkbox"> Invert look</label><label><input id="snap" type="checkbox" checked> Snap turn in VR</label><label><input id="seated" type="checkbox" checked> Seated height</label><label><input id="screen" type="checkbox"> Stationary virtual screen in VR (recommended for flight)</label>
+    <label>Keyboard action <select id="action"><option value="0">Forward</option><option value="1">Back</option><option value="2">Left</option><option value="3">Right</option><option value="4">Up</option><option value="5">Down</option><option value="6">Fire</option><option value="7">Use</option><option value="8">Jump</option><option value="9">Alternate</option><option value="10">Command</option><option value="11">Next</option><option value="12">Return</option></select></label><button id="remap" type="button">Focus here, then press a new key</button>
+    <button id="export" type="button">Export local save</button><label>Import local save <input id="import" type="file" accept=".adv"></label>
+    <label>Local world <select id="world"><option value="assets/">Red Furnace</option><option value="packs/workshop/">Engine workshop</option></select></label><button id="world-load" type="button">Load world from hall</button><button id="world-cancel" type="button" hidden>Cancel download</button>
+    <details><summary>Current world credits</summary><pre id="credits"></pre></details>
+    <p>Keyboard: WASD move; E use; Space jump; Q alternate; C command; Tab next; Backspace return. R/F ascend/descend. Controller: left stick move, right stick look, trigger fire, west use, south jump, north command, east next, back return; D-pad up/down vertical. Start pauses that player's input.</p>
+  </div></details>
+  <footer>Original art: Advent2026 contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · Code: MIT</footer>
+</main>
+<script type="module">
+import createAdvent from './advent.js';
+import { mount } from './client.mjs';
+mount({document, window, createAdvent});
+</script>
+</body></html>

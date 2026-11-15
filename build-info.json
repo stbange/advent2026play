@@ -1,0 +1,304 @@
+{
+  "source_repository": "https://github.com/stbange/advent2026",
+  "source_commit": "015070e22d99aa1da5793b53f34dd66bb273f972",
+  "emscripten": "4.0.10",
+  "packaged_at": "2026-11-15T22:35:32.352535+01:00",
+  "play_url": "https://stbange.github.io/advent2026play/",
+  "files": [
+    {
+      "path": "ART-LICENSE.md",
+      "bytes": 1379,
+      "sha256": "c5e0a2920ba2fc360d431e5f1eabe1aadff9c68ef76f81821365890b22e2f488"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1070,
+      "sha256": "feceb0acf026c6639bcea825c9d3a63e2c0beec4792b4fa8dba59fedbabbc9d4"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2187,
+      "sha256": "5becbe50bea0c501174b7c3019d8360b1e437bfa694d04939aa36bebbb4e919a"
+    },
+    {
+      "path": "advent.js",
+      "bytes": 232724,
+      "sha256": "8ca1ca56217c155badec6e5be89222438e43aef7699523ce7d111b1da888d52d"
+    },
+    {
+      "path": "advent.wasm",
+      "bytes": 2178117,
+      "sha256": "13f67dd1e3e83a68eac865c225bffacf7d1d39716d1aa9ac99ab16078a217a33"
+    },
+    {
+      "path": "assets/ATTRIBUTION.md",
+      "bytes": 872,
+      "sha256": "181f2dac019728d60139a741df057af13f5efb9150028b6689052018e3ab7197"
+    },
+    {
+      "path": "assets/atlas.png",
+      "bytes": 143953,
+      "sha256": "590f52915b7cf74e89e139845b2fd5c79c8396426eed1d46fdf579d682809dfe"
+    },
+    {
+      "path": "assets/effects.wav",
+      "bytes": 17324,
+      "sha256": "c9b196731e95bbe190fb1540e28278cba2645558f71b5117095765dd07ec180d"
+    },
+    {
+      "path": "assets/font.txt",
+      "bytes": 1032,
+      "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
+    },
+    {
+      "path": "assets/furnace.bin",
+      "bytes": 620928,
+      "sha256": "db5faca06cefd2e8a0df4c59b50c09972d55ddc4323a1ecd89e8358d9c123a6a"
+    },
+    {
+      "path": "assets/furnace.gltf",
+      "bytes": 2823,
+      "sha256": "a7a8ca441b7850a63f415a27d9ed4bfb649f65f5a8310176e50d24d557ebe7e3"
+    },
+    {
+      "path": "assets/hall.bin",
+      "bytes": 2094144,
+      "sha256": "1b7948e6cd5f287e3555f2c333e9832ef843591760e0853ab3e17d8d7e1c4872"
+    },
+    {
+      "path": "assets/hall.gltf",
+      "bytes": 34521,
+      "sha256": "98d63cc4e1e405af2559dbe37a01be2ad28252d718ac246a6b13300830222a16"
+    },
+    {
+      "path": "assets/hall.map",
+      "bytes": 400,
+      "sha256": "e6920ec85c61496f3fb51edaf27e4898beff82932948e505388d40f50287bc9a"
+    },
+    {
+      "path": "assets/hud.txt",
+      "bytes": 276,
+      "sha256": "1ff790776f0d15e26d3805bcc739e9734edaeb1254174f367b45eaeec363988a"
+    },
+    {
+      "path": "assets/manifest.json",
+      "bytes": 3507,
+      "sha256": "c0dbb658e4da0a5f6a13edaf1b2461ffe37e35adbbe04720755366f21af469f0"
+    },
+    {
+      "path": "assets/music.wav",
+      "bytes": 768044,
+      "sha256": "314d0b75f2187003621c297f38a0a6fee441d98c6947471e1f5dd3732e099cf4"
+    },
+    {
+      "path": "assets/palette.txt",
+      "bytes": 123,
+      "sha256": "2a0c7c99da20a20c81cad47003e2f001b36a7286b49c071b08ed6932a1b77be4"
+    },
+    {
+      "path": "assets/portals.txt",
+      "bytes": 850,
+      "sha256": "7d68f68bf874a63a5a0757dca5c4ee09ab0885b4af9b3ff170c43981c19b4148"
+    },
+    {
+      "path": "assets/red-furnace.map",
+      "bytes": 400,
+      "sha256": "131581751d9eacd7545e2cf5282e337e2a854fae098685136471fdc1351edede"
+    },
+    {
+      "path": "assets/rules.lua",
+      "bytes": 12127,
+      "sha256": "6b6cc518c341d1fb398ea125b2dd4cefab64d0b2353efad24486ac1d58a0a6a1"
+    },
+    {
+      "path": "assets/scene.frag",
+      "bytes": 1035,
+      "sha256": "38e688328ef00e1192f50fce8f81c235292b68d83097c6cd61b7e16b763f3c72"
+    },
+    {
+      "path": "assets/scene.vert",
+      "bytes": 433,
+      "sha256": "1c6c5f495df421bb70ad291e4417a227d64fd58455cc45ad0ed7053eaf13f650"
+    },
+    {
+      "path": "catalog.json",
+      "bytes": 49,
+      "sha256": "48627f35af0c7a69976f040c27419c32cf8c401502d7ded8c9ebeef88e530333"
+    },
+    {
+      "path": "client.mjs",
+      "bytes": 8981,
+      "sha256": "5927ac171440b54377187bc70c2358966d580eb34da789c7b192c91753ebf997"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5130,
+      "sha256": "e7eb0dd53fdfd4ad5a601c3b98620353bf685686d8c3fd8214f7b7ec873afea6"
+    },
+    {
+      "path": "library.js",
+      "bytes": 845,
+      "sha256": "db687924db8dc31ccabdc4725133279285f33364d5693d1461f08d8711a93b3c"
+    },
+    {
+      "path": "licenses/Lua.txt",
+      "bytes": 1179,
+      "sha256": "fcaca972e3c92a8f3815543c589b9e21f069bf4bb09bbd5b5e9165cf4911c685"
+    },
+    {
+      "path": "licenses/Ponytail.txt",
+      "bytes": 1072,
+      "sha256": "e1828353edcaa6047ca308897e465006fbaeb781952c7e7eb2e5b62d140cc220"
+    },
+    {
+      "path": "licenses/SDL.txt",
+      "bytes": 884,
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "path": "licenses/cJSON.txt",
+      "bytes": 1083,
+      "sha256": "163766832b15cc9c90d593216360c67af579b8b36932b297fca2aeb61544de2f"
+    },
+    {
+      "path": "licenses/cgltf.txt",
+      "bytes": 1066,
+      "sha256": "f619925f80ef862497aaf8e8155ef218fa6a2190055129523ca3df9119a9ba95"
+    },
+    {
+      "path": "licenses/libwebsockets.txt",
+      "bytes": 14706,
+      "sha256": "2b5dd8030691f3d1870a040f085c37e45d9ab9c684a7f1284f5f379c1e829b28"
+    },
+    {
+      "path": "licenses/stb.txt",
+      "bytes": 2588,
+      "sha256": "eb36e45c704dd0b59730115523e089b051852625b4db0a6fe76c991900af20e7"
+    },
+    {
+      "path": "packs/workshop/ATTRIBUTION.md",
+      "bytes": 407,
+      "sha256": "a233d95152ea5f84efc696c241a80dffa86634a097cdcda6efcb0fd83ab0f680"
+    },
+    {
+      "path": "packs/workshop/atlas.png",
+      "bytes": 143953,
+      "sha256": "590f52915b7cf74e89e139845b2fd5c79c8396426eed1d46fdf579d682809dfe"
+    },
+    {
+      "path": "packs/workshop/effects.wav",
+      "bytes": 17324,
+      "sha256": "c9b196731e95bbe190fb1540e28278cba2645558f71b5117095765dd07ec180d"
+    },
+    {
+      "path": "packs/workshop/font.txt",
+      "bytes": 1032,
+      "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
+    },
+    {
+      "path": "packs/workshop/hall.bin",
+      "bytes": 2094144,
+      "sha256": "1b7948e6cd5f287e3555f2c333e9832ef843591760e0853ab3e17d8d7e1c4872"
+    },
+    {
+      "path": "packs/workshop/hall.gltf",
+      "bytes": 34521,
+      "sha256": "98d63cc4e1e405af2559dbe37a01be2ad28252d718ac246a6b13300830222a16"
+    },
+    {
+      "path": "packs/workshop/hall.map",
+      "bytes": 400,
+      "sha256": "e6920ec85c61496f3fb51edaf27e4898beff82932948e505388d40f50287bc9a"
+    },
+    {
+      "path": "packs/workshop/hud.txt",
+      "bytes": 229,
+      "sha256": "d30b6af250c0b4c318ce7a0a7dbe4b21ad0f5c1f074bc35e9df8489f82026323"
+    },
+    {
+      "path": "packs/workshop/manifest.json",
+      "bytes": 3490,
+      "sha256": "6598f62a3a67f371989a2d3a40c1c078d968ba2ba8b521cfc491b1fd732f0896"
+    },
+    {
+      "path": "packs/workshop/music.wav",
+      "bytes": 384044,
+      "sha256": "1c4d6cd2664a0399e01b0cc2dc9e560a46ac8de9c72bfe8316b39ec9ed0c916e"
+    },
+    {
+      "path": "packs/workshop/navigation.json",
+      "bytes": 211,
+      "sha256": "c16b23c52546da4d6ba3bf3dc6c7715c600f48db3f10ea58df6f8be60960e17c"
+    },
+    {
+      "path": "packs/workshop/palette.txt",
+      "bytes": 123,
+      "sha256": "042aada322d97bbf16ac801f6c0eb91b1aa5349e6572286787a51d7e77bb6335"
+    },
+    {
+      "path": "packs/workshop/red-furnace.map",
+      "bytes": 400,
+      "sha256": "997995ebfa2e98011a69d9ea687438f3db004ed38d8a630f706fbe6ce266a9bd"
+    },
+    {
+      "path": "packs/workshop/rules.lua",
+      "bytes": 4362,
+      "sha256": "4f10e382da92360172034747c82af219cc7c842d91293519960cbef682f53956"
+    },
+    {
+      "path": "packs/workshop/scene.frag",
+      "bytes": 1035,
+      "sha256": "38e688328ef00e1192f50fce8f81c235292b68d83097c6cd61b7e16b763f3c72"
+    },
+    {
+      "path": "packs/workshop/scene.vert",
+      "bytes": 433,
+      "sha256": "1c6c5f495df421bb70ad291e4417a227d64fd58455cc45ad0ed7053eaf13f650"
+    },
+    {
+      "path": "packs/workshop/workshop.bin",
+      "bytes": 720,
+      "sha256": "e2674398bd16750235891a3f85be6f1c58390f78d4d56d82b04fa6de713a0c6e"
+    },
+    {
+      "path": "packs/workshop/workshop.gltf",
+      "bytes": 491,
+      "sha256": "5a04db92c6209d044e11e86faf1d11d0cfb36776b8e7e02e09031f6d851eefa1"
+    },
+    {
+      "path": "screen.frag",
+      "bytes": 136,
+      "sha256": "64d24726cdf4972d9f4bdc4e1087175c644c92b073f1ddbb8f976c7774656683"
+    },
+    {
+      "path": "screen.mjs",
+      "bytes": 3115,
+      "sha256": "bc61e6d0d3186eb73423507a74d0885f7b51e03ac1dc44510b615024cbaa2d90"
+    },
+    {
+      "path": "screen.vert",
+      "bytes": 271,
+      "sha256": "8111f43a5ae185702f908598124c144a3baf329f0f71f3f38cf95372020690ec"
+    },
+    {
+      "path": "service-worker.js",
+      "bytes": 990,
+      "sha256": "2ab2b077ef6157ae9a5d030fccb2e5a2678042947ef1e85c7501ab66398c7ccc"
+    },
+    {
+      "path": "storage.mjs",
+      "bytes": 5072,
+      "sha256": "79783a27f9e042b14bf6242e223b71f00d29e9c78a935b0821a10504b35e1ee7"
+    },
+    {
+      "path": "style.css",
+      "bytes": 3012,
+      "sha256": "2cfcbac94548870e02acdd85ceda4bce90ee85c2e74bf0ae1732fad99fc708f3"
+    },
+    {
+      "path": "xr.mjs",
+      "bytes": 5790,
+      "sha256": "605b6f0dc5a55c3435db8dd4d8ef2f98bfa9ae2a42ca29d7f07b9c1baeb012f1"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "engine_api": 1,
+  "save_version": 2,
+  "id": "red-furnace",
+  "title": "Red Furnace",
+  "day": 13,
+  "min_players": 1,
+  "max_players": 4,
+  "entry": "rules.lua",
+  "dependencies": [],
+  "files": [
+    {
+      "path": "hall.map",
+      "sha256": "e6920ec85c61496f3fb51edaf27e4898beff82932948e505388d40f50287bc9a",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "red-furnace.map",
+      "sha256": "131581751d9eacd7545e2cf5282e337e2a854fae098685136471fdc1351edede",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "rules.lua",
+      "sha256": "6b6cc518c341d1fb398ea125b2dd4cefab64d0b2353efad24486ac1d58a0a6a1",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "palette.txt",
+      "sha256": "2a0c7c99da20a20c81cad47003e2f001b36a7286b49c071b08ed6932a1b77be4",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "scene.vert",
+      "sha256": "1c6c5f495df421bb70ad291e4417a227d64fd58455cc45ad0ed7053eaf13f650",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "scene.frag",
+      "sha256": "38e688328ef00e1192f50fce8f81c235292b68d83097c6cd61b7e16b763f3c72",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "font.txt",
+      "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.gltf",
+      "sha256": "98d63cc4e1e405af2559dbe37a01be2ad28252d718ac246a6b13300830222a16",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.bin",
+      "sha256": "1b7948e6cd5f287e3555f2c333e9832ef843591760e0853ab3e17d8d7e1c4872",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "furnace.gltf",
+      "sha256": "a7a8ca441b7850a63f415a27d9ed4bfb649f65f5a8310176e50d24d557ebe7e3",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "furnace.bin",
+      "sha256": "db5faca06cefd2e8a0df4c59b50c09972d55ddc4323a1ecd89e8358d9c123a6a",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "atlas.png",
+      "sha256": "590f52915b7cf74e89e139845b2fd5c79c8396426eed1d46fdf579d682809dfe",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "effects.wav",
+      "sha256": "c9b196731e95bbe190fb1540e28278cba2645558f71b5117095765dd07ec180d",
+      "creator": "Advent2026 contributors \u2014 original synthesized tones",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "music.wav",
+      "sha256": "314d0b75f2187003621c297f38a0a6fee441d98c6947471e1f5dd3732e099cf4",
+      "creator": "Advent2026 contributors \u2014 original synthesized tones",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "portals.txt",
+      "creator": "Advent2026 contributors",
+      "license": "MIT",
+      "sha256": "7d68f68bf874a63a5a0757dca5c4ee09ab0885b4af9b3ff170c43981c19b4148"
+    },
+    {
+      "path": "hud.txt",
+      "creator": "Advent2026 contributors",
+      "license": "MIT",
+      "sha256": "1ff790776f0d15e26d3805bcc739e9734edaeb1254174f367b45eaeec363988a"
+    }
+  ],
+  "mesh": "furnace.gltf",
+  "hall_mesh": "hall.gltf",
+  "texture": "atlas.png"
+}

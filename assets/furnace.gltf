@@ -1,0 +1,172 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Advent2026 original source: tools/author_slice.py"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "SCENE_GRID",
+      "mesh": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "COLOR_0": 1,
+            "TEXCOORD_0": 2
+          },
+          "material": 0,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 3,
+            "COLOR_0": 4,
+            "TEXCOORD_0": 5
+          },
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "furnace.bin",
+      "byteLength": 620928
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 620928,
+      "byteStride": 32
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 18072,
+      "type": "VEC3",
+      "min": [
+        -0.030000000000000027,
+        0.0,
+        -0.030000000000000027
+      ],
+      "max": [
+        24.03,
+        6.5,
+        16.03
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 18072,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 18072,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 578304,
+      "componentType": 5126,
+      "count": 1332,
+      "type": "VEC3",
+      "min": [
+        3.36,
+        0.5,
+        1.96
+      ],
+      "max": [
+        20.64,
+        4.25,
+        13.940000000000001
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 578316,
+      "componentType": 5126,
+      "count": 1332,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 578328,
+      "componentType": 5126,
+      "count": 1332,
+      "type": "VEC2"
+    }
+  ],
+  "images": [
+    {
+      "uri": "atlas.png"
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9728,
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "emissiveFactor": [
+        1,
+        0.7,
+        0.2
+      ]
+    }
+  ]
+}
