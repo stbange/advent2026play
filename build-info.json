@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/stbange/advent2026",
-  "source_commit": "0e132fe36fd6e8cc34694e1b4c1d7d5d16a68947",
+  "source_commit": "e18bb09957395d279b8a897a3ffa41a6b92cd2ad",
   "emscripten": "4.0.10",
-  "packaged_at": "2026-11-16T00:36:41.107366+00:00",
+  "packaged_at": "2026-11-16T00:53:32.809627+00:00",
   "play_url": "https://stbange.github.io/advent2026play/",
   "world_pixel_budget": [
     384,
@@ -87,7 +87,7 @@
     {
       "path": "assets/manifest.json",
       "bytes": 3706,
-      "sha256": "50571caab3472baa63b372d57abdb7e502b0326b7de661d600578e57035eff40"
+      "sha256": "1f9e3eb7e6e1b80b8ea15b499592783434f8c3ef64fe4faea2b86e755dfb0c4c"
     },
     {
       "path": "assets/music.wav",
@@ -111,8 +111,8 @@
     },
     {
       "path": "assets/rules.lua",
-      "bytes": 15596,
-      "sha256": "f442553ef69f6b4725528ee38effaf29f27c8086103142e65888fc8578b327d3"
+      "bytes": 15633,
+      "sha256": "e1ede92f5e9afded3261a7197e7be272e528a9c2e2a80a75240bb3c1bbd67f30"
     },
     {
       "path": "assets/scene.frag",
@@ -314,6 +314,5 @@
       "bytes": 5790,
       "sha256": "605b6f0dc5a55c3435db8dd4d8ef2f98bfa9ae2a42ca29d7f07b9c1baeb012f1"
     }
-  ],
-  "portability_note": "Windows SDK macro fix; all 61 runtime file hashes unchanged."
+  ]
 }

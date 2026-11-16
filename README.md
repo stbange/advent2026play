@@ -26,7 +26,7 @@ GitHub Pages hosts the web client and its assets. **Online co-op requires a sepa
 
 ## Build and source
 
-This repository contains the ready-to-play Emscripten/WebGL 2 build and external Lua/glTF/PNG/WAV and editable voxel JSON content. The source project is [stbange/advent2026](https://github.com/stbange/advent2026), revision [`0e132fe`](https://github.com/stbange/advent2026/commit/0e132fe36fd6e8cc34694e1b4c1d7d5d16a68947). See [build-info.json](build-info.json) for exact build and content hashes.
+This repository contains the ready-to-play Emscripten/WebGL 2 build and external Lua/glTF/PNG/WAV and editable voxel JSON content. The source project is [stbange/advent2026](https://github.com/stbange/advent2026), revision [`e18bb09`](https://github.com/stbange/advent2026/commit/e18bb09957395d279b8a897a3ffa41a6b92cd2ad). See [build-info.json](build-info.json) for exact build and content hashes.
 
 GitHub Pages publishes the `main` branch at the link above. Updates deploy automatically after the Pages build completes.
 

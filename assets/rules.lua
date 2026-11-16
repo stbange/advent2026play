@@ -16,7 +16,7 @@ local function effect(w,kind,x,z,yaw,style)
 end
 local function push(e,yaw,force)
     local x,z=e.x+math.sin(yaw)*force,e.z-math.cos(yaw)*force
-    if visible(e.x,e.z,x,z) and visible(x-.28,z-.28,x+.28,z+.28) then e.x,e.z=x,z end
+    if visible(e.x,e.z,x,z) and visible(x-.28,z-.28,x+.28,z+.28) and visible(x-.28,z+.28,x+.28,z-.28) then e.x,e.z=x,z end
 end
 local function hit(w,e,amount,yaw)
     if e.flags&1~=0 then effect(w,IMPACT,e.x,e.z,yaw,0);return end
