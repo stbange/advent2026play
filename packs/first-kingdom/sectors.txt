@@ -1,0 +1,6 @@
+sector-0.map sector-0.json 6
+sector-1.map sector-1.json 6
+sector-2.map sector-2.json 6
+sector-3.map sector-3.json 6
+sector-4.map sector-4.json 6
+sector-5.map sector-5.json 6

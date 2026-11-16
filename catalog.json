@@ -1,7 +1,6 @@
 {
   "schema": 1,
   "packs": [
-    "assets",
     "packs/midnight-matinee",
     "packs/emberwake",
     "packs/crystal-front",
@@ -14,6 +13,18 @@
     "packs/neon-covenant",
     "packs/reactor-zero",
     "packs/cathedral-below",
+    "packs/red-furnace",
+    "packs/heartwood-song",
+    "packs/silent-farm",
+    "packs/black-bell-keep",
+    "packs/starblade-ascent",
+    "packs/threefold-siege",
+    "packs/valley-of-echoes",
+    "packs/choir-protocol",
+    "packs/first-kingdom",
+    "packs/carnival-of-ashes",
+    "packs/machines-at-dawn",
+    "packs/midnight-armistice",
     "packs/workshop"
   ]
 }
