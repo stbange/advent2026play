@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/stbange/advent2026",
-  "source_commit": "55a95b335f990296a464d8939ffd4d5747df3067",
+  "source_commit": "b9d10c4ba28b071f0d6b963f235a93ae99b9dc8e",
   "emscripten": "4.0.10",
-  "packaged_at": "2026-11-16T05:04:01.598030+00:00",
+  "packaged_at": "2026-11-16T05:46:01.052915+00:00",
   "play_url": "https://stbange.github.io/advent2026play/",
   "world_pixel_budget": [
     384,
@@ -47,8 +47,8 @@
     },
     {
       "path": "advent.wasm",
-      "bytes": 2193921,
-      "sha256": "d4db81bf9058d1b3b9c674ea70a32dc306f8c68d08eba0819f9c1351b72e18aa"
+      "bytes": 2194075,
+      "sha256": "0bf7cb98c9c12f668d912c18e1a8cf683b28f3cc037dbe215540ae67061aab65"
     },
     {
       "path": "assets/ATTRIBUTION.md",
