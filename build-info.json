@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/stbange/advent2026",
-  "source_commit": "ffbfed36b9d7d5957ed5cc620b06f1fe1d84da83",
+  "source_commit": "0e132fe36fd6e8cc34694e1b4c1d7d5d16a68947",
   "emscripten": "4.0.10",
-  "packaged_at": "2026-11-16T00:22:07.733287+00:00",
+  "packaged_at": "2026-11-16T00:36:41.107366+00:00",
   "play_url": "https://stbange.github.io/advent2026play/",
   "world_pixel_budget": [
     384,
@@ -314,5 +314,6 @@
       "bytes": 5790,
       "sha256": "605b6f0dc5a55c3435db8dd4d8ef2f98bfa9ae2a42ca29d7f07b9c1baeb012f1"
     }
-  ]
+  ],
+  "portability_note": "Windows SDK macro fix; all 61 runtime file hashes unchanged."
 }
