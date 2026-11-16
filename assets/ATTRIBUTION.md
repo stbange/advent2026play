@@ -13,3 +13,5 @@ is MIT source code; its visual/audio output is CC BY 4.0. See the
 
 Lua rules and GLSL shader source are code, licensed MIT. No reference screenshots,
 classic game assets, names, logos, dialogue, or recordings are runtime assets.
+
+The voxel palettes/grids in `voxels.json`, their surface-mesh exports, winter panorama, directional demon/guard sprites and animated fire/smoke/impact cards are original Advent2026 contributors artwork, CC BY 4.0. The source exporter and shaders are MIT code.

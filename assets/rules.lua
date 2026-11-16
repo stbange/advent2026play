@@ -4,9 +4,42 @@
 -- 50..52 monster grudges; 53..58 attacks; 60 HUD; 61 flame; 62 difficulty; 63 pack marker.
 local rules = {}
 local GRUNT,KEY,VALVE,BOSS,MEDKIT,EXIT,SPITTER,HEAVY,MISSILE,AMMO,CACHE,PROTECTION,SECRET = 1,2,3,4,5,6,7,8,9,10,11,12,13
-local monsters={1,2,3,16,17}
+local BARREL,IMPACT,TRACER=14,15,16
+local monsters={1,2,3,16,17,25,26,27,28,29,30,31,32,33,34,35,36}
 local function near(a,b,r) return (a.x-b.x)^2+(a.z-b.z)^2<r*r end
 local function enemy(e) return e.type==GRUNT or e.type==SPITTER or e.type==HEAVY or e.type==BOSS end
+local function effect(w,kind,x,z,yaw,style)
+    for i=45,64 do
+        local e=w.entities[i]
+        if e.hp==0 then e.type,e.x,e.z,e.yaw,e.hp,e.flags=kind,x,z,yaw,kind==TRACER and 8 or 36,style;return end
+    end
+end
+local function push(e,yaw,force)
+    local x,z=e.x+math.sin(yaw)*force,e.z-math.cos(yaw)*force
+    if visible(e.x,e.z,x,z) and visible(x-.28,z-.28,x+.28,z+.28) then e.x,e.z=x,z end
+end
+local function hit(w,e,amount,yaw)
+    if e.flags&1~=0 then effect(w,IMPACT,e.x,e.z,yaw,0);return end
+    e.hp=math.max(0,e.hp-amount)
+    effect(w,IMPACT,e.x,e.z,yaw,1)
+    if e.type~=BOSS then push(e,yaw,amount>20 and .38 or .14) end
+end
+local function blast(w,x,z,exclude)
+    effect(w,IMPACT,x,z,0,2)
+    for i,e in ipairs(w.entities) do
+        local d=math.sqrt((e.x-x)^2+(e.z-z)^2)
+        if i~=exclude and e.hp>0 and (enemy(e) or e.type==BARREL) and d<2.6 and visible(x,z,e.x,e.z) then
+            local yaw=math.atan(e.x-x,-(e.z-z))
+            if e.type==BARREL then e.hp=0;blast(w,e.x,e.z,i)
+            else hit(w,e,math.floor(62*(1-d/3)),yaw) end
+        end
+    end
+    for _,p in ipairs(w.players) do
+        if p.connected==1 and p.zone==1 and p.hp>0 and near(p,{x=x,z=z},1.4) and visible(x,z,p.x,p.z) then
+            p.hp=math.max(0,p.hp-16);push(p,math.atan(p.x-x,-(p.z-z)),.3)
+        end
+    end
+end
 local function damage(w,p,i,n)
     local factor=engine.get(62)==1 and .5 or engine.get(62)==2 and 1.5 or 1
     if engine.get(41+i)<=w.tick then p.hp=math.max(0,p.hp-math.floor(n*factor)) end
@@ -19,29 +52,57 @@ local function missile(w,x,z,yaw,source)
 end
 local function aim(a,b) return math.atan(b.x-a.x,-(b.z-a.z)) end
 local function shot(w,p,yaw,range,spread,damage_amount)
-    local hit,distance=nil,range
+    local hit_index,distance=nil,range
     for i,e in ipairs(w.entities) do
-        if enemy(e) and e.hp>0 then
+        if (enemy(e) or e.type==BARREL) and e.hp>0 then
             local dx,dz=e.x-p.x,e.z-p.z
             local along=dx*math.sin(yaw)-dz*math.cos(yaw)
             local across=math.abs(dx*math.cos(yaw)+dz*math.sin(yaw))
-            if along>0 and along<distance and across<(e.type==BOSS and .85 or .4)+along*spread and visible(p.x,p.z,e.x,e.z) then hit,distance=i,along end
+            if along>0 and along<distance and across<(e.type==BOSS and .85 or .4)+along*spread and visible(p.x,p.z,e.x,e.z) then hit_index,distance=i,along end
         end
     end
-    if hit and w.entities[hit].flags&1==0 then w.entities[hit].hp=math.max(0,w.entities[hit].hp-damage_amount) end
+    local x,z=p.x+math.sin(yaw)*distance,p.z-math.cos(yaw)*distance
+    if not hit_index then
+        distance=0;x,z=p.x,p.z
+        while distance<range do
+            local next_distance=math.min(range,distance+.12)
+            local xx,zz=p.x+math.sin(yaw)*next_distance,p.z-math.cos(yaw)*next_distance
+            if not visible(p.x,p.z,xx,zz) then break end
+            distance=next_distance;x,z=xx,zz
+        end
+    end
+    effect(w,TRACER,x,z,yaw,0)
+    if hit_index then
+        local target=w.entities[hit_index]
+        if target.type==BARREL then
+            target.hp=math.max(0,target.hp-damage_amount)
+            effect(w,IMPACT,x,z,yaw,0)
+            if target.hp==0 then blast(w,x,z,hit_index) end
+        else hit(w,target,damage_amount,yaw)
+        end
+    else effect(w,IMPACT,x,z,yaw,0) end
 end
 function rules.init(w)
     w.keys,w.valves,w.phase,w.won=0,0,0,0
     engine.complete(13,0) -- Run state resets; personal ornaments stay in the transactional store.
     for i=0,61 do if i<30 or i>33 then engine.set(i,0) end end
-    for i=18,24 do w.entities[i]={type=0,hp=0,x=0,z=0,yaw=0,flags=0} end
+    for i=18,64 do w.entities[i]={type=0,hp=0,x=0,z=0,yaw=0,flags=0} end
     local placements={
         {GRUNT,5.5,7.5,36},{SPITTER,12.5,7.5,48},{HEAVY,19.5,9.5,60},
-        {KEY,4.5,3.5,1},{KEY,12.5,4.5,1},{VALVE,12.5,12.5,1},{VALVE,20.5,12.5,1},
+        {KEY,4.5,25.5,1},{KEY,36.5,4.5,1},{VALVE,12.5,12.5,1},{VALVE,20.5,12.5,1},
         {BOSS,20.5,4.5,144},{MEDKIT,6.5,12.5,1},{MEDKIT,18.5,11.5,1},{EXIT,20.5,2.5,1},
-        {CACHE,4.5,6.5,1},{AMMO,12.5,3.5,1},{PROTECTION,6.5,11.5,1},{SECRET,1.5,2.5,1},
+        {CACHE,4.5,13.5,1},{AMMO,12.5,3.5,1},{PROTECTION,6.5,11.5,1},{SECRET,1.5,2.5,1},
         {GRUNT,5.5,4.5,36},{SPITTER,18.5,3.5,48}}
     for i,e in ipairs(placements) do w.entities[i]={type=e[1],x=e[2],z=e[3],hp=e[4],yaw=0,flags=0} end
+    local reinforcements={
+        {GRUNT,4.5,20.5,36},{SPITTER,8.5,25.5,48},{GRUNT,17.5,26.5,36},
+        {HEAVY,16.5,18.5,60},{GRUNT,27.5,12.5,36},{SPITTER,34.5,9.5,48},
+        {GRUNT,42.5,4.5,36},{HEAVY,37.5,12.5,60},{SPITTER,39.5,24.5,48},
+        {GRUNT,28.5,25.5,36},{GRUNT,41.5,17.5,36},{SPITTER,20.5,26.5,48}}
+    for i,e in ipairs(reinforcements) do w.entities[24+i]={type=e[1],x=e[2],z=e[3],hp=e[4],yaw=0,flags=0} end
+    for i,e in ipairs({{5.5,23.5},{7.5,23.5},{18.5,19.5},{26.5,12.5},{35.5,8.5},{41.5,5.5},{39.5,23.5},{29.5,26.5}}) do
+        w.entities[36+i]={type=BARREL,x=e[1],z=e[2],hp=24,yaw=0,flags=0}
+    end
     w.entities[8].flags=1
     engine.set(63,13)
     for i=1,4 do engine.set(33+i,1) end
@@ -94,26 +155,36 @@ local function projectiles(w)
         local e=w.entities[i]
         if e.hp>0 then
             local x,z=e.x+math.sin(e.yaw)*.11,e.z-math.cos(e.yaw)*.11
-            if x<1 or x>23 or z<1 or z>15 or not visible(e.x,e.z,x,z) then e.hp=0
+            if x<1 or x>47 or z<1 or z>31 or not visible(e.x,e.z,x,z) then
+                if e.flags==0 then blast(w,e.x,e.z,i) else effect(w,IMPACT,e.x,e.z,e.yaw,0) end
+                e.hp=0
             else
                 e.x,e.z,e.hp=x,z,e.hp-1
                 for _,j in ipairs(monsters) do
                     local target=w.entities[j]
                     local faction=target.type==GRUNT and 1 or target.type==SPITTER and 2 or 3
                     if target.hp>0 and faction~=e.flags and near(e,target,.45) then
-                        target.hp=math.max(0,target.hp-(e.flags==0 and 40 or 16))
+                        hit(w,target,e.flags==0 and 40 or 16,e.yaw)
+                        if e.flags==0 then blast(w,e.x,e.z,j) end
                         if e.flags>0 then engine.set(49+faction,e.flags) end
                         e.hp=0;break
                     end
                 end
+                if e.hp>0 then
+                    for j=37,44 do
+                        local barrel=w.entities[j]
+                        if barrel.hp>0 and near(e,barrel,.42) then barrel.hp=0;e.hp=0;blast(w,barrel.x,barrel.z,j);break end
+                    end
+                end
+                if e.hp==0 then effect(w,IMPACT,e.x,e.z,e.yaw,2) end
                 local boss=w.entities[8]
                 if e.hp>0 and e.flags==0 and near(e,boss,.9) then
-                    if boss.flags&1==0 then boss.hp=math.max(0,boss.hp-40) end
+                    hit(w,boss,40,e.yaw);blast(w,e.x,e.z,8)
                     e.hp=0
                 end
                 if e.hp>0 and e.flags>0 then
                     for j,p in ipairs(w.players) do
-                        if p.connected==1 and p.zone==1 and p.hp>0 and near(p,e,.35) then damage(w,p,j,12);e.hp=0;break end
+                        if p.connected==1 and p.zone==1 and p.hp>0 and near(p,e,.35) then damage(w,p,j,12);push(p,e.yaw,.22);effect(w,IMPACT,e.x,e.z,e.yaw,0);e.hp=0;break end
                     end
                 end
             end
@@ -145,8 +216,8 @@ local function monsters_step(w)
                     local speed=engine.get(62)==2 and .026 or .018
                     local x,z=e.x+math.sin(e.yaw)*speed,e.z-math.cos(e.yaw)*speed
                     if visible(e.x,e.z,x,z) then e.x,e.z=x,z end
-                elseif w.tick>=engine.get(52+n) then
-                    engine.set(52+n,w.tick+(e.type==HEAVY and 150 or 105))
+                elseif n<=5 and w.tick>=engine.get(52+n) or n>5 and (w.tick+index*17)%105==0 then
+                    if n<=5 then engine.set(52+n,w.tick+(e.type==HEAVY and 150 or 105)) end
                     if e.type==GRUNT then
                         if player then damage(w,target,player,6) else target.hp=math.max(0,target.hp-8) end
                     else missile(w,e.x,e.z,e.yaw,faction) end
@@ -202,6 +273,10 @@ local function boss_step(w)
     end
 end
 function rules.step(w)
+    for i=45,64 do
+        local e=w.entities[i]
+        if e.hp>0 then e.hp=e.hp-1 end
+    end
     for i,p in ipairs(w.players) do
         if p.connected==1 then
             local buttons=(p.next~=0 and 1 or 0)|(p.command~=0 and 2 or 0)|(p.jump~=0 and 4 or 0)|(p.alt~=0 and 8 or 0)

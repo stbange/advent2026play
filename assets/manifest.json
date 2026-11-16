@@ -18,13 +18,13 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "131581751d9eacd7545e2cf5282e337e2a854fae098685136471fdc1351edede",
+      "sha256": "35fb002e4f925ed27fb4d9140bc0bc7439e58baf1beec60704b82ca7a0f09294",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "rules.lua",
-      "sha256": "6b6cc518c341d1fb398ea125b2dd4cefab64d0b2353efad24486ac1d58a0a6a1",
+      "sha256": "f442553ef69f6b4725528ee38effaf29f27c8086103142e65888fc8578b327d3",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
@@ -42,7 +42,7 @@
     },
     {
       "path": "scene.frag",
-      "sha256": "38e688328ef00e1192f50fce8f81c235292b68d83097c6cd61b7e16b763f3c72",
+      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
@@ -54,31 +54,31 @@
     },
     {
       "path": "hall.gltf",
-      "sha256": "98d63cc4e1e405af2559dbe37a01be2ad28252d718ac246a6b13300830222a16",
+      "sha256": "7df829304cb6acf7f5a7a64c57727343211c2f016ebfa8453cac5f42511e8ecc",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "hall.bin",
-      "sha256": "1b7948e6cd5f287e3555f2c333e9832ef843591760e0853ab3e17d8d7e1c4872",
+      "sha256": "d40fe30fcb15842e2ff662ec97910dc225e3d5aad473f311eca9d45e9645c133",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "furnace.gltf",
-      "sha256": "a7a8ca441b7850a63f415a27d9ed4bfb649f65f5a8310176e50d24d557ebe7e3",
+      "sha256": "6eec2190574d8d97181078efc9b6526c62572366af98dc1f86e8f1685749980b",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "furnace.bin",
-      "sha256": "db5faca06cefd2e8a0df4c59b50c09972d55ddc4323a1ecd89e8358d9c123a6a",
+      "sha256": "84e6328a28e459e1d90a9ff28b782b40eaee9daf8247d3c8f5e69ba0fc3157df",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "atlas.png",
-      "sha256": "590f52915b7cf74e89e139845b2fd5c79c8396426eed1d46fdf579d682809dfe",
+      "sha256": "6090af99c95cea984d6c0638e06d370e5e61ac752c88b1da8a0739d88df67f6b",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,6 +105,12 @@
       "creator": "Advent2026 contributors",
       "license": "MIT",
       "sha256": "1ff790776f0d15e26d3805bcc739e9734edaeb1254174f367b45eaeec363988a"
+    },
+    {
+      "path": "voxels.json",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0",
+      "sha256": "29d7dc5752708b4c980c17fd7314faf0870046ce44d22eca010886dc6d0e425f"
     }
   ],
   "mesh": "furnace.gltf",

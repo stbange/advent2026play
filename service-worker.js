@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-const cacheName = 'advent2026-engine-2';
+const cacheName = 'advent2026-engine-3';
 const shell = ['./','./index.html','./style.css','./client.mjs','./storage.mjs','./xr.mjs','./screen.mjs','./screen.vert','./screen.frag','./advent.js','./advent.wasm'];
 self.addEventListener('install', event => event.waitUntil(caches.open(cacheName).then(cache => cache.addAll(shell))));
 self.addEventListener('activate', event => event.waitUntil(self.clients.claim()));

@@ -16,7 +16,7 @@
   "files": [
     {
       "path": "atlas.png",
-      "sha256": "590f52915b7cf74e89e139845b2fd5c79c8396426eed1d46fdf579d682809dfe",
+      "sha256": "6090af99c95cea984d6c0638e06d370e5e61ac752c88b1da8a0739d88df67f6b",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -34,13 +34,13 @@
     },
     {
       "path": "hall.bin",
-      "sha256": "1b7948e6cd5f287e3555f2c333e9832ef843591760e0853ab3e17d8d7e1c4872",
+      "sha256": "d40fe30fcb15842e2ff662ec97910dc225e3d5aad473f311eca9d45e9645c133",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "hall.gltf",
-      "sha256": "98d63cc4e1e405af2559dbe37a01be2ad28252d718ac246a6b13300830222a16",
+      "sha256": "7df829304cb6acf7f5a7a64c57727343211c2f016ebfa8453cac5f42511e8ecc",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -88,7 +88,7 @@
     },
     {
       "path": "scene.frag",
-      "sha256": "38e688328ef00e1192f50fce8f81c235292b68d83097c6cd61b7e16b763f3c72",
+      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
@@ -109,6 +109,12 @@
       "sha256": "5a04db92c6209d044e11e86faf1d11d0cfb36776b8e7e02e09031f6d851eefa1",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
+    },
+    {
+      "path": "voxels.json",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0",
+      "sha256": "29d7dc5752708b4c980c17fd7314faf0870046ce44d22eca010886dc6d0e425f"
     }
   ]
 }

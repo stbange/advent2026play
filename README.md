@@ -2,7 +2,9 @@
 
 **[Play Advent 2026 on GitHub Pages](https://stbange.github.io/advent2026play/)**
 
-Explore a festive winter hall and enter original retro-inspired first-person worlds. This build includes the hall and **Portal 13: Red Furnace**, with three weapons, two key routes and a two-phase furnace boss. The other 23 episodes are still in development. An optional engine workshop is available for preview testing.
+Explore a festive winter hall and enter original retro-inspired first-person worlds. This build includes the hall and **Portal 13: Red Furnace**, with a 48 × 32 metre foundry, three weapons, two key expeditions and a two-phase demonic furnace boss. The other 23 episodes are still in development. An optional engine workshop is available for preview testing.
+
+The new build adds open hearths, candles, starry winter windows, point lights with shadows, editable voxel decorations, directional enemy sprites, animated flames, visible projectiles, impact debris, knockback and explosive barrel chains. The world renders at a bounded **384 × 240** internal resolution, with crisp upscaling and readable display-resolution text.
 
 ## Start playing
 
@@ -24,9 +26,9 @@ GitHub Pages hosts the web client and its assets. **Online co-op requires a sepa
 
 ## Build and source
 
-This repository contains the ready-to-play Emscripten/WebGL 2 build and external Lua/glTF/PNG/WAV content. The source project is [stbange/advent2026](https://github.com/stbange/advent2026), revision [`015070e`](https://github.com/stbange/advent2026/commit/015070e22d99aa1da5793b53f34dd66bb273f972). See [build-info.json](build-info.json) for exact build and content hashes.
+This repository contains the ready-to-play Emscripten/WebGL 2 build and external Lua/glTF/PNG/WAV and editable voxel JSON content. The source project is [stbange/advent2026](https://github.com/stbange/advent2026), revision [`ffbfed3`](https://github.com/stbange/advent2026/commit/ffbfed36b9d7d5957ed5cc620b06f1fe1d84da83). See [build-info.json](build-info.json) for exact build and content hashes.
 
-To enable GitHub Pages, the repository owner can open **[Settings → Pages](https://github.com/stbange/advent2026play/settings/pages)**, choose **Deploy from a branch**, select **main** and **/ (root)**, then **Save**. The game files are already at that location; GitHub publishes the site after its Pages build finishes.
+GitHub Pages publishes the `main` branch at the link above. Updates deploy automatically after the Pages build completes.
 
 `.nojekyll` preserves the static runtime files. To update, build the source revision with Emscripten 4.0.10, install its CMake **Runtime** component, and publish the complete runtime together so manifests and asset bytes stay in sync. Preserve this README, `.nojekyll` and the license files.
 
