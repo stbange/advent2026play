@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 3,
+  "engine_api": 4,
   "save_version": 2,
   "id": "first-kingdom",
   "title": "First Kingdom",
@@ -20,6 +20,12 @@
       "license": "CC-BY-4.0"
     },
     {
+      "path": "AUDIO-LICENSE.txt",
+      "sha256": "33310681b119d248f5261c59cbcf62e1cb723e3e71e664667ac5b4fcd67ac916",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
       "path": "atlas.png",
       "sha256": "bae58441e95010df109ba30cf02c967456a01993d819e86108e1728eda21b6e5",
       "creator": "Advent2026 contributors",
@@ -27,13 +33,13 @@
     },
     {
       "path": "audio-source.json",
-      "sha256": "f77f17baff0ad1a9dde840aaccb8654a4f8c10b13856d7547f62edfa60da09ff",
+      "sha256": "22cb11c6b3f0daf5ee0676491c26e7029ebd5a08ffcdafd05f0e73ad44a2cc0a",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio.json",
-      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
+      "sha256": "e867e1565aef2dd781f74681b0881ef9d79b7636ff2a8a42cb7dccd933fdbf55",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -51,9 +57,9 @@
     },
     {
       "path": "hall.bin",
-      "sha256": "d40fe30fcb15842e2ff662ec97910dc225e3d5aad473f311eca9d45e9645c133",
-      "creator": "Advent2026 contributors",
-      "license": "CC-BY-4.0"
+      "sha256": "cafdad380ff7de25f98f3ba9dc14172a2b86d3ec679bb158efe37da654d9ac37",
+      "creator": "Advent2026 contributors; Created in collaboration with ElevenLabs",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     {
       "path": "hall.gltf",

@@ -3,68 +3,107 @@
   "sources": {
     "shot0": {
       "request": "shared-firebolt",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "nuIHJ5TiSuZmaVNarKeO",
+      "sha256": "daa30ead66392f6617731abf81e970e37ac55c5c624499a8c006b2662b014786",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "shot1": {
       "request": "shared-arcane",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "N34OiPQK44kmLACnKO3E",
+      "sha256": "4b2eac5cc67f29c3ef2a5110a2254a40802369530b836af1efee047c91856550",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "shot2": {
       "request": "shared-terrain",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "bfEIT5gUw5RzXbn1aV4l",
+      "sha256": "e98766da5a4166cbf18d74b5218e2394d53cbd455f6f6a5260320aecb83f5dbe",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "impact": {
       "request": "shared-impact",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "uFkT6bEqFtVdcNFejIUZ",
+      "sha256": "9db2cb3cd662e5bda029122dacd1d3da21bdbfb78b6734d5d88959b356943273",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "hurt": {
       "request": "shared-hurt",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "N5z3YWNOY1eBF3WDTQ6C",
+      "sha256": "0b73e8c2aeafd2471626c6aff55f3c401998ef842e34691fb8bbebd3b7f913bc",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "step": {
       "request": "shared-step",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "y1LkDC9FZMBcnGT8f34K",
+      "sha256": "1287106083e99cf2d5aa3e150ee13f4981ae13b6430d9bf27e55813d6efb743e",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "use": {
       "request": "shared-use",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "xA57zbMRyMsJW1kE6E0K",
+      "sha256": "c3f7d372690f5000146f87c72f0a9f5edcdb034c0871e51d6732f6ec40cae2c9",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "objective": {
       "request": "shared-objective",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "sOcL62tvx4URIn0GwwJr",
+      "sha256": "be1a18ff2d83b10dc968a38ca9f3b5008a32319d049b26339188d21ac220242f",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "music": {
       "request": "emberwake-music",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "OzYTJQaojiarqcv34YTF",
+      "sha256": "56a20aeb8d6399c3818740576ebba63019fdab59f88b511e264ceab8c3e1db82",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "ambience": {
       "request": "emberwake-ambience",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "8D238s3qovKbHeKPU88c",
+      "sha256": "b6c6ec940ddad25019546f468e8af2182a628772a5cdab12338ee682d46342a8",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "boss": {
       "request": "emberwake-boss",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "gpasuv6EKHBXhLTVpwQY",
+      "sha256": "13a840897a0df7e0f8a064279e04c61dcae5e15d8311e012e38fb7366b28ce76",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "victory": {
       "request": "emberwake-victory",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "lC3WOHfTvjYW5olIzB8B",
+      "sha256": "118cdd729fefb0f04877e4f1b36d57e29f2d5b46d08c49745c3e5ef83c70ce69",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     "hall": {
       "request": "hall-music",
-      "provider": "Advent2026 contributors",
-      "method": "existing procedural fallback; ElevenLabs output pending"
+      "provider": "ElevenLabs MCP",
+      "generation_id": "fB80rQXFbqoMvi0qFEGY",
+      "sha256": "f1b32f11e99478aa984d368cd2f7e3c80b228051edda0f77355cbe5e41ca9298",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     }
   }
 }

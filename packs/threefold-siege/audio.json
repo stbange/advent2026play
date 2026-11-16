@@ -1,57 +1,83 @@
 {
-  "schema": 1,
+  "schema": 2,
   "cues": {
     "shot0": {
-      "file": "effects.wav",
-      "gain": 0.36
+      "file": "hall.bin",
+      "gain": 0.6,
+      "offset": 2092224,
+      "length": 65348
     },
     "shot1": {
-      "file": "effects.wav",
-      "gain": 0.36
+      "file": "hall.bin",
+      "gain": 0.6,
+      "offset": 2157572,
+      "length": 115244
     },
     "shot2": {
-      "file": "effects.wav",
-      "gain": 0.36
+      "file": "hall.bin",
+      "gain": 0.6,
+      "offset": 2272816,
+      "length": 65348
     },
     "impact": {
-      "file": "effects.wav",
-      "gain": 0.192
+      "file": "hall.bin",
+      "gain": 0.32,
+      "offset": 2338164,
+      "length": 46124
     },
     "hurt": {
-      "file": "effects.wav",
-      "gain": 0.27
+      "file": "hall.bin",
+      "gain": 0.45,
+      "offset": 2384288,
+      "length": 46124
     },
     "step": {
-      "file": "effects.wav",
-      "gain": 0
+      "file": "hall.bin",
+      "gain": 0.18,
+      "offset": 2430412,
+      "length": 46124
     },
     "use": {
-      "file": "effects.wav",
-      "gain": 0.18
+      "file": "hall.bin",
+      "gain": 0.3,
+      "offset": 2476536,
+      "length": 46124
     },
     "objective": {
-      "file": "effects.wav",
-      "gain": 0.24
+      "file": "hall.bin",
+      "gain": 0.4,
+      "offset": 2522660,
+      "length": 46124
     },
     "music": {
-      "file": "music.wav",
-      "gain": 0.132
+      "file": "hall.bin",
+      "gain": 0.22,
+      "offset": 2568784,
+      "length": 3052844
     },
     "ambience": {
-      "file": "effects.wav",
-      "gain": 0
+      "file": "hall.bin",
+      "gain": 0.13,
+      "offset": 5621628,
+      "length": 764204
     },
     "boss": {
-      "file": "effects.wav",
-      "gain": 0.33
+      "file": "hall.bin",
+      "gain": 0.55,
+      "offset": 6385832,
+      "length": 192044
     },
     "victory": {
-      "file": "effects.wav",
-      "gain": 0.3
+      "file": "hall.bin",
+      "gain": 0.5,
+      "offset": 6577876,
+      "length": 288044
     },
     "hall": {
-      "file": "music.wav",
-      "gain": 0.132
+      "file": "hall.bin",
+      "gain": 0.22,
+      "offset": 6865920,
+      "length": 3052844
     }
   }
 }

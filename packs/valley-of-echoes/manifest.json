@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 3,
+  "engine_api": 4,
   "save_version": 2,
   "id": "valley-of-echoes",
   "title": "Valley of Echoes",
@@ -20,6 +20,12 @@
       "license": "CC-BY-4.0"
     },
     {
+      "path": "AUDIO-LICENSE.txt",
+      "sha256": "33310681b119d248f5261c59cbcf62e1cb723e3e71e664667ac5b4fcd67ac916",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
       "path": "atlas.png",
       "sha256": "dece46a5e9ee0b6bb93afc9d84bd65561be968a52437d39c4a82aa1c3e313e04",
       "creator": "Advent2026 contributors",
@@ -27,13 +33,13 @@
     },
     {
       "path": "audio-source.json",
-      "sha256": "c4b632875d56a9c2c5bebf84088a35a8334c9c985c78c98778b0923882322a13",
+      "sha256": "6bad14f9b8f6579132d9cafd2c51d15bcdfccdb976f82d8ca757908340db777c",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio.json",
-      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
+      "sha256": "a380993354cce6b028a049357d6c403aa05841b58bedd4d43a0781cd09432ee3",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -51,9 +57,9 @@
     },
     {
       "path": "hall.bin",
-      "sha256": "d40fe30fcb15842e2ff662ec97910dc225e3d5aad473f311eca9d45e9645c133",
-      "creator": "Advent2026 contributors",
-      "license": "CC-BY-4.0"
+      "sha256": "e5857f9934144b333b88ffd47c140cbbe4c33e889b7999ad6aa0bc67c88c197c",
+      "creator": "Advent2026 contributors; Created in collaboration with ElevenLabs",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     {
       "path": "hall.gltf",

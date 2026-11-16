@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 3,
+  "engine_api": 4,
   "save_version": 2,
   "id": "resonance-breach",
   "title": "Resonance Breach",
@@ -20,6 +20,12 @@
       "license": "CC-BY-4.0"
     },
     {
+      "path": "AUDIO-LICENSE.txt",
+      "sha256": "33310681b119d248f5261c59cbcf62e1cb723e3e71e664667ac5b4fcd67ac916",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
       "path": "atlas.png",
       "sha256": "83ad9de292e79b321bc79fc5dcd46083d87b7220cc49fa5c065b826151ebb7aa",
       "creator": "Advent2026 contributors",
@@ -27,13 +33,13 @@
     },
     {
       "path": "audio-source.json",
-      "sha256": "5d3158e35e3dfba200923cb89af6703bf6e287c67166805983008d44add0c7df",
+      "sha256": "4482e1120333abc554287d2461059c59d60776e75656b60daf87651530bcff7f",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio.json",
-      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
+      "sha256": "a380993354cce6b028a049357d6c403aa05841b58bedd4d43a0781cd09432ee3",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -51,9 +57,9 @@
     },
     {
       "path": "hall.bin",
-      "sha256": "d40fe30fcb15842e2ff662ec97910dc225e3d5aad473f311eca9d45e9645c133",
-      "creator": "Advent2026 contributors",
-      "license": "CC-BY-4.0"
+      "sha256": "40c353c6817528ae63bacbaeb4085c5402031f31c3b2b0594f984fe1fb15b3b9",
+      "creator": "Advent2026 contributors; Created in collaboration with ElevenLabs",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     {
       "path": "hall.gltf",

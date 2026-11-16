@@ -1,0 +1,28 @@
+Advent2026 generated game audio — LicenseRef-ElevenLabsMedia
+
+Created in collaboration with ElevenLabs.
+Original prompts, selection and game integration: Advent2026 contributors, 2026.
+Generated with ElevenLabs Sound Effects v2 and Eleven Music v2 through the
+account holder's connected MCP. Integration approved by the project owner on
+16 November 2026. Exact generation identifiers and source/conversion hashes
+are recorded in art/source/audio/requests.json and its provenance records.
+
+The generated audio is included solely as part of Advent2026's mixed game-scene
+assets. It is not offered as an isolated soundtrack, sample pack or reusable
+audio library. No CC BY 4.0 or MIT license is granted for these audio portions.
+Do not extract or redistribute them as isolated audio files or a sound/music
+library. Any other use requires rights under the applicable ElevenLabs terms
+and the account holder's agreement; this notice grants no additional rights.
+
+Applicable provider terms, last updated 9 October 2026:
+  Sound Effects: https://elevenlabs.io/creative-terms (Exhibit 4)
+  Music: https://elevenlabs.io/music-terms
+Those terms govern permitted media use and any plan-dependent commercial use.
+This project is an original independent game for friends. This notice does
+not assert a special written redistribution waiver or permission from ElevenLabs.
+
+The original geometry in a mixed scene buffer remains CC BY 4.0, attributed
+to Advent2026 contributors. The generated-audio byte ranges are identified
+by audio.json; audio-source.json identifies each cue and its provenance.
+The code, Lua and shaders remain MIT. Original synthesized fallback clips,
+models, textures, sprites and voxel art retain their recorded CC BY 4.0 license.

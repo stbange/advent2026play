@@ -1,5 +1,8 @@
 # Dependency notices
 
+Generated game audio was created in collaboration with ElevenLabs through its MCP authoring service. It is distributed within mixed scene assets under [LicenseRef-ElevenLabsMedia](licenses/ElevenLabsMedia.txt), separately from MIT code and CC BY original artwork. Exact generation and conditioning records are under `art/source/audio/approved/`. ElevenLabs is not a runtime service or linked engine dependency.
+
+
 Project code is MIT. Third-party dependencies keep their own licenses. Downloads
 are versioned and SHA-256 pinned in `cmake/Dependencies.cmake`; dependency source
 is kept in the build directory, outside the first-party coverage inventory.

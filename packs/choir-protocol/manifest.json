@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 3,
+  "engine_api": 4,
   "save_version": 2,
   "id": "choir-protocol",
   "title": "Choir Protocol",
@@ -20,6 +20,12 @@
       "license": "CC-BY-4.0"
     },
     {
+      "path": "AUDIO-LICENSE.txt",
+      "sha256": "33310681b119d248f5261c59cbcf62e1cb723e3e71e664667ac5b4fcd67ac916",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
       "path": "atlas.png",
       "sha256": "fa587239b5cb67a6c962e7833b8dd3d9fad39c8bdcf2430aa09667b32ec5254e",
       "creator": "Advent2026 contributors",
@@ -27,13 +33,13 @@
     },
     {
       "path": "audio-source.json",
-      "sha256": "cd5666c7c78de4dd380ee5959c2630dff57ec652a2bc3ad1c381cef00d587eef",
+      "sha256": "b9dc9af4ac2705e8832ef6a35bbc26c592e14e61fea77b44e1a9c91d1b1fb382",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio.json",
-      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
+      "sha256": "5a7345e690f0310add2db25f8698785e3e39e687f181fd7953611e179ea4a0c4",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -51,9 +57,9 @@
     },
     {
       "path": "hall.bin",
-      "sha256": "d40fe30fcb15842e2ff662ec97910dc225e3d5aad473f311eca9d45e9645c133",
-      "creator": "Advent2026 contributors",
-      "license": "CC-BY-4.0"
+      "sha256": "680cde0e3e2f553d2ea2e61f9d68dcd81f831c8714fd20be15f257849b3f481b",
+      "creator": "Advent2026 contributors; Created in collaboration with ElevenLabs",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     {
       "path": "hall.gltf",

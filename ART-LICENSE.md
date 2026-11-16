@@ -2,6 +2,8 @@
 
 Original artwork, models, textures, sprites, music, sound effects and visual level content are licensed under Creative Commons Attribution 4.0 International.
 
+Generated ElevenLabs audio is an exception: it uses [LicenseRef-ElevenLabsMedia](licenses/ElevenLabsMedia.txt) for use within the game, with the credit **Created in collaboration with ElevenLabs**. Audio ranges in mixed scene buffers are identified by `audio.json` and `audio-source.json`. Those audio portions are excluded from CC BY 4.0 and MIT; original geometry in the same buffer retains CC BY 4.0. The original synthesized fallback WAVs retain CC BY 4.0.
+
 - License terms: https://creativecommons.org/licenses/by/4.0/
 - Legal code: https://creativecommons.org/licenses/by/4.0/legalcode.txt
 

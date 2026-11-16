@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 3,
+  "engine_api": 4,
   "save_version": 2,
   "id": "cathedral-below",
   "title": "The Cathedral Below",
@@ -20,6 +20,12 @@
       "license": "CC-BY-4.0"
     },
     {
+      "path": "AUDIO-LICENSE.txt",
+      "sha256": "33310681b119d248f5261c59cbcf62e1cb723e3e71e664667ac5b4fcd67ac916",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
       "path": "atlas.png",
       "sha256": "5f0b81d2fcd15536539c2c43925ce0f76274d1b218d91746289565e83300e665",
       "creator": "Advent2026 contributors",
@@ -27,13 +33,13 @@
     },
     {
       "path": "audio-source.json",
-      "sha256": "7fe9917927eeea78e64caae2cc85e843ce9c49fae0c330ad546887653d7ac5e6",
+      "sha256": "81867db5d74b6118fb213d48cec605ace532658c46b08d88d781dbcf87813b30",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio.json",
-      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
+      "sha256": "a380993354cce6b028a049357d6c403aa05841b58bedd4d43a0781cd09432ee3",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -51,9 +57,9 @@
     },
     {
       "path": "hall.bin",
-      "sha256": "d40fe30fcb15842e2ff662ec97910dc225e3d5aad473f311eca9d45e9645c133",
-      "creator": "Advent2026 contributors",
-      "license": "CC-BY-4.0"
+      "sha256": "8111a10025e3d5aa7020d23ae199affe03a0dfdb286031994828c63f0f3a46c9",
+      "creator": "Advent2026 contributors; Created in collaboration with ElevenLabs",
+      "license": "LicenseRef-ElevenLabsMedia"
     },
     {
       "path": "hall.gltf",

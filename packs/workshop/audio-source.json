@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "sources": {
+    "shot0": {
+      "request": "shared-pistol",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "NUmr4jPzEYhR8PsBTi8L",
+      "sha256": "1f184afe6d73f43a01451492ff2a1397d5fecdd4a684abe4df1cfdff307ff025",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "shot1": {
+      "request": "shared-shotgun",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "jUWga9XxOQzXWe3mk4OD",
+      "sha256": "d234de72031334624630b9d9cb560981635057e5d70ec215e4042daf43f9610e",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "shot2": {
+      "request": "shared-rocket",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "m6eV93MHVyV4ecQ8Q3kQ",
+      "sha256": "a5ea190c1c20e28d0136df9a50939e635fadcaa77ac7d254d392c8cf32a66e29",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "impact": {
+      "request": "shared-impact",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "uFkT6bEqFtVdcNFejIUZ",
+      "sha256": "9db2cb3cd662e5bda029122dacd1d3da21bdbfb78b6734d5d88959b356943273",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "hurt": {
+      "request": "shared-hurt",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "N5z3YWNOY1eBF3WDTQ6C",
+      "sha256": "0b73e8c2aeafd2471626c6aff55f3c401998ef842e34691fb8bbebd3b7f913bc",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "step": {
+      "request": "shared-step",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "y1LkDC9FZMBcnGT8f34K",
+      "sha256": "1287106083e99cf2d5aa3e150ee13f4981ae13b6430d9bf27e55813d6efb743e",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "use": {
+      "request": "shared-use",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "xA57zbMRyMsJW1kE6E0K",
+      "sha256": "c3f7d372690f5000146f87c72f0a9f5edcdb034c0871e51d6732f6ec40cae2c9",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "objective": {
+      "request": "shared-objective",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "sOcL62tvx4URIn0GwwJr",
+      "sha256": "be1a18ff2d83b10dc968a38ca9f3b5008a32319d049b26339188d21ac220242f",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "music": {
+      "request": "red-furnace-music",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "Yc2iSop6WcYyAlKqrSoP",
+      "sha256": "d7d6779920f415c433c59138ae1df9c43dd57ad4e9d5aa59360c5e6fab8bc655",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "ambience": {
+      "request": "red-furnace-ambience",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "BGf0HVu7acOoMrgn72FM",
+      "sha256": "5874561c02c4f2b48635289a70c28f8208f13abb2c5f919c0314b2b08fed30cd",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "boss": {
+      "request": "red-furnace-boss",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "N4hbRtzMZo5Bsg7v3LXJ",
+      "sha256": "189c57ff2ca60cebf629cc6e9d3cb54b28a5050c3f1d159e392f8e7b00a6c892",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "victory": {
+      "request": "red-furnace-victory",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "ONcxS3gB2YruoWWq2a3O",
+      "sha256": "160e732233eeb2cb58a21e736ef71f2f3ab2a13b82fdaa48bc6f9ca644ce7975",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "hall": {
+      "request": "hall-music",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "fB80rQXFbqoMvi0qFEGY",
+      "sha256": "f1b32f11e99478aa984d368cd2f7e3c80b228051edda0f77355cbe5e41ca9298",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
+    }
+  }
+}
