@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "iron-solstice",
   "title": "Iron Solstice",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "06777e152ca0ac1e5833622a4b6dba7d4c1a5ec5678e4af49a4b878cfdfbc436",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "285171bede00e3436def2402656cef431bde68ec78dfe980a41456b8abe118fa",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "9683a359c603b747f54d9be85bdd49e544e3b7e8d3ec40991f96600010e4c02e",
+      "sha256": "6596bc1f65cfdc711509fcfdf6a2dea553c9160af2cdbd51da91f22e6a0c1541",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "4cae6a6734cd9d3f202ddf5bcd1c18e4751515e0e4c980c585758104697039ad",
+      "sha256": "ba22629c983acaa4e05b5f788a25f1f18baf7f55066491ebaa610451e9e0d56e",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "cc8e7dd9d61909c614c637bc108b58fb0d8b214e9bd09bec7e479cfb2982321a",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

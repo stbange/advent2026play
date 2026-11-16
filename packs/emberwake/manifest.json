@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "emberwake",
   "title": "Emberwake",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "e0fea22a3376bd41156060248785ce38559c49646e938062d12b6c10b524815e",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "ee115b455ff90645bdd37153112d18cc720ded72be2a743554fde631b7eab6cc",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "4b7ef05c4591d81ca65d0e84618ddca990b342acb8c08499fe9df9d0c9f70ea5",
+      "sha256": "eb4cdb3e50a321212281e6349ef454e318a9be8fe010d32d5a056b0b98ec5b6c",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "5cfc286249b99d019f84b134bcd98767d27b10a050016c87f3f0aaab615ffe76",
+      "sha256": "5f2095be7b003d8ab3d0b8ab1bfc7952ee097165452b9db9b7cdf0b5aa0848a4",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "dc769a93b128b82790ddcd5957b664e7d81738f99d468be79f7f9b54059ba3bb",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "winter-harbour",
   "title": "Winter Harbour",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "098b3b8e78349ee2a994a1d30c5b56d1767e46fbfa2512a599198f4009a318e4",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "a0ed8ff8352b82f91dbac42527ddb9114b6fb410b66d5011c6ff48304bc2ea92",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "6832b388e824793a0d1f1aee20e39da57a2c0c1f4dd46a8e87ff470e6c742b0a",
+      "sha256": "42fdce7b0da12b3db6193c3ebe4728d14cc9903d93f38171d67f98b1579090db",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "357a05f93593ee16cd3e6cac25b296e638d307d8aa5d131b6aede2c80af45bdf",
+      "sha256": "ba7bea73d6b67b74a102b87b6c0a0b55c909773742e63eb17b2808eb4136c9f3",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "4bd1b95e8a76085102883e3c7d82d5e8cbf798b607e59922dcb0e0249fe16029",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

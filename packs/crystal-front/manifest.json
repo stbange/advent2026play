@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "crystal-front",
   "title": "Crystal Front",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "d0313951b38319df1cd32cf072bf8deac9db6a2708ca6d26c4a89a42f4322f1b",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "296fadc76a56aac9c9ed4afbe86dd730459d5cea3b675b34d09e5880c7c96baf",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "1cc9e148b82530b3ce88e6877cc9ae5da73b8eda5fd8fe3cdcabbdf88ad69aa8",
+      "sha256": "7a04480e25d2e37ed41b040ae7e4c803554f013bff494675eb781a5d23893197",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "e018c5c9e323290429bf2de0b2f7a28057d89a44f77141a5d322c4ce644a554e",
+      "sha256": "7f5e24847b2a8088a832b4fc3fd9d2bb77bbed55e1803b90fb263a0e8b70510b",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "616a1ea5efbe4beae5c1594b8857f03b52288ab1ab62aa6a3afc9b6c53add4b5",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "cathedral-below",
   "title": "The Cathedral Below",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "5f0b81d2fcd15536539c2c43925ce0f76274d1b218d91746289565e83300e665",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "7fe9917927eeea78e64caae2cc85e843ce9c49fae0c330ad546887653d7ac5e6",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "6e5942fad2796ee970dfd27d86f358f9def0b00eb54a7b4c9cd6a21fb8ba3fa5",
+      "sha256": "c36d59dbff1739fc208d248e318a3649c088682ecbb17a63ce88d0099c947ac4",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "27334688a47fb0bdf86c7b70f6f9428352c610cb76b430f21e53487b7dba9c31",
+      "sha256": "33bd21930a5ec0a8532f90d0ed404f4d2fde0fc0f71b9da0b7d6fb596e57d75e",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "289a29169e551b799243453803059b4cff14b477db5a21e71595c8d8dc94d3de",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

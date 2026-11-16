@@ -1,15 +1,17 @@
-# Advent 2026 — playable web build
+# Advent 2026 — play
 
-**[Play Advent 2026](https://stbange.github.io/advent2026play/)**
+**[Play Advent 2026 on GitHub Pages](https://stbange.github.io/advent2026play/)**
 
-First playable versions of **all 24 numbered episodes** are available. Enable **Preview all available doors** before December 2026. Event mode unlocks one new day at 00:00 UTC from December 1–24.
+All 24 calendar worlds have playable first versions. This M7 production candidate adds distinct episode phases and choices, physical smoke/flash and environmental effects, Story/Classic/Veteran selection, checkpoint recovery and editable thirteen-cue audio banks. Full production acceptance remains open.
 
-Days **13–24** are longer first versions with six or eight connected sectors, distinct reference-inspired systems and final bosses. Every new campaign passed ordinary-input solo and two-player completion tests with at least 30 active minutes, with selected four-player runs too. These are automated pacing diagnostics; human timing, balance and recognition still need playtesting. Days 1–12 retain their compact scopes. The explicitly labelled compact Red Furnace prototype and the engineering workshop are additional preview options.
+Enable **Preview all available doors** before December. Otherwise doors open daily at 00:00 UTC from 1–24 December 2026. Choose a world and difficulty, then enter the hall. Saved expeditions retain their difficulty. Use WASD/mouse, click to fire, E to use, Space to jump, Q alternate, C command, Tab next and R/F vertical; mobile devices show touch controls. The world renders within 384 × 240 pixels while the interface stays readable at display resolution.
 
-Choose a world, enter the hall, then walk to a numbered door and press **E**. Other available doors download their worlds on demand. The renderer uses a bounded 384 × 240 world framebuffer, local point lights and shadows, with original polygon, sprite and voxel detail. Production level/art/audio polish and physical-device qualification remain in progress.
+Local/offline play and two local views need no server. Online rooms require a separately hosted authoritative server and a matching content version; enter its WSS address in the lobby. GitHub Pages hosts this static client.
 
-WASD moves; mouse looks; click fires; E uses; Space jumps/grabs/jets; Q is alternate; C commands; Tab switches tools or tactical soldiers; R/F moves vertically; Backspace returns to the hall. Touch devices show matching controls. The settings panel supports remapping, save export/import and desktop split screen. Online co-op needs the exact matching world on a separate friend server; this static site also runs offline after caching.
+Source: [stbange/advent2026 at 101bb85](https://github.com/stbange/advent2026/tree/101bb851c90c28a04b341547bcdfbe979ad110c7). Read the [M7 implementation and limitations](https://github.com/stbange/advent2026/blob/101bb851c90c28a04b341547bcdfbe979ad110c7/docs/m7-production.md), [verification evidence](https://github.com/stbange/advent2026/tree/101bb851c90c28a04b341547bcdfbe979ad110c7/verification/m7-production) and [audio production record](https://github.com/stbange/advent2026/blob/101bb851c90c28a04b341547bcdfbe979ad110c7/docs/audio-production.md). [build-info.json](build-info.json) records every deployed runtime file's size and SHA-256.
 
-[Source and full instructions](https://github.com/stbange/advent2026) · [Days 13–24 systems and controls](https://github.com/stbange/advent2026/blob/main/docs/remaining-episodes.md) · [Campaign verification](https://github.com/stbange/advent2026/tree/main/verification/remaining-episodes) · [Days 1–12 guide](https://github.com/stbange/advent2026/blob/main/docs/first-twelve.md)
+Local verification passed 85 isolated unit cases with the 95% C/Lua/JavaScript gates, 42 gameplay cases plus six raised-route reruns, 72 native render poses, all 24 Wasm entries and native/browser/network recovery suites. This does not qualify human first-completion pacing, original-game recognition, complete per-episode scenario/balance acceptance, physical phones/controllers or headsets. Windows CI and actual Windows graphics are separate from the local Linux/browser evidence.
 
-Code: **MIT**. Original art and audio: **CC BY 4.0**, Advent2026 contributors. External packs retain their manifests and attribution; classic game assets are not included. Third-party notices and licenses are distributed beside the runtime. `build-info.json` pins the source commit and SHA-256 of every runtime file.
+ElevenLabs MCP generated 472 takes for 122 original sound/music cues. The public build uses original fallback audio while the generated candidates await audition and compatible redistribution rights. No ElevenLabs account or runtime service is required to play.
+
+Code: [MIT](LICENSE). Original shipped artwork/fallback audio: [CC BY 4.0](ART-LICENSE.md), attributed to Advent2026 contributors in each pack. Dependencies retain their [own notices](THIRD_PARTY_NOTICES.md). No original commercial-game assets or generated provider-audio drafts are included.

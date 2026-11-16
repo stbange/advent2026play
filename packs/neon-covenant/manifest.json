@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "neon-covenant",
   "title": "Neon Covenant",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "66d0580042d4ea2b67105e814c5ce7aa65815274531e5c2fad549517bedf6434",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "ba214508f152a59bc55ecef9d9a28a6198e988e05fed3160128a5fd7e828899b",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "626125755eceba4a0f2d72841039fe552d3c6e8864d1b4c51190a0432e30607d",
+      "sha256": "d067be1463748320948430e93981d71be4867d8276149ba5b0deb9e26d95b34c",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "4357843037155229ae2c4475aa1cabbf71a1febdbb01cb832a3864334b8d6dca",
+      "sha256": "1c5656cee413b3b81e16452d2597eb2d840ce5ff0283dedb8e0f1ca5b08f16f4",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "5225383a7571157165ebb01923d7e730516796bcec2635f99ff6225e64473110",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

@@ -4,6 +4,7 @@ local definitions={[1]={day=1,points={{6,0.05,26},{11,0.05,8},{26,0.05,7},{38,0.
 local day=engine.day
 local cfg=definitions[day]
 local rules={}
+local production_init
 local get,set=engine.get,engine.set
 local function point(n)local p=cfg.points[n+1];return {x=p[1],y=p[2],z=p[3]}end
 local function near(a,b,r)return a and b and (a.x-b.x)^2+(a.y-b.y)^2+(a.z-b.z)^2<r*r end
@@ -77,7 +78,7 @@ function rules.init(w)
  spawn(5,6,7,1000,0)
  spawn(6,0,(day==2 or day==3 or day==5) and 6 or 7,200,0)
  for j=1,4 do
-  local n=({1,2,3,7})[j];local h=spawn(7+j,n,(day==6 or day==11) and 2 or 1,day==7 and 24 or 36,1)
+  local n=({1,2,3,7})[j];local h=spawn(7+j,n,(day==6 or day==11 or day==8 and j%2==0) and 2 or 1,day==7 and 24 or 36,1)
   if day==2 or day==11 then engine.mode(h,1,2.5)end
  end
  if day==1 then
@@ -104,7 +105,9 @@ function rules.init(w)
  elseif day==12 then
   for j=1,3 do spawn(11+j,j,4,1000,0)end
  end
+ local cache=spawn(nil,11,29,1000,0);item(cache,8,461);item(cache,11,1)
  shield(true);goal(day==6 and 0 or 1,2,0)
+ if production_init then production_init(w)end
  return w
 end
 local function actions(w,p,i)
@@ -117,6 +120,14 @@ local function actions(w,p,i)
  end
  local buttons=(p.use~=0 and 2 or 0)|(p.jump~=0 and 4 or 0)|(p.alt~=0 and 8 or 0)|(p.command~=0 and 16 or 0)|(p.next~=0 and 32 or 0)
  local pressed=buttons&~get(b+2);set(b+2,buttons)
+ if pressed&2~=0 then for _,cache in ipairs(engine.list())do
+  local pickup=engine.actor(cache)
+  if pickup and engine.inventory(cache,8)==461 and near(a,pickup,2.5)then
+   engine.heal(h,40,30);engine.item(h,0,1);engine.item(h,1,8)
+   if day==3 then local budget=engine.team(0);engine.team(0,budget.credits+4,budget.power,budget.supply+4)end
+   engine.remove(cache);flag(512)
+  end
+ end end
  if pressed&32~=0 then item(h,13,(engine.inventory(h,13)+1)%3)end
  -- shortcut: 72-tick player shots reserve actor slots for four-player recovery; revisit with projectile pooling.
  local kit=engine.inventory(h,13)
@@ -156,7 +167,7 @@ local function actions(w,p,i)
    end
   end
  end
- if pressed&8~=0 and day~=1 and day~=2 and day~=6 and day~=9 and day~=10 and day~=11 then
+ if pressed&8~=0 and day~=1 and day~=2 and day~=6 and day~=7 and day~=9 and day~=10 and day~=11 then
   if engine.inventory(h,0)>0 and a.hp<90 then engine.item(h,0,-1);engine.heal(h,45,30)end
  end
  if w.won==1 and p.use~=0 and near(a,point(5),2) then exit(p,i)end
@@ -183,6 +194,10 @@ local function enemy_step(w)
   if visible(boss.x,boss.z,aim.x,aim.z)then launch(get(1),boss,aim,day==7 and 9 or 7,day==1 and 20 or 13)end
  end
 end
+local function lower_gate(first)
+ for _=1,3 do if not engine.platform(first or engine.collision_start,0,-1,0)then return false end end
+ return true
+end
 local missions={}
 missions[1]=function(w)
  local gate=get(20)&3
@@ -190,8 +205,7 @@ missions[1]=function(w)
   local h=get(32+(i-1)*6);local a=engine.actor(h)
   if near(a,point(6),2) and p.alt~=0 and gate==0 then flag(1)end
   if p.command~=0 and mark(1) and not mark(2) then
-   local moved=true;for n=1,3 do moved=engine.platform(engine.collision_start,0,-1,0) and moved end
-   if moved then flag(2);engine.remove(get(5))end
+   if lower_gate()then flag(2);engine.remove(get(5))end
   end
   if p.use~=0 then
    if near(a,point(1),2)then flag(16)end
@@ -488,8 +502,7 @@ missions[10]=function(w)
  for i,p in ipairs(w.players)do if p.connected==1 and p.zone==1 then
   local b=32+(i-1)*6;local h=get(b);local a=engine.actor(h)
   if p.use~=0 and near(a,point(1),2)then flag(1);local q=point(6);engine.order(0,get(7),1,q.x,q.y,q.z,0)end
-  if p.alt~=0 and near(a,point(2),2.5) and not mark(2)then local moved=true;for n=1,3 do moved=engine.platform(engine.collision_start,0,-1,0) and moved end
-   if moved then flag(2);engine.remove(get(5))end end
+  if p.alt~=0 and near(a,point(2),2.5) and not mark(2)then if lower_gate()then flag(2);engine.remove(get(5))end end
   if p.alt~=0 and not near(a,point(2),2.5) and get(b+4)<w.tick then
    set(b+4,w.tick+30);local order=engine.inventory(h,10)%3+1;item(h,10,order)
    for _,slot in ipairs({18,12,13,14})do local unit=actor(slot);if unit and unit.owner==i-1 then item(get(slot),10,order)end end
@@ -579,6 +592,25 @@ missions[12]=function(w)
  else goal(4,1,5,get(1),get(22))end
  if exposed and not alive(1)then complete(w)end
 end
+-- SPDX-License-Identifier: MIT
+if day==9 then
+ local mission=missions[9]
+ missions[9]=function(w)
+  mission(w)
+  for i,p in ipairs(w.players)do local h=get(32+(i-1)*6);local a=engine.actor(h)
+   if p.connected==1 and p.zone==1 and a and p.command~=0 and engine.energy(h,20)then
+    engine.heal(h,2,0)
+    for j,q in ipairs(w.players)do if j~=i and q.zone==1 and near(a,engine.actor(get(32+(j-1)*6)),5)then engine.heal(get(32+(j-1)*6),4,0)end end
+   end
+  end
+  if alive(1) and mark(3)then
+   engine.mode(get(1),1,3.5)
+   local q=point(w.tick//180%2==0 and 4 or 9)
+   engine.move(get(1),(q.x-actor(1).x)*.2,(q.y+2-actor(1).y)*.2,(q.z-actor(1).z)*.2,0,0,0,false)
+  end
+ end
+end
+
 function rules.step(w)
  local in_mission=false
  for _,p in ipairs(w.players)do if p.connected==1 and p.zone==1 then in_mission=true end end

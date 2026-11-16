@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "sources": {
+    "shot0": {
+      "request": "shared-rifle",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "shot1": {
+      "request": "shared-flame",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "shot2": {
+      "request": "shared-rocket",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "impact": {
+      "request": "shared-impact",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "hurt": {
+      "request": "shared-hurt",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "step": {
+      "request": "shared-step",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "use": {
+      "request": "shared-use",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "objective": {
+      "request": "shared-objective",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "music": {
+      "request": "threefold-siege-music",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "ambience": {
+      "request": "threefold-siege-ambience",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "boss": {
+      "request": "threefold-siege-boss",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "victory": {
+      "request": "threefold-siege-victory",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "hall": {
+      "request": "hall-music",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    }
+  }
+}

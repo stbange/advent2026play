@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "resonance-breach",
   "title": "Resonance Breach",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "83ad9de292e79b321bc79fc5dcd46083d87b7220cc49fa5c065b826151ebb7aa",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "5d3158e35e3dfba200923cb89af6703bf6e287c67166805983008d44add0c7df",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "572612151e5abde252a1fed790c13104cdc014c036d7d6a82b8873de3193dc87",
+      "sha256": "bc811ef765672ab7cef256d294e3a7c634a7e7a4cc26c5d17b4fb03ee92a09de",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "734c6c7efc7a9d8fc25cff43239688f4d71734a0f0a6141f2964a8646ab85f14",
+      "sha256": "597feb0a7f52c303e08eb20700bcc823a30317d65d26423fabb9bda5e4174854",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "fd5e0cf8e55954f12784c2ccbad9ef60afd0e952755349557fc1aae285b8acde",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

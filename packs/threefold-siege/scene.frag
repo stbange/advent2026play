@@ -11,6 +11,7 @@ uniform vec3 eyePosition;
 uniform int lightCount;
 uniform int shadowPass;
 uniform int lighting;
+uniform int flashAmount;
 out vec4 fragment;
 float visibility(int index,vec3 delta,float range) {
     vec3 a=abs(delta);
@@ -74,6 +75,7 @@ void main() {
     }
     float haze=lighting==1?clamp((distanceFromEye-18.0)/100.0,0.0,0.55):0.0;
     vec3 lit=mix(surface,vec3(0.005,0.007,0.015),haze);
+    lit=mix(lit,vec3(0.45,0.48,0.5),clamp(float(flashAmount)/90.0,0.0,0.9));
     float dither=mod(floor(gl_FragCoord.x)+floor(gl_FragCoord.y),2.0)/255.0;
     fragment=vec4(floor((lit+dither)*64.0)/64.0,1.0);
 }

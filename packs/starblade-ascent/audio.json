@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "cues": {
+    "shot0": {
+      "file": "effects.wav",
+      "gain": 0.36
+    },
+    "shot1": {
+      "file": "effects.wav",
+      "gain": 0.36
+    },
+    "shot2": {
+      "file": "effects.wav",
+      "gain": 0.36
+    },
+    "impact": {
+      "file": "effects.wav",
+      "gain": 0.192
+    },
+    "hurt": {
+      "file": "effects.wav",
+      "gain": 0.27
+    },
+    "step": {
+      "file": "effects.wav",
+      "gain": 0
+    },
+    "use": {
+      "file": "effects.wav",
+      "gain": 0.18
+    },
+    "objective": {
+      "file": "effects.wav",
+      "gain": 0.24
+    },
+    "music": {
+      "file": "music.wav",
+      "gain": 0.132
+    },
+    "ambience": {
+      "file": "effects.wav",
+      "gain": 0
+    },
+    "boss": {
+      "file": "effects.wav",
+      "gain": 0.33
+    },
+    "victory": {
+      "file": "effects.wav",
+      "gain": 0.3
+    },
+    "hall": {
+      "file": "music.wav",
+      "gain": 0.132
+    }
+  }
+}

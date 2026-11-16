@@ -10,7 +10,7 @@ is kept in the build directory, outside the first-party coverage inventory.
 | SDL | 3.2.10 | zlib; platform, input, window and GL context |
 | libwebsockets | 4.3.3 | MIT with upstream BSD/zlib/public-domain exceptions; native WebSocket transport |
 | SQLite | 3.49.1 | Public domain; profiles, checkpoint and unique rewards |
-| OpenSSL | system development package | Upstream license applies (Apache-2.0 for OpenSSL 3.x); TLS and secure reconnect-token generation |
+| OpenSSL | 3.x system development package; Windows CI uses MSYS2 3.6.5-1 in a private prefix | Apache-2.0; TLS and secure reconnect-token generation |
 | Emscripten SDK | tested with 4.0.10 | MIT/NCSA and bundled toolchain licenses; build tool, generated runtime |
 | LuaCov | 0.16.0 | MIT; trusted test instrumentation only |
 | cgltf | bbeb5b0b070ddacddac6852fb72143eb68454937 | MIT; static glTF parsing; [notice](licenses/cgltf.txt) |

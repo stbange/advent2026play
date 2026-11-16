@@ -4,6 +4,7 @@ local definitions={[1]={day=1,points={{6,0.05,26},{11,0.05,8},{26,0.05,7},{38,0.
 local day=engine.day
 local cfg=definitions[day]
 local rules={}
+local production_init
 local get,set=engine.get,engine.set
 local function point(n)local p=cfg.points[n+1];return {x=p[1],y=p[2],z=p[3]}end
 local function near(a,b,r)return a and b and (a.x-b.x)^2+(a.y-b.y)^2+(a.z-b.z)^2<r*r end
@@ -77,7 +78,7 @@ function rules.init(w)
  spawn(5,6,7,1000,0)
  spawn(6,0,(day==2 or day==3 or day==5) and 6 or 7,200,0)
  for j=1,4 do
-  local n=({1,2,3,7})[j];local h=spawn(7+j,n,(day==6 or day==11) and 2 or 1,day==7 and 24 or 36,1)
+  local n=({1,2,3,7})[j];local h=spawn(7+j,n,(day==6 or day==11 or day==8 and j%2==0) and 2 or 1,day==7 and 24 or 36,1)
   if day==2 or day==11 then engine.mode(h,1,2.5)end
  end
  if day==1 then
@@ -104,7 +105,9 @@ function rules.init(w)
  elseif day==12 then
   for j=1,3 do spawn(11+j,j,4,1000,0)end
  end
+ local cache=spawn(nil,11,29,1000,0);item(cache,8,461);item(cache,11,1)
  shield(true);goal(day==6 and 0 or 1,2,0)
+ if production_init then production_init(w)end
  return w
 end
 local function actions(w,p,i)
@@ -117,6 +120,14 @@ local function actions(w,p,i)
  end
  local buttons=(p.use~=0 and 2 or 0)|(p.jump~=0 and 4 or 0)|(p.alt~=0 and 8 or 0)|(p.command~=0 and 16 or 0)|(p.next~=0 and 32 or 0)
  local pressed=buttons&~get(b+2);set(b+2,buttons)
+ if pressed&2~=0 then for _,cache in ipairs(engine.list())do
+  local pickup=engine.actor(cache)
+  if pickup and engine.inventory(cache,8)==461 and near(a,pickup,2.5)then
+   engine.heal(h,40,30);engine.item(h,0,1);engine.item(h,1,8)
+   if day==3 then local budget=engine.team(0);engine.team(0,budget.credits+4,budget.power,budget.supply+4)end
+   engine.remove(cache);flag(512)
+  end
+ end end
  if pressed&32~=0 then item(h,13,(engine.inventory(h,13)+1)%3)end
  -- shortcut: 72-tick player shots reserve actor slots for four-player recovery; revisit with projectile pooling.
  local kit=engine.inventory(h,13)
@@ -156,7 +167,7 @@ local function actions(w,p,i)
    end
   end
  end
- if pressed&8~=0 and day~=1 and day~=2 and day~=6 and day~=9 and day~=10 and day~=11 then
+ if pressed&8~=0 and day~=1 and day~=2 and day~=6 and day~=7 and day~=9 and day~=10 and day~=11 then
   if engine.inventory(h,0)>0 and a.hp<90 then engine.item(h,0,-1);engine.heal(h,45,30)end
  end
  if w.won==1 and p.use~=0 and near(a,point(5),2) then exit(p,i)end
@@ -183,6 +194,10 @@ local function enemy_step(w)
   if visible(boss.x,boss.z,aim.x,aim.z)then launch(get(1),boss,aim,day==7 and 9 or 7,day==1 and 20 or 13)end
  end
 end
+local function lower_gate(first)
+ for _=1,3 do if not engine.platform(first or engine.collision_start,0,-1,0)then return false end end
+ return true
+end
 local missions={}
 missions[1]=function(w)
  local gate=get(20)&3
@@ -190,8 +205,7 @@ missions[1]=function(w)
   local h=get(32+(i-1)*6);local a=engine.actor(h)
   if near(a,point(6),2) and p.alt~=0 and gate==0 then flag(1)end
   if p.command~=0 and mark(1) and not mark(2) then
-   local moved=true;for n=1,3 do moved=engine.platform(engine.collision_start,0,-1,0) and moved end
-   if moved then flag(2);engine.remove(get(5))end
+   if lower_gate()then flag(2);engine.remove(get(5))end
   end
   if p.use~=0 then
    if near(a,point(1),2)then flag(16)end
@@ -308,27 +322,6 @@ missions[3]=function(w)
  elseif get(23)<10 then goal(0,2,1)
  elseif not mark(16) or get(18)==0 or get(31)==0 then goal(0,2,2)
  elseif not mark(32)then goal(6,16,3)
- else goal(4,1,4,get(1))end
- if exposed and not alive(1)then complete(w)end
-end
-missions[4]=function(w)
- for i,p in ipairs(w.players)do if p.connected==1 and p.zone==1 then
-  local h=get(32+(i-1)*6);local a=engine.actor(h)
-  local water=a and a.x>30 and a.z>19
-  engine.mode(h,water and 2 or 0,water and 5 or 4.5)
-  if p.jump~=0 then for _,n in ipairs({1,2,6})do if near(a,point(n),2.5)then local q=point(n);engine.climb(h,q.x,q.y,q.z)end end end
-  if p.use~=0 then
-   for n=1,3 do if near(a,point(n),1.7) and (n==3 or a.y>.8)then flag(1<<(n-1))end end
-   if mark(7) and near(a,point(6),1.8) and a.y>.8 then flag(8)end
-  end
-  if a and a.y< -1 then engine.teleport(h,0);engine.heal(h,100,0)end
- end end
- local exposed=mark(7) and mark(8)
- shield(not exposed)
- if not mark(1)then goal(1,2,0)
- elseif not mark(2)then goal(2,2,1)
- elseif not mark(4)then goal(3,2,2)
- elseif not mark(8)then goal(6,2,3)
  else goal(4,1,4,get(1))end
  if exposed and not alive(1)then complete(w)end
 end
@@ -488,8 +481,7 @@ missions[10]=function(w)
  for i,p in ipairs(w.players)do if p.connected==1 and p.zone==1 then
   local b=32+(i-1)*6;local h=get(b);local a=engine.actor(h)
   if p.use~=0 and near(a,point(1),2)then flag(1);local q=point(6);engine.order(0,get(7),1,q.x,q.y,q.z,0)end
-  if p.alt~=0 and near(a,point(2),2.5) and not mark(2)then local moved=true;for n=1,3 do moved=engine.platform(engine.collision_start,0,-1,0) and moved end
-   if moved then flag(2);engine.remove(get(5))end end
+  if p.alt~=0 and near(a,point(2),2.5) and not mark(2)then if lower_gate()then flag(2);engine.remove(get(5))end end
   if p.alt~=0 and not near(a,point(2),2.5) and get(b+4)<w.tick then
    set(b+4,w.tick+30);local order=engine.inventory(h,10)%3+1;item(h,10,order)
    for _,slot in ipairs({18,12,13,14})do local unit=actor(slot);if unit and unit.owner==i-1 then item(get(slot),10,order)end end
@@ -579,6 +571,65 @@ missions[12]=function(w)
  else goal(4,1,5,get(1),get(22))end
  if exposed and not alive(1)then complete(w)end
 end
+-- SPDX-License-Identifier: MIT
+if day==4 then
+ production_init=function(w)
+  spawn(15,7,4,1000,0);spawn(16,9,9,1000,0);spawn(17,10,9,1000,0)
+  engine.water(get(15),2.6)
+ end
+ missions[4]=function(w)
+  local boss=actor(1)
+  local flooded=boss and boss.hp>0 and boss.hp<90 and mark(31)
+  if flooded then engine.water(get(15),4.2)end
+  for i,p in ipairs(w.players)do if p.connected==1 and p.zone==1 then
+   local h=get(32+(i-1)*6);local a=engine.actor(h)
+   if a then
+    local height=actor(15).target_y or 2.6
+    local pool=(a.x>30 and a.z>19) or (flooded and near(a,point(4),8))
+    engine.mode(h,pool and a.y<height and 2 or 0,pool and 5 or 4.5)
+    local use=p.use~=0;local prior=engine.inventory(h,12)
+    item(h,12,use and 1 or 0)
+    if use and prior==0 and near(a,point(7),2.8) and not flooded then
+     engine.water(get(15),height>1 and .4 or 2.6)
+    end
+    if p.jump~=0 then for _,n in ipairs({1,2,6})do if near(a,point(n),2.8)then local q=point(n);engine.climb(h,q.x,q.y,q.z)end end end
+    if use then
+     for n=1,3 do if near(a,point(n),1.8) and (n==3 or a.y>.8)then flag(1<<(n-1));item(h,4,n)end end
+     if mark(7) and near(a,point(6),1.9) and a.y>.8 then flag(8)end
+     if mark(7) and near(a,point(7),2.8)then flag(16)end
+    end
+    if a.y< -1 then
+     engine.teleport(h,engine.inventory(h,4))
+     if engine.difficulty()==1 then engine.heal(h,100,0)else engine.damage(h,0,20)end
+    end
+   end
+  end end
+  local exposed=mark(31)
+  shield(not exposed)
+  if exposed and boss and boss.hp>0 then
+   local stun=engine.inventory(get(1),14)
+   if stun>0 then
+    engine.item(get(1),14,-1);engine.mode(get(1),3,0)
+   elseif w.tick%240==0 then
+    for i,p in ipairs(w.players)do local a=engine.actor(get(32+(i-1)*6))
+     if p.connected==1 and p.zone==1 and a then engine.mode(get(1),0,7);engine.order(boss.owner,get(1),1,a.x,a.y,a.z,0);break end
+    end
+   end
+   for _,slot in ipairs({16,17})do if stun==0 and alive(slot) and near(boss,actor(slot),1.7)then
+    engine.mode(get(1),3,0);engine.order(boss.owner,get(1),0,boss.x,boss.y,boss.z,0)
+    item(get(1),14,90);engine.damage(get(1),0,5);engine.damage(get(slot),0,1000)
+   end end
+  end
+  if not mark(1)then goal(1,2,0)
+  elseif not mark(2)then goal(2,2,1)
+  elseif not mark(4)then goal(3,2,2)
+  elseif not mark(8)then goal(6,2,3)
+  elseif not mark(16)then goal(7,2,3)
+  else goal(4,1,4,get(1))end
+  if exposed and not alive(1)then complete(w)end
+ end
+end
+
 function rules.step(w)
  local in_mission=false
  for _,p in ipairs(w.players)do if p.connected==1 and p.zone==1 then in_mission=true end end

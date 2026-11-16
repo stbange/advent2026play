@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "midnight-matinee",
   "title": "Midnight Matinee",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "a709c0fbf1b090376261b299a014d474be9f7f5d45e93c03c0df25e37fdda5bf",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "e97d6944e525a3c085eec91bf9de9e32019ec54ebf72a7717889f79807171c45",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "6e4f14fb3f20ad6d0e6718e59916615375a81b0f1092e5ced42543d4bb6e9cb4",
+      "sha256": "cbc7abf5bbbb246b395959ea96719fd569ffef514f0161335aad17d8adfb03c5",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "aa4d01968e41d0592c6463cc6239e4fe7cf0a806972a7b091b74faaf679d56b3",
+      "sha256": "c09197466e592959becd4920802ab59bc886ce915cefb76afee14f73dac5e022",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "43a8110ee2f9cd3895acb6a4acd537ff0717b2f993be190289b1d83b5c33b52c",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

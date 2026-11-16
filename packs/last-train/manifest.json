@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "last-train",
   "title": "Last Train",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "ef4a6c7c506456120c2f6247025e54ddaa05e905f23f2131a8482d4eb298f1e1",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "4bf73fe511fb614b45760130380bf909c4a68b09c86e844c6ec77601235bb2b3",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "43d3cfe69442ec339b837ee20ffe297847ece82109f0d46eea2ece6e0bd22dc7",
+      "sha256": "a6d7b3f702accf31015b4231ada8f4443297a8e11c9b63323be9602eb78831e2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "46a57bf7dbafc885071753dd19cc0e2eb0c12d6f5ac5c1df6cc2385c7a6eba48",
+      "sha256": "4c7c91f316395df88d924448c0f9fdb7e067773a65c41f11e647ddad6c40c1d0",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "83583646658374633621928b56cd01541cebc433acbcc74898adad980e823c95",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

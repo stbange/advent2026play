@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "skyline-relay",
   "title": "Skyline Relay",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "e92f9e379454709e532a87f7b1b258df2e20f2d274076ee569a40891ed2712b8",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "8bcb2407d7b29612de19164a25ee87f205f4c91c369fa3caddefc387270f5f6a",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "5723623974b017b61097c17c0bd44f01ecd61bb571c94f5d14d165f2fb3cb153",
+      "sha256": "a4c8837e600ac4b4f82c8ac47c4115add97d2a8251d14c84bac379920e748798",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "ca1611fa5211cc0028428e50d0bcd8be6f9ec090e055d986d3b1d2c7a837661d",
+      "sha256": "b231c8038f4bb575357b3fe4a3760519e13a0aa1fee4ed3a06110eac8d917454",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "5dbacd82958b29f715e0aecd062e9296185ce9a2bdb69a44138eaba7d20468dc",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

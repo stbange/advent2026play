@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "sources": {
+    "shot0": {
+      "request": "shared-pistol",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "shot1": {
+      "request": "shared-shotgun",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "shot2": {
+      "request": "shared-plasma",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "impact": {
+      "request": "shared-impact",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "hurt": {
+      "request": "shared-hurt",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "step": {
+      "request": "shared-step",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "use": {
+      "request": "shared-use",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "objective": {
+      "request": "shared-objective",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "music": {
+      "request": "resonance-breach-music",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "ambience": {
+      "request": "resonance-breach-ambience",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "boss": {
+      "request": "resonance-breach-boss",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "victory": {
+      "request": "resonance-breach-victory",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "hall": {
+      "request": "hall-music",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    }
+  }
+}

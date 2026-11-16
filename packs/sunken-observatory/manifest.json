@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 1,
+  "engine_api": 3,
   "save_version": 2,
   "id": "sunken-observatory",
   "title": "The Sunken Observatory",
@@ -22,6 +22,18 @@
     {
       "path": "atlas.png",
       "sha256": "a253e9e36c60b45190eafd8bd3ef4403837ff81646113a2a811d046861496f03",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio-source.json",
+      "sha256": "cd5ddb3e105c3ca72f68dbfa843cff1ac53b95af089ce9138c0b17e5fce0b117",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "audio.json",
+      "sha256": "724c4538cb456b40b56ffc7138031854e886e9807662c1236867a0a48a93cb82",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -63,13 +75,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "feb5db8e74299eb33c7139fd916545c080167b15cc148f04f2ee1ca9401d6667",
+      "sha256": "28217c2a0c8ccf06cc0c7ef7c5636601ce3ecf0f42499d05eff4d332732aaa76",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "f34a70624adbcc8bb4caa79648ef92d4a77e475e3a7fc0ca3c08212d085460b3",
+      "sha256": "beb978825303e3bfd761f577e168c85dc06b60b00ada7ea98e3a0dbafeac988e",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -105,13 +117,13 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "sha256": "c516b057f1f27f65e9cdcf1b00a4215a3f904aa3833999d74ca8bb8b148ddcf7",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

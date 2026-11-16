@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "sources": {
+    "shot0": {
+      "request": "shared-axe",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "shot1": {
+      "request": "shared-cannon",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "shot2": {
+      "request": "shared-repair",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "impact": {
+      "request": "shared-impact",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "hurt": {
+      "request": "shared-hurt",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "step": {
+      "request": "shared-step",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "use": {
+      "request": "shared-use",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "objective": {
+      "request": "shared-objective",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "music": {
+      "request": "winter-harbour-music",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "ambience": {
+      "request": "winter-harbour-ambience",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "boss": {
+      "request": "winter-harbour-boss",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "victory": {
+      "request": "winter-harbour-victory",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    },
+    "hall": {
+      "request": "hall-music",
+      "provider": "Advent2026 contributors",
+      "method": "existing procedural fallback; ElevenLabs output pending"
+    }
+  }
+}

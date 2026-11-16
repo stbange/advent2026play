@@ -18,7 +18,8 @@ export function bindTouch(button, action, module) {
   return () => { button.removeEventListener('pointerdown', down); for (const name of ['pointerup','pointercancel','lostpointercapture']) button.removeEventListener(name, up); module._advent_touch_button(action,0); };
 }
 
-export async function start({createAdvent, canvas, url, fetch, storage, bot = false, botParty = 1, preview = false, split = false, room = 1, base = 'assets/', onStatus}) {
+export async function start({createAdvent, canvas, url, fetch, storage, bot = false, botParty = 1, preview = false, split = false, room = 1, difficulty = 'classic', base = 'assets/', onStatus}) {
+  if (!['classic','story','veteran'].includes(difficulty)) throw new Error('Choose Classic, Story or Veteran difficulty.');
   onStatus('Loading the hall…');
   const module = await createAdvent({canvas, print: () => {}, printErr: text => onStatus(String(text)), onStorageWarning: () => onStatus('This browser cannot save your reconnect identity. Keep this tab open to retain it for this session.')});
   await persistence(module, onStatus);
@@ -32,6 +33,7 @@ export async function start({createAdvent, canvas, url, fetch, storage, bot = fa
   if (!/^[a-f0-9]{32}$/.test(token)) token = '';
   const args = ['--assets','/assets','--data-dir','/saves'];
   if (url) args.push('--server',url);
+  else args.push('--difficulty',difficulty);
   if (!Number.isInteger(room) || room<1 || room>4) throw new Error('Room must be 1–4.');
   args.push('--room',String(room));
   if (preview) args.push('--preview');
@@ -56,7 +58,7 @@ export function mount({document, window, createAdvent}) {
     try {
       const url = element('mode').value === 'offline' ? '' : serverURL(element('server').value, window.location.protocol);
       element('stage').hidden = false;
-      const module = await start({createAdvent,canvas:element('canvas'),url,fetch:window.fetch.bind(window),storage:{getItem:key=>window.localStorage.getItem(key)},bot:params.get('bot')==='1',botParty:Number(params.get('party'))||1,preview:element('preview').checked,split:element('split').checked,room:Number(element('room').value)||1,base:element('initial-world').value||'assets/',onStatus:text => { element('status').textContent=text; }});
+      const module = await start({createAdvent,canvas:element('canvas'),url,fetch:window.fetch.bind(window),storage:{getItem:key=>window.localStorage.getItem(key)},bot:params.get('bot')==='1',botParty:Number(params.get('party'))||1,preview:element('preview').checked,split:element('split').checked,room:Number(element('room').value)||1,difficulty:element('difficulty').value||'classic',base:element('initial-world').value||'assets/',onStatus:text => { element('status').textContent=text; }});
       window.advent = module;
       element('credits').textContent=module.credits;
       let loading;
