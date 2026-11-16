@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "engine_api": 1,
+  "save_version": 2,
+  "id": "cathedral-below",
+  "title": "The Cathedral Below",
+  "day": 12,
+  "min_players": 1,
+  "max_players": 4,
+  "entry": "rules.lua",
+  "dependencies": [],
+  "mesh": "level.gltf",
+  "hall_mesh": "hall.gltf",
+  "texture": "atlas.png",
+  "files": [
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "5e3c31066d557daa4c0bf65893df5d5dad99673c82f876142319e46816a6228a",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "atlas.png",
+      "sha256": "5f0b81d2fcd15536539c2c43925ce0f76274d1b218d91746289565e83300e665",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "effects.wav",
+      "sha256": "c9b196731e95bbe190fb1540e28278cba2645558f71b5117095765dd07ec180d",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "font.txt",
+      "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.bin",
+      "sha256": "d40fe30fcb15842e2ff662ec97910dc225e3d5aad473f311eca9d45e9645c133",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.gltf",
+      "sha256": "7df829304cb6acf7f5a7a64c57727343211c2f016ebfa8453cac5f42511e8ecc",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.map",
+      "sha256": "e6920ec85c61496f3fb51edaf27e4898beff82932948e505388d40f50287bc9a",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hud.txt",
+      "sha256": "1383ef48f640ea1310a268928f8683ef4b2bf1de8b8053d60d02e7406fd0826b",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "level.bin",
+      "sha256": "6e5942fad2796ee970dfd27d86f358f9def0b00eb54a7b4c9cd6a21fb8ba3fa5",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "level.gltf",
+      "sha256": "27334688a47fb0bdf86c7b70f6f9428352c610cb76b430f21e53487b7dba9c31",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "music.wav",
+      "sha256": "314d0b75f2187003621c297f38a0a6fee441d98c6947471e1f5dd3732e099cf4",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "navigation.json",
+      "sha256": "63fe4e0e3517dbd54b9c8aed2cac84df52d4c185ba5d16b651b00962c6cd3837",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "palette.txt",
+      "sha256": "2a0c7c99da20a20c81cad47003e2f001b36a7286b49c071b08ed6932a1b77be4",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "portals.txt",
+      "sha256": "7d68f68bf874a63a5a0757dca5c4ee09ab0885b4af9b3ff170c43981c19b4148",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "red-furnace.map",
+      "sha256": "97b20b0cd4ebb9c00ff681b90dc6bea09e7acf3dac32190bda7a6c44d40f240e",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "rules.lua",
+      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "scene.frag",
+      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "scene.vert",
+      "sha256": "1c6c5f495df421bb70ad291e4417a227d64fd58455cc45ad0ed7053eaf13f650",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "voxels.json",
+      "sha256": "29d7dc5752708b4c980c17fd7314faf0870046ce44d22eca010886dc6d0e425f",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

@@ -14,5 +14,7 @@ mergeInto(LibraryManager.library, {
   advent_web_report: function(tick, zone, health, keys, valves, phase, won, ornament, ready, rejoins, x, z) {
     Module.adventState = {tick, zone, health, keys, valves, phase, won, ornament, ready:!!ready, rejoins, x, z};
     Module.adventReportTime = Date.now();
+    const portal=Module._advent_portal_request?.();
+    if(portal && Module.onPortal)Module.onPortal(portal);
   }
 });

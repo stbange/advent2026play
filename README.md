@@ -1,37 +1,13 @@
-# Advent 2026 — Play in your browser
+# Advent 2026 — playable web build
 
-**[Play Advent 2026 on GitHub Pages](https://stbange.github.io/advent2026play/)**
+**[Play Advent 2026](https://stbange.github.io/advent2026play/)**
 
-Explore a festive winter hall and enter original retro-inspired first-person worlds. This build includes the hall and **Portal 13: Red Furnace**, with a 48 × 32 metre foundry, three weapons, two key expeditions and a two-phase demonic furnace boss. The other 23 episodes are still in development. An optional engine workshop is available for preview testing.
+First playable versions of doors **1–12**, plus **13: Red Furnace**, are available. Enable **Preview all available doors** before December 2026. Event mode unlocks one new day at 00:00 UTC from December 1–24. The engineering workshop is a preview tool and does not count as episode 24.
 
-The new build adds open hearths, candles, starry winter windows, point lights with shadows, editable voxel decorations, directional enemy sprites, animated flames, visible projectiles, impact debris, knockback and explosive barrel chains. The world renders at a bounded **384 × 240** internal resolution, with crisp upscaling and readable display-resolution text.
+Choose a world, enter the hall, then walk to a numbered door and press **E**. Other available doors download their worlds on demand. These are compact first versions; production mechanics, art/audio polish, pacing and physical-device qualification remain in progress.
 
-## Start playing
+WASD moves; mouse looks; click fires; E uses; Space jumps/grabs/jets; Q is alternate; C commands; Tab switches tools; R/F moves vertically; Backspace returns to the hall. Touch devices show matching controls. The settings panel supports remapping, save export/import and desktop split screen. Online co-op needs a matching world on a separate friend server; this static site also runs offline after caching.
 
-1. Open **https://stbange.github.io/advent2026play/** in a browser with WebGL 2 support.
-2. Leave **Play mode** set to **Local / offline**.
-3. Before **13 December 2026 at 01:00 in Warsaw (00:00 UTC)**, enable **Preview all available doors** to try Red Furnace. Preview progress is separate from the December calendar.
-4. Choose **Enter the hall**, then walk to **Portal 13** and use it.
+[Source and full instructions](https://github.com/stbange/advent2026) · [First-twelve guide and remaining work](https://github.com/stbange/advent2026/blob/main/docs/first-twelve.md) · [Verification evidence](https://github.com/stbange/advent2026/tree/main/verification/first-twelve)
 
-The first visit downloads the game and external assets. After a successful load, supported browsers can retain the selected world for offline play. Local saves and settings use browser storage; **Controls & settings** includes save export/import.
-
-## Controls
-
-- **Desktop:** WASD to move, mouse to look, left click to fire, E to use, Space to jump, Tab to switch weapons and Backspace to return to the hall. Escape releases the mouse.
-- **Touch:** the game switches to touch controls automatically; drag to move/look and use the on-screen action buttons.
-- **Local split screen:** select **Two local players** before entering; player two uses a gamepad.
-- **VR:** compatible WebXR browsers expose the VR button in **Controls & settings**. Physical headset comfort/performance qualification is still in progress.
-
-GitHub Pages hosts the web client and its assets. **Online co-op requires a separately hosted compatible secure WebSocket (`wss://`) game server**; this repository does not host that server. Local play needs no server installation.
-
-## Build and source
-
-This repository contains the ready-to-play Emscripten/WebGL 2 build and external Lua/glTF/PNG/WAV and editable voxel JSON content. The source project is [stbange/advent2026](https://github.com/stbange/advent2026), revision [`e18bb09`](https://github.com/stbange/advent2026/commit/e18bb09957395d279b8a897a3ffa41a6b92cd2ad). See [build-info.json](build-info.json) for exact build and content hashes.
-
-GitHub Pages publishes the `main` branch at the link above. Updates deploy automatically after the Pages build completes.
-
-`.nojekyll` preserves the static runtime files. To update, build the source revision with Emscripten 4.0.10, install its CMake **Runtime** component, and publish the complete runtime together so manifests and asset bytes stay in sync. Preserve this README, `.nojekyll` and the license files.
-
-## Licenses and credits
-
-Code is [MIT licensed](LICENSE). Original Advent2026 art and audio by Advent2026 contributors are **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**; see [the art license](ART-LICENSE.md), [asset credits](assets/ATTRIBUTION.md), and the per-file creators/licenses in each content manifest. Dependency notices and license texts are included in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [licenses/](licenses/).
+Code: **MIT**. Original art and audio: **CC BY 4.0**, Advent2026 contributors. External packs retain their manifests and attribution; classic game assets are not included. Third-party notices and licenses are distributed beside the runtime. `build-info.json` pins the source commit and SHA-256 of every runtime file.

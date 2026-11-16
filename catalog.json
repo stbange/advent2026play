@@ -1,1 +1,19 @@
-{"schema":1,"packs":["assets","packs/workshop"]}
+{
+  "schema": 1,
+  "packs": [
+    "assets",
+    "packs/midnight-matinee",
+    "packs/emberwake",
+    "packs/crystal-front",
+    "packs/sunken-observatory",
+    "packs/winter-harbour",
+    "packs/iron-solstice",
+    "packs/last-train",
+    "packs/resonance-breach",
+    "packs/skyline-relay",
+    "packs/neon-covenant",
+    "packs/reactor-zero",
+    "packs/cathedral-below",
+    "packs/workshop"
+  ]
+}

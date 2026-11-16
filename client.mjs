@@ -61,12 +61,17 @@ export function mount({document, window, createAdvent}) {
       element('credits').textContent=module.credits;
       let loading;
       element('world-load').disabled=!!url;
-      element('world-load').addEventListener('click',async()=>{
+      const loadWorld=async (base,enter=false)=>{
+        if(loading || url)return;
         loading=new AbortController();element('world-load').disabled=true;element('world-cancel').hidden=false;
-        try {element('credits').textContent=await activatePack(module,{fetch:window.fetch.bind(window),base:element('world').value,signal:loading.signal});element('status').textContent='World ready. Use its doorway to enter.';}
+        try {element('credits').textContent=await activatePack(module,{fetch:window.fetch.bind(window),base,signal:loading.signal});element('status').textContent='World ready. Use its doorway to enter.';if(enter){module._advent_touch_button(2,1);setTimeout(()=>module._advent_touch_button(2,0),200);}}
         catch(error){element('status').textContent=error.message;}
         finally{loading=null;element('world-load').disabled=false;element('world-cancel').hidden=true;}
-      });
+      };
+      element('world-load').addEventListener('click',()=>loadWorld(element('world').value));
+      const portals=new Map(Array.from(element('world').options||[]).filter(option=>option.dataset?.day && !option.dataset.previewOnly).map(option=>[Number(option.dataset.day),option.value]));
+      module._advent_portals?.(Array.from(portals.keys()).reduce((mask,day)=>mask|(1<<(day-1)),0));
+      module.onPortal=day=>{const base=portals.get(day);if(base){element('world').value=base;void loadWorld(base,true);}};
       element('world-cancel').addEventListener('click',()=>loading?.abort());
       document.body.classList.add('playing');
       element('lobby').hidden = true;

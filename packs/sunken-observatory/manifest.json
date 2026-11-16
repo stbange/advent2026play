@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "engine_api": 1,
+  "save_version": 2,
+  "id": "sunken-observatory",
+  "title": "The Sunken Observatory",
+  "day": 4,
+  "min_players": 1,
+  "max_players": 4,
+  "entry": "rules.lua",
+  "dependencies": [],
+  "mesh": "level.gltf",
+  "hall_mesh": "hall.gltf",
+  "texture": "atlas.png",
+  "files": [
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "7b463b43cc7a18dca27b0895b709f96867ed7214220b59d74481118324cdef3c",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "atlas.png",
+      "sha256": "a253e9e36c60b45190eafd8bd3ef4403837ff81646113a2a811d046861496f03",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "effects.wav",
+      "sha256": "c9b196731e95bbe190fb1540e28278cba2645558f71b5117095765dd07ec180d",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "font.txt",
+      "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.bin",
+      "sha256": "d40fe30fcb15842e2ff662ec97910dc225e3d5aad473f311eca9d45e9645c133",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.gltf",
+      "sha256": "7df829304cb6acf7f5a7a64c57727343211c2f016ebfa8453cac5f42511e8ecc",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hall.map",
+      "sha256": "e6920ec85c61496f3fb51edaf27e4898beff82932948e505388d40f50287bc9a",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "hud.txt",
+      "sha256": "c85b2e9d6ede9e509ff05a58f5394c0f63e18ae502eb36ec88e87c8a6b95625a",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "level.bin",
+      "sha256": "feb5db8e74299eb33c7139fd916545c080167b15cc148f04f2ee1ca9401d6667",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "level.gltf",
+      "sha256": "f34a70624adbcc8bb4caa79648ef92d4a77e475e3a7fc0ca3c08212d085460b3",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "music.wav",
+      "sha256": "314d0b75f2187003621c297f38a0a6fee441d98c6947471e1f5dd3732e099cf4",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "navigation.json",
+      "sha256": "9256b78b409579f4f8f2e61beff6c902bbd004f43bd5b844e24b6d5a887e09e6",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "palette.txt",
+      "sha256": "2a0c7c99da20a20c81cad47003e2f001b36a7286b49c071b08ed6932a1b77be4",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "portals.txt",
+      "sha256": "7d68f68bf874a63a5a0757dca5c4ee09ab0885b4af9b3ff170c43981c19b4148",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "red-furnace.map",
+      "sha256": "0d71cdd9c66d676147e4cbfa33d7204ba15e0237342e5b5c82b15e90e0ceb1aa",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "rules.lua",
+      "sha256": "2c92c30dc2fe208fe5a929ecef4d1725a144d1cfc4f2b5f9b2e598221e1d8d66",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "scene.frag",
+      "sha256": "417672d570c807a169260486eae802b27d2c8b331f6c5a64015cb693d9199abd",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "scene.vert",
+      "sha256": "1c6c5f495df421bb70ad291e4417a227d64fd58455cc45ad0ed7053eaf13f650",
+      "creator": "Advent2026 contributors",
+      "license": "MIT"
+    },
+    {
+      "path": "voxels.json",
+      "sha256": "29d7dc5752708b4c980c17fd7314faf0870046ce44d22eca010886dc6d0e425f",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
