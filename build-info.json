@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/stbange/advent2026",
-  "source_commit": "1f018d632780410e5cc3d3c812eebfa47a61e7cb",
+  "source_commit": "d5193064decac8c2c9f873451ef4ce66a2111dc9",
   "emscripten": "4.0.10",
-  "packaged_at": "2026-11-17T21:22:03.220856+00:00",
+  "packaged_at": "2026-11-17T22:42:27.282656+00:00",
   "play_url": "https://stbange.github.io/advent2026play/",
   "world_pixel_budget": [
     384,
@@ -34,7 +34,7 @@
     23,
     24
   ],
-  "scope": "Day One uses cooler night lighting, grounded alien poses, longer first-person weapons and eleven distinct animated projectile styles. Existing 384 by 240 world resolution. Solo, four-player, actual OpenGL and touch-emulated browser checks pass.",
+  "scope": "Day One generates 36 passage layouts with varying weapons and encounters and a fixed Producer finale. Layouts persist in saves. All layouts, solo and co-op replays, OpenGL rendering and touch-emulated browser entry passed.",
   "files": [
     {
       "path": "ART-LICENSE.md",
@@ -54,12 +54,12 @@
     {
       "path": "advent.js",
       "bytes": 233426,
-      "sha256": "b4f9caa2b95a84b52159e9cf8628ce4266ac34802df3edb51f7dd51c2c478166"
+      "sha256": "e995162809ed58d8f9ccbc9b31dec20a74017967091c22e0028f4d40e171bfc1"
     },
     {
       "path": "advent.wasm",
-      "bytes": 2239840,
-      "sha256": "5a868669bd7181b05d7678822b0f5832bcb19e142eb249febe1e7e84acf7b8b4"
+      "bytes": 2240055,
+      "sha256": "97c1bbc83cefc133e339304314479a9491e6e6768607fc8a75da808e9eb91849"
     },
     {
       "path": "assets/ATTRIBUTION.md",
@@ -2203,18 +2203,18 @@
     },
     {
       "path": "packs/midnight-matinee/level.bin",
-      "bytes": 1672704,
-      "sha256": "7716c4d8b74951c410ad7c6520d60668246c352e502bb325e4e12f0ebcdeed54"
+      "bytes": 1721088,
+      "sha256": "6be9c55229348215bb73f415f5e702128504f2368c2a6baeee6b7b6af79d7179"
     },
     {
       "path": "packs/midnight-matinee/level.gltf",
       "bytes": 65269,
-      "sha256": "8e561e03583bcb26e9107f5e7ba9eb5eaa08d3091e8fa697d3678b6513a2a2d2"
+      "sha256": "1bca63ca1339fd1e057ef847dc8daf01a649325273086fb0cd344ad664416dc4"
     },
     {
       "path": "packs/midnight-matinee/manifest.json",
       "bytes": 4752,
-      "sha256": "83f8ba9c0cac10e29ed866cea2f96d1f825a57ee48e0d1f346434b2596017130"
+      "sha256": "b80a2e117bbd2502279456a5fd64de690a250ee70ae6ef0f4f4c7262141765a6"
     },
     {
       "path": "packs/midnight-matinee/music.wav",
@@ -2223,8 +2223,8 @@
     },
     {
       "path": "packs/midnight-matinee/navigation.json",
-      "bytes": 5107,
-      "sha256": "f5e41d6b515155c1c27e861b7a98bbf5b4221b066645dd0645c1f92dd4916f15"
+      "bytes": 8912,
+      "sha256": "eee9e3de1d94d2b73dc2193ae591abf7ab370cc79594283d164444eed484cf58"
     },
     {
       "path": "packs/midnight-matinee/palette.txt",
@@ -2243,8 +2243,8 @@
     },
     {
       "path": "packs/midnight-matinee/rules.lua",
-      "bytes": 31551,
-      "sha256": "14d9ed70a12a3d990607dd0faaa2293ca847ab951cbe5bac7ce86c746063f2bb"
+      "bytes": 34219,
+      "sha256": "15a79a886dafd0100d1bf9fb36d8712b17f217fa60cb18efab38b5e4ea3b5249"
     },
     {
       "path": "packs/midnight-matinee/scene.frag",

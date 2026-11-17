@@ -1,6 +1,6 @@
 -- SPDX-License-Identifier: MIT
 -- Immutable definitions are exported here; all mutable state belongs to the serialized engine.
-local cfg={["schema"]=1,["title"]="Midnight Matinee — No Refunds",["world_metres"]={120,80},["target_first_play_minutes"]=20,["points"]={{15.0,0.05,68.75},{27.5,0.05,63.75},{18.75,0.05,47.5},{17.5,0.05,37.5},{33.75,0.05,47.5},{60.0,0.05,62.5},{60.0,0.05,50.0},{46.25,0.05,50.0},{46.25,0.05,38.75},{42.5,0.05,31.25},{67.5,0.05,35.0},{68.75,8.05,43.125},{68.75,0.05,18.75},{88.75,0.05,18.75},{102.5,0.05,26.25},{87.5,8.05,40.0},{100.0,0.05,42.5},{100.0,8.05,42.5},{87.5,8.05,52.5},{86.25,8.05,60.0},{88.75,8.05,65.0},{96.25,8.05,65.0},{105.0,8.05,55.0},{107.5,8.05,42.5},{107.5,8.05,31.25},{70.0,0.05,63.75},{15.0,0.05,68.75},{26.25,0.05,37.5},{18.75,0.05,63.75},{18.75,0.05,53.75},{28.75,0.05,47.5},{60.0,0.05,56.25},{46.25,0.05,43.75},{56.25,0.05,38.75},{67.5,0.05,24.375},{78.75,0.05,18.75},{87.5,0.05,21.25},{87.5,4.05,28.75},{87.5,8.05,36.25},{87.5,8.05,46.25},{101.25,8.05,65.0},{107.5,8.05,48.75},{107.5,8.05,36.25},{33.75,0.05,25.0},{38.75,0.05,38.75},{78.75,8.05,43.125},{82.5,8.05,67.5},{12.5,0.05,36.25},{82.5,0.05,50.0},{60.0,0.05,17.5},{23.75,0.05,47.5},{50.0,0.05,32.5},{13.75,0.05,62.5},{111.25,8.05,58.75},{26.25,0.05,35.0},{21.25,0.05,40.0}},["node_names"]={"delivery","street","diner","kitchen","alley","forecourt","foyer","concessions","arcade","breaker","auditorium","balcony","backstage","effects","miniatures","projection","lift_base","lift_top","west_roof","ducts","crane","bridge","east_roof","transmitter","amplifier","boss","exit","staff_card","street_west","diner_door","diner_side","foyer_entry","arcade_entry","aud_entry","screen","backstage_east","ramp_foot","ramp_mid","ramp_top","booth_exit","roof_link","east_link","tower_link","rear_alley","fire_escape","booth_balcony","billboard","freezer","toilets","crew_room","pool_table","arcade_target","ad_secret","rooftop_cache","security"},["links"]={{0,28},{28,1},{28,29},{29,2},{2,3},{27,54},{3,47},{2,50},{2,30},{30,4},{4,43},{43,44},{44,8},{1,5},{4,1},{5,31},{31,6},{6,7},{7,32},{32,8},{8,9},{9,51},{8,33},{33,10},{10,34},{34,12},{12,49},{12,35},{35,13},{13,14},{13,36},{36,37},{37,38},{38,15},{15,45},{45,11},{15,39},{39,18},{14,16},{17,41},{18,19},{19,20},{20,46},{20,21},{21,40},{40,22},{22,53},{22,41},{41,23},{23,42},{42,24},{5,25},{25,26},{0,52},{6,48},{3,55},{55,27}},["encounters"]={{["name"]="Delivery ambush",["node"]=1,["roster"]={0,0,1,0,0,3,0,1},["variants"]={0,1,0,2,3,0,0,1}},{["name"]="Diner invasion",["node"]=2,["roster"]={1,0,0,3,3,0,1,0},["variants"]={2,1,2,1,2,3,3,0}},{["name"]="Alley crossfire",["node"]=4,["roster"]={2,0,0,1,3,3,0,2},["variants"]={0,1,2,0,3,0,3,1}},{["name"]="Ticket rush",["node"]=6,["roster"]={1,0,3,3,0,1,0,0},["variants"]={1,0,1,2,1,2,2,3}},{["name"]="Arcade infestation",["node"]=8,["roster"]={3,3,3,0,5,3,1,5},["variants"]={3,0,1,0,0,2,3,1}},{["name"]="Screen war",["node"]=10,["roster"]={2,0,1,4,2,0,3,0,1,4},["variants"]={2,1,0,0,3,2,3,3,1,1}},{["name"]="Backstage breach",["node"]=12,["roster"]={0,1,3,3,5,0,6,1},["variants"]={0,2,0,1,2,1,0,3}},{["name"]="Practical effects",["node"]=14,["roster"]={6,0,3,3,1,6,0,5},["variants"]={1,2,2,3,0,2,3,3}},{["name"]="Projection pirates",["node"]=15,["roster"]={6,0,1,4,0,6,3,3},["variants"]={3,0,1,2,1,0,0,1}},{["name"]="Rooftop ambush",["node"]=18,["roster"]={2,2,0,7,4,0,2,3},["variants"]={0,1,2,0,3,3,2,2}},{["name"]="Bridge defense",["node"]=22,["roster"]={7,0,2,4,1,0,2,6},["variants"]={1,0,3,0,2,1,0,1}},{["name"]="Broadcast guards",["node"]=23,["roster"]={7,6,2,0,4,7,0,1},["variants"]={2,2,1,2,1,3,3,3}},{["name"]="Return to the street",["node"]=25,["roster"]={0,1,2,3,3,0},["variants"]={0,0,2,3,0,1}}},["props"]={{["name"]="shutter",["node"]=31,["type"]=0,["hp"]=80},{["name"]="breaker",["node"]=9,["type"]=1,["hp"]=30},{["name"]="projector",["node"]=15,["type"]=2,["hp"]=90},{["name"]="crane",["node"]=20,["type"]=3,["hp"]=60},{["name"]="lift",["node"]=16,["type"]=4,["hp"]=1000},{["name"]="rig",["node"]=10,["type"]=5,["hp"]=30},{["name"]="marquee",["node"]=5,["type"]=6,["hp"]=80},{["name"]="glass",["node"]=1,["type"]=7,["hp"]=10},{["name"]="popcorn",["node"]=7,["type"]=8,["hp"]=30},{["name"]="vent",["node"]=48,["type"]=9,["hp"]=15},{["name"]="soda",["node"]=2,["type"]=10,["hp"]=1000},{["name"]="arcade",["node"]=51,["type"]=11,["hp"]=30},{["name"]="pool",["node"]=50,["type"]=12,["hp"]=1000},{["name"]="advert",["node"]=52,["type"]=13,["hp"]=15},{["name"]="freezer",["node"]=47,["type"]=14,["hp"]=1000},{["name"]="fan",["node"]=14,["type"]=15,["hp"]=25},{["name"]="amplifier",["node"]=24,["type"]=16,["hp"]=140},{["name"]="mirror",["node"]=48,["type"]=17,["hp"]=10},{["name"]="monitor",["node"]=54,["type"]=18,["hp"]=1000},{["name"]="film",["node"]=10,["type"]=19,["hp"]=30}},["weapons"]={{["name"]="SERVICE PISTOL",["damage"]=14,["cooldown"]=12,["spread"]=0,["ammo"]=72},{["name"]="DOORBUSTER",["damage"]=72,["cooldown"]=38,["spread"]=0.07,["ammo"]=32},{["name"]="PIPE CHARGES",["damage"]=120,["cooldown"]=30,["spread"]=0,["ammo"]=10},{["name"]="ROTARY CANNON",["damage"]=16,["cooldown"]=5,["spread"]=0.025,["ammo"]=160},{["name"]="RPG",["damage"]=135,["cooldown"]=42,["spread"]=0,["ammo"]=12},{["name"]="POCKET RAY",["damage"]=3,["cooldown"]=24,["spread"]=0,["ammo"]=24},{["name"]="CRYO SPRAYER",["damage"]=5,["cooldown"]=9,["spread"]=0.03,["ammo"]=100},{["name"]="TWIN MISSILES",["damage"]=74,["cooldown"]=12,["spread"]=0.025,["ammo"]=32}},["weapon_nodes"]={0,1,4,8,10,14,18,24},["secrets"]={{["node"]=52,["trigger"]=13},{["node"]=51,["trigger"]=11},{["node"]=48,["trigger"]=9},{["node"]=49,["trigger"]=-1},{["node"]=47,["trigger"]=14},{["node"]=46,["trigger"]=-1},{["node"]=50,["trigger"]=12}},["quotes"]={"Night shift. Of course it is.","No outside food. Humans included.","Small: eight. Large: eleven. Surrender: market price.","I do my own stunts. Mostly by accident.","Your table is ready. Your planet is not.","In an emergency, finish your shift.","Now it is an open-air cinema.","I need to speak to your manager!","We will fix your death in post.","Worst midnight screening ever.","That is one expensive popcorn refill.","Please validate my parking.","The audience is revolting. Finally, honest reviews.","Cut! No, the OTHER arm!","A little less conversation. Literally.","Chill. The previews are still running.","No refunds. No survivors? We will see.","Keep your feet off the seats. Unless you are shrinking.","Is this the director cut?","That is not a special effect. Yet.","Staff only. I am having a staff meeting.","Warning: this film contains explosive opinions.","Looks like we lost the projector warranty.","The roof has excellent surround sound.","You are obstructing my dramatic entrance.","Please switch your tentacles to silent.","Nice helmet. Does it come in tiny?","That is my cue.","Five stars for property damage.","The sequel has been cancelled.","Projection restored. Sensible management unavailable.","The cooling is finally working.","Safety first. Giant missiles second.","A complimentary drink! Only slightly radioactive.","The pool table was rigged. So was the invasion.","That is the smallest complaint I have ever heard.","Security footage: aliens still hate stairs.","I am taking this film reel as evidence.","You cannot park a spaceship there.","Midnight Matinee. NO REFUNDS."},["objectives"]={"CLEAR THE DELIVERY BAY. THE CINEMA IS STRAIGHT AHEAD.","VISIT THE DINER OR TAKE THE SERVICE ALLEY.","OPEN THE TICKET SHUTTER: USE, CHARGE, OR TAKE THE ARCADE ENTRANCE.","ARCADE: CUT THE POWER OR CROSS ON THE DRY PLATFORMS.","THROUGH THE AUDITORIUM. WATCH THE BALCONY!","BREACH THE SCREEN AND REACH THE PRACTICAL EFFECTS WORKSHOP.","TAKE THE RAMP OR FREIGHT LIFT TO THE PROJECTION BOOTH.","USE THE PROJECTOR TO REDIRECT ITS BEAM, OR DESTROY IT.","REACH THE ROOFTOPS. ALT TO TOGGLE YOUR JETPACK.","LOWER THE CRANE WALKWAY OR FLY ACROSS THE GAP.","DESTROY THE BROADCAST GUARDS AND AMPLIFIER.","THE PRODUCER HAS ARRIVED. RETURN TO THE STREET.","THE PRODUCER: KEEP MOVING. EVERY WEAPON CAN HURT HIM.","NO REFUNDS! RETURN TO THE DELIVERY BAY PORTAL."}}
+local cfg={["schema"]=1,["title"]="Midnight Matinee — No Refunds",["world_metres"]={120,80},["target_first_play_minutes"]=20,["route_dividers"]={{["name"]="street works",["axis"]="x",["at"]=43.75,["span"]={55,77.5},["gaps"]={{57.5,61.5},{64.5,68.5},{72,76}},["edge"]={1,5}},{["name"]="service alley",["axis"]="z",["at"]=42.75,["span"]={30,40},["gaps"]={{30.6,33.6},{36.2,39.4}},["edge"]={4,43}},{["name"]="auditorium aisle",["axis"]="z",["at"]=32.5,["span"]={55,80},["gaps"]={{57.5,61.5},{65.5,69.5},{73.5,77.5}},["edge"]={10,34}},{["name"]="backstage sets",["axis"]="x",["at"]=75,["span"]={15,22.5},["gaps"]={{15.65,18.35},{19.15,21.85}},["edge"]={12,35}}},["weapon_choices"]={{0},{1,28},{4,30},{8,51},{10,33},{14,13},{18,19},{24,23}},["encounter_choices"]={{1,28},{2,50},{4,30},{6,7},{8,51},{10},{12},{14},{15},{18,19},{22},{23,41},{25}},["points"]={{15.0,0.05,68.75},{27.5,0.05,63.75},{18.75,0.05,47.5},{17.5,0.05,37.5},{33.75,0.05,47.5},{60.0,0.05,62.5},{60.0,0.05,50.0},{46.25,0.05,50.0},{46.25,0.05,38.75},{42.5,0.05,31.25},{67.5,0.05,35.0},{68.75,8.05,43.125},{68.75,0.05,18.75},{88.75,0.05,18.75},{102.5,0.05,26.25},{87.5,8.05,40.0},{100.0,0.05,42.5},{100.0,8.05,42.5},{87.5,8.05,52.5},{86.25,8.05,60.0},{88.75,8.05,65.0},{96.25,8.05,65.0},{105.0,8.05,55.0},{107.5,8.05,42.5},{107.5,8.05,31.25},{70.0,0.05,63.75},{15.0,0.05,68.75},{26.25,0.05,37.5},{18.75,0.05,63.75},{18.75,0.05,53.75},{28.75,0.05,47.5},{60.0,0.05,56.25},{46.25,0.05,43.75},{56.25,0.05,38.75},{67.5,0.05,24.375},{78.75,0.05,18.75},{87.5,0.05,21.25},{87.5,4.05,28.75},{87.5,8.05,36.25},{87.5,8.05,46.25},{101.25,8.05,65.0},{107.5,8.05,48.75},{107.5,8.05,36.25},{33.75,0.05,25.0},{38.75,0.05,38.75},{78.75,8.05,43.125},{82.5,8.05,67.5},{12.5,0.05,36.25},{82.5,0.05,50.0},{60.0,0.05,17.5},{23.75,0.05,47.5},{50.0,0.05,32.5},{13.75,0.05,62.5},{111.25,8.05,58.75},{26.25,0.05,35.0},{21.25,0.05,40.0},{42.5,0.05,59.5},{43.75,0.05,59.5},{45.0,0.05,59.5},{42.5,0.05,66.5},{43.75,0.05,66.5},{45.0,0.05,66.5},{42.5,0.05,74.0},{43.75,0.05,74.0},{45.0,0.05,74.0},{32.1,0.05,44.0},{32.1,0.05,42.75},{32.1,0.05,41.5},{37.8,0.05,44.0},{37.8,0.05,42.75},{37.8,0.05,41.5},{59.5,0.05,33.75},{59.5,0.05,32.5},{59.5,0.05,31.25},{67.5,0.05,33.75},{67.5,0.05,32.5},{67.5,0.05,31.25},{75.5,0.05,33.75},{75.5,0.05,32.5},{75.5,0.05,31.25},{73.75,0.05,17.0},{75,0.05,17.0},{76.25,0.05,17.0},{73.75,0.05,20.5},{75,0.05,20.5},{76.25,0.05,20.5}},["node_names"]={"delivery","street","diner","kitchen","alley","forecourt","foyer","concessions","arcade","breaker","auditorium","balcony","backstage","effects","miniatures","projection","lift_base","lift_top","west_roof","ducts","crane","bridge","east_roof","transmitter","amplifier","boss","exit","staff_card","street_west","diner_door","diner_side","foyer_entry","arcade_entry","aud_entry","screen","backstage_east","ramp_foot","ramp_mid","ramp_top","booth_exit","roof_link","east_link","tower_link","rear_alley","fire_escape","booth_balcony","billboard","freezer","toilets","crew_room","pool_table","arcade_target","ad_secret","rooftop_cache","security"},["links"]={{0,28},{28,1},{28,29},{29,2},{2,3},{27,54},{3,47},{2,50},{2,30},{30,4},{43,44},{44,8},{4,1},{5,31},{31,6},{6,7},{7,32},{32,8},{8,9},{9,51},{8,33},{33,10},{34,12},{12,49},{35,13},{13,14},{13,36},{36,37},{37,38},{38,15},{15,45},{45,11},{15,39},{39,18},{14,16},{17,41},{18,19},{19,20},{20,46},{20,21},{21,40},{40,22},{22,53},{22,41},{41,23},{23,42},{42,24},{5,25},{26,28},{0,52},{6,48},{3,55},{55,27},{1,56},{56,57},{57,58},{58,5},{1,59},{59,60},{60,61},{61,5},{1,62},{62,63},{63,64},{64,5},{4,65},{65,66},{66,67},{67,43},{4,68},{68,69},{69,70},{70,43},{10,71},{71,72},{72,73},{73,34},{10,74},{74,75},{75,76},{76,34},{10,77},{77,78},{78,79},{79,34},{12,80},{80,81},{81,82},{82,35},{12,83},{83,84},{84,85},{85,35}},["encounters"]={{["name"]="Delivery ambush",["node"]=1,["roster"]={0,0,1,0,0,3,0,1},["variants"]={0,1,0,2,3,0,0,1}},{["name"]="Diner invasion",["node"]=2,["roster"]={1,0,0,3,3,0,1,0},["variants"]={2,1,2,1,2,3,3,0}},{["name"]="Alley crossfire",["node"]=4,["roster"]={2,0,0,1,3,3,0,2},["variants"]={0,1,2,0,3,0,3,1}},{["name"]="Ticket rush",["node"]=6,["roster"]={1,0,3,3,0,1,0,0},["variants"]={1,0,1,2,1,2,2,3}},{["name"]="Arcade infestation",["node"]=8,["roster"]={3,3,3,0,5,3,1,5},["variants"]={3,0,1,0,0,2,3,1}},{["name"]="Screen war",["node"]=10,["roster"]={2,0,1,4,2,0,3,0,1,4},["variants"]={2,1,0,0,3,2,3,3,1,1}},{["name"]="Backstage breach",["node"]=12,["roster"]={0,1,3,3,5,0,6,1},["variants"]={0,2,0,1,2,1,0,3}},{["name"]="Practical effects",["node"]=14,["roster"]={6,0,3,3,1,6,0,5},["variants"]={1,2,2,3,0,2,3,3}},{["name"]="Projection pirates",["node"]=15,["roster"]={6,0,1,4,0,6,3,3},["variants"]={3,0,1,2,1,0,0,1}},{["name"]="Rooftop ambush",["node"]=18,["roster"]={2,2,0,7,4,0,2,3},["variants"]={0,1,2,0,3,3,2,2}},{["name"]="Bridge defense",["node"]=22,["roster"]={7,0,2,4,1,0,2,6},["variants"]={1,0,3,0,2,1,0,1}},{["name"]="Broadcast guards",["node"]=23,["roster"]={7,6,2,0,4,7,0,1},["variants"]={2,2,1,2,1,3,3,3}},{["name"]="Return to the street",["node"]=25,["roster"]={0,1,2,3,3,0},["variants"]={0,0,2,3,0,1}}},["props"]={{["name"]="shutter",["node"]=31,["type"]=0,["hp"]=80},{["name"]="breaker",["node"]=9,["type"]=1,["hp"]=30},{["name"]="projector",["node"]=15,["type"]=2,["hp"]=90},{["name"]="crane",["node"]=20,["type"]=3,["hp"]=60},{["name"]="lift",["node"]=16,["type"]=4,["hp"]=1000},{["name"]="rig",["node"]=10,["type"]=5,["hp"]=30},{["name"]="marquee",["node"]=5,["type"]=6,["hp"]=80},{["name"]="glass",["node"]=1,["type"]=7,["hp"]=10},{["name"]="popcorn",["node"]=7,["type"]=8,["hp"]=30},{["name"]="vent",["node"]=48,["type"]=9,["hp"]=15},{["name"]="soda",["node"]=2,["type"]=10,["hp"]=1000},{["name"]="arcade",["node"]=51,["type"]=11,["hp"]=30},{["name"]="pool",["node"]=50,["type"]=12,["hp"]=1000},{["name"]="advert",["node"]=52,["type"]=13,["hp"]=15},{["name"]="freezer",["node"]=47,["type"]=14,["hp"]=1000},{["name"]="fan",["node"]=14,["type"]=15,["hp"]=25},{["name"]="amplifier",["node"]=24,["type"]=16,["hp"]=140},{["name"]="mirror",["node"]=48,["type"]=17,["hp"]=10},{["name"]="monitor",["node"]=54,["type"]=18,["hp"]=1000},{["name"]="film",["node"]=10,["type"]=19,["hp"]=30}},["weapons"]={{["name"]="SERVICE PISTOL",["damage"]=14,["cooldown"]=12,["spread"]=0,["ammo"]=72},{["name"]="DOORBUSTER",["damage"]=72,["cooldown"]=38,["spread"]=0.07,["ammo"]=32},{["name"]="PIPE CHARGES",["damage"]=120,["cooldown"]=30,["spread"]=0,["ammo"]=10},{["name"]="ROTARY CANNON",["damage"]=16,["cooldown"]=5,["spread"]=0.025,["ammo"]=160},{["name"]="RPG",["damage"]=135,["cooldown"]=42,["spread"]=0,["ammo"]=12},{["name"]="POCKET RAY",["damage"]=3,["cooldown"]=24,["spread"]=0,["ammo"]=24},{["name"]="CRYO SPRAYER",["damage"]=5,["cooldown"]=9,["spread"]=0.03,["ammo"]=100},{["name"]="TWIN MISSILES",["damage"]=74,["cooldown"]=12,["spread"]=0.025,["ammo"]=32}},["secrets"]={{["node"]=52,["trigger"]=13},{["node"]=51,["trigger"]=11},{["node"]=48,["trigger"]=9},{["node"]=49,["trigger"]=-1},{["node"]=47,["trigger"]=14},{["node"]=46,["trigger"]=-1},{["node"]=50,["trigger"]=12}},["quotes"]={"Night shift. Of course it is.","No outside food. Humans included.","Small: eight. Large: eleven. Surrender: market price.","I do my own stunts. Mostly by accident.","Your table is ready. Your planet is not.","In an emergency, finish your shift.","Now it is an open-air cinema.","I need to speak to your manager!","We will fix your death in post.","Worst midnight screening ever.","That is one expensive popcorn refill.","Please validate my parking.","The audience is revolting. Finally, honest reviews.","Cut! No, the OTHER arm!","A little less conversation. Literally.","Chill. The previews are still running.","No refunds. No survivors? We will see.","Keep your feet off the seats. Unless you are shrinking.","Is this the director cut?","That is not a special effect. Yet.","Staff only. I am having a staff meeting.","Warning: this film contains explosive opinions.","Looks like we lost the projector warranty.","The roof has excellent surround sound.","You are obstructing my dramatic entrance.","Please switch your tentacles to silent.","Nice helmet. Does it come in tiny?","That is my cue.","Five stars for property damage.","The sequel has been cancelled.","Projection restored. Sensible management unavailable.","The cooling is finally working.","Safety first. Giant missiles second.","A complimentary drink! Only slightly radioactive.","The pool table was rigged. So was the invasion.","That is the smallest complaint I have ever heard.","Security footage: aliens still hate stairs.","I am taking this film reel as evidence.","You cannot park a spaceship there.","Midnight Matinee. NO REFUNDS."},["objectives"]={"CLEAR THE DELIVERY BAY. THE CINEMA IS STRAIGHT AHEAD.","VISIT THE DINER OR TAKE THE SERVICE ALLEY.","OPEN THE TICKET SHUTTER: USE, CHARGE, OR TAKE THE ARCADE ENTRANCE.","ARCADE: CUT THE POWER OR CROSS ON THE DRY PLATFORMS.","THROUGH THE AUDITORIUM. WATCH THE BALCONY!","BREACH THE SCREEN AND REACH THE PRACTICAL EFFECTS WORKSHOP.","TAKE THE RAMP OR FREIGHT LIFT TO THE PROJECTION BOOTH.","USE THE PROJECTOR TO REDIRECT ITS BEAM, OR DESTROY IT.","REACH THE ROOFTOPS. ALT TO TOGGLE YOUR JETPACK.","LOWER THE CRANE WALKWAY OR FLY ACROSS THE GAP.","DESTROY THE BROADCAST GUARDS AND AMPLIFIER.","THE PRODUCER HAS ARRIVED. RETURN TO THE STREET.","THE PRODUCER: KEEP MOVING. EVERY WEAPON CAN HURT HIM.","NO REFUNDS! RETURN TO THE DELIVERY BAY PORTAL."},["passages"]={{57,60,63},{66,69},{72,75,78},{81,84}},["layout_count"]=36}
 local rules={}
 local get,set=engine.get,engine.set
 local inv=engine.inventory
@@ -12,6 +12,13 @@ local function marked(slot,bit)return get(slot)&(1<<bit)~=0 end
 local function flag(slot,bit)set(slot,get(slot)|(1<<bit))end
 local function base(i)return 32+(i-1)*6 end
 local function body(p)return engine.actor(p.body)end
+local function choose(options,tag)
+ -- Recomputing from the saved seed keeps choices independent of combat and join order.
+ local roll=(get(16)~(tag*0x9e3779b9))&0xffffffff
+ roll=((roll~(roll>>16))*0x45d9f3b)&0xffffffff
+ return options[1+((roll~(roll>>16))%#options)]
+end
+local function weapon_node(gun)return choose(cfg.weapon_choices[gun+1],gun)end
 local function effect(p,kind,lifetime)
  local h=engine.spawn{x=p.x,y=p.y,z=p.z,kind=90,hp=0,max_hp=0,mode=3,radius=0,height=.2,lifetime=lifetime or 24}
  item(h,8,kind);item(h,13,1);return h
@@ -45,7 +52,8 @@ local function enemy(w,node,role,encounter,index)
  local p=point(node);local s=stats[role+1];local angle=(index or 0)*2.4
  local seats=0;for _,q in ipairs(w.players)do if q.connected==1 and q.zone==1 then seats=seats+1 end end
  local hp=math.floor((encounter==15 and 650 or s.hp)*(role==8 and (1+math.max(0,seats-1)*.4) or (1+math.max(0,seats-1)*.08)))
- local h=engine.spawn{x=p.x+math.sin(angle)*1.875,y=p.y+(s.fly and 2.8 or 0),z=p.z+math.cos(angle)*1.875,kind=40+role,hp=hp,max_hp=hp,team=1,mode=encounter==15 and 3 or s.fly and 1 or 0,radius=s.radius,height=s.height,speed=s.speed}
+ local spread=node==10 and 1.5 or 1.875
+ local h=engine.spawn{x=p.x+math.sin(angle)*spread,y=p.y+(s.fly and 2.8 or 0),z=p.z+math.cos(angle)*spread,kind=40+role,hp=hp,max_hp=hp,team=1,mode=encounter==15 and 3 or s.fly and 1 or 0,radius=s.radius,height=s.height,speed=s.speed}
  item(h,7,encounter);item(h,10,math.min(999,hp//10));item(h,12,30+(index or 0)*11)
  local cast=cfg.encounters[encounter]
  item(h,6,cast and cast.variants[index] or 0);item(h,11,hp%1000);item(h,13,hp//1000)
@@ -65,14 +73,31 @@ local function props()
   item(h,0,node)
  end
  for gun=1,7 do
-  local h=spawn_at(cfg.weapon_nodes[gun+1],76,1,2);engine.shape(h,.05,.2);item(h,0,gun);item(h,11,1)
+  local h=spawn_at(weapon_node(gun),76,1,2);engine.shape(h,.05,.2);item(h,0,gun);item(h,11,1)
  end
 end
 function rules.init(w)
- if not engine.reset(12012026)then return w end
+ for _,p in ipairs(w.players)do if p.connected==1 and p.zone==1 then return w end end
+ local seed=(engine.random(3)&0x3fffffff)+1
+ local layout=seed%cfg.layout_count
+ if layout+1==get(17)then layout=(layout+1)%cfg.layout_count end
+ if not engine.reset(seed)then return w end
+ for i,p in ipairs(w.players)do
+  if p.zone==1 then
+   engine.possess(i-1,0)
+   p.body,p.zone,p.x,p.y,p.z,p.hp=0,0,12,0,5,100
+   p.eligible,p.respawn,p.cooldown=0,0,0
+  end
+ end
+ set(16,seed);set(17,layout+1)
+ for _,passage in ipairs(cfg.passages)do
+  local open=layout%#passage+1
+  layout=layout//#passage
+  for i,node in ipairs(passage)do engine.block(node,i~=open)end
+ end
  w.keys,w.valves,w.phase,w.won=0,0,0,0
  set(0,1);set(63,101);set(5,1);set(25,-1);set(7,0);set(8,-1)
- props();goal(1,0,0)
+ props();goal(weapon_node(1),0,0)
  return w
 end
 local function enter(w,p,i)
@@ -94,7 +119,7 @@ local function unlock(w,gun)
   item(p.body,9,get(5));item(p.body,gun,cfg.weapons[gun+1].ammo);item(p.body,13,gun)
   if gun==6 then item(p.body,14,600)end
  end end
- checkpoint(cfg.weapon_nodes[gun+1]);quote(w,({0,3,20,12,21,14,15,32})[gun+1])
+ checkpoint(weapon_node(gun));quote(w,({0,3,20,12,21,14,15,32})[gun+1])
 end
 local function hit(w,source,target,amount,weapon)
  local a=engine.actor(target)
@@ -256,7 +281,7 @@ local function personal(w,p,i)
  if p.fire==0 and w.tick-get(b+5)>12 and w.tick>=get(b+3)then item(p.body,12,0)end
  -- An empty player always has a slow, finite pistol recovery instead of a softlock.
  if w.tick%120==0 and inv(p.body,0)<12 then engine.item(p.body,0,1)end
- for gun=1,7 do if not marked(5,gun) and near(a,point(cfg.weapon_nodes[gun+1]),3)then unlock(w,gun)end end
+ for gun=1,7 do if not marked(5,gun) and near(a,point(weapon_node(gun)),3)then unlock(w,gun)end end
  for index,secret in ipairs(cfg.secrets)do
   if not marked(4,index-1) and near(a,point(secret.node),2.8) and (secret.trigger<0 or marked(3,secret.trigger))then
    flag(4,index-1);engine.heal(p.body,30,0);item(p.body,8,math.min(100,inv(p.body,8)+35))
@@ -390,19 +415,20 @@ end
 local function encounters(w,players)
  for index,encounter in ipairs(cfg.encounters)do
   if not marked(26,index-1)then
+   local node=choose(cfg.encounter_choices[index],100+index)
    local trigger=false
-   for _,p in ipairs(players)do if near(body(p),point(encounter.node),index==13 and 7.5 or 6.875)then trigger=true end end
+   for _,p in ipairs(players)do if near(body(p),point(node),index==13 and 7.5 or 6.875)then trigger=true end end
    local count=#engine.list()
    if trigger and count+#encounter.roster<=54 and (index~=13 or marked(3,16))then
     local complete=true
-    for j,role in ipairs(encounter.roster)do if enemy(w,encounter.node,role,index,j)==0 then complete=false end end
+    for j,role in ipairs(encounter.roster)do if enemy(w,node,role,index,j)==0 then complete=false end end
     if complete then flag(26,index-1)end
    end
   end
  end
 end
 local function progression(w,players)
- local stage=get(2);local nodes={1,2,31,9,10,14,15,15,18,20,24,25,25,0}
+ local stage=get(2);local nodes={weapon_node(1),2,31,9,10,weapon_node(5),15,15,weapon_node(6),20,24,25,25,0}
  local function at(node,r)for _,p in ipairs(players)do if near(body(p),point(node),(r or 4)*.625)then return true end end;return false end
  if stage==0 and marked(5,1)then stage=1
  elseif stage==1 and (marked(6,0) or at(4,5))then stage=2
@@ -478,9 +504,9 @@ function rules.step(w)
  for i,p in ipairs(w.players)do if p.connected==1 then
   if p.zone==0 then
    if p.use~=0 and p.portal==1 and w.unlocked>=1 then
-    local active=false;for _,q in ipairs(w.players)do if q.zone==1 then active=true end end
+    local active=false;for _,q in ipairs(w.players)do if q.connected==1 and q.zone==1 then active=true end end
     if w.won==1 and not active then rules.init(w)end
-    enter(w,p,i);quote(w,0)
+    if w.won==0 or active then enter(w,p,i);quote(w,0)end
    end
   else personal(w,p,i)end
   if p.zone==1 and body(p)then players[#players+1]=p end
