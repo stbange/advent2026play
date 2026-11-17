@@ -478,9 +478,9 @@
     {
       "name": "LAMP_2",
       "translation": [
-        47.5,
-        6.35,
-        50.0
+        18.75,
+        3.5500000000000003,
+        56.25
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -491,7 +491,7 @@
     {
       "name": "LAMP_3",
       "translation": [
-        60.0,
+        47.5,
         6.35,
         50.0
       ],
@@ -504,7 +504,7 @@
     {
       "name": "LAMP_4",
       "translation": [
-        80.0,
+        60.0,
         6.35,
         50.0
       ],
@@ -517,9 +517,9 @@
     {
       "name": "LAMP_5",
       "translation": [
-        45.0,
+        80.0,
         6.35,
-        38.75
+        50.0
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -530,9 +530,9 @@
     {
       "name": "LAMP_6",
       "translation": [
-        67.5,
+        70.0,
         6.35,
-        33.75
+        18.75
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -543,9 +543,9 @@
     {
       "name": "LAMP_7",
       "translation": [
-        70.0,
+        96.25,
         6.35,
-        18.75
+        20.0
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -556,9 +556,9 @@
     {
       "name": "LAMP_8",
       "translation": [
-        96.25,
+        106.25,
         6.35,
-        20.0
+        27.5
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -569,9 +569,9 @@
     {
       "name": "LAMP_9",
       "translation": [
-        106.25,
+        45.0,
         6.35,
-        27.5
+        38.75
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -582,9 +582,9 @@
     {
       "name": "LAMP_10",
       "translation": [
-        18.75,
-        3.35,
-        56.25
+        67.5,
+        6.35,
+        33.75
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -647,9 +647,9 @@
     {
       "name": "LAMP_15",
       "translation": [
-        58.75,
+        81.25,
         3.85,
-        25.0
+        20.0
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -660,9 +660,9 @@
     {
       "name": "LAMP_16",
       "translation": [
-        76.25,
+        91.25,
         3.85,
-        25.0
+        30.0
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -673,9 +673,9 @@
     {
       "name": "LAMP_17",
       "translation": [
-        58.75,
-        3.85,
-        40.0
+        87.5,
+        5.85,
+        28.75
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -686,9 +686,9 @@
     {
       "name": "LAMP_18",
       "translation": [
-        76.25,
-        3.85,
-        40.0
+        87.5,
+        10.35,
+        36.25
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -699,9 +699,9 @@
     {
       "name": "LAMP_19",
       "translation": [
-        81.25,
-        3.85,
-        20.0
+        100.0,
+        10.35,
+        42.5
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -712,9 +712,9 @@
     {
       "name": "LAMP_20",
       "translation": [
-        91.25,
+        58.75,
         3.85,
-        30.0
+        25.0
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -725,9 +725,9 @@
     {
       "name": "LAMP_21",
       "translation": [
-        87.5,
-        5.85,
-        28.75
+        76.25,
+        3.85,
+        25.0
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -738,9 +738,9 @@
     {
       "name": "LAMP_22",
       "translation": [
-        87.5,
-        10.35,
-        36.25
+        58.75,
+        3.85,
+        40.0
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -751,9 +751,9 @@
     {
       "name": "LAMP_23",
       "translation": [
-        100.0,
-        10.35,
-        42.5
+        76.25,
+        3.85,
+        40.0
       ],
       "extensions": {
         "KHR_lights_punctual": {
@@ -855,7 +855,7 @@
     {
       "name": "LAMP_31",
       "translation": [
-        57.5,
+        75.0,
         4.6499999999999995,
         56.25
       ],
@@ -868,7 +868,7 @@
     {
       "name": "LAMP_32",
       "translation": [
-        75.0,
+        87.5,
         4.6499999999999995,
         56.25
       ],
@@ -881,7 +881,7 @@
     {
       "name": "LAMP_33",
       "translation": [
-        87.5,
+        57.5,
         4.6499999999999995,
         56.25
       ],
@@ -3343,481 +3343,481 @@
           "type": "point",
           "color": [
             1,
-            0.76,
-            0.45
+            0.92,
+            0.82
           ],
-          "intensity": 260,
-          "range": 23
+          "intensity": 112,
+          "range": 16
         },
         {
           "type": "point",
           "color": [
             1,
-            0.76,
-            0.45
+            0.92,
+            0.82
           ],
-          "intensity": 260,
-          "range": 23
+          "intensity": 112,
+          "range": 16
         },
         {
           "type": "point",
           "color": [
             1,
-            0.76,
-            0.45
+            0.92,
+            0.82
           ],
-          "intensity": 260,
-          "range": 23
+          "intensity": 112,
+          "range": 16
         },
         {
           "type": "point",
           "color": [
-            1,
-            0.76,
-            0.45
-          ],
-          "intensity": 260,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.76,
-            0.45
-          ],
-          "intensity": 260,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.76,
-            0.45
-          ],
-          "intensity": 260,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.76,
-            0.45
-          ],
-          "intensity": 260,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.76,
-            0.45
-          ],
-          "intensity": 260,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.76,
-            0.45
-          ],
-          "intensity": 260,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.76,
-            0.45
-          ],
-          "intensity": 260,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.84,
-            0.65
-          ],
-          "intensity": 180,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            0.65,
-            0.76,
+            0.93,
+            0.95,
             1
           ],
-          "intensity": 230,
-          "range": 23
+          "intensity": 115,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.65,
-            0.76,
+            0.93,
+            0.95,
             1
           ],
-          "intensity": 230,
-          "range": 23
+          "intensity": 115,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.65,
-            0.76,
+            0.93,
+            0.95,
             1
           ],
-          "intensity": 230,
-          "range": 23
+          "intensity": 115,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.65,
-            0.76,
+            0.93,
+            0.95,
             1
           ],
-          "intensity": 230,
-          "range": 23
+          "intensity": 115,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.65,
-            0.76,
+            0.93,
+            0.95,
             1
           ],
-          "intensity": 230,
-          "range": 23
+          "intensity": 115,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.65,
-            0.76,
+            0.93,
+            0.95,
             1
           ],
-          "intensity": 230,
-          "range": 23
+          "intensity": 115,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.66,
+            0.67,
+            1
+          ],
+          "intensity": 108,
+          "range": 14
+        },
+        {
+          "type": "point",
+          "color": [
+            0.93,
+            0.95,
+            1
+          ],
+          "intensity": 128,
+          "range": 19
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 98,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 98,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 98,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 98,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 98,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 98,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 98,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 98,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 98,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.93,
+            0.95,
+            1
+          ],
+          "intensity": 94,
+          "range": 18
+        },
+        {
+          "type": "point",
+          "color": [
+            0.93,
+            0.95,
+            1
+          ],
+          "intensity": 94,
+          "range": 18
+        },
+        {
+          "type": "point",
+          "color": [
+            0.93,
+            0.95,
+            1
+          ],
+          "intensity": 94,
+          "range": 18
+        },
+        {
+          "type": "point",
+          "color": [
+            0.93,
+            0.95,
+            1
+          ],
+          "intensity": 94,
+          "range": 18
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 121,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 121,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 121,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 121,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 121,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.81,
+            0.89,
+            1
+          ],
+          "intensity": 121,
+          "range": 17
+        },
+        {
+          "type": "point",
+          "color": [
+            0.93,
+            0.95,
+            1
+          ],
+          "intensity": 122,
+          "range": 18
+        },
+        {
+          "type": "point",
+          "color": [
+            0.93,
+            0.95,
+            1
+          ],
+          "intensity": 122,
+          "range": 18
+        },
+        {
+          "type": "point",
+          "color": [
+            0.93,
+            0.95,
+            1
+          ],
+          "intensity": 122,
+          "range": 18
         },
         {
           "type": "point",
           "color": [
             1,
-            0.72,
-            0.48
+            0.42,
+            0.62
           ],
-          "intensity": 350,
-          "range": 23
+          "intensity": 145,
+          "range": 15
         },
         {
           "type": "point",
           "color": [
-            1,
-            0.72,
-            0.48
-          ],
-          "intensity": 350,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.72,
-            0.48
-          ],
-          "intensity": 350,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.72,
-            0.48
-          ],
-          "intensity": 350,
-          "range": 23
-        },
-        {
-          "type": "point",
-          "color": [
-            0.64,
-            0.78,
+            0.81,
+            0.89,
             1
           ],
-          "intensity": 240,
-          "range": 23
+          "intensity": 98,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.64,
-            0.78,
+            0.81,
+            0.89,
             1
           ],
-          "intensity": 240,
-          "range": 23
+          "intensity": 98,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.64,
-            0.78,
+            0.81,
+            0.89,
             1
           ],
-          "intensity": 240,
-          "range": 23
+          "intensity": 98,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.64,
-            0.78,
+            0.81,
+            0.89,
             1
           ],
-          "intensity": 240,
-          "range": 23
+          "intensity": 98,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.64,
-            0.78,
+            0.81,
+            0.89,
             1
           ],
-          "intensity": 240,
-          "range": 23
+          "intensity": 98,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.64,
-            0.78,
+            0.81,
+            0.89,
             1
           ],
-          "intensity": 240,
-          "range": 23
+          "intensity": 98,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.64,
-            0.78,
+            0.81,
+            0.89,
             1
           ],
-          "intensity": 240,
-          "range": 23
+          "intensity": 98,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            0.64,
-            0.78,
+            0.81,
+            0.89,
             1
           ],
-          "intensity": 240,
-          "range": 23
+          "intensity": 98,
+          "range": 17
         },
         {
           "type": "point",
           "color": [
-            1,
-            0.76,
-            0.45
+            0.93,
+            0.95,
+            1
           ],
-          "intensity": 280,
-          "range": 23
+          "intensity": 104,
+          "range": 19
         },
         {
           "type": "point",
           "color": [
-            1,
-            0.76,
-            0.45
+            0.93,
+            0.95,
+            1
           ],
-          "intensity": 280,
-          "range": 23
+          "intensity": 104,
+          "range": 19
         },
         {
           "type": "point",
           "color": [
-            1,
-            0.76,
-            0.45
+            0.93,
+            0.95,
+            1
           ],
-          "intensity": 280,
-          "range": 23
+          "intensity": 104,
+          "range": 19
         },
         {
           "type": "point",
           "color": [
-            1,
-            0.76,
-            0.45
+            0.93,
+            0.95,
+            1
           ],
-          "intensity": 280,
-          "range": 23
+          "intensity": 104,
+          "range": 19
         },
         {
           "type": "point",
           "color": [
-            1,
-            0.76,
-            0.45
+            0.93,
+            0.95,
+            1
           ],
-          "intensity": 280,
-          "range": 23
+          "intensity": 104,
+          "range": 19
         },
         {
           "type": "point",
           "color": [
-            1,
-            0.76,
-            0.45
+            0.93,
+            0.95,
+            1
           ],
-          "intensity": 280,
-          "range": 23
+          "intensity": 104,
+          "range": 19
         }
       ]
     }

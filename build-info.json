@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/stbange/advent2026",
-  "source_commit": "f8e6d7470a89385a02a6d6ea24a7cadca9f25678",
+  "source_commit": "bae66d98bb6d2107aa6c790f4c6ac0dd5f5f5f83",
   "emscripten": "4.0.10",
-  "packaged_at": "2026-11-17T15:11:23.909844+00:00",
+  "packaged_at": "2026-11-17T21:00:27.646823+00:00",
   "play_url": "https://stbange.github.io/advent2026play/",
   "world_pixel_budget": [
     384,
@@ -34,7 +34,7 @@
     23,
     24
   ],
-  "scope": "Stable wall sprites and readable front/back signs. Day One has four darker silhouette variants per alien type, 2,880 directional frames, visible firing and hit reactions, and sRGB character lighting. All 24 early episodes remain available. Fresh solo and four-player Veteran completion, surface rendering and coverage gates pass. Human art/pacing and physical-device acceptance remain open.",
+  "scope": "Midnight Matinee uses charcoal asphalt, muted brick, wine seating and cooler pools of light. The rose marquee, cyan diner and violet arcade give the district contrast with restrained warm highlights. Day One real rendering, solo and four-player completion, and touch-emulated Wasm checks pass. World resolution stays within 384 by 240 pixels.",
   "files": [
     {
       "path": "ART-LICENSE.md",
@@ -2158,8 +2158,8 @@
     },
     {
       "path": "packs/midnight-matinee/atlas.png",
-      "bytes": 1432303,
-      "sha256": "c14a492c96a3206345f21c94937559300eff13fac2bc4348ddd7ecd524374bb6"
+      "bytes": 1492932,
+      "sha256": "652422d2c16d4d6653988a71f74202f20fcfe937efa86868a444d85318b191ff"
     },
     {
       "path": "packs/midnight-matinee/audio-source.json",
@@ -2204,17 +2204,17 @@
     {
       "path": "packs/midnight-matinee/level.bin",
       "bytes": 1653888,
-      "sha256": "e092d96609e964dcda6e0f7a0cc9ec3e21ed6d467b486f665457757708aa2fef"
+      "sha256": "6f66a7cb48ae9b0eec3a22ecd3fe90a0b5f26cfa98611b073cfed6bc0c45bd42"
     },
     {
       "path": "packs/midnight-matinee/level.gltf",
-      "bytes": 65295,
-      "sha256": "fc3450be5f966b49eedab5b601335364dbb48cc1280b0e73970e292c5bd590c6"
+      "bytes": 65288,
+      "sha256": "6166c4496e2390698d3bb0cbe275a066344536debd17f6d9c93f1c4b21fdebe5"
     },
     {
       "path": "packs/midnight-matinee/manifest.json",
       "bytes": 4752,
-      "sha256": "0ade0ef974f48d6db84203f1e493630387f48ac229af98efcb712a30d98da873"
+      "sha256": "fd71320f40109cfac32d41bea8f7a1d2e7b65cccd9fcc302fd4c74c2ddb45e27"
     },
     {
       "path": "packs/midnight-matinee/music.wav",
