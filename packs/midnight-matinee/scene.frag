@@ -70,11 +70,11 @@ void main() {
             float lambert=max(0.0,dot(normal,normalize(delta)));
             light+=lightColor[i].rgb*lightColor[i].w*falloff*lambert*visibility(i,-delta,range);
         }
-        surface*=light;
+        surface*=light*1.25;
         surface=surface/(vec3(1.0)+surface);
-        surface=pow(surface,vec3(0.75));
+        surface=pow(surface,vec3(1.0/2.2));
     }
-    float haze=lighting==1?clamp((distanceFromEye-18.0)/100.0,0.0,0.55):0.0;
+    float haze=lighting==1?clamp((distanceFromEye-24.0)/140.0,0.0,0.32):0.0;
     vec3 lit=mix(surface,vec3(0.005,0.007,0.015),haze);
     lit=mix(lit,vec3(0.45,0.48,0.5),clamp(float(flashAmount)/90.0,0.0,0.9));
     float dither=mod(floor(gl_FragCoord.x)+floor(gl_FragCoord.y),2.0)/255.0;

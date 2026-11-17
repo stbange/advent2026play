@@ -63,7 +63,7 @@
     },
     {
       "path": "hall.gltf",
-      "sha256": "7df829304cb6acf7f5a7a64c57727343211c2f016ebfa8453cac5f42511e8ecc",
+      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -129,7 +129,7 @@
     },
     {
       "path": "scene.frag",
-      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
+      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

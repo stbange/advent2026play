@@ -620,8 +620,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -630,8 +630,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -640,8 +640,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -650,8 +650,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -660,8 +660,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -670,8 +670,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -680,8 +680,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -690,18 +690,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
-        },
-        {
-          "type": "point",
-          "color": [
-            1,
-            0.64,
-            0.3
-          ],
-          "intensity": 95,
-          "range": 15
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -740,8 +730,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 95,
+          "range": 15
         },
         {
           "type": "point",
@@ -750,8 +740,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -760,8 +750,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -770,8 +760,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -780,8 +770,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -790,8 +780,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -800,8 +790,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -810,8 +800,8 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
         },
         {
           "type": "point",
@@ -820,8 +810,18 @@
             0.64,
             0.3
           ],
-          "intensity": 30,
-          "range": 16
+          "intensity": 60,
+          "range": 20
+        },
+        {
+          "type": "point",
+          "color": [
+            1,
+            0.64,
+            0.3
+          ],
+          "intensity": 60,
+          "range": 20
         }
       ]
     }
