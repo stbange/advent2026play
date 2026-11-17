@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/stbange/advent2026",
-  "source_commit": "5c94d6d2ff478ae7489cebb05cdb3f7e22e00a79",
+  "source_commit": "f8e6d7470a89385a02a6d6ea24a7cadca9f25678",
   "emscripten": "4.0.10",
-  "packaged_at": "2026-11-17T14:57:35.913302+00:00",
+  "packaged_at": "2026-11-17T15:11:23.909844+00:00",
   "play_url": "https://stbange.github.io/advent2026play/",
   "world_pixel_budget": [
     384,
@@ -2214,7 +2214,7 @@
     {
       "path": "packs/midnight-matinee/manifest.json",
       "bytes": 4752,
-      "sha256": "a43728c32797b2c7d7cb045b0159bfacf0fb16caee430c074154f10c8395ae2d"
+      "sha256": "0ade0ef974f48d6db84203f1e493630387f48ac229af98efcb712a30d98da873"
     },
     {
       "path": "packs/midnight-matinee/music.wav",
@@ -2243,8 +2243,8 @@
     },
     {
       "path": "packs/midnight-matinee/rules.lua",
-      "bytes": 30692,
-      "sha256": "d866167a7b162db128e4ea4d127819ef28a84efc12de675aaf9b1a0512fd15ee"
+      "bytes": 31302,
+      "sha256": "9bffe762ba233adb359b30840b5ef8d4646b93217b0ebf1cac8d310baf59c5fb"
     },
     {
       "path": "packs/midnight-matinee/scene.frag",

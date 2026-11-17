@@ -124,7 +124,7 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "d866167a7b162db128e4ea4d127819ef28a84efc12de675aaf9b1a0512fd15ee",
+      "sha256": "9bffe762ba233adb359b30840b5ef8d4646b93217b0ebf1cac8d310baf59c5fb",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
