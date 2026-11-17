@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/stbange/advent2026",
-  "source_commit": "bae66d98bb6d2107aa6c790f4c6ac0dd5f5f5f83",
+  "source_commit": "1f018d632780410e5cc3d3c812eebfa47a61e7cb",
   "emscripten": "4.0.10",
-  "packaged_at": "2026-11-17T21:00:27.646823+00:00",
+  "packaged_at": "2026-11-17T21:22:03.220856+00:00",
   "play_url": "https://stbange.github.io/advent2026play/",
   "world_pixel_budget": [
     384,
@@ -34,7 +34,7 @@
     23,
     24
   ],
-  "scope": "Midnight Matinee uses charcoal asphalt, muted brick, wine seating and cooler pools of light. The rose marquee, cyan diner and violet arcade give the district contrast with restrained warm highlights. Day One real rendering, solo and four-player completion, and touch-emulated Wasm checks pass. World resolution stays within 384 by 240 pixels.",
+  "scope": "Day One uses cooler night lighting, grounded alien poses, longer first-person weapons and eleven distinct animated projectile styles. Existing 384 by 240 world resolution. Solo, four-player, actual OpenGL and touch-emulated browser checks pass.",
   "files": [
     {
       "path": "ART-LICENSE.md",
@@ -54,12 +54,12 @@
     {
       "path": "advent.js",
       "bytes": 233426,
-      "sha256": "610a2730011fdfaf759add552a0676bf68dd96945ff1ace9825a55082019deba"
+      "sha256": "b4f9caa2b95a84b52159e9cf8628ce4266ac34802df3edb51f7dd51c2c478166"
     },
     {
       "path": "advent.wasm",
-      "bytes": 2238964,
-      "sha256": "9aaf03274fbb0abc4748aa87a15f6dcafce6a93e898dc4fd7e442632bb3c47cc"
+      "bytes": 2239840,
+      "sha256": "5a868669bd7181b05d7678822b0f5832bcb19e142eb249febe1e7e84acf7b8b4"
     },
     {
       "path": "assets/ATTRIBUTION.md",
@@ -2158,8 +2158,8 @@
     },
     {
       "path": "packs/midnight-matinee/atlas.png",
-      "bytes": 1492932,
-      "sha256": "652422d2c16d4d6653988a71f74202f20fcfe937efa86868a444d85318b191ff"
+      "bytes": 1593806,
+      "sha256": "350a82f322191b3c9446945e6db9c53a9ba9d91307cce01aa7fae1fb25573505"
     },
     {
       "path": "packs/midnight-matinee/audio-source.json",
@@ -2203,18 +2203,18 @@
     },
     {
       "path": "packs/midnight-matinee/level.bin",
-      "bytes": 1653888,
-      "sha256": "6f66a7cb48ae9b0eec3a22ecd3fe90a0b5f26cfa98611b073cfed6bc0c45bd42"
+      "bytes": 1672704,
+      "sha256": "7716c4d8b74951c410ad7c6520d60668246c352e502bb325e4e12f0ebcdeed54"
     },
     {
       "path": "packs/midnight-matinee/level.gltf",
-      "bytes": 65288,
-      "sha256": "6166c4496e2390698d3bb0cbe275a066344536debd17f6d9c93f1c4b21fdebe5"
+      "bytes": 65269,
+      "sha256": "8e561e03583bcb26e9107f5e7ba9eb5eaa08d3091e8fa697d3678b6513a2a2d2"
     },
     {
       "path": "packs/midnight-matinee/manifest.json",
       "bytes": 4752,
-      "sha256": "fd71320f40109cfac32d41bea8f7a1d2e7b65cccd9fcc302fd4c74c2ddb45e27"
+      "sha256": "83f8ba9c0cac10e29ed866cea2f96d1f825a57ee48e0d1f346434b2596017130"
     },
     {
       "path": "packs/midnight-matinee/music.wav",
@@ -2243,8 +2243,8 @@
     },
     {
       "path": "packs/midnight-matinee/rules.lua",
-      "bytes": 31302,
-      "sha256": "9bffe762ba233adb359b30840b5ef8d4646b93217b0ebf1cac8d310baf59c5fb"
+      "bytes": 31551,
+      "sha256": "14d9ed70a12a3d990607dd0faaa2293ca847ab951cbe5bac7ce86c746063f2bb"
     },
     {
       "path": "packs/midnight-matinee/scene.frag",

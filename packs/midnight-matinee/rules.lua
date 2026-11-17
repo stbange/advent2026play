@@ -14,7 +14,7 @@ local function base(i)return 32+(i-1)*6 end
 local function body(p)return engine.actor(p.body)end
 local function effect(p,kind,lifetime)
  local h=engine.spawn{x=p.x,y=p.y,z=p.z,kind=90,hp=0,max_hp=0,mode=3,radius=0,height=.2,lifetime=lifetime or 24}
- item(h,8,kind);return h
+ item(h,8,kind);item(h,13,1);return h
 end
 local function quote(w,id)
  local slot=30+id//24;local bit=id%24
@@ -128,6 +128,7 @@ local function shot(w,p,i,weapon)
   if fired then
    item(projectile,5,weapon==2 and 9 or 16);item(projectile,8,weapon==2 and 206 or 205)
    item(projectile,9,weapon==2 and 999 or 24);item(projectile,4,weapon==7 and 5 or 7)
+   item(projectile,13,weapon==2 and 9 or weapon==4 and 10 or 11)
   end
  else
   local pellets=weapon==1 and 6 or 1
@@ -278,7 +279,11 @@ local function nearest(w,a)
 end
 local function launch(h,a,b,damage,speed,ordnance)
  local projectile=engine.projectile(h,b.x-a.x,b.y+b.height*.5-a.y-a.height*.75,b.z-a.z,speed,damage,0,0,180)
- if projectile~=0 and ordnance then item(projectile,5,16);item(projectile,8,205);item(projectile,9,24);item(projectile,4,5)end
+ if projectile~=0 then
+  -- Projectile art is independent of the engine's damage and element slots.
+  item(projectile,13,a.kind-39-(a.kind>=44 and 1 or 0))
+  if ordnance then item(projectile,5,16);item(projectile,8,205);item(projectile,9,24);item(projectile,4,5)end
+ end
  return projectile
 end
 local function ai(w,h,a)
@@ -367,7 +372,7 @@ local function scenery(w,players)
    elseif a.kind==76 and marked(5,inv(h,0))then engine.remove(h)
    elseif a.kind==7 and inv(h,8)==206 and a.expires-w.tick<120 then
     local renewed=engine.spawn{x=a.x,y=a.y,z=a.z,kind=7,hp=0,max_hp=0,mode=3,radius=0,owner=a.owner,lifetime=900}
-    if renewed~=0 then item(renewed,8,206);engine.remove(h)end
+    if renewed~=0 then item(renewed,8,206);item(renewed,13,inv(h,13));engine.remove(h)end
    elseif a.kind==7 and inv(h,8)==207 and w.tick%30==0 then
     for _,p in ipairs(players)do if near(body(p),a,2.5)then engine.damage(p.body,0,5)end end
    elseif a.projectile==0 and a.kind>=40 and a.kind<=48 then ai(w,h,a)end
