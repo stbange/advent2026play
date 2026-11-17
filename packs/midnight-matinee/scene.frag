@@ -42,7 +42,7 @@ float visibility(int index,vec3 delta,float range) {
 void main() {
     vec2 coordinates=uv.xy;
     vec3 normal=normalize(cross(dFdx(worldPosition),dFdy(worldPosition)));
-    if(uv.z>2.5) {
+    if(uv.z>2.5 && uv.z<3.5) {
         vec3 axis=abs(normal);
         vec2 plane=axis.x>axis.y && axis.x>axis.z ? worldPosition.zy :
                    axis.y>axis.z ? worldPosition.xz : worldPosition.xy;
@@ -58,7 +58,8 @@ void main() {
         if(emissive)discard;
         fragment=vec4(1.0);return;
     }
-    vec3 surface=mix(shade,shade*texel.rgb,step(0.5,uv.z));
+    vec3 albedo=uv.z>3.5?pow(texel.rgb,vec3(2.2)):texel.rgb;
+    vec3 surface=mix(shade,shade*albedo,step(0.5,uv.z));
     if(lighting==1 && !emissive) {
         if(dot(normal,eyePosition-worldPosition)<0.0)normal=-normal;
         vec3 light=vec3(0.0);

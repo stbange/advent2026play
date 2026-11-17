@@ -82,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "180ba52ebe7de00d9c2bafae25059bd88d02cbfe3317fb5473dd0bddd1ee9955",
+      "sha256": "e1c57a8d03dc22563e808a1bfc5f9401582d099ae43575da690497d34d2f0106",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "513ed2f438ea1733e1bda5ede0757a4d25165ed4c64f2a8b80fba1c076f6216f",
+      "sha256": "06ef36279217921f4e8aa931970ba6faba650aa9c247564751954a130d6e4989",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },

@@ -47,6 +47,7 @@ local function enemy(w,node,role,encounter,index)
  local hp=math.floor((encounter==15 and 650 or s.hp)*(role==8 and (1+math.max(0,seats-1)*.4) or (1+math.max(0,seats-1)*.08)))
  local h=engine.spawn{x=p.x+math.sin(angle)*1.875,y=p.y+(s.fly and 2.8 or 0),z=p.z+math.cos(angle)*1.875,kind=40+role,hp=hp,max_hp=hp,team=1,mode=encounter==15 and 3 or s.fly and 1 or 0,radius=s.radius,height=s.height,speed=s.speed}
  item(h,7,encounter);item(h,10,math.min(999,hp//10));item(h,12,30+(index or 0)*11)
+ item(h,6,(encounter+(index or 0))%4);item(h,11,hp)
  return h
 end
 local function props()
@@ -304,6 +305,8 @@ local function ai(w,h,a)
   end
  end
  local target,p,range=nearest(w,a);if not target then return end
+ if a.hp<inv(h,11) then item(h,4,12)end
+ item(h,11,a.hp)
  if inv(h,3)==2 and role~=8 then
   if range<1.1 then hit(w,p.body,h,999,8);return end
   local dx,dz=a.x-target.x,a.z-target.z;local yaw=math.atan(dx,-dz)
@@ -311,6 +314,7 @@ local function ai(w,h,a)
  end
  if inv(h,4)>0 then item(h,4,inv(h,4)-1);item(h,0,6);return end
  local cooldown=inv(h,12);if cooldown>0 then item(h,12,cooldown-1)end
+ if inv(h,5)>0 then item(h,5,inv(h,5)-1);item(h,0,5);return end
  local yaw=math.atan(target.x-a.x,-(target.z-a.z))
  local trace=engine.trace(h,target.x-a.x,target.y+target.height*.5-a.y-a.height*.75,target.z-a.z,range+2)
  local sees=trace.target==p.body
@@ -327,7 +331,7 @@ local function ai(w,h,a)
    local projectile=launch(h,a,target,spec.damage,role==7 and 18 or role==4 and 12 or 22,role==7)
    if role==5 and projectile~=0 then item(projectile,5,8);item(projectile,8,207);item(projectile,9,300)end
   end
-  item(h,12,math.max(45,spec.period-(role==8 and get(21)*15 or 0)));item(h,0,5)
+  item(h,12,math.max(45,spec.period-(role==8 and get(21)*15 or 0)));item(h,0,5);item(h,5,8)
   engine.effect(h,p.body,220+role)
  elseif cooldown>0 and cooldown<24 and sees then item(h,0,4)
  else
