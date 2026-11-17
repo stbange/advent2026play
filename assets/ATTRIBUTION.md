@@ -15,3 +15,5 @@ Lua rules and GLSL shader source are code, licensed MIT. No reference screenshot
 classic game assets, names, logos, dialogue, or recordings are runtime assets.
 
 The voxel palettes/grids in `voxels.json`, their surface-mesh exports, winter panorama, directional demon/guard sprites and animated fire/smoke/impact cards are original Advent2026 contributors artwork, CC BY 4.0. The source exporter and shaders are MIT code.
+
+Approved generated music and sound-effect portions in the combined scene buffer use LicenseRef-ElevenLabsMedia, not CC BY 4.0. Created in collaboration with ElevenLabs. See audio-source.json and [the game-media terms](../licenses/ElevenLabsMedia.txt). Original effects.wav/music.wav fallback clips remain CC BY 4.0.

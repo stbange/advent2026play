@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 3,
   "save_version": 2,
   "id": "crystal-front",
   "title": "Crystal Front",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "21635b271611eea23cc39def13dc94b3f01961184b6a99cfab9bdc189c46da6c",
+      "sha256": "79c0e83463878c95d8b73e4d2e36d1423b330658a18fc60fef48654f4fa4c310",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,19 +28,19 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "d0313951b38319df1cd32cf072bf8deac9db6a2708ca6d26c4a89a42f4322f1b",
+      "sha256": "1df302e79e47db7f247de49d15e898d1d48b03dde2cfa906183fe8ca4a183276",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio-source.json",
-      "sha256": "c82a9b66a284f0f4ca44ebe4dabb34933c6dafd042e6991d5389e805a00eea30",
+      "sha256": "823139c4b89e1cc1781cb91523e48cd0a0a748ad3b9877c4e240dee14fdc3a0e",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio.json",
-      "sha256": "e867e1565aef2dd781f74681b0881ef9d79b7636ff2a8a42cb7dccd933fdbf55",
+      "sha256": "a0fe5ab89f0231432972d05e43cca093dc57ccfe04cbea688156f6e8b82fb625",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -57,7 +58,7 @@
     },
     {
       "path": "hall.bin",
-      "sha256": "4eb09bbb65b8ce923704beaf1ab0bdd7080104b9af7b6524df18d31e72930c28",
+      "sha256": "95f9e77b9ac9e63749490f9868a4dffaf321a541f7cbe425df4669afaadc7a41",
       "creator": "Advent2026 contributors; Created in collaboration with ElevenLabs",
       "license": "LicenseRef-ElevenLabsMedia"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "7a04480e25d2e37ed41b040ae7e4c803554f013bff494675eb781a5d23893197",
+      "sha256": "b0b929f2ef062a0b86316c72204c6ef86b5d9f4c8bad2415f1c7e209d716a1e9",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "7f5e24847b2a8088a832b4fc3fd9d2bb77bbed55e1803b90fb263a0e8b70510b",
+      "sha256": "6947fc29b376080bddff3c269ff7dd91210183adaa2cb4d072168a8e19f6b705",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "3a77e2ab527e59cece762b4161759dd03aa779c700eb0e28d015f28cd5af8016",
+      "sha256": "b8b02d329276f2fb03018f25799a6c92f6567330b74113ba56f3e99146e3af6f",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -117,13 +118,13 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "7d439061f738feb70cbeb05a412aa330a1c082b9e0d37266792e7325439ab7bd",
+      "sha256": "fb19e890237f6445add6f4c236361eb7850527314246d18fccb37ccd2b46d6e2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "rules.lua",
-      "sha256": "616a1ea5efbe4beae5c1594b8857f03b52288ab1ab62aa6a3afc9b6c53add4b5",
+      "sha256": "de97d3b11b08528c789420c3b1bf653865fd1e92ace71f3a048778fe23d214d6",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

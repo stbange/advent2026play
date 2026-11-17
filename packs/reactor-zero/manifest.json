@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 2,
   "save_version": 2,
   "id": "reactor-zero",
   "title": "Reactor Zero",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "fb4e16e40d80da04c3c21f0879b220ba240425667983a83796c3a0a6139505af",
+      "sha256": "2d89b41fa0b706954009bb3ea4bbab3d091bf1ae4791f1cfcbf491610e7bbfbf",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "2d604aab1755a8f42b6a65ac15f16a4b1cb83f1eecd4ab21fa1c890e25625bea",
+      "sha256": "180ba52ebe7de00d9c2bafae25059bd88d02cbfe3317fb5473dd0bddd1ee9955",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "e06c3181e785f5022d391355f6e7704e324fa40560ca8e509e20c0fb894a0668",
+      "sha256": "513ed2f438ea1733e1bda5ede0757a4d25165ed4c64f2a8b80fba1c076f6216f",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "f629bea70482225ea84cd94320083995c3939cb9f47af7b46af15cb7493017bd",
+      "sha256": "03f1561c1a005fffc9e8c11d90db6f81338faef00efa462d783e2983c526304e",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -123,7 +124,7 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "2b5b58f457bdf9153ff71520774a61fe3d5e748be30dcd832c195cfb25383bdd",
+      "sha256": "3ef4584da5a806d90e5686a8f371d06be45712b394c537930b4ae52a6b2554d4",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

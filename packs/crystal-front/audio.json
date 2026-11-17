@@ -78,6 +78,12 @@
       "gain": 0.22,
       "offset": 6865920,
       "length": 3052844
+    },
+    "vehicle": {
+      "file": "hall.bin",
+      "gain": 0.6,
+      "offset": 9918764,
+      "length": 65348
     }
   }
 }

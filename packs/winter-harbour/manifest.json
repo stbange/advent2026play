@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 2,
   "save_version": 2,
   "id": "winter-harbour",
   "title": "Winter Harbour",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "0a73b51463e7ccf1df788caa06ef4ca481c784ba943029b9faaa9d504f19d85d",
+      "sha256": "59d3fab6b0b55860f23ab3e1a94a765ffd406f8ac8f01235162797d3cc486ec0",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,19 +28,19 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "098b3b8e78349ee2a994a1d30c5b56d1767e46fbfa2512a599198f4009a318e4",
+      "sha256": "12ecf2f3bcd09ccc38026b65cfc3e1e015add0857916878ae696336cc2265d28",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio-source.json",
-      "sha256": "4db3def97abac76e518cee8d1703c131cd17d38d2dc1f91b5e7ca1024376572d",
+      "sha256": "35447db6d5358bbfd9c99bbcfd40acf38026b6e0e95408a18eb2f12698890abc",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio.json",
-      "sha256": "e867e1565aef2dd781f74681b0881ef9d79b7636ff2a8a42cb7dccd933fdbf55",
+      "sha256": "f7f448911e3a2f4da38f70fd5fb3b9503fa136c526878fe47ebfb4c4d38cc6e0",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "42fdce7b0da12b3db6193c3ebe4728d14cc9903d93f38171d67f98b1579090db",
+      "sha256": "5e22bc5c607b155d371daf7d6545218450d5ce0e8969d052d28e0d5512dcc1dd",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "ba7bea73d6b67b74a102b87b6c0a0b55c909773742e63eb17b2808eb4136c9f3",
+      "sha256": "da58fd46722b460470391d695276487a79651d68814c24082c402e4e250f7e8e",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "2db9e995bb67788f949e9f292d6cfdc62822bd72731b61091e706ebd1a83c3c4",
+      "sha256": "4462ddcaa076a8fc0ea58c130ff3bc6f15613b7c3f00daff696b28ae3e022cf0",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -117,13 +118,13 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "10844c71429dc411e2eb4eb291a56b3535306dd93fa7fc32faf566094bb3c93b",
+      "sha256": "20455e60d5761c3ea93b7ef1e57edaa26c3b1448b838caa04441d4fd94772594",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "rules.lua",
-      "sha256": "4bd1b95e8a76085102883e3c7d82d5e8cbf798b607e59922dcb0e0249fe16029",
+      "sha256": "ca952e9752e3b3e10177d9476a63abfa2a90326957d4e5b2bfa7d77bd4f58323",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

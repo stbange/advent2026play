@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 1.5,
   "save_version": 2,
   "id": "resonance-breach",
   "title": "Resonance Breach",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "cc434c037034e06becdfb0b1ee89bd5a7f9ab7789308c06d5ce2e375ec6c19e9",
+      "sha256": "afd4f80341df04a36925d092e06e01480c020b4e41fa0e12481c0b0f6208834b",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "bc811ef765672ab7cef256d294e3a7c634a7e7a4cc26c5d17b4fb03ee92a09de",
+      "sha256": "9c99ddf02be34809c5b9e8a2150794a02f4aae850c49334c07260d6a0c55b358",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "597feb0a7f52c303e08eb20700bcc823a30317d65d26423fabb9bda5e4174854",
+      "sha256": "b67b533554c10359783c3909806e200ed9deffae69fdca9e2144364b60dfbef8",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "638ba7474bbd9857b1be05c15e6daa4cfa4af7b056026a23070e0bfd7bc8e9e4",
+      "sha256": "507b33ca220529d62ecdf16800251a8b81b23a9e55d0c626e8a94b9803bda84f",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -123,7 +124,7 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "fd5e0cf8e55954f12784c2ccbad9ef60afd0e952755349557fc1aae285b8acde",
+      "sha256": "f059007397f76c5dcfc3557bd37cb8930ef130ed0b084ecfc6a773351360e9db",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

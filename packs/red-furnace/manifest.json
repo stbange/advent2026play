@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
   "save_version": 2,
   "id": "red-furnace",
   "title": "Red Furnace",
@@ -15,7 +15,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "3bd77ee91e419989ac734c8e19fc88307a5477bdfff9a83b1b7caaf9d317a4cf",
+      "sha256": "e2f619869caec0cb944344a6507a9c4a9f1492d98f045aa9e8ff6a177c71d4bf",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +81,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "aa8efd6e202f78f14a3d2b7a0791960c91a0e21775e271ff299142938214c910",
+      "sha256": "bd0cb373711983d07db6a59909f5b77be6e657024feedce7cb4b6a19de5c0baf",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "98b028d733d46ed6db3f6ccc7e0213760542733b4783d8d1c12f866b7d558bb1",
+      "sha256": "604aaa537d093abfdcc384dd413c6454a7f12b6cfa4982897bf023d0a45891e5",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },

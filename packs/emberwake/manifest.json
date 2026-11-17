@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 3,
   "save_version": 2,
   "id": "emberwake",
   "title": "Emberwake",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "c03b1c8b3629630ba31fe9ecbad9c7cc81f9bdfbf720b95f2ad1b169cb7cbf89",
+      "sha256": "f0a7fe5eff7dfc419f117d4c31ae28d38bc83fd6263cc0c41c02a4e6e0a8b87b",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,7 +28,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "e0fea22a3376bd41156060248785ce38559c49646e938062d12b6c10b524815e",
+      "sha256": "18113e009e93ff475066999979d001118cb183c0fc3bb7fa6b6b66e5212056e4",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "eb4cdb3e50a321212281e6349ef454e318a9be8fe010d32d5a056b0b98ec5b6c",
+      "sha256": "e55bc5cd46d3b148b60653181b6b43b381bc16b7fbe460b38ae2c76636cdf511",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "5f2095be7b003d8ab3d0b8ab1bfc7952ee097165452b9db9b7cdf0b5aa0848a4",
+      "sha256": "9313d9d88776415cbcc9a70f855e95a57dbaf413ea9f1e2e48e194e7b621995c",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "bacd0baca7f1e8af09a59d5148338a39caa55d1b455efd03bb5d33217deb0771",
+      "sha256": "193d67fc85b024f799d31ace4e694b7a03a443c70e32ed95d6273fed3dda2df4",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -117,13 +118,13 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "dd9bacb692af28ced2d915eff6c29861ce97b20d4c6ac84625ada5fc2242ba4e",
+      "sha256": "2f9bb700158be510c62c5e235df6b4b2a3a5f049f15d6e655ba71435244c0194",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "rules.lua",
-      "sha256": "dc769a93b128b82790ddcd5957b664e7d81738f99d468be79f7f9b54059ba3bb",
+      "sha256": "11f12e77a352fc46d5e160f20984fa67bcf0b092e4ed38550f9ab64aba5b280c",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

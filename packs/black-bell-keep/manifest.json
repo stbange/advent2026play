@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
   "save_version": 2,
   "id": "black-bell-keep",
   "title": "Black Bell Keep",
@@ -15,7 +15,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "1b90f7263f4f0fc2fb7c41351cc3048e8ae9f77adebcf8b92bae0bceb73c27c0",
+      "sha256": "ab983ce313e70c695b9187dcb931820c0f1501a8deb7f4365115e781d1d304e2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +81,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "c49f85266a418967406a9d62570b302edd35452e993a49975a91e415cc7d87ef",
+      "sha256": "be1421cd4cddc0b8e645b55eab21a535d9f584fe5aff9014bfce9d450fbc8491",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "49ef98eecf488d2fb5b2aa8c6fd664c4e182462f77913ebf6c09f6343bd7f4e9",
+      "sha256": "38a5ec69491757075ea57e078aadb48bf07b8a3bfb9b7e25ee369307bc142798",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },

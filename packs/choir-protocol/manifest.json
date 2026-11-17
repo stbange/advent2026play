@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
   "save_version": 2,
   "id": "choir-protocol",
   "title": "Choir Protocol",
@@ -15,7 +15,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "9affc0b5a391a77b1fa9238ab4c41080c70fdc440780f95ba00ce3138e8febdf",
+      "sha256": "9c1562aca3100e9bf2159849648a920b690e74044f78df7fc04eb39454c48c7c",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,7 +27,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "fa587239b5cb67a6c962e7833b8dd3d9fad39c8bdcf2430aa09667b32ec5254e",
+      "sha256": "199685fb05b3b7d7accb72bc0c10492b4c77dbc4227e351cf8d65198c81ba7ba",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +81,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "fc1e416e251596278fb82f4965c18e2c3eaec9fdbdcf63b489fbbc63c1828386",
+      "sha256": "4476e30d256932813c36563c04f0a814a80563d6dd362f626a4ee35924bb21e2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "56f5c735c8a6f48c51fae6043b375f3ae5af1e4fa1a00f617a2a6ecedc8128fb",
+      "sha256": "2b834ae3fad834c4bc05aedecf964705a2891d9d98c835ec806c61cf470ddd45",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },

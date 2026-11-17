@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 1.5,
   "save_version": 2,
   "id": "cathedral-below",
   "title": "The Cathedral Below",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "5e3c31066d557daa4c0bf65893df5d5dad99673c82f876142319e46816a6228a",
+      "sha256": "836ba900858dca18d664b679531faf3c6bae8e6764cd5ffbe4697ca8d5335315",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "c36d59dbff1739fc208d248e318a3649c088682ecbb17a63ce88d0099c947ac4",
+      "sha256": "02c54509231ad3d5e351ad3b69a5028a83389b219de3b2003f33d30d66580649",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "33bd21930a5ec0a8532f90d0ed404f4d2fde0fc0f71b9da0b7d6fb596e57d75e",
+      "sha256": "11b7c548c91ed960e4e3ecd70f01a2a755523d8012cb0009c61cc4b1f72eb8ad",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "63fe4e0e3517dbd54b9c8aed2cac84df52d4c185ba5d16b651b00962c6cd3837",
+      "sha256": "3fc194b1cc46d9e3190323d2ca4b3084b618731348404e620a2ff549a5d6467d",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -123,7 +124,7 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "289a29169e551b799243453803059b4cff14b477db5a21e71595c8d8dc94d3de",
+      "sha256": "af33a87e18791b498fb69e61c1d5189174e929098560b4f4be22e25959c658d0",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

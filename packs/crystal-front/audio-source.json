@@ -104,6 +104,14 @@
       "sha256": "f1b32f11e99478aa984d368cd2f7e3c80b228051edda0f77355cbe5e41ca9298",
       "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
       "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "vehicle": {
+      "request": "shared-cannon",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "dqI7TZJ1uhPpuJhH7NoA",
+      "sha256": "c205f277ee2a047abb4e3480af7581bf7a38625b349fc6cbb7fe64429360b8bc",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia"
     }
   }
 }

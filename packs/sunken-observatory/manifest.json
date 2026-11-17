@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 2,
   "save_version": 2,
   "id": "sunken-observatory",
   "title": "The Sunken Observatory",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "7b463b43cc7a18dca27b0895b709f96867ed7214220b59d74481118324cdef3c",
+      "sha256": "02852a3c38b4549ba53a79c9f229421cc7aa7d887df298c883581589cd868bf5",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "28217c2a0c8ccf06cc0c7ef7c5636601ce3ecf0f42499d05eff4d332732aaa76",
+      "sha256": "bb5bbb5406e120d6a90fb6e05c2340093aeaf5662f466e60996ab0ade8f8e474",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "beb978825303e3bfd761f577e168c85dc06b60b00ada7ea98e3a0dbafeac988e",
+      "sha256": "4207d909932544159d5077fd0340ca8d5f1155e1f05211f97cc9a2b0983f3131",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "9256b78b409579f4f8f2e61beff6c902bbd004f43bd5b844e24b6d5a887e09e6",
+      "sha256": "8c5b02009ec97c213992c4de8c3575024198bed7435d63cedab1584ee51ee147",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -123,7 +124,7 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "c516b057f1f27f65e9cdcf1b00a4215a3f904aa3833999d74ca8bb8b148ddcf7",
+      "sha256": "b4af92b9c042ebd108aefc02df56e2729988f4fe7a708493dc6d4912c20a910e",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

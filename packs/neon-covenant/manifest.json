@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 3,
   "save_version": 2,
   "id": "neon-covenant",
   "title": "Neon Covenant",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "8cacf70f35325df4913dceff3ca6b5e203f1c280f95aba2568400153348bb6db",
+      "sha256": "311cad9e3c0c3544603ad3faaa9c635b3273395f3da0a8acde8867c291fcb9ea",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,7 +28,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "66d0580042d4ea2b67105e814c5ce7aa65815274531e5c2fad549517bedf6434",
+      "sha256": "737263c97c01212dc9b1ebbc8ef162d5bfa4487e91991154fba75683bb78e27d",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "d067be1463748320948430e93981d71be4867d8276149ba5b0deb9e26d95b34c",
+      "sha256": "501644feb122c9834549406cd296ac0ae464ee233fa6f0656edfb6c47e138734",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "1c5656cee413b3b81e16452d2597eb2d840ce5ff0283dedb8e0f1ca5b08f16f4",
+      "sha256": "db329eeeeb69dd800ba45dfc986197d1579ca47c1075faf8361d6970fe72685d",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "68bf0990d47678f92c574bb4801c818b6ee8f62943be34ddc4a6affac84ffe20",
+      "sha256": "011efc580e44d52f6399360b91e7a033248003215013c14898229ba89aa8c252",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -123,7 +124,7 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "5225383a7571157165ebb01923d7e730516796bcec2635f99ff6225e64473110",
+      "sha256": "931b9b1b6b50c10dd41342b01ce4d305b9ccce4fc80d6b596690a6940f96df1b",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

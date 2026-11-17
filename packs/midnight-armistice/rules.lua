@@ -121,7 +121,7 @@ local function army(w)
  for _,h in ipairs(units(0))do local a=actor(h);local role=inv(h,8)
   if role>=1 and role<=3 and a.hp==0 then engine.remove(h)
   elseif (role>=1 and role<=3 or role==12) and a.hp>0 and a.build_ticks==0 then
-   local target,enemy=closest(w,a,1,22,inv(h,6))
+   local target,enemy=closest(w,a,1,day==18 and 32 or 22,inv(h,6))
    if enemy and inv(h,6)&inv(target,7)~=0 then
     engine.order(a.owner,h,0,a.x,a.y,a.z,0)
     if w.tick%180==(h%3)*60 then launch(h,target,role==2 and 24 or role==3 and 28 or 14,day==23 and role==2 and 5 or 0,0)end

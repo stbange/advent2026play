@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
   "save_version": 2,
   "id": "midnight-armistice",
   "title": "Midnight Armistice",
@@ -15,7 +15,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "dd028c8bd4b6bbf802bb83147bad2c9a5c9c4bb05009c9bf07b765a3181b0daa",
+      "sha256": "81a9c32f4081126306e6e849502be73eba2316b57fafd457a9e49cf47e3a9ebb",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,7 +27,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "77a062824a68cb2a64b450fd9823466fb167ea0a32bc71e6f6bb79de0986b8a1",
+      "sha256": "6d4053aefa25aad1dd48090e00c48d80a97964d08585e12b1bdd668aba5c59c8",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +81,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "a919f6add53b04b400b79ccc7c497c3a220c3ab5910442e3781371adce65ca0b",
+      "sha256": "a408adfc632637c98a26814235a2a39055a4bc3c5d22d65f6b7b4905ffd530c1",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "9b1b4169c10b6acd9f8cb47c8376e97ede0af445eb0f72c93259936fc0df673e",
+      "sha256": "9c1043c158caa9ee33d8464abe8316334aab8812ec896ea9cf5b129a7393ea13",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -117,13 +117,13 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "e1ea25d0ca98e7f8805678a0d70977858cbd2ffd3598a544c1262227630bbf84",
+      "sha256": "c6b11c3a368de776b202be76d9726a3969ec1245b9da513bc3a40f87010d79a2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "rules.lua",
-      "sha256": "d2f63031797ed1cfa5a03a1875445f3f626a33f55b9e9a58c71461e217bc09ef",
+      "sha256": "a91e2ae8bc2dc8ec21f9fc00136472f99402f57ee3e6ec8dba72a7055241a4ad",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
@@ -147,7 +147,7 @@
     },
     {
       "path": "sector-0.map",
-      "sha256": "e1ea25d0ca98e7f8805678a0d70977858cbd2ffd3598a544c1262227630bbf84",
+      "sha256": "c6b11c3a368de776b202be76d9726a3969ec1245b9da513bc3a40f87010d79a2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -159,7 +159,7 @@
     },
     {
       "path": "sector-1.map",
-      "sha256": "ed04d97c1a1a88c0408084bee5212cb19433cb2d672bdb54fd99b002add653a3",
+      "sha256": "51e5dcc45bd7ec7948b58983eb9a167cb4d545fb73b8bbe75a66c195ccba9bff",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -171,7 +171,7 @@
     },
     {
       "path": "sector-2.map",
-      "sha256": "3bdf07757202c91ef38407f0d8f0da648b590502de537cde0e83a267a405b054",
+      "sha256": "47e3ed99e4c159abf00f41662efdee47c4ea1d34947abb3d71fbdf3d1a37d143",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -183,7 +183,7 @@
     },
     {
       "path": "sector-3.map",
-      "sha256": "777ca586aece5e50d15b2f5b0a4ab7879113e12ee1422bf7bf29198c9ef113a6",
+      "sha256": "51e5dcc45bd7ec7948b58983eb9a167cb4d545fb73b8bbe75a66c195ccba9bff",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -195,7 +195,7 @@
     },
     {
       "path": "sector-4.map",
-      "sha256": "e1ea25d0ca98e7f8805678a0d70977858cbd2ffd3598a544c1262227630bbf84",
+      "sha256": "c6b11c3a368de776b202be76d9726a3969ec1245b9da513bc3a40f87010d79a2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -207,7 +207,7 @@
     },
     {
       "path": "sector-5.map",
-      "sha256": "510407cf53367f97eb7c203a9177313080f9323b7a22f1094c1927a88f67b133",
+      "sha256": "09162e6dbe3c3fe39aaf3614cda4076d301718611ec87fb4a3c7b2930e48a4cc",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },

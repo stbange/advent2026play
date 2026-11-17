@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 4,
   "save_version": 2,
   "id": "iron-solstice",
   "title": "Iron Solstice",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "86cb2d1466d28fc5dc8832edfe97e5043b0ad7b570fd0f1662b5497d4f7dfdd9",
+      "sha256": "892d7fc01fc588956b36867cf87b265026e882fcf4277718f91f91acc4e765d9",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,7 +28,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "06777e152ca0ac1e5833622a4b6dba7d4c1a5ec5678e4af49a4b878cfdfbc436",
+      "sha256": "7760364537df47531b58c3308cba271869b293fd8fefdcac59a2e0f57b6a51dc",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "6596bc1f65cfdc711509fcfdf6a2dea553c9160af2cdbd51da91f22e6a0c1541",
+      "sha256": "235c31a04ad31303b7a36d12abc94eba4a14c7d31bd95998081bd8bb99c07ff4",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "ba22629c983acaa4e05b5f788a25f1f18baf7f55066491ebaa610451e9e0d56e",
+      "sha256": "bdc1b0a789b0826b17457215f38448ad6909ec37a467dc5759c9da5067075737",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "f26485ca0404903a4c732ed26d11f2507755e5031bbbed81ea1665643d008ff5",
+      "sha256": "55568738bb6754f73e548a2636167d9d1293bf38ac3aa6870c759f9de7aa1b9e",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -117,13 +118,13 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "0218636a8c011ec1696b7d7accfe6bcdd592dd91259dceb770090bff75bddb38",
+      "sha256": "3da88007981bf9abbf5a713005d451e5f93e77db077e3119fbd800b04c241a0b",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "rules.lua",
-      "sha256": "cc8e7dd9d61909c614c637bc108b58fb0d8b214e9bd09bec7e479cfb2982321a",
+      "sha256": "2db053109cde946f6af0af037588009eeb3cfa0451b630a2dc39bcedc5401453",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

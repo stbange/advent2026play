@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 4,
   "save_version": 2,
   "id": "skyline-relay",
   "title": "Skyline Relay",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "5270292856a2135bbbb7a2021fc0aef8e154f4eb120370564785572f29c5d7eb",
+      "sha256": "9d64ba5951a0f8929616df34ba17d5fc23f83507acc01d3ffe23f9cc77016bb5",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,7 +28,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "e92f9e379454709e532a87f7b1b258df2e20f2d274076ee569a40891ed2712b8",
+      "sha256": "64e218e604597f849f1d58fc517805b33f3208a0335caf7c4c3ee933d7406114",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "a4c8837e600ac4b4f82c8ac47c4115add97d2a8251d14c84bac379920e748798",
+      "sha256": "f147a17bd98ffdcc8bddd5871abafa47980152a2b1f856df6ac207dbd449caf9",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "b231c8038f4bb575357b3fe4a3760519e13a0aa1fee4ed3a06110eac8d917454",
+      "sha256": "d15b06f4ff4510a04fe3ad58297eb208cc6a7510b57a17ac765ecd0208bb81ff",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "a84db128e79ef0321418cb42fb2077eef2be1f27048cd4e9d99596499eb0aa9b",
+      "sha256": "0af94f604a8a763c2dc2532acd1980b5e18677aa7d1dc0721481e26885e78388",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -117,13 +118,13 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "46457c7eaf150705f669ee7d6f8d72c6d8038cb0898cb6e370800dafa559ebcf",
+      "sha256": "fb19e890237f6445add6f4c236361eb7850527314246d18fccb37ccd2b46d6e2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "rules.lua",
-      "sha256": "5dbacd82958b29f715e0aecd062e9296185ce9a2bdb69a44138eaba7d20468dc",
+      "sha256": "6fc22e5659a129e7817ef5fe23e8e3d43572b50fc12fe7a795ebbaaf699ef029",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

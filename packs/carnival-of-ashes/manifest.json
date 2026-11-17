@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
   "save_version": 2,
   "id": "carnival-of-ashes",
   "title": "Carnival of Ashes",
@@ -15,7 +15,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "35a6e87109b8c4bfcdea13391e7e8d13022ad3ceafac6a7229666bce559890ff",
+      "sha256": "ca2d895b3d51a2604a6013b8a1de432151ba5f2b99d33b89852e42e8de97e374",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,7 +27,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "84d13fa6875d3f504a6400b42a2baabda949e1731f02999370f9515bd37cc7ce",
+      "sha256": "5cbf838e800740504a516bcab29fb6704f6bead296e255cd497a332af3739f59",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +81,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "01b4406404f0792f919b116e603f5c8ebf54be1ac96ca77fb6b02b179167936d",
+      "sha256": "98e93510977bfa678317bf148ebc1664f6e7c36d6bd22a3bd508bf48953a97bc",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "9a9e82f693dba95c54344b567d96e6ca7ad5418b0077dafd841c9323271ce3ee",
+      "sha256": "c1341d4a79e1baf863717d5a75302116be7d27133d651cb4d9b880798c2813b4",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },

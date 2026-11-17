@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 2,
   "save_version": 2,
   "id": "midnight-matinee",
   "title": "Midnight Matinee",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "3b5c897e8d4daa3c983d98187546a7c1ef5502b90b5e207ed28504584226672d",
+      "sha256": "8b9d465d177a8f7cd4fcd79524622bc03cb9b14284f70cfb022f5ea0cbcaab77",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,7 +28,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "a709c0fbf1b090376261b299a014d474be9f7f5d45e93c03c0df25e37fdda5bf",
+      "sha256": "56a817815baaccb6ca71b3fb1b94fd3bdb44759e5bac81cc308932f8ae73aafa",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "cbc7abf5bbbb246b395959ea96719fd569ffef514f0161335aad17d8adfb03c5",
+      "sha256": "b1f7bfd589ef88d32c78f50ff77b82b94cfb79fcd5ca8101bb7dd426cfbcf0e8",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "c09197466e592959becd4920802ab59bc886ce915cefb76afee14f73dac5e022",
+      "sha256": "bc4030edd3c23b5325799c6b7573a1af4c42e896e2a4b05ef437ace7e9635404",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "b00f016bae7c98f80de8ce22f0a7af4e289108421c39e0672507b091504957e7",
+      "sha256": "42a1e15aeb48920ffa5311d918ee56d346ed90a782980a2ebe5b2e7c080bfdb8",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -123,7 +124,7 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "43a8110ee2f9cd3895acb6a4acd537ff0717b2f993be190289b1d83b5c33b52c",
+      "sha256": "65368e75ff2e8770f099d3e8a96ae1732b9acf2f69ec417b0a66ae8d3b933d4d",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

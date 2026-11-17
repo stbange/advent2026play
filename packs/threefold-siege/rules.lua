@@ -121,7 +121,7 @@ local function army(w)
  for _,h in ipairs(units(0))do local a=actor(h);local role=inv(h,8)
   if role>=1 and role<=3 and a.hp==0 then engine.remove(h)
   elseif (role>=1 and role<=3 or role==12) and a.hp>0 and a.build_ticks==0 then
-   local target,enemy=closest(w,a,1,22,inv(h,6))
+   local target,enemy=closest(w,a,1,day==18 and 32 or 22,inv(h,6))
    if enemy and inv(h,6)&inv(target,7)~=0 then
     engine.order(a.owner,h,0,a.x,a.y,a.z,0)
     if w.tick%180==(h%3)*60 then launch(h,target,role==2 and 24 or role==3 and 28 or 14,day==23 and role==2 and 5 or 0,0)end
@@ -155,7 +155,7 @@ end
 
 local mission={alt=true,weapons={{damage=12,cooldown=18,ammo=1},{damage=8,cooldown=25,energy=8},{damage=6,cooldown=30,energy=12}}}
 function mission.boss_init(w)
- set(12,spawn(9,finish_node()-1,0,1000,272));put(get(12),0,60)
+ set(12,spawn(9,finish_node()-2,0,1000,272));put(get(12),0,60)
 end
 function mission.prepare(w)
  if get(28)<12 then set(28,12)end
@@ -163,7 +163,13 @@ function mission.prepare(w)
 end
 function mission.player(w,p,i,pressed)
  local h=get(body_slot(i))
- if final() and interact(p,i,finish_node()-1)then flag(2)end
+ if final() and interact(p,i,finish_node()-2)then
+  flag(2)
+  local relay=actor(get(12))
+  if relay and (relay.hp==0 or inv(get(12),0)==0) and get(29)>=8 then
+   set(29,get(29)-8);put(get(12),0,60);engine.heal(get(12),1000,0)
+  end
+ end
  if interact(p,i,start_node(),4)then
   local kit=inv(h,13)%3
   if not built(10)then structure(10,4)
@@ -175,7 +181,8 @@ end
 function mission.update(w)
  supplies(w,2,2)
  if final()then
-  local relay=actor(get(12));local powered=relay and flagged(2) and inv(get(12),0)>0
+  if get(12)~=0 and not actor(get(12))then mission.boss_init(w)end
+  local relay=actor(get(12));local powered=relay and relay.hp>0 and flagged(2) and inv(get(12),0)>0
   if powered and w.tick%60==0 then put(get(12),0,math.max(0,inv(get(12),0)-2))end
   for _,h in ipairs(units(0))do local a=actor(h);if a.kind>=20 then shield(h,powered and near(a,relay,18))end end
  end
@@ -186,10 +193,10 @@ end
 function mission.ready(w)return flagged(1)end
 function mission.boss(w)
  local h=get(1);local a=actor(h);if not a then return end
- if not flagged(2)then shield(h,true);goal(finish_node()-1,2,3);return end
+ if not flagged(2)then shield(h,true);goal(finish_node()-2,2,3);return end
  shield(h,not flagged(1));put(h,7,a.hp<240 and 2 or 4)
  if a.hp<240 then engine.mode(h,1,3);if a.y<6 then engine.move(h,0,1,0,0,0,0,false)end end
- if not built(3)then goal(start_node(),2,3,0,2)else goal(finish_node(),16,4,h,0)end
+ if not built(3)then goal(start_node(),2,3,0,2)else goal(finish_node()-2,2,4,h,0)end
 end
 
 local function enter(w,p,i)

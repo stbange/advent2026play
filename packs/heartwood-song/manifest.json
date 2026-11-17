@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
   "save_version": 2,
   "id": "heartwood-song",
   "title": "Heartwood Song",
@@ -15,7 +15,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "c8f1dde9014d3723853f4df78119f1f3617714576218c226ceb53d254fc2cf7a",
+      "sha256": "3e8de0a678515fe2914b3c637048cccfc6f0118dab005b1e2bfe58df01948407",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,7 +27,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "5c316800727d3492baab1ee11a6d712811c09c5da1d03c7af7345a64dcbb247e",
+      "sha256": "ac46dd947ea7e09b0b32608f2727d5717c6822326f4665670c80173cd5e2812d",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +81,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "89bfb27e79ab1a13739c275db8b90c6d3ed1832e7eea1d743711958dfde0b3f2",
+      "sha256": "e5822d5c6915b61c310b870bdbccb394e3b2b5ea838997332822155a85b72513",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "0edd01d7dad803c2d605011599ed1b7066dc0d99d484b48501f20711cdaea9d7",
+      "sha256": "2fd8c470d4acd532927b9cd01abf2c77fe584652b9e815d30ee65d54c7cc78d4",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -117,7 +117,7 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "e1ea25d0ca98e7f8805678a0d70977858cbd2ffd3598a544c1262227630bbf84",
+      "sha256": "c6b11c3a368de776b202be76d9726a3969ec1245b9da513bc3a40f87010d79a2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -147,7 +147,7 @@
     },
     {
       "path": "sector-0.map",
-      "sha256": "e1ea25d0ca98e7f8805678a0d70977858cbd2ffd3598a544c1262227630bbf84",
+      "sha256": "c6b11c3a368de776b202be76d9726a3969ec1245b9da513bc3a40f87010d79a2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -159,7 +159,7 @@
     },
     {
       "path": "sector-1.map",
-      "sha256": "ed04d97c1a1a88c0408084bee5212cb19433cb2d672bdb54fd99b002add653a3",
+      "sha256": "51e5dcc45bd7ec7948b58983eb9a167cb4d545fb73b8bbe75a66c195ccba9bff",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -171,7 +171,7 @@
     },
     {
       "path": "sector-2.map",
-      "sha256": "3bdf07757202c91ef38407f0d8f0da648b590502de537cde0e83a267a405b054",
+      "sha256": "47e3ed99e4c159abf00f41662efdee47c4ea1d34947abb3d71fbdf3d1a37d143",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -183,7 +183,7 @@
     },
     {
       "path": "sector-3.map",
-      "sha256": "777ca586aece5e50d15b2f5b0a4ab7879113e12ee1422bf7bf29198c9ef113a6",
+      "sha256": "51e5dcc45bd7ec7948b58983eb9a167cb4d545fb73b8bbe75a66c195ccba9bff",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -195,7 +195,7 @@
     },
     {
       "path": "sector-4.map",
-      "sha256": "e1ea25d0ca98e7f8805678a0d70977858cbd2ffd3598a544c1262227630bbf84",
+      "sha256": "c6b11c3a368de776b202be76d9726a3969ec1245b9da513bc3a40f87010d79a2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -207,7 +207,7 @@
     },
     {
       "path": "sector-5.map",
-      "sha256": "510407cf53367f97eb7c203a9177313080f9323b7a22f1094c1927a88f67b133",
+      "sha256": "09162e6dbe3c3fe39aaf3614cda4076d301718611ec87fb4a3c7b2930e48a4cc",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -219,7 +219,7 @@
     },
     {
       "path": "sector-6.map",
-      "sha256": "5ad38e8a14809679288090a7bedd19fab1350762ce26f92ddd49907016890274",
+      "sha256": "c6b11c3a368de776b202be76d9726a3969ec1245b9da513bc3a40f87010d79a2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -231,7 +231,7 @@
     },
     {
       "path": "sector-7.map",
-      "sha256": "777ca586aece5e50d15b2f5b0a4ab7879113e12ee1422bf7bf29198c9ef113a6",
+      "sha256": "51e5dcc45bd7ec7948b58983eb9a167cb4d545fb73b8bbe75a66c195ccba9bff",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },

@@ -1,8 +1,9 @@
 -- SPDX-License-Identifier: MIT
 -- Editable shared source, exported into each independent calendar pack by author_episodes.py.
-local definitions={[1]={day=1,points={{6,0.05,26},{11,0.05,8},{26,0.05,7},{38,0.05,24},{38,0.05,7},{6,0.05,26},{24,0.05,21},{24,0.05,14},{14,0.05,26},{34,0.05,15},{40,0.05,12},{28,0.05,26}}},[2]={day=2,points={{6,2.5,26},{12,2.5,8},{24,6.5,7},{38,2.5,24},{38,4.5,7},{6,2.5,26},{24,6.5,21},{24,2.5,14},{14,2.5,26},{34,7.5,15},{40,2.5,12},{28,2.5,26}}},[3]={day=3,points={{6,0.05,26},{10,0.05,8},{26,0.05,7},{38,0.05,24},{38,0.05,7},{6,0.05,26},{24,0.05,21},{24,0.05,14},{14,0.05,26},{34,0.05,15},{40,0.05,12},{28,0.05,26}}},[4]={day=4,points={{6,0.05,26},{11,1.15,8},{24,1.15,7},{38,0.05,24},{38,0.05,7},{6,0.05,26},{24,1.15,21},{24,0.05,14},{14,0.05,26},{34,0.05,15},{40,0.05,12},{28,0.05,26}}},[5]={day=5,points={{6,0.05,26},{12,0.05,8},{26,0.05,7},{38,0.05,24},{38,0.05,7},{6,0.05,26},{24,0.05,21},{24,0.05,14},{14,0.05,26},{34,0.05,15},{40,0.05,12},{28,0.05,26}}},[6]={day=6,points={{6,0.05,26},{10,0.05,8},{24,0.05,7},{38,0.05,24},{38,0.05,7},{6,0.05,26},{24,0.05,21},{24,0.05,14},{14,0.05,26},{34,0.05,15},{40,0.05,12},{28,0.05,26}}},[7]={day=7,points={{6,0.05,26},{11,0.05,8},{26,0.05,7},{38,0.05,24},{38,0.05,7},{6,0.05,26},{24,0.05,21},{24,0.05,14},{14,0.05,26},{34,0.05,15},{40,0.05,12},{28,0.05,26}}},[8]={day=8,points={{6,0.05,26},{12,0.05,8},{24,0.05,7},{38,0.05,24},{38,0.05,7},{6,0.05,26},{24,0.05,21},{24,0.05,14},{14,0.05,26},{34,0.05,15},{40,0.05,12},{28,0.05,26}}},[9]={day=9,points={{6,1.85,26},{10,0.05,8},{26,0.05,7},{38,0.05,24},{38,0.05,7},{6,1.85,26},{24,1.8,21},{24,0.05,14},{14,0.05,26},{34,0.05,15},{40,0.05,12},{28,0.05,26}}},[10]={day=10,points={{6,0.05,26},{11,0.05,8},{24,0.05,7},{38,0.05,24},{38,0.05,7},{6,0.05,26},{24,0.05,21},{24,0.05,14},{14,0.05,26},{34,0.05,15},{40,0.05,12},{28,0.05,26}}},[11]={day=11,points={{6,2.5,26},{12,2.5,8},{26,6.5,7},{38,2.5,24},{38,4.5,7},{6,2.5,26},{24,6.5,21},{24,2.5,14},{14,2.5,26},{34,7.5,15},{40,2.5,12},{28,2.5,26}}},[12]={day=12,points={{6,0.05,26},{10,0.05,8},{24,0.05,7},{38,0.05,24},{38,0.05,7},{6,0.05,26},{34,0.05,8},{24,0.05,14},{14,0.05,26},{34,0.05,15},{40,0.05,12},{28,0.05,26}}}}
+local definitions={[1]={day=1,points={{12,0.05,52},{22,0.05,16},{52,0.05,14},{76,0.05,48},{76,0.05,14},{12,0.05,52},{48,0.05,42},{48,0.05,28},{28,0.05,52},{68,0.05,30},{80,0.05,24},{56,0.05,52}},scale=2},[2]={day=2,points={{18,2.5,78},{36,2.5,24},{72,6.5,21},{114,2.5,72},{114,4.5,21},{18,2.5,78},{72,6.5,63},{72,2.5,42},{42,2.5,78},{102,7.5,45},{120,2.5,36},{84,2.5,78}},scale=3},[3]={day=3,points={{18,0.05,78},{30,0.05,24},{78,0.05,21},{114,0.05,72},{114,0.05,21},{18,0.05,78},{72,0.05,63},{72,0.05,42},{42,0.05,78},{102,0.05,45},{120,0.05,36},{84,0.05,78}},scale=3},[4]={day=4,points={{12,0.05,52},{22,1.15,16},{48,1.15,14},{76,0.05,48},{76,0.05,14},{12,0.05,52},{48,1.15,42},{48,0.05,28},{28,0.05,52},{68,0.05,30},{80,0.05,24},{56,0.05,52}},scale=2},[5]={day=5,points={{12,0.05,52},{24,0.05,16},{52,0.05,14},{76,0.05,48},{76,0.05,14},{12,0.05,52},{48,0.05,42},{48,0.05,28},{28,0.05,52},{68,0.05,30},{80,0.05,24},{56,0.05,52}},scale=2},[6]={day=6,points={{24,0.05,104},{40,0.05,32},{96,0.05,28},{152,0.05,96},{152,0.05,28},{24,0.05,104},{96,0.05,84},{96,0.05,56},{56,0.05,104},{136,0.05,60},{160,0.05,48},{112,0.05,104}},scale=4},[7]={day=7,points={{12,0.05,52},{22,0.05,16},{52,0.05,14},{76,0.05,48},{76,0.05,14},{12,0.05,52},{48,0.05,42},{48,0.05,28},{28,0.05,52},{68,0.05,30},{80,0.05,24},{56,0.05,52}},scale=2},[8]={day=8,points={{9.0,0.05,39.0},{18.0,0.05,12.0},{36.0,0.05,10.5},{57.0,0.05,36.0},{57.0,0.05,10.5},{9.0,0.05,39.0},{36.0,0.05,31.5},{36.0,0.05,21.0},{21.0,0.05,39.0},{51.0,0.05,22.5},{60.0,0.05,18.0},{42.0,0.05,39.0}},scale=1.5},[9]={day=9,points={{24,1.85,104},{40,0.05,32},{104,0.05,28},{152,0.05,96},{152,0.05,28},{24,1.85,104},{96,1.8,84},{96,0.05,56},{56,0.05,104},{136,0.05,60},{160,0.05,48},{112,0.05,104}},scale=4},[10]={day=10,points={{18,0.05,78},{33,0.05,24},{72,0.05,21},{114,0.05,72},{114,0.05,21},{18,0.05,78},{72,0.05,63},{72,0.05,42},{42,0.05,78},{102,0.05,45},{120,0.05,36},{84,0.05,78}},scale=3},[11]={day=11,points={{12,5.0,52},{24,5.0,16},{52,13.0,14},{76,5.0,48},{76,9.0,14},{12,5.0,52},{48,13.0,42},{48,5.0,28},{28,5.0,52},{68,15.0,30},{80,5.0,24},{56,5.0,52}},scale=2},[12]={day=12,points={{9.0,0.05,39.0},{15.0,0.05,12.0},{36.0,0.05,10.5},{57.0,0.05,36.0},{57.0,0.05,10.5},{9.0,0.05,39.0},{51.0,0.05,12.0},{36.0,0.05,21.0},{21.0,0.05,39.0},{51.0,0.05,22.5},{60.0,0.05,18.0},{42.0,0.05,39.0}},scale=1.5}}
 local day=engine.day
 local cfg=definitions[day]
+local scale=cfg.scale or 1
 local rules={}
 local production_init
 local get,set=engine.get,engine.set
@@ -16,10 +17,11 @@ local function flag(bit)if not mark(bit) then set(20,get(20)|bit);engine.checkpo
 local function spawn(slot,node,kind,hp,team,mode,owner,carry)
  local p=point(node)
  if day==1 and kind==9 then p.x=p.x+1.3 end
+ if day==4 and kind==32 then p.x=p.x+2 end
  if slot==6 or kind==6 or node==0 and (kind==12 or kind==13)then p.x,p.z=p.x-2.3,p.z+1 end
  if node==0 and slot==7 then p.x,p.z=p.x+2,p.z+.5 end
  if day==10 and slot and slot>=12 and slot<=14 then p.x,p.z=p.x+(slot-13)*1.2,p.z+1.8 end
- local h=engine.spawn{x=p.x,y=p.y,z=p.z,kind=kind,hp=hp,max_hp=hp,team=team or 0,mode=mode or 3,owner=owner or 0,radius=kind==3 and .7 or .3,height=kind==3 and (day==6 and 5 or 3) or kind==20 and (day==6 and 4.5 or day==11 and 1 or 1.6) or 1.2,speed=day==6 and 2.6 or 3.5,carried=carry or 0}
+ local h=engine.spawn{x=p.x,y=p.y,z=p.z,kind=kind,hp=hp,max_hp=hp,team=team or 0,mode=mode or 3,owner=owner or 0,radius=day==6 and (kind==3 and 2 or kind==20 and 1.4 or kind==2 and 1 or .3) or kind==3 and .7 or .3,height=day==6 and (kind==3 and 12 or kind==20 and 9 or kind==2 and 6 or kind==9 and 3 or 1.2) or kind==3 and 3 or kind==20 and (day==11 and 1 or 1.7) or kind==1 and 2 or kind==10 and 1.8 or 1.2,speed=day==6 and 2.6 or 3.5,carried=carry or 0}
  if slot then set(slot,h)end
  return h
 end
@@ -185,7 +187,7 @@ local function enemy_step(w)
   end
  end
  local boss=actor(1)
- if boss and boss.hp>0 and near(boss,target,28) and w.tick%(day==6 and mark(32) and 150 or 90)==0 then
+ if boss and boss.hp>0 and near(boss,target,day==1 and 28*scale or 28) and w.tick%(day==6 and mark(32) and 150 or 90)==0 then
   local aim=target
   if day==1 then
    if near(target,point(1),3) and alive(12)then aim=actor(12)
@@ -328,7 +330,7 @@ end
 missions[4]=function(w)
  for i,p in ipairs(w.players)do if p.connected==1 and p.zone==1 then
   local h=get(32+(i-1)*6);local a=engine.actor(h)
-  local water=a and a.x>30 and a.z>19
+  local water=a and a.x>30*scale and a.z>19*scale
   engine.mode(h,water and 2 or 0,water and 5 or 4.5)
   if p.jump~=0 then for _,n in ipairs({1,2,6})do if near(a,point(n),2.5)then local q=point(n);engine.climb(h,q.x,q.y,q.z)end end end
   if p.use~=0 then
@@ -626,6 +628,47 @@ if day==3 then
   end
   if actor(6) and actor(6).hp==0 then
    engine.heal(get(6),200,0);engine.teleport(get(7),0);set(28,get(28)+1);engine.checkpoint(1031)
+  end
+ end
+end
+if day==3 then
+ local init=production_init
+ production_init=function(w)
+  if init then init(w)end
+  local q=point(0)
+  local tank=engine.spawn{x=q.x+4,y=q.y,z=q.z-2,kind=34,hp=350,max_hp=350,team=0,owner=0,mode=0,radius=2.2,height=3.4,speed=5.5}
+  set(30,tank);item(tank,15,6)
+ end
+ local action=actions
+ actions=function(w,p,i)
+  local b=32+(i-1)*6;local h=get(b);local a=engine.actor(h);local original=get(b+5)
+  if original~=0 then
+   local foot=engine.actor(original)
+   if not a or a.hp==0 or p.alt~=0 or w.won==1 then
+    if foot then
+     local exited=engine.inventory(original,15)~=7 or engine.passenger(original,0)
+     if not exited and (not a or a.hp==0)then engine.warp(original,0);exited=engine.passenger(original,0)end
+     if exited then
+      set(b,original);set(b+5,0);set(b+2,(p.alt~=0 and 8 or 0)|(p.command~=0 and 16 or 0))
+      engine.possess(i-1,original);p.body=original;engine.mode(original,0,4.5)
+     end
+    end
+    return
+   end
+   if p.fire~=0 and w.tick>=get(b+1)then
+    item(h,5,4)
+    local shot=engine.projectile(h,math.sin(p.yaw)*math.cos(p.pitch),math.sin(p.pitch),-math.cos(p.yaw)*math.cos(p.pitch),40,40,0,0,150)
+    if shot~=0 then set(b+1,w.tick+55);p.cooldown=55 end
+   end
+   return
+  end
+  local board=p.command~=0 and get(b+2)&16==0
+  action(w,p,i)
+  local tank=actor(30)
+  if board and a and tank and tank.hp>0 and near(a,tank,6) and engine.control(get(30),i-1) and engine.passenger(h,get(30))then
+   set(b+5,h);set(b,get(30));engine.possess(i-1,get(30));p.body=get(30)
+  elseif p.use~=0 and near(a,point(0),3) and tank and tank.hp==0 and purchase(4)then
+   engine.heal(get(30),350,0);engine.warp(get(30),0)
   end
  end
 end

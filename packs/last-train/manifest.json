@@ -1,6 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
+  "metres_per_cell": 2,
   "save_version": 2,
   "id": "last-train",
   "title": "Last Train",
@@ -15,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "8a94d1fb3f68f04466ba3f94d2cc9c10d3fb336ab4c0798c05ce5f12e003497d",
+      "sha256": "6baf858d897cb221d96771604ff80c075eb961f85843fb5f42099e17834d14cb",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -27,7 +28,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "ef4a6c7c506456120c2f6247025e54ddaa05e905f23f2131a8482d4eb298f1e1",
+      "sha256": "3c48a78678c4c9dd9981335dccd041a2dcddd143853b9a9dc7d82ad5feb17352",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +82,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "a6d7b3f702accf31015b4231ada8f4443297a8e11c9b63323be9602eb78831e2",
+      "sha256": "b08de2bd5d8d762ef1f03c94d1ee674c46545ea1c24133e5a7ad899c9c5b174f",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "4c7c91f316395df88d924448c0f9fdb7e067773a65c41f11e647ddad6c40c1d0",
+      "sha256": "7afa0ea046c43fcc2f94d81d37ab5d5f85b1847084ee52ef53b67f04ff0c7311",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -99,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "b00f016bae7c98f80de8ce22f0a7af4e289108421c39e0672507b091504957e7",
+      "sha256": "42a1e15aeb48920ffa5311d918ee56d346ed90a782980a2ebe5b2e7c080bfdb8",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -117,13 +118,13 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "a1dbe008a0435518ac5feb2cb76e37cb1223cf13204ab1d2523c6b5881b5b9b6",
+      "sha256": "64c9d8fd8128a77d10089f0e487baf7d0cda2069b29fd2d5a3fb47f4433e79ec",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "rules.lua",
-      "sha256": "83583646658374633621928b56cd01541cebc433acbcc74898adad980e823c95",
+      "sha256": "5682dc510884a00abbf317756208740142bb527ec360340a128a5aad8cb56afb",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

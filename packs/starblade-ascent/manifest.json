@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "engine_api": 4,
+  "engine_api": 5,
   "save_version": 2,
   "id": "starblade-ascent",
   "title": "Starblade Ascent",
@@ -15,7 +15,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "026bbf6c1d92e7c66d2d69a237429ffd3bf6e10b53d4b8077f46405a8b69a9d1",
+      "sha256": "95f8e140ffe31452bf81f29e4db353eb43d45ea7a165cb97de63929aea9705ea",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -81,13 +81,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "6d45a8558cb43345b4566eb61a818091a518dc1c1da4696d8704724b37110d21",
+      "sha256": "e7492336211559e9a55bbc8e5995f6a3a8534228a453b3582809f148595433bf",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "59b2aff22b38796059ba131b9db0b4c92e1e2a89f59069a1e08760ec2ad44b69",
+      "sha256": "43001b0d2bf0e4f208b5302c8a7a2d5f6cdd00a12fd04c8717831e80d3cecf23",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
