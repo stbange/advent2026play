@@ -81,7 +81,15 @@ export function mount({document, window, createAdvent}) {
       const adapt = () => { element('touch').hidden = !query.matches; };
       query.addEventListener('change',adapt); adapt();
       for (const [id, action] of [['fire',1],['use',2],['jump',4],['alt',8],['command',16],['next',32],['return',64]]) bindTouch(element(id),action,module);
-      const release = () => { for(let action=1;action<=64;action*=2) module._advent_touch_button(action,0); module._advent_touch_axis(0); module._advent_cancel_input(); };
+      element('arsenal').addEventListener('click',()=>{
+        const mask=module._advent_weapon_mask();
+        element('weapon-wheel').hidden=!element('weapon-wheel').hidden || !mask;
+        for(let i=1;i<=8;i++)element('weapon-'+i).disabled=!(mask&(1<<(i-1)));
+      });
+      for(let i=1;i<=8;i++)element('weapon-'+i).addEventListener('click',()=>{
+        module._advent_weapon(i);element('weapon-wheel').hidden=true;element('canvas').focus();
+      });
+      const release = () => { element('weapon-wheel').hidden=true; for(let action=1;action<=64;action*=2) module._advent_touch_button(action,0); module._advent_touch_axis(0); module._advent_cancel_input(); };
       window.addEventListener('blur',release); window.addEventListener('orientationchange',release);
       for (const [id,direction] of [['up',1],['down',-1]]) {
         element(id).addEventListener('pointerdown',event=>{event.preventDefault();element(id).setPointerCapture(event.pointerId);module._advent_touch_axis(direction);});

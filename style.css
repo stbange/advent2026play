@@ -3,3 +3,5 @@
 
 select{font:inherit;background:#10151d;color:#e4e7e9;padding:10px;border:1px solid #637180}#controls{position:fixed;z-index:10;right:8px;top:8px;background:#151b24ec;border:1px solid #69717b;padding:10px;max-width:min(440px,95vw);max-height:85vh;overflow:auto}summary{cursor:pointer}.settings-panel{padding:12px}.settings-panel label{margin:12px 0}#touch #jump{right:3%;bottom:28%}#touch #alt{right:14%;bottom:28%}#touch #command{right:25%;bottom:10%}#touch #next{right:25%;bottom:28%}#touch #return{right:36%;bottom:10%}#touch #up{left:3%;bottom:38%}#touch #down{left:14%;bottom:38%}
 pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+
+#arsenal{right:12.8rem;bottom:8.4rem} #weapon-wheel:not([hidden]){position:absolute;inset:20% 15%;display:grid;grid-template-columns:1fr 1fr;gap:.5rem;padding:1rem;background:#101622ee;z-index:5} #weapon-wheel button{min-height:3rem} #weapon-wheel button:disabled{opacity:.35}

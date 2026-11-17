@@ -1,8 +1,62 @@
-PLANT A CHARGE AT THE SERVICE GATE: ALT.
-DETONATE THE CHARGE: COMMAND.
-COLLECT CARD AND LURE ROCKETS INTO THE WEST SIGN.
-COLLECT CARD AND LURE ROCKETS INTO THE EAST SIGN.
-BOTH SIGNS DOWN. THE MARQUEE BRUTE IS EXPOSED.
-REARM YOUR TOOLS AND FOLLOW THE MARKED ROUTE.
-REARM YOUR TOOLS AND FOLLOW THE MARKED ROUTE.
-ENCOUNTER COMPLETE. RETURN TO THE ENTRANCE AND USE IT.
+CLEAR THE DELIVERY BAY. THE CINEMA IS STRAIGHT AHEAD.
+VISIT THE DINER OR TAKE THE SERVICE ALLEY.
+OPEN THE TICKET SHUTTER: USE, CHARGE, OR TAKE THE ARCADE ENTRANCE.
+ARCADE: CUT THE POWER OR CROSS ON THE DRY PLATFORMS.
+THROUGH THE AUDITORIUM. WATCH THE BALCONY!
+BREACH THE SCREEN AND REACH THE PRACTICAL EFFECTS WORKSHOP.
+TAKE THE RAMP OR FREIGHT LIFT TO THE PROJECTION BOOTH.
+USE THE PROJECTOR TO REDIRECT ITS BEAM, OR DESTROY IT.
+REACH THE ROOFTOPS. ALT TO TOGGLE YOUR JETPACK.
+LOWER THE CRANE WALKWAY OR FLY ACROSS THE GAP.
+DESTROY THE BROADCAST GUARDS AND AMPLIFIER.
+THE PRODUCER HAS ARRIVED. RETURN TO THE STREET.
+THE PRODUCER: KEEP MOVING. EVERY WEAPON CAN HURT HIM.
+NO REFUNDS! RETURN TO THE DELIVERY BAY PORTAL.
+Night shift. Of course it is.
+No outside food. Humans included.
+Small: eight. Large: eleven. Surrender: market price.
+I do my own stunts. Mostly by accident.
+Your table is ready. Your planet is not.
+In an emergency, finish your shift.
+Now it is an open-air cinema.
+I need to speak to your manager!
+We will fix your death in post.
+Worst midnight screening ever.
+That is one expensive popcorn refill.
+Please validate my parking.
+The audience is revolting. Finally, honest reviews.
+Cut! No, the OTHER arm!
+A little less conversation. Literally.
+Chill. The previews are still running.
+No refunds. No survivors? We will see.
+Keep your feet off the seats. Unless you are shrinking.
+Is this the director cut?
+That is not a special effect. Yet.
+Staff only. I am having a staff meeting.
+Warning: this film contains explosive opinions.
+Looks like we lost the projector warranty.
+The roof has excellent surround sound.
+You are obstructing my dramatic entrance.
+Please switch your tentacles to silent.
+Nice helmet. Does it come in tiny?
+That is my cue.
+Five stars for property damage.
+The sequel has been cancelled.
+Projection restored. Sensible management unavailable.
+The cooling is finally working.
+Safety first. Giant missiles second.
+A complimentary drink! Only slightly radioactive.
+The pool table was rigged. So was the invasion.
+That is the smallest complaint I have ever heard.
+Security footage: aliens still hate stairs.
+I am taking this film reel as evidence.
+You cannot park a spaceship there.
+Midnight Matinee. NO REFUNDS.
+SERVICE PISTOL
+DOORBUSTER
+PIPE CHARGES
+ROTARY CANNON
+RPG
+POCKET RAY
+CRYO SPRAYER
+TWIN MISSILES

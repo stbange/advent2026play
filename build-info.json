@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/stbange/advent2026",
-  "source_commit": "acaf93b59184f28fdf83814df76df0698ef4df96",
+  "source_commit": "5e2eed99f75fb28502aefe66a012ac32210135b6",
   "emscripten": "4.0.10",
-  "packaged_at": "2026-11-17T00:55:16.094066+00:00",
+  "packaged_at": "2026-11-17T12:15:42.354446+00:00",
   "play_url": "https://stbange.github.io/advent2026play/",
   "world_pixel_budget": [
     384,
@@ -34,7 +34,7 @@
     23,
     24
   ],
-  "scope": "All 24 first versions with approved generated audio, distinct world scenery, carpet flight, giant body-attached mech cockpit, boardable tracked tank and explorer companion. API 5; 384x240 world budget. Automated checks pass; M7 production, complete scenario sign-off, human pacing/recognition and physical devices remain open.",
+  "scope": "Day One rebuilt as Midnight Matinee - No Refunds: eight guns, eight alien roles, cinema district, puzzles/secrets and Producer finale. All 24 early episodes remain available. Engine API 6; 384x240 world budget; approved audio with five documented weapon derivatives. Automated solo/co-op and unit gates pass; human twenty-minute pacing, recognition, art acceptance and physical devices remain open.",
   "files": [
     {
       "path": "ART-LICENSE.md",
@@ -53,13 +53,13 @@
     },
     {
       "path": "advent.js",
-      "bytes": 233265,
-      "sha256": "888f649327310643bc3c39dc72aefa9fe0b9fdf53c60d5baa3539067da0d3af8"
+      "bytes": 233426,
+      "sha256": "610a2730011fdfaf759add552a0676bf68dd96945ff1ace9825a55082019deba"
     },
     {
       "path": "advent.wasm",
-      "bytes": 2227768,
-      "sha256": "4a92bef15fed91e1382385abeb5a8af3753fdd8f0083928ac419426434b8d53d"
+      "bytes": 2237840,
+      "sha256": "57812cc60a2a6d7c2795dde7d8094965ce8e94757453d37604fbd7a313c6efff"
     },
     {
       "path": "assets/ATTRIBUTION.md",
@@ -178,13 +178,13 @@
     },
     {
       "path": "client.mjs",
-      "bytes": 9826,
-      "sha256": "f8e75cc199906c61df7392f7a704ee3b21fba0ce3a55cd92188d3e93c31ab69e"
+      "bytes": 10323,
+      "sha256": "eb09aea1fbdd00dd5bfdd5d32eaa8f95ac97882eb647a0469a2dbd99701f8954"
     },
     {
       "path": "index.html",
-      "bytes": 9572,
-      "sha256": "88a0bae31e51871d01c18bc1773b8647af87d1c48d7eef661334fc6b0e8347da"
+      "bytes": 10360,
+      "sha256": "9cfceb1af4bc638a487a8e03a89ec259638e4826ef2afcf4c35d2b9307127799"
     },
     {
       "path": "library.js",
@@ -2148,8 +2148,8 @@
     },
     {
       "path": "packs/midnight-matinee/ATTRIBUTION.md",
-      "bytes": 553,
-      "sha256": "8b9d465d177a8f7cd4fcd79524622bc03cb9b14284f70cfb022f5ea0cbcaab77"
+      "bytes": 637,
+      "sha256": "7505b547c42c4f1af08d0f7b009fee76ac345696428b2b276b31c4f81e9f5c10"
     },
     {
       "path": "packs/midnight-matinee/AUDIO-LICENSE.txt",
@@ -2158,18 +2158,18 @@
     },
     {
       "path": "packs/midnight-matinee/atlas.png",
-      "bytes": 111240,
-      "sha256": "56a817815baaccb6ca71b3fb1b94fd3bdb44759e5bac81cc308932f8ae73aafa"
+      "bytes": 573008,
+      "sha256": "5e76c7dcc6a5ff68dc1dd141b4b1992135094846c859828262b97c5acadbaead"
     },
     {
       "path": "packs/midnight-matinee/audio-source.json",
-      "bytes": 5041,
-      "sha256": "1d24caeff737795314a1056391b5a2f96967faa13a9eaf96e55370c0ae6c80aa"
+      "bytes": 8323,
+      "sha256": "fc5752d492f3de2e56596307a1a9e9f4449fbaacf8f99c9b392088bc129ae6ac"
     },
     {
       "path": "packs/midnight-matinee/audio.json",
-      "bytes": 1534,
-      "sha256": "5a7345e690f0310add2db25f8698785e3e39e687f181fd7953611e179ea4a0c4"
+      "bytes": 2110,
+      "sha256": "91d893ca4cd1a6cad5efdc64ddc08edde4b94ccb81f245f7a08ed774e90a5bc2"
     },
     {
       "path": "packs/midnight-matinee/effects.wav",
@@ -2183,8 +2183,8 @@
     },
     {
       "path": "packs/midnight-matinee/hall.bin",
-      "bytes": 9868868,
-      "sha256": "cc03a12262a872bcfe3d46e5b821d6de06caaec17696a69373846c3cbc450963"
+      "bytes": 10046688,
+      "sha256": "15af31c87f93ba770444d3638d9bd61aceefc19278f4a7ea8af007e6329b2708"
     },
     {
       "path": "packs/midnight-matinee/hall.gltf",
@@ -2198,23 +2198,23 @@
     },
     {
       "path": "packs/midnight-matinee/hud.txt",
-      "bytes": 365,
-      "sha256": "462bc932d7e4037b4df7d448e6d7622b895e253ee7ab835fc76471a13198279b"
+      "bytes": 2337,
+      "sha256": "4570b147f449136993e3165517b442255be7441d8694bae90c5b5eefb1d1463f"
     },
     {
       "path": "packs/midnight-matinee/level.bin",
-      "bytes": 743424,
-      "sha256": "b1f7bfd589ef88d32c78f50ff77b82b94cfb79fcd5ca8101bb7dd426cfbcf0e8"
+      "bytes": 1536192,
+      "sha256": "c814176ccd3cac16a1640664602f8e819b6608ed2d7a1a89ccc8d4b59eb1b16f"
     },
     {
       "path": "packs/midnight-matinee/level.gltf",
-      "bytes": 35530,
-      "sha256": "bc4030edd3c23b5325799c6b7573a1af4c42e896e2a4b05ef437ace7e9635404"
+      "bytes": 56146,
+      "sha256": "87dc629a7040b0632869b2feecbba47307a98c8b1467ba4caac8f92686607453"
     },
     {
       "path": "packs/midnight-matinee/manifest.json",
-      "bytes": 4737,
-      "sha256": "8af7889e6f5d7618473c071449f446c7b11a2b6293878322f65af2fd7a836b98"
+      "bytes": 4750,
+      "sha256": "fae4fd07841c114bc2da6c08628537507d3deae802f782939fad359f2398c100"
     },
     {
       "path": "packs/midnight-matinee/music.wav",
@@ -2223,8 +2223,8 @@
     },
     {
       "path": "packs/midnight-matinee/navigation.json",
-      "bytes": 2188,
-      "sha256": "42a1e15aeb48920ffa5311d918ee56d346ed90a782980a2ebe5b2e7c080bfdb8"
+      "bytes": 4856,
+      "sha256": "c853afde5d95b2cbad53ed5b9c8270730715790b1e058405823a544827e33cda"
     },
     {
       "path": "packs/midnight-matinee/palette.txt",
@@ -2239,17 +2239,17 @@
     {
       "path": "packs/midnight-matinee/red-furnace.map",
       "bytes": 1568,
-      "sha256": "a1dbe008a0435518ac5feb2cb76e37cb1223cf13204ab1d2523c6b5881b5b9b6"
+      "sha256": "114a86f12ee7eac227f537a511c6b4265bfe7536aec3e08a2ef11dbd252f9571"
     },
     {
       "path": "packs/midnight-matinee/rules.lua",
-      "bytes": 30593,
-      "sha256": "65368e75ff2e8770f099d3e8a96ae1732b9acf2f69ec417b0a66ae8d3b933d4d"
+      "bytes": 30200,
+      "sha256": "b5489538e4f79028f02abeb60eb61f80b7aa743d468abb2b7949931043ad4e01"
     },
     {
       "path": "packs/midnight-matinee/scene.frag",
-      "bytes": 3161,
-      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549"
+      "bytes": 3206,
+      "sha256": "874ca05350ab40f8414d21ed46d5006c27516b09aa16418ffb14172f53607a0b"
     },
     {
       "path": "packs/midnight-matinee/scene.vert",
@@ -4068,8 +4068,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 3012,
-      "sha256": "2cfcbac94548870e02acdd85ceda4bce90ee85c2e74bf0ae1732fad99fc708f3"
+      "bytes": 3290,
+      "sha256": "0e15ca349c6dba23ff0efe5287e66c45a0a553ef8474face71da566c4dbec77e"
     },
     {
       "path": "xr.mjs",

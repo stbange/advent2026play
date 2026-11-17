@@ -104,6 +104,71 @@
       "sha256": "f1b32f11e99478aa984d368cd2f7e3c80b228051edda0f77355cbe5e41ca9298",
       "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
       "license": "LicenseRef-ElevenLabsMedia"
+    },
+    "shot3": {
+      "request": "shared-pistol",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "NUmr4jPzEYhR8PsBTi8L",
+      "sha256": "1f184afe6d73f43a01451492ff2a1397d5fecdd4a684abe4df1cfdff307ff025",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia",
+      "parent_cue": "shot0",
+      "method": "Resampling, bounded envelope and twin-shot delay for shot7; derivative of approved take",
+      "rate": 1.6,
+      "duration": 0.16,
+      "derivative_sha256": "98cca36b618c98c8150e5c0746cf94b0d5d982431d8ebbef03c41c4b9a939075"
+    },
+    "shot4": {
+      "request": "shared-rocket",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "m6eV93MHVyV4ecQ8Q3kQ",
+      "sha256": "a5ea190c1c20e28d0136df9a50939e635fadcaa77ac7d254d392c8cf32a66e29",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia",
+      "parent_cue": "shot2",
+      "method": "Resampling, bounded envelope and twin-shot delay for shot7; derivative of approved take",
+      "rate": 0.72,
+      "duration": 0.65,
+      "derivative_sha256": "879683ad0564aa62fe3e1f650718b445444ee9c098138a15ae6186816801b661"
+    },
+    "shot5": {
+      "request": "shared-rocket",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "m6eV93MHVyV4ecQ8Q3kQ",
+      "sha256": "a5ea190c1c20e28d0136df9a50939e635fadcaa77ac7d254d392c8cf32a66e29",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia",
+      "parent_cue": "shot2",
+      "method": "Resampling, bounded envelope and twin-shot delay for shot7; derivative of approved take",
+      "rate": 2.1,
+      "duration": 0.36,
+      "derivative_sha256": "c9ac85f2726c4780f4b8495e178f235c289c5ff19e56631634866d19609d52e7"
+    },
+    "shot6": {
+      "request": "shared-rocket",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "m6eV93MHVyV4ecQ8Q3kQ",
+      "sha256": "a5ea190c1c20e28d0136df9a50939e635fadcaa77ac7d254d392c8cf32a66e29",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia",
+      "parent_cue": "shot2",
+      "method": "Resampling, bounded envelope and twin-shot delay for shot7; derivative of approved take",
+      "rate": 1.5,
+      "duration": 0.23,
+      "derivative_sha256": "9ea2b6ce4cc7279db065dc2757c23a4ec58229275db5d79c9b0bb2b2f288de60"
+    },
+    "shot7": {
+      "request": "shared-rocket",
+      "provider": "ElevenLabs MCP",
+      "generation_id": "m6eV93MHVyV4ecQ8Q3kQ",
+      "sha256": "a5ea190c1c20e28d0136df9a50939e635fadcaa77ac7d254d392c8cf32a66e29",
+      "rights_evidence": "licenses/ElevenLabsMedia.txt; project owner approved audio integration on 2026-11-16",
+      "license": "LicenseRef-ElevenLabsMedia",
+      "parent_cue": "shot2",
+      "method": "Resampling, bounded envelope and twin-shot delay for shot7; derivative of approved take",
+      "rate": 1.15,
+      "duration": 0.45,
+      "derivative_sha256": "3bd7fddac5f11bacb446d9445f13faa8deacd6022032f0444fd70c1375f0fa9c"
     }
   }
 }

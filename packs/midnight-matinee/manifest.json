@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "engine_api": 5,
-  "metres_per_cell": 2,
+  "engine_api": 6,
+  "metres_per_cell": 4,
   "save_version": 2,
   "id": "midnight-matinee",
-  "title": "Midnight Matinee",
+  "title": "Midnight Matinee - No Refunds",
   "day": 1,
   "min_players": 1,
   "max_players": 4,
@@ -16,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "8b9d465d177a8f7cd4fcd79524622bc03cb9b14284f70cfb022f5ea0cbcaab77",
+      "sha256": "7505b547c42c4f1af08d0f7b009fee76ac345696428b2b276b31c4f81e9f5c10",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -28,19 +28,19 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "56a817815baaccb6ca71b3fb1b94fd3bdb44759e5bac81cc308932f8ae73aafa",
+      "sha256": "5e76c7dcc6a5ff68dc1dd141b4b1992135094846c859828262b97c5acadbaead",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio-source.json",
-      "sha256": "1d24caeff737795314a1056391b5a2f96967faa13a9eaf96e55370c0ae6c80aa",
+      "sha256": "fc5752d492f3de2e56596307a1a9e9f4449fbaacf8f99c9b392088bc129ae6ac",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "audio.json",
-      "sha256": "5a7345e690f0310add2db25f8698785e3e39e687f181fd7953611e179ea4a0c4",
+      "sha256": "91d893ca4cd1a6cad5efdc64ddc08edde4b94ccb81f245f7a08ed774e90a5bc2",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -58,7 +58,7 @@
     },
     {
       "path": "hall.bin",
-      "sha256": "cc03a12262a872bcfe3d46e5b821d6de06caaec17696a69373846c3cbc450963",
+      "sha256": "15af31c87f93ba770444d3638d9bd61aceefc19278f4a7ea8af007e6329b2708",
       "creator": "Advent2026 contributors; Created in collaboration with ElevenLabs",
       "license": "LicenseRef-ElevenLabsMedia"
     },
@@ -76,19 +76,19 @@
     },
     {
       "path": "hud.txt",
-      "sha256": "462bc932d7e4037b4df7d448e6d7622b895e253ee7ab835fc76471a13198279b",
+      "sha256": "4570b147f449136993e3165517b442255be7441d8694bae90c5b5eefb1d1463f",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "level.bin",
-      "sha256": "b1f7bfd589ef88d32c78f50ff77b82b94cfb79fcd5ca8101bb7dd426cfbcf0e8",
+      "sha256": "c814176ccd3cac16a1640664602f8e819b6608ed2d7a1a89ccc8d4b59eb1b16f",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "bc4030edd3c23b5325799c6b7573a1af4c42e896e2a4b05ef437ace7e9635404",
+      "sha256": "87dc629a7040b0632869b2feecbba47307a98c8b1467ba4caac8f92686607453",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -100,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "42a1e15aeb48920ffa5311d918ee56d346ed90a782980a2ebe5b2e7c080bfdb8",
+      "sha256": "c853afde5d95b2cbad53ed5b9c8270730715790b1e058405823a544827e33cda",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -118,19 +118,19 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "a1dbe008a0435518ac5feb2cb76e37cb1223cf13204ab1d2523c6b5881b5b9b6",
+      "sha256": "114a86f12ee7eac227f537a511c6b4265bfe7536aec3e08a2ef11dbd252f9571",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "rules.lua",
-      "sha256": "65368e75ff2e8770f099d3e8a96ae1732b9acf2f69ec417b0a66ae8d3b933d4d",
+      "sha256": "b5489538e4f79028f02abeb60eb61f80b7aa743d468abb2b7949931043ad4e01",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "scene.frag",
-      "sha256": "8218e35071e59e22aebdf646734411489d42766dc90d2505c26b46019bc06549",
+      "sha256": "874ca05350ab40f8414d21ed46d5006c27516b09aa16418ffb14172f53607a0b",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

@@ -78,6 +78,36 @@
       "gain": 0.22,
       "offset": 6816024,
       "length": 3052844
+    },
+    "shot3": {
+      "file": "hall.bin",
+      "offset": 9868868,
+      "length": 15404,
+      "gain": 0.65
+    },
+    "shot4": {
+      "file": "hall.bin",
+      "offset": 9884272,
+      "length": 62444,
+      "gain": 0.65
+    },
+    "shot5": {
+      "file": "hall.bin",
+      "offset": 9946716,
+      "length": 34604,
+      "gain": 0.65
+    },
+    "shot6": {
+      "file": "hall.bin",
+      "offset": 9981320,
+      "length": 22124,
+      "gain": 0.65
+    },
+    "shot7": {
+      "file": "hall.bin",
+      "offset": 10003444,
+      "length": 43244,
+      "gain": 0.65
     }
   }
 }
