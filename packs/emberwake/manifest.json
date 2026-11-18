@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "engine_api": 7,
-  "metres_per_cell": 6.5,
+  "engine_api": 8,
+  "metres_per_cell": 8,
   "save_version": 2,
   "id": "emberwake",
   "title": "Emberwake",
@@ -16,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "f174ed473dfe02077121d62bf856f05f40a1576343d7fbe789fbb3b45c0b5417",
+      "sha256": "4e2167d39a4ae3d6e93d03a0a537d5b27b2282894a9a5b5b3f2620ec021d5a43",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -28,7 +28,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "33ed044aabec182574720c89a1c9c14c4cf5e52567c0aa29fce985271836491d",
+      "sha256": "c1fafb72c876a23462050a6077ff5253e49e341edb5e5fbafed91b32d7794400",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -76,19 +76,19 @@
     },
     {
       "path": "hud.txt",
-      "sha256": "fbe3ec83dd14642344b41b4bb559f99883fa1a231e4309995625eb9165f8b628",
+      "sha256": "8eea0f2956ab82a90435c3eb4e3edbed6da3be2a9d3bcbc3eae2d2039e46eaac",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },
     {
       "path": "level.bin",
-      "sha256": "7e4487ab6d29c310905a9026426beabcf929f457fcc6bb49fa7731e84ac4b62e",
+      "sha256": "dcbf55da7f46716ceceba13755f49ab68c29cd56a53f1fee3ef6dca09d4f15b5",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "d8143d1b473316e471280058eeb3387ab6e5d9a4d1e6420efb640e3ee2becd71",
+      "sha256": "0c5f3cefe6a9b5e7896659be933abfc81141a49e6a030a7912c7126a7939b285",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -100,7 +100,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "f471a7611c2b249d8380a3620a5524f3f22f16b3c4f8e5c331559fbfd859e971",
+      "sha256": "3b102591563440d740b80e967335919056d32a69465e4fd9751c664500dbcaaa",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -124,7 +124,7 @@
     },
     {
       "path": "rules.lua",
-      "sha256": "05ba102f1df8c1e1ed7b85b21a98aaf18e1ac170b21e3f360dfaaaec51908ee2",
+      "sha256": "238edb00f946917f8b5a767b0b0136291e2a3bc7b7320c91221420bfb27feac1",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

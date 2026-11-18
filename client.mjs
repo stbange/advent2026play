@@ -62,10 +62,12 @@ export function mount({document, window, createAdvent}) {
       window.advent = module;
       element('credits').textContent=module.credits;
       const ordinaryLabels=Array.from({length:8},(_,i)=>element('weapon-'+(i+1)).textContent);
+      let carpetWorld=false;
       const updatePalette=()=>{
         const manifest=JSON.parse(new TextDecoder().decode(module.activeFiles[0][1]));
         const carpet=manifest.id==='emberwake';
-        const spells=['1 · Ember Bolt','2 · Stone Lift','3 · Ward','4 · Gust'];
+        carpetWorld=carpet && manifest.engine_api>=8;
+        const spells=manifest.engine_api>=8?['1 · Firebolt','2 · Castle','3 · Shield','4 · Earth Rise']:['1 · Ember Bolt','2 · Stone Lift','3 · Ward','4 · Gust'];
         element('arsenal').textContent=carpet?'SPELLS':'GUNS';
         element('alt').textContent=carpet?'CLAIM':'ALT';
         element('jump').textContent=carpet?'BOOST':'JUMP';
@@ -103,6 +105,7 @@ export function mount({document, window, createAdvent}) {
       });
       for(let i=1;i<=8;i++)element('weapon-'+i).addEventListener('click',()=>{
         module._advent_weapon(i);element('weapon-wheel').hidden=true;element('canvas').focus();
+        if(carpetWorld)element('command').textContent=i===2?'ROTATE':i===4?'DISMISS':'ORDER';
       });
       const release = () => { element('weapon-wheel').hidden=true; for(let action=1;action<=64;action*=2) module._advent_touch_button(action,0); module._advent_touch_axis(0); module._advent_cancel_input(); };
       window.addEventListener('blur',release); window.addEventListener('orientationchange',release);
