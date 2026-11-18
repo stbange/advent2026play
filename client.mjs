@@ -61,12 +61,27 @@ export function mount({document, window, createAdvent}) {
       const module = await start({createAdvent,canvas:element('canvas'),url,fetch:window.fetch.bind(window),storage:{getItem:key=>window.localStorage.getItem(key)},bot:params.get('bot')==='1',botParty:Number(params.get('party'))||1,preview:element('preview').checked,split:element('split').checked,room:Number(element('room').value)||1,difficulty:element('difficulty').value||'classic',base:element('initial-world').value||'assets/',onStatus:text => { element('status').textContent=text; }});
       window.advent = module;
       element('credits').textContent=module.credits;
+      const ordinaryLabels=Array.from({length:8},(_,i)=>element('weapon-'+(i+1)).textContent);
+      const updatePalette=()=>{
+        const manifest=JSON.parse(new TextDecoder().decode(module.activeFiles[0][1]));
+        const carpet=manifest.id==='emberwake';
+        const spells=['1 · Ember Bolt','2 · Stone Lift','3 · Ward','4 · Gust'];
+        element('arsenal').textContent=carpet?'SPELLS':'GUNS';
+        element('alt').textContent=carpet?'CLAIM':'ALT';
+        element('jump').textContent=carpet?'BOOST':'JUMP';
+        for(let i=0;i<8;i++){
+          const button=element('weapon-'+(i+1));
+          button.hidden=carpet && i>=4;
+          button.textContent=carpet?spells[i]||'':ordinaryLabels[i];
+        }
+      };
+      updatePalette();
       let loading;
       element('world-load').disabled=!!url;
       const loadWorld=async (base,enter=false)=>{
         if(loading || url)return;
         loading=new AbortController();element('world-load').disabled=true;element('world-cancel').hidden=false;
-        try {element('credits').textContent=await activatePack(module,{fetch:window.fetch.bind(window),base,signal:loading.signal});element('status').textContent='World ready. Use its doorway to enter.';if(enter){module._advent_touch_button(2,1);setTimeout(()=>module._advent_touch_button(2,0),200);}}
+        try {element('credits').textContent=await activatePack(module,{fetch:window.fetch.bind(window),base,signal:loading.signal});element('status').textContent='World ready. Use its doorway to enter.';updatePalette();if(enter){module._advent_touch_button(2,1);setTimeout(()=>module._advent_touch_button(2,0),200);}}
         catch(error){element('status').textContent=error.message;}
         finally{loading=null;element('world-load').disabled=false;element('world-cancel').hidden=true;}
       };

@@ -42,12 +42,13 @@ float visibility(int index,vec3 delta,float range) {
 void main() {
     vec2 coordinates=uv.xy;
     vec3 normal=normalize(cross(dFdx(worldPosition),dFdy(worldPosition)));
-    if(uv.z>2.5) {
+    if(uv.z>2.5 && uv.z<3.5) {
         vec3 axis=abs(normal);
         vec2 plane=axis.x>axis.y && axis.x>axis.z ? worldPosition.zy :
                    axis.y>axis.z ? worldPosition.xz : worldPosition.xy;
-        vec2 tile=floor(uv.xy*vec2(8.0,16.0));
-        coordinates=(tile*64.0+1.0+fract(plane*0.65)*62.0)/vec2(512.0,1024.0);
+        vec2 dimensions=vec2(textureSize(atlas,0));
+        vec2 tile=floor(uv.xy*dimensions/64.0);
+        coordinates=(tile*64.0+1.0+fract(plane*0.65)*62.0)/dimensions;
     }
     vec4 texel=texture(atlas,coordinates);
     float coverage=(mod(floor(gl_FragCoord.x)+floor(gl_FragCoord.y)*2.0,4.0)+0.5)/4.0;
