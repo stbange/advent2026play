@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/stbange/advent2026",
-  "source_commit": "c73192666d16df334050595bfeebc194d39b4c1a",
+  "source_commit": "d24223fff4fd1466334bf9378733c15e4e59a975",
   "emscripten": "4.0.10",
-  "packaged_at": "2026-11-18T16:00:30.673846+00:00",
+  "packaged_at": "2026-11-18T17:35:54.786087+00:00",
   "play_url": "https://stbange.github.io/advent2026play/",
   "world_pixel_budget": [
     384,
@@ -34,7 +34,7 @@
     23,
     24
   ],
-  "scope": "Day Two reworks Emberwake into Glasswind Basin with free carpet flight, contested mana deliveries, castle modules, six layouts, five spells and the three-phase Ash Regent duel. Native solo and co-op, replay, save/reconnect and touch browser checks passed.",
+  "scope": "Day Two brings the Glasswind Basin paintings into the playable Keep, dunes, crystal caverns and Ash Regent duel. The update includes painted cloth, casting hands, a modeled collector balloon, an animated siphon and a mobile touch layout.",
   "files": [
     {
       "path": "ART-LICENSE.md",
@@ -54,12 +54,12 @@
     {
       "path": "advent.js",
       "bytes": 233426,
-      "sha256": "41d796e2c8d6baa1fac3486a5b978e880dc582097b1f2d5416a6fb077d4ce524"
+      "sha256": "72b104296321973fd7684aed250931b360ce3b389065c296276c796bf1ddc2ff"
     },
     {
       "path": "advent.wasm",
-      "bytes": 2243284,
-      "sha256": "0670d052509ef3592dd1b3b1886f2c73021ba08704fd8bdb39a0bdd4268d97ea"
+      "bytes": 2246011,
+      "sha256": "17db8b824d1ca7f3ee8e837b422579fa82e12c7188be5ed4fd7d957404f27c77"
     },
     {
       "path": "assets/ATTRIBUTION.md",
@@ -1063,8 +1063,8 @@
     },
     {
       "path": "packs/emberwake/ATTRIBUTION.md",
-      "bytes": 525,
-      "sha256": "5ea22dff69da9ae399a049b34fbb1a36ced4ad75b115e85bb27060aee253b655"
+      "bytes": 694,
+      "sha256": "f174ed473dfe02077121d62bf856f05f40a1576343d7fbe789fbb3b45c0b5417"
     },
     {
       "path": "packs/emberwake/AUDIO-LICENSE.txt",
@@ -1073,8 +1073,8 @@
     },
     {
       "path": "packs/emberwake/atlas.png",
-      "bytes": 164343,
-      "sha256": "c9c8b59fd422d67c9ca873d352dd66916e001b8d6588943ffd92a27b6b89249b"
+      "bytes": 1152423,
+      "sha256": "33ed044aabec182574720c89a1c9c14c4cf5e52567c0aa29fce985271836491d"
     },
     {
       "path": "packs/emberwake/audio-source.json",
@@ -1118,18 +1118,18 @@
     },
     {
       "path": "packs/emberwake/level.bin",
-      "bytes": 922560,
-      "sha256": "dd3effc41aef4aade2f741a2b084604dea0c344b20ddce3f340d62e0db1481cb"
+      "bytes": 2692608,
+      "sha256": "7e4487ab6d29c310905a9026426beabcf929f457fcc6bb49fa7731e84ac4b62e"
     },
     {
       "path": "packs/emberwake/level.gltf",
-      "bytes": 40317,
-      "sha256": "53f6719ce379d991c5c3eb3fec82fbc8c0612e5695120ad0f59640a96eca2307"
+      "bytes": 38268,
+      "sha256": "d8143d1b473316e471280058eeb3387ab6e5d9a4d1e6420efb640e3ee2becd71"
     },
     {
       "path": "packs/emberwake/manifest.json",
       "bytes": 4725,
-      "sha256": "1e233d0d6775debf1352281de80fbe75bdf8701d1826d416bdf4ccc44384af58"
+      "sha256": "91a94fb4850d82ef4960fa19bc1c42d55ca8e08451395f54a7852cac3c772ba7"
     },
     {
       "path": "packs/emberwake/music.wav",
@@ -1138,8 +1138,8 @@
     },
     {
       "path": "packs/emberwake/navigation.json",
-      "bytes": 3790,
-      "sha256": "35994d4e0393a65841db3fb8f8420911735ca47b858be1d258eb600f879c19dc"
+      "bytes": 3794,
+      "sha256": "f471a7611c2b249d8380a3620a5524f3f22f16b3c4f8e5c331559fbfd859e971"
     },
     {
       "path": "packs/emberwake/palette.txt",
@@ -1158,13 +1158,13 @@
     },
     {
       "path": "packs/emberwake/rules.lua",
-      "bytes": 18038,
-      "sha256": "dec07b11e98e22c474069f2c3f2c65880aca2089f54e0f30808af0ac75a5ff04"
+      "bytes": 18017,
+      "sha256": "05ba102f1df8c1e1ed7b85b21a98aaf18e1ac170b21e3f360dfaaaec51908ee2"
     },
     {
       "path": "packs/emberwake/scene.frag",
-      "bytes": 3226,
-      "sha256": "a10284ac58fff4e97e42bba8a54c30fd784173b46ad294e66868e3303b2778a5"
+      "bytes": 5391,
+      "sha256": "ee3945cc214702a46242212df4d70a92d786e762c1c2d7b7354908a72ebcaa21"
     },
     {
       "path": "packs/emberwake/scene.vert",
@@ -4068,8 +4068,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 3290,
-      "sha256": "0e15ca349c6dba23ff0efe5287e66c45a0a553ef8474face71da566c4dbec77e"
+      "bytes": 3617,
+      "sha256": "3b4b1c6e3975963459043e81893d6ff828739c1486a46070d2949031b7198d49"
     },
     {
       "path": "xr.mjs",

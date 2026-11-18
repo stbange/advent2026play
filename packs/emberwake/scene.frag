@@ -42,13 +42,30 @@ float visibility(int index,vec3 delta,float range) {
 void main() {
     vec2 coordinates=uv.xy;
     vec3 normal=normalize(cross(dFdx(worldPosition),dFdy(worldPosition)));
+    vec2 dimensions=vec2(textureSize(atlas,0));
+    vec2 pixel=uv.xy*dimensions;
+    bool basin=uv.z>0.5 && pixel.x>=512.0;
+    bool sky=basin && uv.z>1.5 && uv.z<2.5 && pixel.x<1536.0 && pixel.y>=384.0 && pixel.y<640.0;
     if(uv.z>2.5 && uv.z<3.5) {
         vec3 axis=abs(normal);
         vec2 plane=axis.x>axis.y && axis.x>axis.z ? worldPosition.zy :
                    axis.y>axis.z ? worldPosition.xz : worldPosition.xy;
-        vec2 dimensions=vec2(textureSize(atlas,0));
-        vec2 tile=floor(uv.xy*dimensions/64.0);
-        coordinates=(tile*64.0+1.0+fract(plane*0.65)*62.0)/dimensions;
+        if(!basin) {
+            vec2 tile=floor(pixel/64.0);
+            coordinates=(tile*64.0+1.0+fract(plane*0.65)*62.0)/dimensions;
+        } else if(pixel.y>=640.0 && pixel.y<768.0) {
+            // Fine stone courses, larger wind ripples and long sediment beds use metre-based UVs.
+            float tile=floor((pixel.x-512.0)/128.0);
+            vec2 repeatRate=tile==2.0 ? vec2(.095,.13) :
+                            tile==3.0 || tile==4.0 ? vec2(.13,.16) : vec2(.24);
+            coordinates=(floor(pixel/128.0)*128.0+.5+fract(plane*repeatRate)*127.0)/dimensions;
+        }
+    }
+    if(sky) {
+        vec3 ray=normalize(worldPosition-eyePosition);
+        float u=fract(atan(ray.z,ray.x)/6.2831853);
+        float v=clamp(.89-1.07*ray.y,0.0,1.0);
+        coordinates=(vec2(512.5,384.5)+vec2(u*1023.0,v*255.0))/dimensions;
     }
     vec4 texel=texture(atlas,coordinates);
     float coverage=(mod(floor(gl_FragCoord.x)+floor(gl_FragCoord.y)*2.0,4.0)+0.5)/4.0;
@@ -70,12 +87,33 @@ void main() {
             float lambert=max(0.0,dot(normal,normalize(delta)));
             light+=lightColor[i].rgb*lightColor[i].w*falloff*lambert*visibility(i,-delta,range);
         }
-        surface*=light*1.25;
-        surface=surface/(vec3(1.0)+surface);
+        if(basin) {
+            float cavern=smoothstep(177.0,193.0,worldPosition.x)*(1.0-smoothstep(236.0,251.0,worldPosition.x))*
+                         smoothstep(59.0,76.0,worldPosition.z)*(1.0-smoothstep(97.0,104.0,worldPosition.z))*
+                         (1.0-smoothstep(14.0,16.0,worldPosition.y));
+            vec3 twilight=mix(vec3(.45,.34,.53),vec3(.86,.76,1.0),normal.y*.5+.5);
+            float face=dot(normal,normalize(vec3(-.76,.32,.48)));
+            twilight*=mix(vec3(.72,.80,1.13),vec3(1.16,1.04,.92),smoothstep(-.5,.8,face));
+            twilight=mix(twilight,vec3(.045,.095,.14),cavern);
+            if(pixel.y>=640.0 && pixel.y<768.0 && pixel.x>=768.0 && pixel.x<896.0) {
+                float drift=sin(worldPosition.z*.17+worldPosition.x*.07+2.7*sin(worldPosition.x*.035));
+                surface*=mix(vec3(.87,.83,.91),vec3(1.04,1.02,.98),smoothstep(-.5,.8,drift));
+            }
+            surface=pow(surface,vec3(2.2))*(twilight+light*.90);
+            float peak=max(surface.r,max(surface.g,surface.b));
+            surface=1.23*surface/(1.0+.68*peak);
+        } else {
+            surface*=light*1.25;
+            surface=surface/(vec3(1.0)+surface);
+        }
         surface=pow(surface,vec3(1.0/2.2));
     }
     float haze=lighting==1?clamp((distanceFromEye-24.0)/140.0,0.0,0.32):0.0;
     vec3 lit=mix(surface,vec3(0.005,0.007,0.015),haze);
+    if(basin && lighting==1) {
+        float dust=sky?0.0:.84*smoothstep(18.0,360.0,distanceFromEye);
+        lit=mix(surface,vec3(.67,.51,.69),dust);
+    }
     lit=mix(lit,vec3(0.45,0.48,0.5),clamp(float(flashAmount)/90.0,0.0,0.9));
     float dither=mod(floor(gl_FragCoord.x)+floor(gl_FragCoord.y),2.0)/255.0;
     fragment=vec4(floor((lit+dither)*64.0)/64.0,1.0);
