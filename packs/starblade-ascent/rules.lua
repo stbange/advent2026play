@@ -84,18 +84,23 @@ function mission.player(w,p,i,pressed)
  if p.command~=0 and near(body(i),node(finish_node()),4) and (not flagged(1) or final() and flagged(2) and not flagged(4)) and engine.energy(h,20)then
   flag(1);if final() and get(22)>w.tick then flag(4);set(22,w.tick+180)end
  end
- if final() and inv(h,10)==999 and w.tick%180==20 and near(body(i),actor(get(1)),4)then flag(2);set(22,w.tick+180)end
+ if final() and inv(h,10)==999 and w.tick%180==20 then
+  local rival=actor(get(1))
+  if rival and rival.hp>0 and near(body(i),rival,4)then flag(2);set(22,w.tick+180)end
+ end
 end
 function mission.update(w)if not final()then goal(finish_node(),16,3)end end
 function mission.ready(w)return final() or flagged(1)end
 function mission.boss(w)
- local rival=actor(get(1));if rival and rival.hp>0 and rival.hp<180 then collapse_balcony(w,8)end
+ local rival=actor(get(1))
+ if not rival or rival.hp<=0 then return end
+ if rival.hp<180 then collapse_balcony(w,8)end
  local vulnerable=flagged(6) and get(22)>w.tick;shield(get(1),not vulnerable)
  if not flagged(2)then goal(finish_node(),8,13)
  elseif not flagged(4)then goal(finish_node(),16,3)
  elseif not vulnerable then set(20,get(20)&~6);goal(finish_node(),8,13)
  else goal(finish_node(),1,4,get(1),0)end
- local a=actor(get(1));if a and w.tick%(flagged(8) and 120 or 180)==20 then local h,b=closest(w,a,0,6);if b and inv(h,10)~=999 then engine.damage(h,get(1),flagged(8) and 18 or 14)end end
+ if w.tick%(flagged(8) and 120 or 180)==20 then local h,b=closest(w,rival,0,6);if b and inv(h,10)~=999 then engine.damage(h,get(1),flagged(8) and 18 or 14)end end
 end
 
 local function enter(w,p,i)

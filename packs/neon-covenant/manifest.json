@@ -16,7 +16,7 @@
   "files": [
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "311cad9e3c0c3544603ad3faaa9c635b3273395f3da0a8acde8867c291fcb9ea",
+      "sha256": "6817c3329e6a7ce79b70aafc825717adb166ac00f41c4a6afe58a5f762e6a5da",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -28,7 +28,7 @@
     },
     {
       "path": "atlas.png",
-      "sha256": "737263c97c01212dc9b1ebbc8ef162d5bfa4487e91991154fba75683bb78e27d",
+      "sha256": "e00636f4699fee04f3e7c590cd9a5b92badcaecb396d5c899e73b574722b9c13",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -57,6 +57,12 @@
       "license": "CC-BY-4.0"
     },
     {
+      "path": "hall-uv.bin",
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d",
+      "creator": "Advent2026 contributors",
+      "license": "CC-BY-4.0"
+    },
+    {
       "path": "hall.bin",
       "sha256": "76a9f9ba8b16f927b9faa5296efc7bce33b6c43f9a9adc10df5feadd109b7e2b",
       "creator": "Advent2026 contributors; Created in collaboration with ElevenLabs",
@@ -64,7 +70,7 @@
     },
     {
       "path": "hall.gltf",
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c",
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -82,13 +88,13 @@
     },
     {
       "path": "level.bin",
-      "sha256": "7020b7e394ebfaaeb62be9227a4e76bbde1c288367a7663fa19fa73027845db5",
+      "sha256": "61e1f19dfd1fedd5aec50d4145fee131701b84e78824b7c6bdd6eba39b5c66df",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
     {
       "path": "level.gltf",
-      "sha256": "3f961a2e81c74d878c2f09e9754e80c65e08dde0714e12a5f2e81b88c1a085c3",
+      "sha256": "d3b550a87ccf9998a014e25c518d9a1d278fea31a8f53f838bca9b878be738c1",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -100,7 +106,7 @@
     },
     {
       "path": "navigation.json",
-      "sha256": "011efc580e44d52f6399360b91e7a033248003215013c14898229ba89aa8c252",
+      "sha256": "288508a113681758fbec3c96e66d08ee2f38ed03a1a4e8a6baf50b5c7e71a8ca",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -118,7 +124,7 @@
     },
     {
       "path": "red-furnace.map",
-      "sha256": "8b16dd54a1371c588d70d519f43a84a6f9c59bf1a60c93891fc8485ec2017f49",
+      "sha256": "2d7793babf9b5a3755fb550f55c9f5416482bfcfde705415612cc30f225962aa",
       "creator": "Advent2026 contributors",
       "license": "CC-BY-4.0"
     },
@@ -130,7 +136,7 @@
     },
     {
       "path": "scene.frag",
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6",
+      "sha256": "2ee5f8b2b76c356226b0d55e55ed42f39346026920a5f5b3b250ebe5c492c0e1",
       "creator": "Advent2026 contributors",
       "license": "MIT"
     },

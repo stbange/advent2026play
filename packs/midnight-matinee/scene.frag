@@ -50,6 +50,11 @@ void main() {
         vec2 tile=floor(uv.xy*dimensions/64.0);
         coordinates=(tile*64.0+1.0+fract(plane*0.65)*62.0)/dimensions;
     }
+    vec2 px=uv.xy*vec2(4096.,2048.);
+    if(px.x<512. && px.y>=768. && px.y<888.) {
+        vec3 ray=normalize(worldPosition-eyePosition);
+        coordinates=(vec2(.5,768.5)+vec2(fract(atan(ray.z,ray.x)/6.2831853)*511.,clamp(.91-ray.y,0.,1.)*119.))/vec2(4096.,2048.);
+    } else if(px.x<512. && px.y>=512. && px.y<896.) { coordinates=uv.xy; }
     vec4 texel=texture(atlas,coordinates);
     float coverage=(mod(floor(gl_FragCoord.x)+floor(gl_FragCoord.y)*2.0,4.0)+0.5)/4.0;
     if(uv.z>0.5 && texel.a<coverage)discard;

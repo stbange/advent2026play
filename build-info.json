@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/stbange/advent2026",
-  "source_commit": "d24223fff4fd1466334bf9378733c15e4e59a975",
+  "source_commit": "e310d04c4ca6619a6a0b49594329a745b647f85d",
   "emscripten": "4.0.10",
-  "packaged_at": "2026-11-18T17:35:54.786087+00:00",
+  "packaged_at": "2026-11-18T18:41:09.887970+00:00",
   "play_url": "https://stbange.github.io/advent2026play/",
   "world_pixel_budget": [
     384,
@@ -34,7 +34,7 @@
     23,
     24
   ],
-  "scope": "Day Two brings the Glasswind Basin paintings into the playable Keep, dunes, crystal caverns and Ash Regent duel. The update includes painted cloth, casting hands, a modeled collector balloon, an animated siphon and a mobile touch layout.",
+  "scope": "The 23 episodes outside Emberwake now use their original paintings for architecture, materials, first-person equipment and boss encounters. The full calendar uses 384 by 240 world rendering, editable packs and original approved audio.",
   "files": [
     {
       "path": "ART-LICENSE.md",
@@ -53,13 +53,13 @@
     },
     {
       "path": "advent.js",
-      "bytes": 233426,
-      "sha256": "72b104296321973fd7684aed250931b360ce3b389065c296276c796bf1ddc2ff"
+      "bytes": 233425,
+      "sha256": "dc60bc7e45f83baebc0472227e6e42ff30c33044e2b06330402c9330a42e2987"
     },
     {
       "path": "advent.wasm",
-      "bytes": 2246011,
-      "sha256": "17db8b824d1ca7f3ee8e837b422579fa82e12c7188be5ed4fd7d957404f27c77"
+      "bytes": 2245501,
+      "sha256": "ec2ae6350f9a7a12c95b1bcdadc18de05f7ed5974056cf706427c88f6d8ba06e"
     },
     {
       "path": "assets/ATTRIBUTION.md",
@@ -233,8 +233,8 @@
     },
     {
       "path": "packs/black-bell-keep/ATTRIBUTION.md",
-      "bytes": 571,
-      "sha256": "ab983ce313e70c695b9187dcb931820c0f1501a8deb7f4365115e781d1d304e2"
+      "bytes": 619,
+      "sha256": "b6a6368639cf83efc00dd08bf9a5ce707a9dcf7fe45692e60e22ef9cabac5bff"
     },
     {
       "path": "packs/black-bell-keep/AUDIO-LICENSE.txt",
@@ -243,8 +243,8 @@
     },
     {
       "path": "packs/black-bell-keep/atlas.png",
-      "bytes": 110501,
-      "sha256": "56c43a4756936b6a46e3733ce6cf9247c2e77a55b3603acc2495be6324f7484d"
+      "bytes": 787947,
+      "sha256": "83a3a3cd1a70dc94ba76e641a09f07fae13deaf7bbb3c44e90c485ca5c5e6d19"
     },
     {
       "path": "packs/black-bell-keep/audio-source.json",
@@ -267,14 +267,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/black-bell-keep/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/black-bell-keep/hall.bin",
       "bytes": 9868868,
       "sha256": "49dbef32102f513f95065b4941f7bf878deabef9628445da80c23d397786883f"
     },
     {
       "path": "packs/black-bell-keep/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/black-bell-keep/hall.map",
@@ -288,18 +293,18 @@
     },
     {
       "path": "packs/black-bell-keep/level.bin",
-      "bytes": 3557856,
-      "sha256": "2c55e2c5f4f3d65c93c6fc64c41ab4010cbaf0ed7812bc3d0ef55545ad620152"
+      "bytes": 3282528,
+      "sha256": "8f065c7871469e7f453dae781e62ec833181d3299ce2cddddcfed39da2ebf27f"
     },
     {
       "path": "packs/black-bell-keep/level.gltf",
-      "bytes": 71359,
-      "sha256": "ff46da78f6198261e0e044c9a72fc2cbe942eae1da310bd46c421156fcf194f3"
+      "bytes": 72592,
+      "sha256": "d921a56abf9073d3761ac551e9dc164b3779ee03fb70d35d384d3778621e6fed"
     },
     {
       "path": "packs/black-bell-keep/manifest.json",
-      "bytes": 8113,
-      "sha256": "e6e3d4e111343d5e0d42cdb8a29526743d9d16233810f6c7e2ebe3fc9bd0f896"
+      "bytes": 8312,
+      "sha256": "28f056ce8adb740b7b9833bb0ceb069debadd8fd5df966fc8e0235c24c603d12"
     },
     {
       "path": "packs/black-bell-keep/music.wav",
@@ -308,8 +313,8 @@
     },
     {
       "path": "packs/black-bell-keep/navigation.json",
-      "bytes": 11819,
-      "sha256": "1936f94a5b69e4f53131743a984153c1139d1bfaebff128172329cf3cec4252a"
+      "bytes": 12847,
+      "sha256": "c96294c116687205993bf95cb1c82da71aa8735989c883c92e7a24f6868b57ec"
     },
     {
       "path": "packs/black-bell-keep/palette.txt",
@@ -324,7 +329,7 @@
     {
       "path": "packs/black-bell-keep/red-furnace.map",
       "bytes": 1568,
-      "sha256": "77ea841948ae0c156c0d655cc496b31a40f420bc6da38127cc6687e5cdf4f8c2"
+      "sha256": "f260855fdba0319cf2df9b10ad6fee2ee1eeb227d2ef239531e8302a96e3fe9f"
     },
     {
       "path": "packs/black-bell-keep/rules.lua",
@@ -333,8 +338,8 @@
     },
     {
       "path": "packs/black-bell-keep/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4670,
+      "sha256": "9e0674192ee096c702a20cdd2be0c581f6d2e51c2b5f691823459a6818cc1a8e"
     },
     {
       "path": "packs/black-bell-keep/scene.vert",
@@ -343,83 +348,83 @@
     },
     {
       "path": "packs/black-bell-keep/sector-0.json",
-      "bytes": 11819,
-      "sha256": "1936f94a5b69e4f53131743a984153c1139d1bfaebff128172329cf3cec4252a"
+      "bytes": 12847,
+      "sha256": "c96294c116687205993bf95cb1c82da71aa8735989c883c92e7a24f6868b57ec"
     },
     {
       "path": "packs/black-bell-keep/sector-0.map",
       "bytes": 1568,
-      "sha256": "77ea841948ae0c156c0d655cc496b31a40f420bc6da38127cc6687e5cdf4f8c2"
+      "sha256": "f260855fdba0319cf2df9b10ad6fee2ee1eeb227d2ef239531e8302a96e3fe9f"
     },
     {
       "path": "packs/black-bell-keep/sector-1.json",
-      "bytes": 11010,
-      "sha256": "e974653562ad6d2e0f0bdc8d9c323a78eba819c25b4891655464e0a84d8a6fd9"
+      "bytes": 11912,
+      "sha256": "0f282170ee0c08dd15e1076bd3e8e4c79011cd0d9ad3491241f8e870211efee6"
     },
     {
       "path": "packs/black-bell-keep/sector-1.map",
       "bytes": 1568,
-      "sha256": "ebace5bd398d00651d11ce06b53d79784d0efaf3b1e543fbf1aef4858034dffb"
+      "sha256": "9a884428e4d062d9bc4b6a6b5f44f6d9228e5871a2bc5fe4fc96544046820656"
     },
     {
       "path": "packs/black-bell-keep/sector-2.json",
-      "bytes": 10760,
-      "sha256": "0a6401b67085efa78d3f97e9f4428f8e822e6f731ecc803dfc1d05cde9c33ac7"
+      "bytes": 11771,
+      "sha256": "c0871b050524c9b84538893057af185b16e729db3131e607c69902ff2fcaf125"
     },
     {
       "path": "packs/black-bell-keep/sector-2.map",
       "bytes": 1568,
-      "sha256": "79db5474ef54a428f012bf022a336c083f6dd227b066ba910579f48c80e59786"
+      "sha256": "87d93c0c97b845f6ae5f81bddc1996732a719861d4e37a6cdb677cea3b8981f2"
     },
     {
       "path": "packs/black-bell-keep/sector-3.json",
-      "bytes": 9957,
-      "sha256": "72286557877adfefaaf17b31e834285eb7584f64daff0ee7e6846a4edfdcc957"
+      "bytes": 10859,
+      "sha256": "5417399613aa44d4c8c67aab97e543ab22e7b1c982f8fa6a14b26049e47a87f8"
     },
     {
       "path": "packs/black-bell-keep/sector-3.map",
       "bytes": 1568,
-      "sha256": "e5b50ee05050a0c449495447d061f900c63d25a16389c37eda54ef27dc142421"
+      "sha256": "4520189b07c2a7f988e87cce76fb14e79227af79686e55478109467d6c765639"
     },
     {
       "path": "packs/black-bell-keep/sector-4.json",
-      "bytes": 11819,
-      "sha256": "1936f94a5b69e4f53131743a984153c1139d1bfaebff128172329cf3cec4252a"
+      "bytes": 12847,
+      "sha256": "c96294c116687205993bf95cb1c82da71aa8735989c883c92e7a24f6868b57ec"
     },
     {
       "path": "packs/black-bell-keep/sector-4.map",
       "bytes": 1568,
-      "sha256": "77ea841948ae0c156c0d655cc496b31a40f420bc6da38127cc6687e5cdf4f8c2"
+      "sha256": "f260855fdba0319cf2df9b10ad6fee2ee1eeb227d2ef239531e8302a96e3fe9f"
     },
     {
       "path": "packs/black-bell-keep/sector-5.json",
-      "bytes": 10933,
-      "sha256": "de338767b23ca551cdebd155bc8013198a8d9bcff366dd0718f5589f9dbcafb1"
+      "bytes": 11819,
+      "sha256": "e0fc73ccb872af97fef58b133bc724f4927607dac1392ae87be2fa71bf586a62"
     },
     {
       "path": "packs/black-bell-keep/sector-5.map",
       "bytes": 1568,
-      "sha256": "37d68399d3e99ac68ba7e0f3b471d530292b0fd42d141aff4386b2d3dbdb25b6"
+      "sha256": "14a7103ad45be27e4ac7c5a604f4902825d59918db40cb92eafe812a21236566"
     },
     {
       "path": "packs/black-bell-keep/sector-6.json",
-      "bytes": 10825,
-      "sha256": "3cf92fad83bfde370eee00137dfa0bb40821a407908d52aeac0a53366ff5398a"
+      "bytes": 11865,
+      "sha256": "8b5cf42d09b5fa232ef04f783aea1f73d2a8a8cc6ee080ef1ee93a16bb9a545f"
     },
     {
       "path": "packs/black-bell-keep/sector-6.map",
       "bytes": 1568,
-      "sha256": "a6bf3d6135a5603fa92251936f83f4e3c7c0dfc650953598060ae42f181e5e92"
+      "sha256": "770df450d22e884b1468416cf3faaa6b4902baa05eb69094256f0205841559c2"
     },
     {
       "path": "packs/black-bell-keep/sector-7.json",
-      "bytes": 9957,
-      "sha256": "72286557877adfefaaf17b31e834285eb7584f64daff0ee7e6846a4edfdcc957"
+      "bytes": 10927,
+      "sha256": "7d783c9361347794db0b5f9ff00867da766e0d3e2f19b25c13a641f17863bf28"
     },
     {
       "path": "packs/black-bell-keep/sector-7.map",
       "bytes": 1568,
-      "sha256": "e5b50ee05050a0c449495447d061f900c63d25a16389c37eda54ef27dc142421"
+      "sha256": "4520189b07c2a7f988e87cce76fb14e79227af79686e55478109467d6c765639"
     },
     {
       "path": "packs/black-bell-keep/sectors.txt",
@@ -433,8 +438,8 @@
     },
     {
       "path": "packs/carnival-of-ashes/ATTRIBUTION.md",
-      "bytes": 573,
-      "sha256": "ca2d895b3d51a2604a6013b8a1de432151ba5f2b99d33b89852e42e8de97e374"
+      "bytes": 621,
+      "sha256": "db0dd1b75035a23356693a818bea91a9b157ca03af25f4934305194f739d0c27"
     },
     {
       "path": "packs/carnival-of-ashes/AUDIO-LICENSE.txt",
@@ -443,8 +448,8 @@
     },
     {
       "path": "packs/carnival-of-ashes/atlas.png",
-      "bytes": 107533,
-      "sha256": "5cbf838e800740504a516bcab29fb6704f6bead296e255cd497a332af3739f59"
+      "bytes": 825274,
+      "sha256": "58fd3495102c3dbf4c133d013c910f0fa79f48bf24e14d88a9af336c53eeb402"
     },
     {
       "path": "packs/carnival-of-ashes/audio-source.json",
@@ -467,14 +472,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/carnival-of-ashes/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/carnival-of-ashes/hall.bin",
       "bytes": 10156868,
       "sha256": "2b252aa9ba6b079bfba45ca4ba60641be272b7fdfc0cc8f7b93c7791f0dcec56"
     },
     {
       "path": "packs/carnival-of-ashes/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/carnival-of-ashes/hall.map",
@@ -488,18 +498,18 @@
     },
     {
       "path": "packs/carnival-of-ashes/level.bin",
-      "bytes": 3620448,
-      "sha256": "fb25d0baf82455865db508a5997d6ff19bb7be031f8ff283524f2a0031320303"
+      "bytes": 3423072,
+      "sha256": "3290175b4962ab69353e2fcf0658c50a8c9d45997bfbccee15895b5d3a3a2a0e"
     },
     {
       "path": "packs/carnival-of-ashes/level.gltf",
-      "bytes": 70036,
-      "sha256": "1930696ceca90540bc4a0bf2036631248fe3e788c61ffb1dce7eff4a2c1664b3"
+      "bytes": 72473,
+      "sha256": "9568f83c620e510ed32356044b70239d98463fe3205f6b2f365b2cc23954a82b"
     },
     {
       "path": "packs/carnival-of-ashes/manifest.json",
-      "bytes": 8117,
-      "sha256": "6098e6e5d5d3bdc71fd0d7036d61954f1f895acff408f684a702973c32ab82a0"
+      "bytes": 8316,
+      "sha256": "425baf72505476e7349432d25c2a84f83db443f60d59158df0b5a41084deccba"
     },
     {
       "path": "packs/carnival-of-ashes/music.wav",
@@ -508,8 +518,8 @@
     },
     {
       "path": "packs/carnival-of-ashes/navigation.json",
-      "bytes": 10111,
-      "sha256": "6b782ca83ac874756faa644d74d77d304237f3fa73fe1c6fbc1c9b081817f9a3"
+      "bytes": 10976,
+      "sha256": "c95ccc856085056e18683067a4a39b76e1295e2ce3dde73cbefeb74075f954d2"
     },
     {
       "path": "packs/carnival-of-ashes/palette.txt",
@@ -524,7 +534,7 @@
     {
       "path": "packs/carnival-of-ashes/red-furnace.map",
       "bytes": 1568,
-      "sha256": "77ea841948ae0c156c0d655cc496b31a40f420bc6da38127cc6687e5cdf4f8c2"
+      "sha256": "f260855fdba0319cf2df9b10ad6fee2ee1eeb227d2ef239531e8302a96e3fe9f"
     },
     {
       "path": "packs/carnival-of-ashes/rules.lua",
@@ -533,8 +543,8 @@
     },
     {
       "path": "packs/carnival-of-ashes/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "197ec5a21de5e2e44d6961b32467e40bb7820c00104a14097faae0622039d0b5"
     },
     {
       "path": "packs/carnival-of-ashes/scene.vert",
@@ -543,83 +553,83 @@
     },
     {
       "path": "packs/carnival-of-ashes/sector-0.json",
-      "bytes": 10111,
-      "sha256": "6b782ca83ac874756faa644d74d77d304237f3fa73fe1c6fbc1c9b081817f9a3"
+      "bytes": 10976,
+      "sha256": "c95ccc856085056e18683067a4a39b76e1295e2ce3dde73cbefeb74075f954d2"
     },
     {
       "path": "packs/carnival-of-ashes/sector-0.map",
       "bytes": 1568,
-      "sha256": "77ea841948ae0c156c0d655cc496b31a40f420bc6da38127cc6687e5cdf4f8c2"
+      "sha256": "f260855fdba0319cf2df9b10ad6fee2ee1eeb227d2ef239531e8302a96e3fe9f"
     },
     {
       "path": "packs/carnival-of-ashes/sector-1.json",
-      "bytes": 9487,
-      "sha256": "1a47ec5ae86207b2afab9b0edde907ba9938d3e834e157ebadf6138c4402c8bc"
+      "bytes": 10217,
+      "sha256": "fdcc0da9ac5d1731bebcbafc6c241feec63d2a6f1103d327a23c4ce4c65d1eed"
     },
     {
       "path": "packs/carnival-of-ashes/sector-1.map",
       "bytes": 1568,
-      "sha256": "ebace5bd398d00651d11ce06b53d79784d0efaf3b1e543fbf1aef4858034dffb"
+      "sha256": "9a884428e4d062d9bc4b6a6b5f44f6d9228e5871a2bc5fe4fc96544046820656"
     },
     {
       "path": "packs/carnival-of-ashes/sector-2.json",
-      "bytes": 9153,
-      "sha256": "68d1faea51f301b85546959e046216dc82209a717230b3fba3b6e930df887759"
+      "bytes": 9977,
+      "sha256": "2ea034d790224df51cc63d0e49c1692f0d74202fd51a3b13b1c0c2f0ac98cbb9"
     },
     {
       "path": "packs/carnival-of-ashes/sector-2.map",
       "bytes": 1568,
-      "sha256": "79db5474ef54a428f012bf022a336c083f6dd227b066ba910579f48c80e59786"
+      "sha256": "87d93c0c97b845f6ae5f81bddc1996732a719861d4e37a6cdb677cea3b8981f2"
     },
     {
       "path": "packs/carnival-of-ashes/sector-3.json",
-      "bytes": 8604,
-      "sha256": "4a2d8a39a835d4c13712a3b4a925669b56f234dd4fe58de95124a8d09378ba84"
+      "bytes": 9334,
+      "sha256": "392a1447e2f2302fa04e11002b35b8316ac34e60435fe2625a4382e6d1a7dcd3"
     },
     {
       "path": "packs/carnival-of-ashes/sector-3.map",
       "bytes": 1568,
-      "sha256": "e5b50ee05050a0c449495447d061f900c63d25a16389c37eda54ef27dc142421"
+      "sha256": "4520189b07c2a7f988e87cce76fb14e79227af79686e55478109467d6c765639"
     },
     {
       "path": "packs/carnival-of-ashes/sector-4.json",
-      "bytes": 10111,
-      "sha256": "6b782ca83ac874756faa644d74d77d304237f3fa73fe1c6fbc1c9b081817f9a3"
+      "bytes": 10976,
+      "sha256": "c95ccc856085056e18683067a4a39b76e1295e2ce3dde73cbefeb74075f954d2"
     },
     {
       "path": "packs/carnival-of-ashes/sector-4.map",
       "bytes": 1568,
-      "sha256": "77ea841948ae0c156c0d655cc496b31a40f420bc6da38127cc6687e5cdf4f8c2"
+      "sha256": "f260855fdba0319cf2df9b10ad6fee2ee1eeb227d2ef239531e8302a96e3fe9f"
     },
     {
       "path": "packs/carnival-of-ashes/sector-5.json",
-      "bytes": 9320,
-      "sha256": "643653d85ccdeec34c609e1f7bfb7986c1233233cccca12d7204536f3311d13f"
+      "bytes": 10022,
+      "sha256": "c6d4a80ee9c3688ac6aaa2013acad43436eb801efe1057670d9082b7d1f98f23"
     },
     {
       "path": "packs/carnival-of-ashes/sector-5.map",
       "bytes": 1568,
-      "sha256": "37d68399d3e99ac68ba7e0f3b471d530292b0fd42d141aff4386b2d3dbdb25b6"
+      "sha256": "14a7103ad45be27e4ac7c5a604f4902825d59918db40cb92eafe812a21236566"
     },
     {
       "path": "packs/carnival-of-ashes/sector-6.json",
-      "bytes": 9308,
-      "sha256": "826e237585483939f3cb9ab7f5f9ab494a1095bee851b9d953c5234683bae4fe"
+      "bytes": 10173,
+      "sha256": "8e3ab10d179ba2280f56187a786538ec420a5763366f24a21159ddd94a102319"
     },
     {
       "path": "packs/carnival-of-ashes/sector-6.map",
       "bytes": 1568,
-      "sha256": "a6bf3d6135a5603fa92251936f83f4e3c7c0dfc650953598060ae42f181e5e92"
+      "sha256": "770df450d22e884b1468416cf3faaa6b4902baa05eb69094256f0205841559c2"
     },
     {
       "path": "packs/carnival-of-ashes/sector-7.json",
-      "bytes": 8604,
-      "sha256": "4a2d8a39a835d4c13712a3b4a925669b56f234dd4fe58de95124a8d09378ba84"
+      "bytes": 9401,
+      "sha256": "dae601fae9e6483b54f53cb5009f185641af7d97d239bd2fbc62b9def474d1ec"
     },
     {
       "path": "packs/carnival-of-ashes/sector-7.map",
       "bytes": 1568,
-      "sha256": "e5b50ee05050a0c449495447d061f900c63d25a16389c37eda54ef27dc142421"
+      "sha256": "4520189b07c2a7f988e87cce76fb14e79227af79686e55478109467d6c765639"
     },
     {
       "path": "packs/carnival-of-ashes/sectors.txt",
@@ -633,8 +643,8 @@
     },
     {
       "path": "packs/cathedral-below/ATTRIBUTION.md",
-      "bytes": 556,
-      "sha256": "836ba900858dca18d664b679531faf3c6bae8e6764cd5ffbe4697ca8d5335315"
+      "bytes": 637,
+      "sha256": "62dc3ee2abd3692382ec46f73f4202623877b478d1ef5bd6521e14546d5273b9"
     },
     {
       "path": "packs/cathedral-below/AUDIO-LICENSE.txt",
@@ -643,8 +653,8 @@
     },
     {
       "path": "packs/cathedral-below/atlas.png",
-      "bytes": 110839,
-      "sha256": "5f0b81d2fcd15536539c2c43925ce0f76274d1b218d91746289565e83300e665"
+      "bytes": 779134,
+      "sha256": "a382a635419849e45389d9ae1850965cbbbf233cb3d29a6cfdb24d5635cb1934"
     },
     {
       "path": "packs/cathedral-below/audio-source.json",
@@ -667,14 +677,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/cathedral-below/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/cathedral-below/hall.bin",
       "bytes": 10156868,
       "sha256": "8111a10025e3d5aa7020d23ae199affe03a0dfdb286031994828c63f0f3a46c9"
     },
     {
       "path": "packs/cathedral-below/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/cathedral-below/hall.map",
@@ -688,18 +703,18 @@
     },
     {
       "path": "packs/cathedral-below/level.bin",
-      "bytes": 1639680,
-      "sha256": "981ba3ba4b49caefb5cc758621bffb42e7654edf131a5768b04aed8423d868e3"
+      "bytes": 1785792,
+      "sha256": "a6a797af6c448312f2efbbe0f085ee926ae470596739eb37425f47bbe8088962"
     },
     {
       "path": "packs/cathedral-below/level.gltf",
-      "bytes": 36547,
-      "sha256": "1e2b00481b4fc92646908fad27a21feb0f47afbe4c51f8005e70b9da8e79c99c"
+      "bytes": 37681,
+      "sha256": "3630b5ba10635e0010e729ea789ec1971a1fb117a109cfdcd1a0949218a81866"
     },
     {
       "path": "packs/cathedral-below/manifest.json",
-      "bytes": 4742,
-      "sha256": "a702b74caaeaa126cb59f9fa5bda89130850ff9c1aeb693556d14d4d99c71e29"
+      "bytes": 4941,
+      "sha256": "1bded8dcca980605e77039c7f1eebb3d2248a970ee44a4a628aad37682def7a1"
     },
     {
       "path": "packs/cathedral-below/music.wav",
@@ -708,8 +723,8 @@
     },
     {
       "path": "packs/cathedral-below/navigation.json",
-      "bytes": 2285,
-      "sha256": "3fc194b1cc46d9e3190323d2ca4b3084b618731348404e620a2ff549a5d6467d"
+      "bytes": 2330,
+      "sha256": "fe89a4242a6838ec3091ae5e8ca4cadad8bb233fd93ec5c8bcdebc6ec1253cd6"
     },
     {
       "path": "packs/cathedral-below/palette.txt",
@@ -724,7 +739,7 @@
     {
       "path": "packs/cathedral-below/red-furnace.map",
       "bytes": 1568,
-      "sha256": "97b20b0cd4ebb9c00ff681b90dc6bea09e7acf3dac32190bda7a6c44d40f240e"
+      "sha256": "c3908f3123a97b3d3dc541c9b03d171368cefb6d1d1aedcdf395d9f34f4be138"
     },
     {
       "path": "packs/cathedral-below/rules.lua",
@@ -733,8 +748,8 @@
     },
     {
       "path": "packs/cathedral-below/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4670,
+      "sha256": "e35a44a539ca8e9217e74de78630db711a204e4bfbedb1544648f8c1bc5664ca"
     },
     {
       "path": "packs/cathedral-below/scene.vert",
@@ -748,8 +763,8 @@
     },
     {
       "path": "packs/choir-protocol/ATTRIBUTION.md",
-      "bytes": 570,
-      "sha256": "9c1562aca3100e9bf2159849648a920b690e74044f78df7fc04eb39454c48c7c"
+      "bytes": 618,
+      "sha256": "7256bf1290c4f01d1f203261aca11a6c41bba9437875d6390e15e6e08a511bd9"
     },
     {
       "path": "packs/choir-protocol/AUDIO-LICENSE.txt",
@@ -758,8 +773,8 @@
     },
     {
       "path": "packs/choir-protocol/atlas.png",
-      "bytes": 110638,
-      "sha256": "199685fb05b3b7d7accb72bc0c10492b4c77dbc4227e351cf8d65198c81ba7ba"
+      "bytes": 821400,
+      "sha256": "3d082c0725730d6f6926002ee8242d7ad2c0874febc2265e57aca6ec03480968"
     },
     {
       "path": "packs/choir-protocol/audio-source.json",
@@ -782,14 +797,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/choir-protocol/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/choir-protocol/hall.bin",
       "bytes": 9868868,
       "sha256": "680cde0e3e2f553d2ea2e61f9d68dcd81f831c8714fd20be15f257849b3f481b"
     },
     {
       "path": "packs/choir-protocol/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/choir-protocol/hall.map",
@@ -803,18 +823,18 @@
     },
     {
       "path": "packs/choir-protocol/level.bin",
-      "bytes": 3395808,
-      "sha256": "de8e74172d410e27b2d44ae8447e73be5921d8fd2f61b03695a3f677bc5180a5"
+      "bytes": 2943840,
+      "sha256": "83c641418d9a0df3ca06c219911c17273bd8c2660634cc39a96cb52a04e287b7"
     },
     {
       "path": "packs/choir-protocol/level.gltf",
-      "bytes": 67456,
-      "sha256": "cd585ee0524b7e1382cd742d0d2c1f103079af0eec936b9e61807a3ab0a6a342"
+      "bytes": 69037,
+      "sha256": "84819e4664f0c8b19e715766b14c7583e39d92c27d0c00d755590f3b9094026d"
     },
     {
       "path": "packs/choir-protocol/manifest.json",
-      "bytes": 8111,
-      "sha256": "09936559f0f55e7954844af6d75fa20e3b353af9834ddcc70b353beb36c9be84"
+      "bytes": 8310,
+      "sha256": "84287e4ff4cd0f43a08b8772ff940fad71f9dc94725f291adbf25fbe6baefe00"
     },
     {
       "path": "packs/choir-protocol/music.wav",
@@ -823,8 +843,8 @@
     },
     {
       "path": "packs/choir-protocol/navigation.json",
-      "bytes": 9220,
-      "sha256": "8726afa7f61eaa476dbc51699418b18fe4deca9c46945cb7f0211f133ba1b5fd"
+      "bytes": 10085,
+      "sha256": "9ba50df789678cb8d248ea6a61f9d116fbd91825eaacab5960cb6b6aa965daeb"
     },
     {
       "path": "packs/choir-protocol/palette.txt",
@@ -839,7 +859,7 @@
     {
       "path": "packs/choir-protocol/red-furnace.map",
       "bytes": 1568,
-      "sha256": "9549d7ecbe2a424860ee169a57f7dd48c5808ddd8dd5318600b046f0ec5dc445"
+      "sha256": "1f3cb47ebf1ff329b3ed7d53e518ff974e3ffabc27a9f670dba5637eab9650c8"
     },
     {
       "path": "packs/choir-protocol/rules.lua",
@@ -848,8 +868,8 @@
     },
     {
       "path": "packs/choir-protocol/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4670,
+      "sha256": "cd9cabd546b487bd81fab4a94961137a0ba3734e3c4d24312a3f60fd1ac86cb7"
     },
     {
       "path": "packs/choir-protocol/scene.vert",
@@ -858,83 +878,83 @@
     },
     {
       "path": "packs/choir-protocol/sector-0.json",
-      "bytes": 9220,
-      "sha256": "8726afa7f61eaa476dbc51699418b18fe4deca9c46945cb7f0211f133ba1b5fd"
+      "bytes": 10085,
+      "sha256": "9ba50df789678cb8d248ea6a61f9d116fbd91825eaacab5960cb6b6aa965daeb"
     },
     {
       "path": "packs/choir-protocol/sector-0.map",
       "bytes": 1568,
-      "sha256": "9549d7ecbe2a424860ee169a57f7dd48c5808ddd8dd5318600b046f0ec5dc445"
+      "sha256": "1f3cb47ebf1ff329b3ed7d53e518ff974e3ffabc27a9f670dba5637eab9650c8"
     },
     {
       "path": "packs/choir-protocol/sector-1.json",
-      "bytes": 8486,
-      "sha256": "b5c674781f7f81cb9e7f75a8c0ca0f753354b714c5f09154c5f81316e56c998f"
+      "bytes": 9280,
+      "sha256": "6514f5bdefb3a03821637bb650789595f19487494808f3836bbea0b742683ed1"
     },
     {
       "path": "packs/choir-protocol/sector-1.map",
       "bytes": 1568,
-      "sha256": "373997130d7071f151afba31db7b1eabfe4b27278d5b99f6345f53c389613e82"
+      "sha256": "b9250622bdd4dc4eae8f4011cbcad30e1ad79d6db2f9acf8994db41a81908ab9"
     },
     {
       "path": "packs/choir-protocol/sector-2.json",
-      "bytes": 8367,
-      "sha256": "08e30b10b715c23783baa72b8714884389e6f9910b52c5c08ede836306a7768d"
+      "bytes": 9188,
+      "sha256": "18005b8ce63cc1871e6e93a4b1f8d9de25a4a6db15f0bcba8b395ab07d0cadbc"
     },
     {
       "path": "packs/choir-protocol/sector-2.map",
       "bytes": 1568,
-      "sha256": "8111dd75437dad136349a45a554baa97bbf94ca8eb8a32deeccfc91ad1619ceb"
+      "sha256": "5b887ce453d00fdcd1d34a44c972a9fb6119f7b0ad6f812b47434a78ee500187"
     },
     {
       "path": "packs/choir-protocol/sector-3.json",
-      "bytes": 7603,
-      "sha256": "2e853873a2a0cd60afa8f9d808740c37b6b81cbf9089bebe4e5fdfd0ff0a075c"
+      "bytes": 8397,
+      "sha256": "4d4f7ec6137e9b7121902875cf60f5310bc70008b037ca9680ac9b58e722060f"
     },
     {
       "path": "packs/choir-protocol/sector-3.map",
       "bytes": 1568,
-      "sha256": "6d4c4005e7eac6209efeaad8de31f5ed0492901f25b11c2c28fc1ae7473a4974"
+      "sha256": "fdd277c1d1d979f584a46c106fae7dee908b4e88653c458218e7bb617f2d5953"
     },
     {
       "path": "packs/choir-protocol/sector-4.json",
-      "bytes": 9220,
-      "sha256": "8726afa7f61eaa476dbc51699418b18fe4deca9c46945cb7f0211f133ba1b5fd"
+      "bytes": 10085,
+      "sha256": "9ba50df789678cb8d248ea6a61f9d116fbd91825eaacab5960cb6b6aa965daeb"
     },
     {
       "path": "packs/choir-protocol/sector-4.map",
       "bytes": 1568,
-      "sha256": "9549d7ecbe2a424860ee169a57f7dd48c5808ddd8dd5318600b046f0ec5dc445"
+      "sha256": "1f3cb47ebf1ff329b3ed7d53e518ff974e3ffabc27a9f670dba5637eab9650c8"
     },
     {
       "path": "packs/choir-protocol/sector-5.json",
-      "bytes": 8430,
-      "sha256": "827d37028f0e3acbb3a342c93fea076e6b853b503e4b32092f47a41617889c0c"
+      "bytes": 9187,
+      "sha256": "0b14b4652497e44ba0a3b5b1c94cff23e83bf00677385a5a9897ad070878325a"
     },
     {
       "path": "packs/choir-protocol/sector-5.map",
       "bytes": 1568,
-      "sha256": "c7bc54905a247f0bb25aef9bdfa86f51d7ee7c20033094621202aa024fbc6c4b"
+      "sha256": "6134728fdc36d4db9aac774e2d74b3d26549633e9e53691328fc59d74f1c948c"
     },
     {
       "path": "packs/choir-protocol/sector-6.json",
-      "bytes": 8417,
-      "sha256": "9bfa1836a8ea4466d5a1ee8db0553ddf6fa05e91fa27bd8bd846cf7858679796"
+      "bytes": 9282,
+      "sha256": "96c1332f270c7fb71e7a2e3dd1650e751b2e69eb7cb31c67ed952baff6f14bf1"
     },
     {
       "path": "packs/choir-protocol/sector-6.map",
       "bytes": 1568,
-      "sha256": "e8f23bfc5d03bc1408a90fac1e2b1a3b1095dfd70d81042020df18fdd7c8d742"
+      "sha256": "3e3fa0ce9dc37990fd87477c3b9cf2306ef216400d0a06dcbe02406d419d7a88"
     },
     {
       "path": "packs/choir-protocol/sector-7.json",
-      "bytes": 7603,
-      "sha256": "2e853873a2a0cd60afa8f9d808740c37b6b81cbf9089bebe4e5fdfd0ff0a075c"
+      "bytes": 8464,
+      "sha256": "1f9ea26486f200b5f086580114b5846a9321f75601767732af6df45bc45a9754"
     },
     {
       "path": "packs/choir-protocol/sector-7.map",
       "bytes": 1568,
-      "sha256": "6d4c4005e7eac6209efeaad8de31f5ed0492901f25b11c2c28fc1ae7473a4974"
+      "sha256": "fdd277c1d1d979f584a46c106fae7dee908b4e88653c458218e7bb617f2d5953"
     },
     {
       "path": "packs/choir-protocol/sectors.txt",
@@ -948,8 +968,8 @@
     },
     {
       "path": "packs/crystal-front/ATTRIBUTION.md",
-      "bytes": 550,
-      "sha256": "79c0e83463878c95d8b73e4d2e36d1423b330658a18fc60fef48654f4fa4c310"
+      "bytes": 631,
+      "sha256": "25d8b080d18b29fbb61bbbe5c9476f4ef0b6c74fc7f62a60a13371461423d3fe"
     },
     {
       "path": "packs/crystal-front/AUDIO-LICENSE.txt",
@@ -958,8 +978,8 @@
     },
     {
       "path": "packs/crystal-front/atlas.png",
-      "bytes": 109870,
-      "sha256": "1df302e79e47db7f247de49d15e898d1d48b03dde2cfa906183fe8ca4a183276"
+      "bytes": 761437,
+      "sha256": "e5d169b172642333107ab9aa2979bcfb96eb69456a85e06ea761a727c30a071d"
     },
     {
       "path": "packs/crystal-front/audio-source.json",
@@ -982,14 +1002,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/crystal-front/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/crystal-front/hall.bin",
       "bytes": 9984112,
       "sha256": "95f9e77b9ac9e63749490f9868a4dffaf321a541f7cbe425df4669afaadc7a41"
     },
     {
       "path": "packs/crystal-front/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/crystal-front/hall.map",
@@ -1003,18 +1028,18 @@
     },
     {
       "path": "packs/crystal-front/level.bin",
-      "bytes": 711552,
-      "sha256": "572ab0e67e110f463cda6a16cb4805422396a796accbdc6174802a87592341f6"
+      "bytes": 763968,
+      "sha256": "87329aafc891881f1b1ba3e0f3f440dfdf7b93510d2db9bb67d6ab524a8d1593"
     },
     {
       "path": "packs/crystal-front/level.gltf",
-      "bytes": 38408,
-      "sha256": "6b45f0e849de70d775af73aa2ec540894b9d5af007ee53dd2eabcfdf7c0156f3"
+      "bytes": 40533,
+      "sha256": "0392acb2567d2eec1375fe4ba945c586df69f287b81521ecebede70c2867a23c"
     },
     {
       "path": "packs/crystal-front/manifest.json",
-      "bytes": 4731,
-      "sha256": "15ac5ed060b16375a3b5c0d5fdb3130d2c1d75beddb45f9467d5668d08c3218f"
+      "bytes": 4930,
+      "sha256": "0fd4ec9bbdc4fe42ad858b18d83b45a65e809d22deeb22f6cd519ed2c3c0a3fe"
     },
     {
       "path": "packs/crystal-front/music.wav",
@@ -1023,8 +1048,8 @@
     },
     {
       "path": "packs/crystal-front/navigation.json",
-      "bytes": 2197,
-      "sha256": "b8b02d329276f2fb03018f25799a6c92f6567330b74113ba56f3e99146e3af6f"
+      "bytes": 2241,
+      "sha256": "c77529791d6a9656ed1561df8011db76b97ec158516ec69e3a8e3f134eb297b8"
     },
     {
       "path": "packs/crystal-front/palette.txt",
@@ -1039,7 +1064,7 @@
     {
       "path": "packs/crystal-front/red-furnace.map",
       "bytes": 1568,
-      "sha256": "fb19e890237f6445add6f4c236361eb7850527314246d18fccb37ccd2b46d6e2"
+      "sha256": "a90f27eed6a7a5f53a4193934bd800b7744a6da7f2a42bb4a4c4e91c27919ccd"
     },
     {
       "path": "packs/crystal-front/rules.lua",
@@ -1048,8 +1073,8 @@
     },
     {
       "path": "packs/crystal-front/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "34589b40058403819f6c33d13dc1fa1db9c7d9ea18d60b8e7a7bbe290c568121"
     },
     {
       "path": "packs/crystal-front/scene.vert",
@@ -1178,8 +1203,8 @@
     },
     {
       "path": "packs/first-kingdom/ATTRIBUTION.md",
-      "bytes": 569,
-      "sha256": "0f468e1ad33655b012dd89a80ac9a32636c5bba75a1328881e37009df3077035"
+      "bytes": 617,
+      "sha256": "630d27d7abd5296918c23b017e80446bab93e0ecb39af8fbaa36e5738ee06e36"
     },
     {
       "path": "packs/first-kingdom/AUDIO-LICENSE.txt",
@@ -1188,8 +1213,8 @@
     },
     {
       "path": "packs/first-kingdom/atlas.png",
-      "bytes": 108367,
-      "sha256": "e63ce9503b547497826c86833962de486197c91a54a72fa47d39dba34a3ed042"
+      "bytes": 806534,
+      "sha256": "6fcf3d183e7129b77c6925fa1645012392aea194833f546c710d366c928d6ecb"
     },
     {
       "path": "packs/first-kingdom/audio-source.json",
@@ -1212,14 +1237,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/first-kingdom/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/first-kingdom/hall.bin",
       "bytes": 9918764,
       "sha256": "cafdad380ff7de25f98f3ba9dc14172a2b86d3ec679bb158efe37da654d9ac37"
     },
     {
       "path": "packs/first-kingdom/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/first-kingdom/hall.map",
@@ -1233,18 +1263,18 @@
     },
     {
       "path": "packs/first-kingdom/level.bin",
-      "bytes": 2222880,
-      "sha256": "4521ccd8febcab31af6ff5260bdeba9061b3b72d780fdf4337d37f90d203191e"
+      "bytes": 2427744,
+      "sha256": "9409b3ff02376c2e3dbd38c7eedfd6c6fdbd8c60fd885efd3be63fb86128323b"
     },
     {
       "path": "packs/first-kingdom/level.gltf",
-      "bytes": 29297,
-      "sha256": "7358d56f61dee3d288b5ac358f2792a802021d7223d3d084b09de82061d6dd89"
+      "bytes": 31069,
+      "sha256": "54ce123f9397831fee136401b0603ad36f8f7969ccc6fe6b608eae31b61c5707"
     },
     {
       "path": "packs/first-kingdom/manifest.json",
-      "bytes": 7307,
-      "sha256": "cd4073c4ee7b595c031e587e463491b747dc08511be9d9af7f3406c3629cc21a"
+      "bytes": 7506,
+      "sha256": "06193eee3c881e63a87d0ef20e6a51759eb2720aae5aaf8b6dbfa6b9e727c003"
     },
     {
       "path": "packs/first-kingdom/music.wav",
@@ -1253,8 +1283,8 @@
     },
     {
       "path": "packs/first-kingdom/navigation.json",
-      "bytes": 2948,
-      "sha256": "1127b50fcb7c57aa6908cdb43f16b92408df2faddc415b83be141d6c732a646b"
+      "bytes": 3039,
+      "sha256": "30c2a208241bf2ae518c8f8d58a113fc345a454f1ac05663700372dbe8618aee"
     },
     {
       "path": "packs/first-kingdom/palette.txt",
@@ -1278,8 +1308,8 @@
     },
     {
       "path": "packs/first-kingdom/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "0f46aad5d2896f497e9e3fa33f27772974acbf706efd3657802f6b082c9fbede"
     },
     {
       "path": "packs/first-kingdom/scene.vert",
@@ -1288,8 +1318,8 @@
     },
     {
       "path": "packs/first-kingdom/sector-0.json",
-      "bytes": 2948,
-      "sha256": "1127b50fcb7c57aa6908cdb43f16b92408df2faddc415b83be141d6c732a646b"
+      "bytes": 3039,
+      "sha256": "30c2a208241bf2ae518c8f8d58a113fc345a454f1ac05663700372dbe8618aee"
     },
     {
       "path": "packs/first-kingdom/sector-0.map",
@@ -1298,8 +1328,8 @@
     },
     {
       "path": "packs/first-kingdom/sector-1.json",
-      "bytes": 3125,
-      "sha256": "98b0d921892c874e350379171dcedc50b2918b277e3b8164b0a402024571e50e"
+      "bytes": 3219,
+      "sha256": "36a2e24ef950e3643cd3560471c1a902149bae786ea6727cb84f3cd30e76b00e"
     },
     {
       "path": "packs/first-kingdom/sector-1.map",
@@ -1308,8 +1338,8 @@
     },
     {
       "path": "packs/first-kingdom/sector-2.json",
-      "bytes": 3126,
-      "sha256": "35a2e4853f3d33a024cfbf4ddb99e9dbf2f1bd8963db3a5536b30de54dcded8c"
+      "bytes": 3210,
+      "sha256": "c37536ca04b252d8781af976857f598ee7cd2345aadbf0ca89dbbd2af1e30ac6"
     },
     {
       "path": "packs/first-kingdom/sector-2.map",
@@ -1318,8 +1348,8 @@
     },
     {
       "path": "packs/first-kingdom/sector-3.json",
-      "bytes": 3243,
-      "sha256": "f394726acfe1501530956f36f0fd2d9ca42ec1549186c347f0091d8116d2da0b"
+      "bytes": 3337,
+      "sha256": "9ef4202cec83ad8ebb4b7f83d674588ab5e8fd61e807ebd6e94c6bd3308cc222"
     },
     {
       "path": "packs/first-kingdom/sector-3.map",
@@ -1328,8 +1358,8 @@
     },
     {
       "path": "packs/first-kingdom/sector-4.json",
-      "bytes": 2948,
-      "sha256": "1127b50fcb7c57aa6908cdb43f16b92408df2faddc415b83be141d6c732a646b"
+      "bytes": 3039,
+      "sha256": "30c2a208241bf2ae518c8f8d58a113fc345a454f1ac05663700372dbe8618aee"
     },
     {
       "path": "packs/first-kingdom/sector-4.map",
@@ -1338,8 +1368,8 @@
     },
     {
       "path": "packs/first-kingdom/sector-5.json",
-      "bytes": 3125,
-      "sha256": "23d2825e9ee478609578b861da3dd6feb362a5b1821eec666296b5be1e0e839f"
+      "bytes": 3286,
+      "sha256": "84436ceb977ca35a106cd9331c27cf170cd699c64a1f9195f07c452953b3a2e9"
     },
     {
       "path": "packs/first-kingdom/sector-5.map",
@@ -1358,8 +1388,8 @@
     },
     {
       "path": "packs/heartwood-song/ATTRIBUTION.md",
-      "bytes": 570,
-      "sha256": "3e8de0a678515fe2914b3c637048cccfc6f0118dab005b1e2bfe58df01948407"
+      "bytes": 618,
+      "sha256": "b87917a3308c4123bd431f27c117b496d41f733f5ab6c09e2c6815a80b580528"
     },
     {
       "path": "packs/heartwood-song/AUDIO-LICENSE.txt",
@@ -1368,8 +1398,8 @@
     },
     {
       "path": "packs/heartwood-song/atlas.png",
-      "bytes": 113706,
-      "sha256": "ac46dd947ea7e09b0b32608f2727d5717c6822326f4665670c80173cd5e2812d"
+      "bytes": 845255,
+      "sha256": "e63b926b68e8148833f1947a3d192eff5a4af8450523e9d1b6719a183efc450d"
     },
     {
       "path": "packs/heartwood-song/audio-source.json",
@@ -1392,14 +1422,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/heartwood-song/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/heartwood-song/hall.bin",
       "bytes": 9868868,
       "sha256": "077af6fb87f6e9bb36039f0f27b91126ea2e2de435873a67415848770a8c8df1"
     },
     {
       "path": "packs/heartwood-song/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/heartwood-song/hall.map",
@@ -1413,18 +1448,18 @@
     },
     {
       "path": "packs/heartwood-song/level.bin",
-      "bytes": 3663072,
-      "sha256": "e5822d5c6915b61c310b870bdbccb394e3b2b5ea838997332822155a85b72513"
+      "bytes": 4058592,
+      "sha256": "793694a7cb0d971c6bd0ed74930129d095416e0f6602576e51b5f647922e2cde"
     },
     {
       "path": "packs/heartwood-song/level.gltf",
-      "bytes": 35538,
-      "sha256": "2fd8c470d4acd532927b9cd01abf2c77fe584652b9e815d30ee65d54c7cc78d4"
+      "bytes": 37662,
+      "sha256": "bb377fc6d8a535488722e5ad80ce46f9c04a92424b0fdce6584590e0db0a2864"
     },
     {
       "path": "packs/heartwood-song/manifest.json",
-      "bytes": 8111,
-      "sha256": "4dc82ca88bc0fce9da10f4d795dec7d81bb6eee965e77706636d102627129bca"
+      "bytes": 8310,
+      "sha256": "c8642c9b60a478e2896bca6ef7de86c3c4fb33dd2a5ede51009237b2c2b31d9b"
     },
     {
       "path": "packs/heartwood-song/music.wav",
@@ -1433,8 +1468,8 @@
     },
     {
       "path": "packs/heartwood-song/navigation.json",
-      "bytes": 3244,
-      "sha256": "10194eac235b235fbc29cac969371da6f46bcfe138e767b17864f520f6432baf"
+      "bytes": 3335,
+      "sha256": "d37454278a01f437da4f10c5504dee284aefd669b03175733d0ca8a84a0a2453"
     },
     {
       "path": "packs/heartwood-song/palette.txt",
@@ -1458,8 +1493,8 @@
     },
     {
       "path": "packs/heartwood-song/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "f5ab40ac12bb9cba026566a63d559f40e7e0c704436cfd539f8f152608fda26c"
     },
     {
       "path": "packs/heartwood-song/scene.vert",
@@ -1468,8 +1503,8 @@
     },
     {
       "path": "packs/heartwood-song/sector-0.json",
-      "bytes": 3244,
-      "sha256": "10194eac235b235fbc29cac969371da6f46bcfe138e767b17864f520f6432baf"
+      "bytes": 3335,
+      "sha256": "d37454278a01f437da4f10c5504dee284aefd669b03175733d0ca8a84a0a2453"
     },
     {
       "path": "packs/heartwood-song/sector-0.map",
@@ -1478,8 +1513,8 @@
     },
     {
       "path": "packs/heartwood-song/sector-1.json",
-      "bytes": 3120,
-      "sha256": "2474a174f32c53d411e4ee782b92c76502a57c00cb03709f962bbeec49fc4bc8"
+      "bytes": 3214,
+      "sha256": "11f4b9204b0ea69c7c94da7982a1e1825ec821f6cf2520dfed9a71a40922b938"
     },
     {
       "path": "packs/heartwood-song/sector-1.map",
@@ -1488,8 +1523,8 @@
     },
     {
       "path": "packs/heartwood-song/sector-2.json",
-      "bytes": 3121,
-      "sha256": "5705ffde23533966b701cf94d581a187c2dcb8553d2fedef3df296eb32b4f52c"
+      "bytes": 3205,
+      "sha256": "dfbcdb2ad7efde3910d57ca6982b34c8816f089dcc8595110de1ca4845ac276d"
     },
     {
       "path": "packs/heartwood-song/sector-2.map",
@@ -1498,8 +1533,8 @@
     },
     {
       "path": "packs/heartwood-song/sector-3.json",
-      "bytes": 2947,
-      "sha256": "d41e61b38e8868458b3484702e6c19188faf9b6ec86b2872ed21da77332df886"
+      "bytes": 3041,
+      "sha256": "5042cdbe2421b204567e628f48f4fc5bcda1781153fd24a445f710bec49f8fe2"
     },
     {
       "path": "packs/heartwood-song/sector-3.map",
@@ -1508,8 +1543,8 @@
     },
     {
       "path": "packs/heartwood-song/sector-4.json",
-      "bytes": 3244,
-      "sha256": "10194eac235b235fbc29cac969371da6f46bcfe138e767b17864f520f6432baf"
+      "bytes": 3335,
+      "sha256": "d37454278a01f437da4f10c5504dee284aefd669b03175733d0ca8a84a0a2453"
     },
     {
       "path": "packs/heartwood-song/sector-4.map",
@@ -1518,8 +1553,8 @@
     },
     {
       "path": "packs/heartwood-song/sector-5.json",
-      "bytes": 3120,
-      "sha256": "ebedf2bf6a0e37953f23e3353406c8d71f8906d4bbecc0040fb3a2d6cd754e33"
+      "bytes": 3207,
+      "sha256": "f6d2d1449715197df85cd71683d0341eaa2dbadeaf93063260993d7e4701c907"
     },
     {
       "path": "packs/heartwood-song/sector-5.map",
@@ -1528,8 +1563,8 @@
     },
     {
       "path": "packs/heartwood-song/sector-6.json",
-      "bytes": 3121,
-      "sha256": "d510053ca47690aeb0a16712afa1574155224e82e3b2dabc58f7771611a68e9f"
+      "bytes": 3212,
+      "sha256": "d4b2288ad05c22d82ba8c80d84bf540d8b39c59e08ba8dd2d0826d8133328fff"
     },
     {
       "path": "packs/heartwood-song/sector-6.map",
@@ -1538,8 +1573,8 @@
     },
     {
       "path": "packs/heartwood-song/sector-7.json",
-      "bytes": 2947,
-      "sha256": "d41e61b38e8868458b3484702e6c19188faf9b6ec86b2872ed21da77332df886"
+      "bytes": 3108,
+      "sha256": "7b59bb395e5e61c832e4a9cb81e7014da3fdf118ae3bf0b9d18f27e82b064207"
     },
     {
       "path": "packs/heartwood-song/sector-7.map",
@@ -1558,8 +1593,8 @@
     },
     {
       "path": "packs/iron-solstice/ATTRIBUTION.md",
-      "bytes": 550,
-      "sha256": "892d7fc01fc588956b36867cf87b265026e882fcf4277718f91f91acc4e765d9"
+      "bytes": 631,
+      "sha256": "fa1d7711bee67ac26924561faac685fe381159cf55931f787721e76d849eabd2"
     },
     {
       "path": "packs/iron-solstice/AUDIO-LICENSE.txt",
@@ -1568,8 +1603,8 @@
     },
     {
       "path": "packs/iron-solstice/atlas.png",
-      "bytes": 108991,
-      "sha256": "7760364537df47531b58c3308cba271869b293fd8fefdcac59a2e0f57b6a51dc"
+      "bytes": 620725,
+      "sha256": "1b9ee7e1287912273e84621a0d5f64c9cd3aa979c87dd74e0abad13c644dd3cf"
     },
     {
       "path": "packs/iron-solstice/audio-source.json",
@@ -1592,14 +1627,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/iron-solstice/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/iron-solstice/hall.bin",
       "bytes": 10156868,
       "sha256": "72a93109d9dec2df116522c5b91fb5b6be1581391f9099b29186dc65adcedb80"
     },
     {
       "path": "packs/iron-solstice/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/iron-solstice/hall.map",
@@ -1613,18 +1653,18 @@
     },
     {
       "path": "packs/iron-solstice/level.bin",
-      "bytes": 797568,
-      "sha256": "2cfa8ef808ec383fd379b3c1d3626822babf2bdad0d33f1bbc99da38d3a2cfba"
+      "bytes": 881472,
+      "sha256": "a4d1c42153faba29c0087d0b0dc66c62e2bf28ecc8ac953dbfc731ebb06c0075"
     },
     {
       "path": "packs/iron-solstice/level.gltf",
-      "bytes": 40188,
-      "sha256": "f3de574e6e142f9ee600b6901f52581eaeaba0acd02f0dd1dbac8f1dd1d23a5f"
+      "bytes": 40492,
+      "sha256": "225dc954142266c8e2e83c3451d9382c20d37ddf7e33a830576e1c642acb895d"
     },
     {
       "path": "packs/iron-solstice/manifest.json",
-      "bytes": 4731,
-      "sha256": "2a51c6e8ce9d01dc15753c89dc100252f57c87cc078edde12527d33929ea9621"
+      "bytes": 4930,
+      "sha256": "58c1396514c183906f0a3d7b2d80b77471f38fb3806ef574fd968a5b9a39616c"
     },
     {
       "path": "packs/iron-solstice/music.wav",
@@ -1633,8 +1673,8 @@
     },
     {
       "path": "packs/iron-solstice/navigation.json",
-      "bytes": 2206,
-      "sha256": "55568738bb6754f73e548a2636167d9d1293bf38ac3aa6870c759f9de7aa1b9e"
+      "bytes": 2251,
+      "sha256": "b92041d94385c9bf95e6ff70c041f24209d69db1b59b82685b59d5ad57818d0b"
     },
     {
       "path": "packs/iron-solstice/palette.txt",
@@ -1649,7 +1689,7 @@
     {
       "path": "packs/iron-solstice/red-furnace.map",
       "bytes": 1568,
-      "sha256": "3da88007981bf9abbf5a713005d451e5f93e77db077e3119fbd800b04c241a0b"
+      "sha256": "9986b18d1effdcea3339930c129c1de6d94b062eae65c41a72765c9082cccbee"
     },
     {
       "path": "packs/iron-solstice/rules.lua",
@@ -1658,8 +1698,8 @@
     },
     {
       "path": "packs/iron-solstice/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "70801bf6ddc9c4940d8d34561b8263dae9245c0086104c9573ffe6dbd0a20784"
     },
     {
       "path": "packs/iron-solstice/scene.vert",
@@ -1673,8 +1713,8 @@
     },
     {
       "path": "packs/last-train/ATTRIBUTION.md",
-      "bytes": 547,
-      "sha256": "6baf858d897cb221d96771604ff80c075eb961f85843fb5f42099e17834d14cb"
+      "bytes": 628,
+      "sha256": "dc1c146346fe80249c5fa2ec7bb68103c5d27357b14a327b429a75044342dc6f"
     },
     {
       "path": "packs/last-train/AUDIO-LICENSE.txt",
@@ -1683,8 +1723,8 @@
     },
     {
       "path": "packs/last-train/atlas.png",
-      "bytes": 110045,
-      "sha256": "3c48a78678c4c9dd9981335dccd041a2dcddd143853b9a9dc7d82ad5feb17352"
+      "bytes": 713933,
+      "sha256": "86bb89d6e5f7ebdfb88a074b2659211be4ca4b7f86efc8b22076102f18371aec"
     },
     {
       "path": "packs/last-train/audio-source.json",
@@ -1707,14 +1747,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/last-train/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/last-train/hall.bin",
       "bytes": 10156868,
       "sha256": "11fdb5581327b96cc24ac3896c2aeee111190be7dc1f566487588bfec496c594"
     },
     {
       "path": "packs/last-train/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/last-train/hall.map",
@@ -1728,18 +1773,18 @@
     },
     {
       "path": "packs/last-train/level.bin",
-      "bytes": 519552,
-      "sha256": "ebce484f2050f18b0736a553146cbb067ac6ff9670ee7648c3b3ac52e1a4da95"
+      "bytes": 903360,
+      "sha256": "8009cd18f98971ad6102fe7122d2251b245d47d70d676ddaaecb1067ff9100c8"
     },
     {
       "path": "packs/last-train/level.gltf",
-      "bytes": 33598,
-      "sha256": "0e6a7cef289e3ecbb6a45d1e58a25b41bf885bfa064b5fe0b4584af4ba46f30c"
+      "bytes": 34647,
+      "sha256": "e63808b3d172192fe2274041c9f1ffa059d6dec24d0c5d5c2750a49c51d6823d"
     },
     {
       "path": "packs/last-train/manifest.json",
-      "bytes": 4725,
-      "sha256": "9d29a209857418c8fa34d6fbd59226f3bfc7cb412c515b8a70164078198ac698"
+      "bytes": 4924,
+      "sha256": "c09c192ab4be1820e14eb46cfbd14f672cfb8cf2bf5d0ddb517fffcde238a1b7"
     },
     {
       "path": "packs/last-train/music.wav",
@@ -1748,8 +1793,8 @@
     },
     {
       "path": "packs/last-train/navigation.json",
-      "bytes": 2188,
-      "sha256": "42a1e15aeb48920ffa5311d918ee56d346ed90a782980a2ebe5b2e7c080bfdb8"
+      "bytes": 2233,
+      "sha256": "1a3f815d6d68f348b02e43905054aa53049c9873bcb49f945e4131c4de1ccac8"
     },
     {
       "path": "packs/last-train/palette.txt",
@@ -1764,7 +1809,7 @@
     {
       "path": "packs/last-train/red-furnace.map",
       "bytes": 1568,
-      "sha256": "64c9d8fd8128a77d10089f0e487baf7d0cda2069b29fd2d5a3fb47f4433e79ec"
+      "sha256": "f506b213062bde564408b8d273d213b88eb492bbb9e7f7686becd500457eb7a9"
     },
     {
       "path": "packs/last-train/rules.lua",
@@ -1773,8 +1818,8 @@
     },
     {
       "path": "packs/last-train/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "1928f1296d81141a11af893a80f005118b5debd06ba86aa8b65a31a473e27438"
     },
     {
       "path": "packs/last-train/scene.vert",
@@ -1788,8 +1833,8 @@
     },
     {
       "path": "packs/machines-at-dawn/ATTRIBUTION.md",
-      "bytes": 572,
-      "sha256": "7a81dad8f85fd9bdc1005f4316cf9bc5692521beaf4876f4772d0d880ce4ae95"
+      "bytes": 620,
+      "sha256": "89f61cec5cc42d7c3c783783dee2a5cb232b06ad7718e15ab9f26c32dc1d9ef3"
     },
     {
       "path": "packs/machines-at-dawn/AUDIO-LICENSE.txt",
@@ -1798,8 +1843,8 @@
     },
     {
       "path": "packs/machines-at-dawn/atlas.png",
-      "bytes": 112819,
-      "sha256": "0ec0832fb7a1780213992c5ef7b4292de4958be7ebf871cd4ac53eeb27adcfeb"
+      "bytes": 648350,
+      "sha256": "8ab4f57da69c01fc907b8313a680a4f0056628b898bb0516bb9697134784ad6e"
     },
     {
       "path": "packs/machines-at-dawn/audio-source.json",
@@ -1822,14 +1867,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/machines-at-dawn/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/machines-at-dawn/hall.bin",
       "bytes": 10444868,
       "sha256": "6bafd6f675e0223ab10c576831d540534522cdc14c1642b76757045838bbd156"
     },
     {
       "path": "packs/machines-at-dawn/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/machines-at-dawn/hall.map",
@@ -1843,18 +1893,18 @@
     },
     {
       "path": "packs/machines-at-dawn/level.bin",
-      "bytes": 2948832,
-      "sha256": "1e3ccc715f8af9929fe3e0bc559bdab89824c15dce12be530dd51aa8039734eb"
+      "bytes": 3240480,
+      "sha256": "177d7fd46cb2908a3b80e9580ae2441fb54d8a6b1dd9cc354b579012158ac4dd"
     },
     {
       "path": "packs/machines-at-dawn/level.gltf",
-      "bytes": 30911,
-      "sha256": "f5deecd3c6f20e082726eb191e81caf2fce51a6bbc650f47051edf6f74d1f0ab"
+      "bytes": 33121,
+      "sha256": "68c67c061bebef7bb1d500fb145f68dbd306a7a82a16cf644ef42cd8fd7c8e08"
     },
     {
       "path": "packs/machines-at-dawn/manifest.json",
-      "bytes": 7313,
-      "sha256": "b40f80f204c065c5d9c2d9c1abfd105a625545d7e8a3147a02850c0296a4f69e"
+      "bytes": 7512,
+      "sha256": "029f88d79bf770ec100a27bc51ce1c542bcf230eac087d1ecda62e74b721de23"
     },
     {
       "path": "packs/machines-at-dawn/music.wav",
@@ -1863,8 +1913,8 @@
     },
     {
       "path": "packs/machines-at-dawn/navigation.json",
-      "bytes": 2948,
-      "sha256": "1127b50fcb7c57aa6908cdb43f16b92408df2faddc415b83be141d6c732a646b"
+      "bytes": 3039,
+      "sha256": "30c2a208241bf2ae518c8f8d58a113fc345a454f1ac05663700372dbe8618aee"
     },
     {
       "path": "packs/machines-at-dawn/palette.txt",
@@ -1888,8 +1938,8 @@
     },
     {
       "path": "packs/machines-at-dawn/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "0ba265fbefa454dc3fcfec27ce877661c713f41ba0c8ea28b08b430e044983a3"
     },
     {
       "path": "packs/machines-at-dawn/scene.vert",
@@ -1898,8 +1948,8 @@
     },
     {
       "path": "packs/machines-at-dawn/sector-0.json",
-      "bytes": 2948,
-      "sha256": "1127b50fcb7c57aa6908cdb43f16b92408df2faddc415b83be141d6c732a646b"
+      "bytes": 3039,
+      "sha256": "30c2a208241bf2ae518c8f8d58a113fc345a454f1ac05663700372dbe8618aee"
     },
     {
       "path": "packs/machines-at-dawn/sector-0.map",
@@ -1908,8 +1958,8 @@
     },
     {
       "path": "packs/machines-at-dawn/sector-1.json",
-      "bytes": 3125,
-      "sha256": "98b0d921892c874e350379171dcedc50b2918b277e3b8164b0a402024571e50e"
+      "bytes": 3219,
+      "sha256": "36a2e24ef950e3643cd3560471c1a902149bae786ea6727cb84f3cd30e76b00e"
     },
     {
       "path": "packs/machines-at-dawn/sector-1.map",
@@ -1918,8 +1968,8 @@
     },
     {
       "path": "packs/machines-at-dawn/sector-2.json",
-      "bytes": 3126,
-      "sha256": "35a2e4853f3d33a024cfbf4ddb99e9dbf2f1bd8963db3a5536b30de54dcded8c"
+      "bytes": 3210,
+      "sha256": "c37536ca04b252d8781af976857f598ee7cd2345aadbf0ca89dbbd2af1e30ac6"
     },
     {
       "path": "packs/machines-at-dawn/sector-2.map",
@@ -1928,8 +1978,8 @@
     },
     {
       "path": "packs/machines-at-dawn/sector-3.json",
-      "bytes": 3243,
-      "sha256": "f394726acfe1501530956f36f0fd2d9ca42ec1549186c347f0091d8116d2da0b"
+      "bytes": 3337,
+      "sha256": "9ef4202cec83ad8ebb4b7f83d674588ab5e8fd61e807ebd6e94c6bd3308cc222"
     },
     {
       "path": "packs/machines-at-dawn/sector-3.map",
@@ -1938,8 +1988,8 @@
     },
     {
       "path": "packs/machines-at-dawn/sector-4.json",
-      "bytes": 2948,
-      "sha256": "1127b50fcb7c57aa6908cdb43f16b92408df2faddc415b83be141d6c732a646b"
+      "bytes": 3039,
+      "sha256": "30c2a208241bf2ae518c8f8d58a113fc345a454f1ac05663700372dbe8618aee"
     },
     {
       "path": "packs/machines-at-dawn/sector-4.map",
@@ -1948,8 +1998,8 @@
     },
     {
       "path": "packs/machines-at-dawn/sector-5.json",
-      "bytes": 3125,
-      "sha256": "23d2825e9ee478609578b861da3dd6feb362a5b1821eec666296b5be1e0e839f"
+      "bytes": 3286,
+      "sha256": "84436ceb977ca35a106cd9331c27cf170cd699c64a1f9195f07c452953b3a2e9"
     },
     {
       "path": "packs/machines-at-dawn/sector-5.map",
@@ -1968,8 +2018,8 @@
     },
     {
       "path": "packs/midnight-armistice/ATTRIBUTION.md",
-      "bytes": 574,
-      "sha256": "81a9c32f4081126306e6e849502be73eba2316b57fafd457a9e49cf47e3a9ebb"
+      "bytes": 622,
+      "sha256": "2a56a164ed2b9c0e8395b59d08fdb2ec6940d4183572f5a23f9cac8da4072dd8"
     },
     {
       "path": "packs/midnight-armistice/AUDIO-LICENSE.txt",
@@ -1978,8 +2028,8 @@
     },
     {
       "path": "packs/midnight-armistice/atlas.png",
-      "bytes": 108238,
-      "sha256": "6d4053aefa25aad1dd48090e00c48d80a97964d08585e12b1bdd668aba5c59c8"
+      "bytes": 833819,
+      "sha256": "63d273623e977bc1dbbaee6654fef3ae015a4cd83893ea268175b20e593d60c0"
     },
     {
       "path": "packs/midnight-armistice/audio-source.json",
@@ -2002,14 +2052,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/midnight-armistice/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/midnight-armistice/hall.bin",
       "bytes": 10206764,
       "sha256": "36f130defabb9b5debbeaa5ba2bc1edefd7912476a352d4346e599bfb63054d8"
     },
     {
       "path": "packs/midnight-armistice/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/midnight-armistice/hall.map",
@@ -2023,18 +2078,18 @@
     },
     {
       "path": "packs/midnight-armistice/level.bin",
-      "bytes": 3194976,
-      "sha256": "a408adfc632637c98a26814235a2a39055a4bc3c5d22d65f6b7b4905ffd530c1"
+      "bytes": 3686880,
+      "sha256": "673a7fc6f2c2d36dca4f33357aa3572f4a6ac00d2ddbcb887aadbe9dd7c62137"
     },
     {
       "path": "packs/midnight-armistice/level.gltf",
-      "bytes": 31104,
-      "sha256": "9c1043c158caa9ee33d8464abe8316334aab8812ec896ea9cf5b129a7393ea13"
+      "bytes": 32910,
+      "sha256": "51747ad8cacbdd07adc773439647e3f7da2066ca269477fd9437e1c360bfd1bc"
     },
     {
       "path": "packs/midnight-armistice/manifest.json",
-      "bytes": 7317,
-      "sha256": "9fede26e78c8809e004978540dea896d1837b6272666178d95b1a3fc0c8fe50c"
+      "bytes": 7516,
+      "sha256": "11f2960c2a5367851b41f7ee9e4c0bfc7b0d8dd7cad797a043914f9d6a3ad0df"
     },
     {
       "path": "packs/midnight-armistice/music.wav",
@@ -2043,8 +2098,8 @@
     },
     {
       "path": "packs/midnight-armistice/navigation.json",
-      "bytes": 3244,
-      "sha256": "10194eac235b235fbc29cac969371da6f46bcfe138e767b17864f520f6432baf"
+      "bytes": 3335,
+      "sha256": "d37454278a01f437da4f10c5504dee284aefd669b03175733d0ca8a84a0a2453"
     },
     {
       "path": "packs/midnight-armistice/palette.txt",
@@ -2068,8 +2123,8 @@
     },
     {
       "path": "packs/midnight-armistice/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "5cc7d3308d3c886ea869b5c0cf233a67a90565e4cd2aa931f91267ba140c9618"
     },
     {
       "path": "packs/midnight-armistice/scene.vert",
@@ -2078,8 +2133,8 @@
     },
     {
       "path": "packs/midnight-armistice/sector-0.json",
-      "bytes": 3244,
-      "sha256": "10194eac235b235fbc29cac969371da6f46bcfe138e767b17864f520f6432baf"
+      "bytes": 3335,
+      "sha256": "d37454278a01f437da4f10c5504dee284aefd669b03175733d0ca8a84a0a2453"
     },
     {
       "path": "packs/midnight-armistice/sector-0.map",
@@ -2088,8 +2143,8 @@
     },
     {
       "path": "packs/midnight-armistice/sector-1.json",
-      "bytes": 3120,
-      "sha256": "2474a174f32c53d411e4ee782b92c76502a57c00cb03709f962bbeec49fc4bc8"
+      "bytes": 3214,
+      "sha256": "11f4b9204b0ea69c7c94da7982a1e1825ec821f6cf2520dfed9a71a40922b938"
     },
     {
       "path": "packs/midnight-armistice/sector-1.map",
@@ -2098,8 +2153,8 @@
     },
     {
       "path": "packs/midnight-armistice/sector-2.json",
-      "bytes": 3121,
-      "sha256": "5705ffde23533966b701cf94d581a187c2dcb8553d2fedef3df296eb32b4f52c"
+      "bytes": 3205,
+      "sha256": "dfbcdb2ad7efde3910d57ca6982b34c8816f089dcc8595110de1ca4845ac276d"
     },
     {
       "path": "packs/midnight-armistice/sector-2.map",
@@ -2108,8 +2163,8 @@
     },
     {
       "path": "packs/midnight-armistice/sector-3.json",
-      "bytes": 2947,
-      "sha256": "d41e61b38e8868458b3484702e6c19188faf9b6ec86b2872ed21da77332df886"
+      "bytes": 3041,
+      "sha256": "5042cdbe2421b204567e628f48f4fc5bcda1781153fd24a445f710bec49f8fe2"
     },
     {
       "path": "packs/midnight-armistice/sector-3.map",
@@ -2118,8 +2173,8 @@
     },
     {
       "path": "packs/midnight-armistice/sector-4.json",
-      "bytes": 3244,
-      "sha256": "10194eac235b235fbc29cac969371da6f46bcfe138e767b17864f520f6432baf"
+      "bytes": 3335,
+      "sha256": "d37454278a01f437da4f10c5504dee284aefd669b03175733d0ca8a84a0a2453"
     },
     {
       "path": "packs/midnight-armistice/sector-4.map",
@@ -2128,8 +2183,8 @@
     },
     {
       "path": "packs/midnight-armistice/sector-5.json",
-      "bytes": 3120,
-      "sha256": "ebedf2bf6a0e37953f23e3353406c8d71f8906d4bbecc0040fb3a2d6cd754e33"
+      "bytes": 3281,
+      "sha256": "b6b920f047cb86aee90d737ff45605ea24210da2c55eb0f8ca0e88020f7c726c"
     },
     {
       "path": "packs/midnight-armistice/sector-5.map",
@@ -2148,8 +2203,8 @@
     },
     {
       "path": "packs/midnight-matinee/ATTRIBUTION.md",
-      "bytes": 637,
-      "sha256": "7505b547c42c4f1af08d0f7b009fee76ac345696428b2b276b31c4f81e9f5c10"
+      "bytes": 719,
+      "sha256": "c516f45a71a0277c60fb3b375c393a1c964179e11635c120fc95e34a6ebed525"
     },
     {
       "path": "packs/midnight-matinee/AUDIO-LICENSE.txt",
@@ -2158,8 +2213,8 @@
     },
     {
       "path": "packs/midnight-matinee/atlas.png",
-      "bytes": 1593806,
-      "sha256": "350a82f322191b3c9446945e6db9c53a9ba9d91307cce01aa7fae1fb25573505"
+      "bytes": 2268412,
+      "sha256": "25fa1516c360958b4dddb35d3c6b742057a671dcc1a30cf7862ae9f4d8e93606"
     },
     {
       "path": "packs/midnight-matinee/audio-source.json",
@@ -2203,18 +2258,18 @@
     },
     {
       "path": "packs/midnight-matinee/level.bin",
-      "bytes": 1721088,
-      "sha256": "6be9c55229348215bb73f415f5e702128504f2368c2a6baeee6b7b6af79d7179"
+      "bytes": 1879872,
+      "sha256": "82be3dfa5a2fac2ae3de7aa79e3f2d2e5162a518d52a3fd6e12857f1b2873743"
     },
     {
       "path": "packs/midnight-matinee/level.gltf",
-      "bytes": 65269,
-      "sha256": "1bca63ca1339fd1e057ef847dc8daf01a649325273086fb0cd344ad664416dc4"
+      "bytes": 65258,
+      "sha256": "37d562f70ce1dd827ec2c120cf025f6d70538b3fb8d82f419a62f2c7fff5a0e5"
     },
     {
       "path": "packs/midnight-matinee/manifest.json",
       "bytes": 4752,
-      "sha256": "b80a2e117bbd2502279456a5fd64de690a250ee70ae6ef0f4f4c7262141765a6"
+      "sha256": "b9242fa1052ca5736068af48c54d7d8502f1894eae24fccaadf7553be147fff1"
     },
     {
       "path": "packs/midnight-matinee/music.wav",
@@ -2248,8 +2303,8 @@
     },
     {
       "path": "packs/midnight-matinee/scene.frag",
-      "bytes": 3284,
-      "sha256": "0582fa07176b1c6c39a2f708e5ebf9100aae97466fcdbf0e9be87da1906baa0f"
+      "bytes": 3628,
+      "sha256": "8322ba4b4ef54a7a3fa1a3903d4ad14081cc961aec9fa13c37c285bb243f9f5e"
     },
     {
       "path": "packs/midnight-matinee/scene.vert",
@@ -2263,8 +2318,8 @@
     },
     {
       "path": "packs/neon-covenant/ATTRIBUTION.md",
-      "bytes": 550,
-      "sha256": "311cad9e3c0c3544603ad3faaa9c635b3273395f3da0a8acde8867c291fcb9ea"
+      "bytes": 631,
+      "sha256": "6817c3329e6a7ce79b70aafc825717adb166ac00f41c4a6afe58a5f762e6a5da"
     },
     {
       "path": "packs/neon-covenant/AUDIO-LICENSE.txt",
@@ -2273,8 +2328,8 @@
     },
     {
       "path": "packs/neon-covenant/atlas.png",
-      "bytes": 113346,
-      "sha256": "737263c97c01212dc9b1ebbc8ef162d5bfa4487e91991154fba75683bb78e27d"
+      "bytes": 792690,
+      "sha256": "e00636f4699fee04f3e7c590cd9a5b92badcaecb396d5c899e73b574722b9c13"
     },
     {
       "path": "packs/neon-covenant/audio-source.json",
@@ -2297,14 +2352,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/neon-covenant/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/neon-covenant/hall.bin",
       "bytes": 9868868,
       "sha256": "76a9f9ba8b16f927b9faa5296efc7bce33b6c43f9a9adc10df5feadd109b7e2b"
     },
     {
       "path": "packs/neon-covenant/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/neon-covenant/hall.map",
@@ -2318,18 +2378,18 @@
     },
     {
       "path": "packs/neon-covenant/level.bin",
-      "bytes": 652992,
-      "sha256": "7020b7e394ebfaaeb62be9227a4e76bbde1c288367a7663fa19fa73027845db5"
+      "bytes": 731712,
+      "sha256": "61e1f19dfd1fedd5aec50d4145fee131701b84e78824b7c6bdd6eba39b5c66df"
     },
     {
       "path": "packs/neon-covenant/level.gltf",
-      "bytes": 36730,
-      "sha256": "3f961a2e81c74d878c2f09e9754e80c65e08dde0714e12a5f2e81b88c1a085c3"
+      "bytes": 38773,
+      "sha256": "d3b550a87ccf9998a014e25c518d9a1d278fea31a8f53f838bca9b878be738c1"
     },
     {
       "path": "packs/neon-covenant/manifest.json",
-      "bytes": 4732,
-      "sha256": "6ba37c04edb0b0f47d6c0799c2f409bcb89583956d80b5a4c9b7ec0e29422623"
+      "bytes": 4931,
+      "sha256": "e8d6ba4f7ae6cf73ceeeb4a3b8caf89c4090e713c2f9560c8baab658716414e5"
     },
     {
       "path": "packs/neon-covenant/music.wav",
@@ -2338,8 +2398,8 @@
     },
     {
       "path": "packs/neon-covenant/navigation.json",
-      "bytes": 2197,
-      "sha256": "011efc580e44d52f6399360b91e7a033248003215013c14898229ba89aa8c252"
+      "bytes": 2241,
+      "sha256": "288508a113681758fbec3c96e66d08ee2f38ed03a1a4e8a6baf50b5c7e71a8ca"
     },
     {
       "path": "packs/neon-covenant/palette.txt",
@@ -2354,7 +2414,7 @@
     {
       "path": "packs/neon-covenant/red-furnace.map",
       "bytes": 1568,
-      "sha256": "8b16dd54a1371c588d70d519f43a84a6f9c59bf1a60c93891fc8485ec2017f49"
+      "sha256": "2d7793babf9b5a3755fb550f55c9f5416482bfcfde705415612cc30f225962aa"
     },
     {
       "path": "packs/neon-covenant/rules.lua",
@@ -2363,8 +2423,8 @@
     },
     {
       "path": "packs/neon-covenant/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "2ee5f8b2b76c356226b0d55e55ed42f39346026920a5f5b3b250ebe5c492c0e1"
     },
     {
       "path": "packs/neon-covenant/scene.vert",
@@ -2378,8 +2438,8 @@
     },
     {
       "path": "packs/reactor-zero/ATTRIBUTION.md",
-      "bytes": 549,
-      "sha256": "2d89b41fa0b706954009bb3ea4bbab3d091bf1ae4791f1cfcbf491610e7bbfbf"
+      "bytes": 630,
+      "sha256": "40aa3657f0706c4559236e877a8e25f3935820fa4c5d3b430501c588f4095198"
     },
     {
       "path": "packs/reactor-zero/AUDIO-LICENSE.txt",
@@ -2388,8 +2448,8 @@
     },
     {
       "path": "packs/reactor-zero/atlas.png",
-      "bytes": 112082,
-      "sha256": "f9ab67bb05d680a0214ee829a1b4694d4926504efe14018238097cd8e5a20a72"
+      "bytes": 640211,
+      "sha256": "4969e94d31c5c25e1bf190b7da946bbec686f398ac7ae35680bd0bf0a7b2aaa9"
     },
     {
       "path": "packs/reactor-zero/audio-source.json",
@@ -2412,14 +2472,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/reactor-zero/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/reactor-zero/hall.bin",
       "bytes": 9868868,
       "sha256": "43a032220c5f28cd40c3d2715b6e341ef1435eee70612d7e4a9cf9a6ca79454f"
     },
     {
       "path": "packs/reactor-zero/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/reactor-zero/hall.map",
@@ -2433,18 +2498,18 @@
     },
     {
       "path": "packs/reactor-zero/level.bin",
-      "bytes": 1473600,
-      "sha256": "e1c57a8d03dc22563e808a1bfc5f9401582d099ae43575da690497d34d2f0106"
+      "bytes": 1702848,
+      "sha256": "bd24fa4f526c86cd918a45e02a40fa29295814f590b1887ef6dc096be21a9bb2"
     },
     {
       "path": "packs/reactor-zero/level.gltf",
-      "bytes": 42160,
-      "sha256": "06ef36279217921f4e8aa931970ba6faba650aa9c247564751954a130d6e4989"
+      "bytes": 42349,
+      "sha256": "59727f15ebaaf6fcf554c7298feac8b70293cb9f234e38edc69e63f979a5cb06"
     },
     {
       "path": "packs/reactor-zero/manifest.json",
-      "bytes": 4730,
-      "sha256": "4d409113501d4abbb17a82a9d5291584e7d0b3ab2273b2a37fbc844e5f66a351"
+      "bytes": 4929,
+      "sha256": "185fc8166c312b33f80c97d23e4e68eeabbdf708ba3d90f11e7b3f2d966bd32b"
     },
     {
       "path": "packs/reactor-zero/music.wav",
@@ -2453,8 +2518,8 @@
     },
     {
       "path": "packs/reactor-zero/navigation.json",
-      "bytes": 2167,
-      "sha256": "03f1561c1a005fffc9e8c11d90db6f81338faef00efa462d783e2983c526304e"
+      "bytes": 2211,
+      "sha256": "64d7d153993a5b1923b52f491038f34fd73b5547d43ee481c1ed7111c52a4957"
     },
     {
       "path": "packs/reactor-zero/palette.txt",
@@ -2469,7 +2534,7 @@
     {
       "path": "packs/reactor-zero/red-furnace.map",
       "bytes": 1568,
-      "sha256": "214c454af9e003ab25df6f4d178afe85ea058d67a627cf829731513b048c1ca2"
+      "sha256": "a497e32e0481544b0cdc10dd165632fcc9b0415721cd50f690782ffac34052c4"
     },
     {
       "path": "packs/reactor-zero/rules.lua",
@@ -2478,8 +2543,8 @@
     },
     {
       "path": "packs/reactor-zero/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4670,
+      "sha256": "02615856353ade1c8b1522820ac9e07df859719f5e2b58c32ebf54e65c99e89b"
     },
     {
       "path": "packs/reactor-zero/scene.vert",
@@ -2493,8 +2558,8 @@
     },
     {
       "path": "packs/red-furnace/ATTRIBUTION.md",
-      "bytes": 567,
-      "sha256": "e2f619869caec0cb944344a6507a9c4a9f1492d98f045aa9e8ff6a177c71d4bf"
+      "bytes": 615,
+      "sha256": "b455bcf53532b8d0157810b00b170b3a319a50777a2dc2e3065467cf93b82073"
     },
     {
       "path": "packs/red-furnace/AUDIO-LICENSE.txt",
@@ -2503,8 +2568,8 @@
     },
     {
       "path": "packs/red-furnace/atlas.png",
-      "bytes": 110223,
-      "sha256": "8f95a1ae96a178b2930eb58cb78453da874dd5fe80da91467567ec3ca68d3bf8"
+      "bytes": 805331,
+      "sha256": "be2be510a5efbb9c3171ec0e412a12fe31205e55b49b18929876e5c879e6da45"
     },
     {
       "path": "packs/red-furnace/audio-source.json",
@@ -2527,14 +2592,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/red-furnace/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/red-furnace/hall.bin",
       "bytes": 10156868,
       "sha256": "46449c5bd2d1d617f8d0f426f13bd0bd7a4779f26e56e8611556d62209b47424"
     },
     {
       "path": "packs/red-furnace/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/red-furnace/hall.map",
@@ -2548,18 +2618,18 @@
     },
     {
       "path": "packs/red-furnace/level.bin",
-      "bytes": 3361056,
-      "sha256": "092b8a627f604d23025696531be7d9ca267404cdeaa8c188cfff0ce01db9d02b"
+      "bytes": 2706528,
+      "sha256": "8bb71c46b725071698166f7c728f2d6346fea0daef1cbe498841b9a96deafd5b"
     },
     {
       "path": "packs/red-furnace/level.gltf",
-      "bytes": 71399,
-      "sha256": "b4e0518bed315a92d2f1981b5329250b34fb68cbd53f8ed7b1387f16e97e09cd"
+      "bytes": 73016,
+      "sha256": "b8fdee442f84eedddf85a7c30c8d2cba93c8aee2b5c1f2e5c2341163e7eaf076"
     },
     {
       "path": "packs/red-furnace/manifest.json",
-      "bytes": 8105,
-      "sha256": "0e0e45385d55ec82e78f8f5693eacae1245b48cd179e076d5c7131cad80dd1e6"
+      "bytes": 8304,
+      "sha256": "cbcec21c20bae608ea07181b64b2ddadecab0586717359e9f1fec781d7312e76"
     },
     {
       "path": "packs/red-furnace/music.wav",
@@ -2568,8 +2638,8 @@
     },
     {
       "path": "packs/red-furnace/navigation.json",
-      "bytes": 7486,
-      "sha256": "b2cdaf2104515027168496ce264569413efbd4dd60e4962a1705d4eeeeb6b56f"
+      "bytes": 8281,
+      "sha256": "7e566b6d1453a57e9dfb3f753c4896c896f826976ce514d2cbe52de2137adbb9"
     },
     {
       "path": "packs/red-furnace/palette.txt",
@@ -2584,7 +2654,7 @@
     {
       "path": "packs/red-furnace/red-furnace.map",
       "bytes": 1568,
-      "sha256": "311a41e6765c850064a822e4136e628d5519efc784199c07eb0b7ecaad6ece78"
+      "sha256": "cd116b1aaa27a6de3d2f76afc7d81d9fb5e0350ab2e3cf28a03d61f1c002d270"
     },
     {
       "path": "packs/red-furnace/rules.lua",
@@ -2593,8 +2663,8 @@
     },
     {
       "path": "packs/red-furnace/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4670,
+      "sha256": "fb1a9673e94f28f07aa8293e64b1c8f9c22891f0844c867bd7351c4c54ed14dc"
     },
     {
       "path": "packs/red-furnace/scene.vert",
@@ -2603,83 +2673,83 @@
     },
     {
       "path": "packs/red-furnace/sector-0.json",
-      "bytes": 7486,
-      "sha256": "b2cdaf2104515027168496ce264569413efbd4dd60e4962a1705d4eeeeb6b56f"
+      "bytes": 8281,
+      "sha256": "7e566b6d1453a57e9dfb3f753c4896c896f826976ce514d2cbe52de2137adbb9"
     },
     {
       "path": "packs/red-furnace/sector-0.map",
       "bytes": 1568,
-      "sha256": "311a41e6765c850064a822e4136e628d5519efc784199c07eb0b7ecaad6ece78"
+      "sha256": "cd116b1aaa27a6de3d2f76afc7d81d9fb5e0350ab2e3cf28a03d61f1c002d270"
     },
     {
       "path": "packs/red-furnace/sector-1.json",
-      "bytes": 8355,
-      "sha256": "d32fa92d23ca79c43a6e06d5b6b71427c38043c27e9d5c1adfaf96555ec9499a"
+      "bytes": 9231,
+      "sha256": "88eaa393b41c8e03e2b96d5cc12ab0e7dce6d870c214394399d09cde23ad20b1"
     },
     {
       "path": "packs/red-furnace/sector-1.map",
       "bytes": 1568,
-      "sha256": "385c55dd1765854ca2b6956c77c4d013b325be2329bf913e8e61e49872fc7ebf"
+      "sha256": "3545cd1c4cbfb1083567007c428a3af0fa9516d403dde1168a691888826960a6"
     },
     {
       "path": "packs/red-furnace/sector-2.json",
-      "bytes": 8306,
-      "sha256": "693141bf5bfc0ba94d5c0902146c1f4d86d8aa2ab995d4d6b77d46b023f9d745"
+      "bytes": 9063,
+      "sha256": "1f71be1e27cb15066eeedd7597bc0ee39f5a84ae197a31bbb1e8cde98d18afd7"
     },
     {
       "path": "packs/red-furnace/sector-2.map",
       "bytes": 1568,
-      "sha256": "8f0c13453164c1435267d4e0a5b84e5b01da9f1448237462cc146afd99a5b71a"
+      "sha256": "40c7f11f55dea4c76d73d61c77d4f5f5f8d13521160b0b32f63e89f923ae6d46"
     },
     {
       "path": "packs/red-furnace/sector-3.json",
-      "bytes": 9099,
-      "sha256": "616cf83faf4840a6f8bfa0b2db07bf088f10a377b48f0349d3cdb02565d1e836"
+      "bytes": 9975,
+      "sha256": "7456f8224fe503069f6dfd632aff962b8363c39c608dfe2c6ce6a3c693e5cb53"
     },
     {
       "path": "packs/red-furnace/sector-3.map",
       "bytes": 1568,
-      "sha256": "6adb887c26f7666c583944c0277cecc4661afd7c497acfd319dca17bf75c8d11"
+      "sha256": "419fe0322ebbab2d0c15f765c943ee1b9b09b9c6c580bf37afdfbb9bb22a36d0"
     },
     {
       "path": "packs/red-furnace/sector-4.json",
-      "bytes": 7486,
-      "sha256": "b2cdaf2104515027168496ce264569413efbd4dd60e4962a1705d4eeeeb6b56f"
+      "bytes": 8281,
+      "sha256": "7e566b6d1453a57e9dfb3f753c4896c896f826976ce514d2cbe52de2137adbb9"
     },
     {
       "path": "packs/red-furnace/sector-4.map",
       "bytes": 1568,
-      "sha256": "311a41e6765c850064a822e4136e628d5519efc784199c07eb0b7ecaad6ece78"
+      "sha256": "cd116b1aaa27a6de3d2f76afc7d81d9fb5e0350ab2e3cf28a03d61f1c002d270"
     },
     {
       "path": "packs/red-furnace/sector-5.json",
-      "bytes": 8235,
-      "sha256": "787f79c535640cdabfc6754f9065bc1e55b02f60f14beba001178ab2bc519aff"
+      "bytes": 9068,
+      "sha256": "0b5c16bdb61f9a1ae562883f59a710afb0847284c10d41e3803c132f42d88685"
     },
     {
       "path": "packs/red-furnace/sector-5.map",
       "bytes": 1568,
-      "sha256": "7aaed6e0d70c1eeac6ea21c8f63944d90bd38e92c377b789e9b5502742aab87d"
+      "sha256": "726007f25e468b6c37cbc75baff3b15daa3a16f61c2d89c297bd0a437395ae1f"
     },
     {
       "path": "packs/red-furnace/sector-6.json",
-      "bytes": 8432,
-      "sha256": "bcc421a8fe373a38e1cef4372930a6063efc737dcae0ab0d78f5ab65210ba9ad"
+      "bytes": 9227,
+      "sha256": "c5d17c6dbd9b3b493919ecdde3b4aa54a7e415faf05ee25c97c0f4c84a60e35f"
     },
     {
       "path": "packs/red-furnace/sector-6.map",
       "bytes": 1568,
-      "sha256": "d2e02ba335c907cfbf45ee9d721681c549ba6b5c3858c2db003b9882bba57631"
+      "sha256": "665d42c7c8640e3559b28d92acd928f5e174ce25eddfa8618c48af2e711ce0da"
     },
     {
       "path": "packs/red-furnace/sector-7.json",
-      "bytes": 9099,
-      "sha256": "616cf83faf4840a6f8bfa0b2db07bf088f10a377b48f0349d3cdb02565d1e836"
+      "bytes": 10042,
+      "sha256": "9842d538ddd8ea8772cfaf3db84651b03f93bfb32fa7425575b0efc1916646e3"
     },
     {
       "path": "packs/red-furnace/sector-7.map",
       "bytes": 1568,
-      "sha256": "6adb887c26f7666c583944c0277cecc4661afd7c497acfd319dca17bf75c8d11"
+      "sha256": "419fe0322ebbab2d0c15f765c943ee1b9b09b9c6c580bf37afdfbb9bb22a36d0"
     },
     {
       "path": "packs/red-furnace/sectors.txt",
@@ -2693,8 +2763,8 @@
     },
     {
       "path": "packs/resonance-breach/ATTRIBUTION.md",
-      "bytes": 553,
-      "sha256": "afd4f80341df04a36925d092e06e01480c020b4e41fa0e12481c0b0f6208834b"
+      "bytes": 634,
+      "sha256": "1463bb9e96b361b4356f5145f09fac9730eb3504dc746c3e7a10beb02285a410"
     },
     {
       "path": "packs/resonance-breach/AUDIO-LICENSE.txt",
@@ -2703,8 +2773,8 @@
     },
     {
       "path": "packs/resonance-breach/atlas.png",
-      "bytes": 112284,
-      "sha256": "83ad9de292e79b321bc79fc5dcd46083d87b7220cc49fa5c065b826151ebb7aa"
+      "bytes": 781385,
+      "sha256": "5f5f4eb155951282581067e1e9c50caa7dab0ec76ed87d1a07ebf5a935aa1dae"
     },
     {
       "path": "packs/resonance-breach/audio-source.json",
@@ -2727,14 +2797,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/resonance-breach/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/resonance-breach/hall.bin",
       "bytes": 10156868,
       "sha256": "40c353c6817528ae63bacbaeb4085c5402031f31c3b2b0594f984fe1fb15b3b9"
     },
     {
       "path": "packs/resonance-breach/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/resonance-breach/hall.map",
@@ -2748,18 +2823,18 @@
     },
     {
       "path": "packs/resonance-breach/level.bin",
-      "bytes": 1446720,
-      "sha256": "39b687d50b159dc9c1b831e15abb0aa6d8a8b2f6bdbfa09c1a77756669c80adc"
+      "bytes": 1560192,
+      "sha256": "d677e6f4076730791ee37bfd0abfa7186c6f19b78de8a630ffb92fc8cb075209"
     },
     {
       "path": "packs/resonance-breach/level.gltf",
-      "bytes": 33192,
-      "sha256": "ecfa22ce3c0bb8bac61ede512cb1bf08a04afec6885ec7155410308e56497010"
+      "bytes": 35135,
+      "sha256": "a131702aa7e0928387685da2dde9483bfd6f9b331bdc3be7af1f02763a04704b"
     },
     {
       "path": "packs/resonance-breach/manifest.json",
-      "bytes": 4739,
-      "sha256": "f60c162cb837b53ea7196777da1bc3e5f1b9c50f796a6c092a7a8cad096af9d1"
+      "bytes": 4938,
+      "sha256": "9f16a93ebe8ed1ee6556e282e74314a1d1d1a641d3a8436300b06c69b23cd292"
     },
     {
       "path": "packs/resonance-breach/music.wav",
@@ -2768,8 +2843,8 @@
     },
     {
       "path": "packs/resonance-breach/navigation.json",
-      "bytes": 2285,
-      "sha256": "507b33ca220529d62ecdf16800251a8b81b23a9e55d0c626e8a94b9803bda84f"
+      "bytes": 2329,
+      "sha256": "a9f7ea8ab41f943aee390f174b3efb896dedb357da0f3387c6f32769958c0a68"
     },
     {
       "path": "packs/resonance-breach/palette.txt",
@@ -2784,7 +2859,7 @@
     {
       "path": "packs/resonance-breach/red-furnace.map",
       "bytes": 1568,
-      "sha256": "939346a8fdbcb33af2e8d7a7febbb458168e6dda6dd8c554cfc51bd392062e1c"
+      "sha256": "09662bcf953a68cea6d7816d79d416332b19c1a045592251b97a824a4d7992c0"
     },
     {
       "path": "packs/resonance-breach/rules.lua",
@@ -2793,8 +2868,8 @@
     },
     {
       "path": "packs/resonance-breach/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4670,
+      "sha256": "9ceec703a390be9a9430e922504c2d3cbcf56fa33a1c36d04aef2ec747fd93a9"
     },
     {
       "path": "packs/resonance-breach/scene.vert",
@@ -2808,8 +2883,8 @@
     },
     {
       "path": "packs/silent-farm/ATTRIBUTION.md",
-      "bytes": 567,
-      "sha256": "a921d1d520c3649dae59128e84601160be0db026db612308818799b98405b57b"
+      "bytes": 615,
+      "sha256": "d79c38597866eace25a2b91b9e7b274e8a38eb21be9c25fb208e926e91b32da5"
     },
     {
       "path": "packs/silent-farm/AUDIO-LICENSE.txt",
@@ -2818,8 +2893,8 @@
     },
     {
       "path": "packs/silent-farm/atlas.png",
-      "bytes": 107964,
-      "sha256": "17843a7f9b119e395facdaadf85c1198b875e5c0e69a1e74c8bdbc09a0ee1faf"
+      "bytes": 814338,
+      "sha256": "37100fd9e5b662ba16e678dd724898423b857c57ba84ec8ef4c04a5cc9a5c617"
     },
     {
       "path": "packs/silent-farm/audio-source.json",
@@ -2842,14 +2917,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/silent-farm/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/silent-farm/hall.bin",
       "bytes": 9868868,
       "sha256": "f9f4f8b9f30d753b0ecffb9fd96989c696c4e81bb74fdf9c9808d10090080535"
     },
     {
       "path": "packs/silent-farm/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/silent-farm/hall.map",
@@ -2863,18 +2943,18 @@
     },
     {
       "path": "packs/silent-farm/level.bin",
-      "bytes": 3064032,
-      "sha256": "5030e16f1cf78225b4783a628fbfea2e0a6c083000d56cb343ede1b59004de1b"
+      "bytes": 3393888,
+      "sha256": "acae7cbf9223076431c0800804a5d61101c1fd324bead713b5817c36a72042fd"
     },
     {
       "path": "packs/silent-farm/level.gltf",
-      "bytes": 35031,
-      "sha256": "2775cdc0475285f66440a6b096fe1f9026f37582cf6a609c7a42042d5fa9a6a3"
+      "bytes": 37448,
+      "sha256": "e11f6b3e20559da94afb5dd9e652e278c9359a3d8f7bf24711f7b65b3b6744bd"
     },
     {
       "path": "packs/silent-farm/manifest.json",
-      "bytes": 8105,
-      "sha256": "3d057fbe3eadff995abd058ca949591c3f7db6a0c7b28babb0a48cddb1fbebec"
+      "bytes": 8304,
+      "sha256": "1e9ffdce876c78e8cc99a8554925b0f6a7f4d93cb07f95d988df91c5e758217e"
     },
     {
       "path": "packs/silent-farm/music.wav",
@@ -2883,8 +2963,8 @@
     },
     {
       "path": "packs/silent-farm/navigation.json",
-      "bytes": 3047,
-      "sha256": "02e0c7611cbbcc4c7f5ce4747722f7938dbb7cd559a442010b08f334a8d1ba76"
+      "bytes": 3138,
+      "sha256": "80b4704b8e0ef5a36d3c5b10292f5ac51e24ad089fd8a6c96b856ede4d78b382"
     },
     {
       "path": "packs/silent-farm/palette.txt",
@@ -2908,8 +2988,8 @@
     },
     {
       "path": "packs/silent-farm/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "eae9c9abb9fc1d734c4fef10aa0c83b967e8b1ec458c6e5f23a98a860c9676b5"
     },
     {
       "path": "packs/silent-farm/scene.vert",
@@ -2918,8 +2998,8 @@
     },
     {
       "path": "packs/silent-farm/sector-0.json",
-      "bytes": 3047,
-      "sha256": "02e0c7611cbbcc4c7f5ce4747722f7938dbb7cd559a442010b08f334a8d1ba76"
+      "bytes": 3138,
+      "sha256": "80b4704b8e0ef5a36d3c5b10292f5ac51e24ad089fd8a6c96b856ede4d78b382"
     },
     {
       "path": "packs/silent-farm/sector-0.map",
@@ -2928,8 +3008,8 @@
     },
     {
       "path": "packs/silent-farm/sector-1.json",
-      "bytes": 3230,
-      "sha256": "1be26a2412ed7c683dfb716e4b2f2beb5f0fd8f08f824cc1a1d974f2b4ef7b37"
+      "bytes": 3324,
+      "sha256": "ae499a3f953751607447d17ac817b9c464e1728411cfd84dac8736ce58349b8a"
     },
     {
       "path": "packs/silent-farm/sector-1.map",
@@ -2938,8 +3018,8 @@
     },
     {
       "path": "packs/silent-farm/sector-2.json",
-      "bytes": 3231,
-      "sha256": "458acb9111ec3c05f1c14c15bf8332a9041f6a2d642f4b9a5756a59956878f61"
+      "bytes": 3315,
+      "sha256": "09a3102d50a4df41f97231033f105db702dd03c004c13dc053fa994f5bdd0c8d"
     },
     {
       "path": "packs/silent-farm/sector-2.map",
@@ -2948,8 +3028,8 @@
     },
     {
       "path": "packs/silent-farm/sector-3.json",
-      "bytes": 3352,
-      "sha256": "eccb82da26224ca97cfc9e481ae9bae882047466eee603309c3e5dcc56bd2a41"
+      "bytes": 3446,
+      "sha256": "ba191921769ac5656acaedd7efb814a32fc6f7a35313354ee528783c1e45e117"
     },
     {
       "path": "packs/silent-farm/sector-3.map",
@@ -2958,8 +3038,8 @@
     },
     {
       "path": "packs/silent-farm/sector-4.json",
-      "bytes": 3047,
-      "sha256": "02e0c7611cbbcc4c7f5ce4747722f7938dbb7cd559a442010b08f334a8d1ba76"
+      "bytes": 3138,
+      "sha256": "80b4704b8e0ef5a36d3c5b10292f5ac51e24ad089fd8a6c96b856ede4d78b382"
     },
     {
       "path": "packs/silent-farm/sector-4.map",
@@ -2968,8 +3048,8 @@
     },
     {
       "path": "packs/silent-farm/sector-5.json",
-      "bytes": 3230,
-      "sha256": "eb756c7fa9bbc25b1ecdffe3c0b9d74c4baa7be9ee43f5f6de9647f5e4c54960"
+      "bytes": 3317,
+      "sha256": "eafca5bb69565c4d6d4d6cdbea1c55a1a62a43ebabcd332f8833ebe56bfd9d42"
     },
     {
       "path": "packs/silent-farm/sector-5.map",
@@ -2978,8 +3058,8 @@
     },
     {
       "path": "packs/silent-farm/sector-6.json",
-      "bytes": 3231,
-      "sha256": "c99ba175b26cac9cf6859b2305a57656359fdb614879ba2ecf6e1ad9e29849a6"
+      "bytes": 3322,
+      "sha256": "f8187f4646d741e1aa0eb78514c4f94856c8d12ad6304b76ed3ed7d98160856f"
     },
     {
       "path": "packs/silent-farm/sector-6.map",
@@ -2988,8 +3068,8 @@
     },
     {
       "path": "packs/silent-farm/sector-7.json",
-      "bytes": 3352,
-      "sha256": "eccb82da26224ca97cfc9e481ae9bae882047466eee603309c3e5dcc56bd2a41"
+      "bytes": 3513,
+      "sha256": "f18efaf77e2ab67108345fcf254826f4ad677e6d2aec56abe65f9b8350eb99bf"
     },
     {
       "path": "packs/silent-farm/sector-7.map",
@@ -3008,8 +3088,8 @@
     },
     {
       "path": "packs/skyline-relay/ATTRIBUTION.md",
-      "bytes": 550,
-      "sha256": "9d64ba5951a0f8929616df34ba17d5fc23f83507acc01d3ffe23f9cc77016bb5"
+      "bytes": 631,
+      "sha256": "cfcaa3d4ed3aeb47ff38a763e0dc431241e454ad79dc9b56c77420f44b297e76"
     },
     {
       "path": "packs/skyline-relay/AUDIO-LICENSE.txt",
@@ -3018,8 +3098,8 @@
     },
     {
       "path": "packs/skyline-relay/atlas.png",
-      "bytes": 110370,
-      "sha256": "64e218e604597f849f1d58fc517805b33f3208a0335caf7c4c3ee933d7406114"
+      "bytes": 769843,
+      "sha256": "717f0b7ff4efa32208eb4c323908399586ac90e5c9451e222ae2c85e402e095d"
     },
     {
       "path": "packs/skyline-relay/audio-source.json",
@@ -3042,14 +3122,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/skyline-relay/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/skyline-relay/hall.bin",
       "bytes": 10206764,
       "sha256": "c924406b5949bf07743d87719de5123e9eb721b1fe0e236ec4f84ce17ee327f7"
     },
     {
       "path": "packs/skyline-relay/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/skyline-relay/hall.map",
@@ -3063,18 +3148,18 @@
     },
     {
       "path": "packs/skyline-relay/level.bin",
-      "bytes": 550272,
-      "sha256": "7404911a4f91d4af4b5fe5a28e2a275f26c6d90e591cd630aa7c828b995dc163"
+      "bytes": 624000,
+      "sha256": "439619ce3a81a5c05edbb10e5e4e92d4b4dd3dc968f2cddf655cc421fc4cd395"
     },
     {
       "path": "packs/skyline-relay/level.gltf",
-      "bytes": 33681,
-      "sha256": "5e472cd39cba11b902815b7ac6f10dcd3379fe9187be1edab74066e495ef2259"
+      "bytes": 35745,
+      "sha256": "82f6e3238dc71d6e7e9301612e26a775fe3f45e9c2c47fbbfc663e7fdf3d72cd"
     },
     {
       "path": "packs/skyline-relay/manifest.json",
-      "bytes": 4731,
-      "sha256": "d7def54ab0c8c6821a41613e8862d60d0daabb016158097dd614f38311e071e6"
+      "bytes": 4930,
+      "sha256": "5eb46bfb64eb75dcaf005b844d3521b4c02b3354c1d796dc5abd3e0350cbca1c"
     },
     {
       "path": "packs/skyline-relay/music.wav",
@@ -3083,8 +3168,8 @@
     },
     {
       "path": "packs/skyline-relay/navigation.json",
-      "bytes": 2207,
-      "sha256": "0af94f604a8a763c2dc2532acd1980b5e18677aa7d1dc0721481e26885e78388"
+      "bytes": 2251,
+      "sha256": "c0dff47c64973d3327947a124639eac2f944873cecdefc1cfc154809ca283bd7"
     },
     {
       "path": "packs/skyline-relay/palette.txt",
@@ -3099,7 +3184,7 @@
     {
       "path": "packs/skyline-relay/red-furnace.map",
       "bytes": 1568,
-      "sha256": "fb19e890237f6445add6f4c236361eb7850527314246d18fccb37ccd2b46d6e2"
+      "sha256": "5a71aba7aa25901fc82966bd78bb074a44608e590d30b39c28e8e174832f7915"
     },
     {
       "path": "packs/skyline-relay/rules.lua",
@@ -3108,8 +3193,8 @@
     },
     {
       "path": "packs/skyline-relay/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "7fd1492062a99528dd8286df93db3d23d91f13975aef2783b035d63a48fa5ba2"
     },
     {
       "path": "packs/skyline-relay/scene.vert",
@@ -3123,8 +3208,8 @@
     },
     {
       "path": "packs/starblade-ascent/ATTRIBUTION.md",
-      "bytes": 572,
-      "sha256": "95f8e140ffe31452bf81f29e4db353eb43d45ea7a165cb97de63929aea9705ea"
+      "bytes": 620,
+      "sha256": "d0147fb3d9ac492d3b9c936883359c5821676c25c565d0179de983efbfdacc4e"
     },
     {
       "path": "packs/starblade-ascent/AUDIO-LICENSE.txt",
@@ -3133,8 +3218,8 @@
     },
     {
       "path": "packs/starblade-ascent/atlas.png",
-      "bytes": 109461,
-      "sha256": "d997c6378656712df6e91b1f8b0bb63d74f8608d7e09cd5c40abbc388e777372"
+      "bytes": 750334,
+      "sha256": "d48063b7e9cf7b86ca36dd19f98d219a66dd7ae060c0980a5256afb86f944d4c"
     },
     {
       "path": "packs/starblade-ascent/audio-source.json",
@@ -3157,14 +3242,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/starblade-ascent/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/starblade-ascent/hall.bin",
       "bytes": 9868868,
       "sha256": "3d11dfafeeff3260ee68780c7fed45b4570f4b5d9662a063761c1fe563584c0f"
     },
     {
       "path": "packs/starblade-ascent/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/starblade-ascent/hall.map",
@@ -3178,18 +3268,18 @@
     },
     {
       "path": "packs/starblade-ascent/level.bin",
-      "bytes": 3132768,
-      "sha256": "0a0aceeb33ad88a306ebb2f5dbc1bf1c40a75a35e2c29b092d7ed874d4fb6470"
+      "bytes": 3250656,
+      "sha256": "64b2b6cfe2c10760b6f8c931707b9ea072c6d2c31f1427bc48de2f14469d4b64"
     },
     {
       "path": "packs/starblade-ascent/level.gltf",
-      "bytes": 70316,
-      "sha256": "7470d3f9bf17956eedebe0adb7caa4f52e266a30edee11fec7bb6481b1a6831c"
+      "bytes": 72382,
+      "sha256": "3ddadca28529a3ea214096956659f2783ca6b31dee0d4057c4ffbf9891091813"
     },
     {
       "path": "packs/starblade-ascent/manifest.json",
-      "bytes": 8115,
-      "sha256": "8d89b1db846df9e4adcf9f9b3f2500e2215e179fc577cb7b6c9d40cd85d39537"
+      "bytes": 8314,
+      "sha256": "9d7ca2e8ef99edc8805450fbeab6ea234da763346f14fe08e47c6b217b404c7d"
     },
     {
       "path": "packs/starblade-ascent/music.wav",
@@ -3198,8 +3288,8 @@
     },
     {
       "path": "packs/starblade-ascent/navigation.json",
-      "bytes": 9918,
-      "sha256": "ce8899faeee515503856f2681acb2f950f40f7cdb7fcf5e11e806e22eb92997f"
+      "bytes": 10824,
+      "sha256": "a2a69b1b38e9bb41ce0d9fad6911236d4ce9c2b2ce94ff2cdc70e03ad5a1dfa8"
     },
     {
       "path": "packs/starblade-ascent/palette.txt",
@@ -3214,17 +3304,17 @@
     {
       "path": "packs/starblade-ascent/red-furnace.map",
       "bytes": 1568,
-      "sha256": "9c7a8c6886b2b353dd2477eb912ec0f4bc62a285b8d57ce01b5dc164a86682f7"
+      "sha256": "cd116b1aaa27a6de3d2f76afc7d81d9fb5e0350ab2e3cf28a03d61f1c002d270"
     },
     {
       "path": "packs/starblade-ascent/rules.lua",
-      "bytes": 37136,
-      "sha256": "e2b928465c2351978d49b76073a929082c71cb3efcda4113db6e779fb323fb6e"
+      "bytes": 37189,
+      "sha256": "beab3fe5d1f0a1cb9c9e7a5c29e60825e708e32fe37a23ee65ebf8669393a867"
     },
     {
       "path": "packs/starblade-ascent/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "f033c3d6551441d6bc3473e222ee11ef7a01c531508f796a38328a61b12450e4"
     },
     {
       "path": "packs/starblade-ascent/scene.vert",
@@ -3233,83 +3323,83 @@
     },
     {
       "path": "packs/starblade-ascent/sector-0.json",
-      "bytes": 9918,
-      "sha256": "ce8899faeee515503856f2681acb2f950f40f7cdb7fcf5e11e806e22eb92997f"
+      "bytes": 10824,
+      "sha256": "a2a69b1b38e9bb41ce0d9fad6911236d4ce9c2b2ce94ff2cdc70e03ad5a1dfa8"
     },
     {
       "path": "packs/starblade-ascent/sector-0.map",
       "bytes": 1568,
-      "sha256": "9c7a8c6886b2b353dd2477eb912ec0f4bc62a285b8d57ce01b5dc164a86682f7"
+      "sha256": "cd116b1aaa27a6de3d2f76afc7d81d9fb5e0350ab2e3cf28a03d61f1c002d270"
     },
     {
       "path": "packs/starblade-ascent/sector-1.json",
-      "bytes": 10929,
-      "sha256": "965bf7457de80a2c4f987985af4e35ee5dc6ba4f1dc880942e7114efb41a96ac"
+      "bytes": 11983,
+      "sha256": "fd556394ab05eaad239e99d3dee655425233445061e5867053ab3c2a42aefbb5"
     },
     {
       "path": "packs/starblade-ascent/sector-1.map",
       "bytes": 1568,
-      "sha256": "2dcaf2d04c82330e6538bf67eb01b8f880b026d2059e81ce84079dd053396f9d"
+      "sha256": "3545cd1c4cbfb1083567007c428a3af0fa9516d403dde1168a691888826960a6"
     },
     {
       "path": "packs/starblade-ascent/sector-2.json",
-      "bytes": 10971,
-      "sha256": "ef4da9b0c1b034717d14da2eb39e3d6c1b3385414137fbb587cbbcb9a0e80087"
+      "bytes": 11860,
+      "sha256": "42ca4cb51528172dfa9fe698dd3b25f2428ea24716e4395f7fd146d0560d387f"
     },
     {
       "path": "packs/starblade-ascent/sector-2.map",
       "bytes": 1568,
-      "sha256": "32704ee7376bfb60bf4a5ca658045401ff03261003b80b2dfb3c0e7ff0a64da9"
+      "sha256": "40c7f11f55dea4c76d73d61c77d4f5f5f8d13521160b0b32f63e89f923ae6d46"
     },
     {
       "path": "packs/starblade-ascent/sector-3.json",
-      "bytes": 11852,
-      "sha256": "1672d3a6cc41ab3a05a0ab3494f99f77a8ace211f0e7d1e8dfd488395eb66f02"
+      "bytes": 12894,
+      "sha256": "5d6d1d90496184b9ce735f6570fce7bd706daf467c96d0d7dcc0320cf6634f15"
     },
     {
       "path": "packs/starblade-ascent/sector-3.map",
       "bytes": 1568,
-      "sha256": "4a6f33b23fb107c0674e024bc37236bf45b84f3f4f1962fa29a9026d0d78ef18"
+      "sha256": "419fe0322ebbab2d0c15f765c943ee1b9b09b9c6c580bf37afdfbb9bb22a36d0"
     },
     {
       "path": "packs/starblade-ascent/sector-4.json",
-      "bytes": 9918,
-      "sha256": "ce8899faeee515503856f2681acb2f950f40f7cdb7fcf5e11e806e22eb92997f"
+      "bytes": 10824,
+      "sha256": "a2a69b1b38e9bb41ce0d9fad6911236d4ce9c2b2ce94ff2cdc70e03ad5a1dfa8"
     },
     {
       "path": "packs/starblade-ascent/sector-4.map",
       "bytes": 1568,
-      "sha256": "9c7a8c6886b2b353dd2477eb912ec0f4bc62a285b8d57ce01b5dc164a86682f7"
+      "sha256": "cd116b1aaa27a6de3d2f76afc7d81d9fb5e0350ab2e3cf28a03d61f1c002d270"
     },
     {
       "path": "packs/starblade-ascent/sector-5.json",
-      "bytes": 10864,
-      "sha256": "f8504cbee19713bc8db8dfe95be3983c9d28bd23870ac4ca10d83b68e5b6bc4f"
+      "bytes": 11890,
+      "sha256": "e59b048bcf891d7b843b083c4dc79702fc175001c021a4d93362c5398b7f1fc0"
     },
     {
       "path": "packs/starblade-ascent/sector-5.map",
       "bytes": 1568,
-      "sha256": "90f5760b9e8a32e8dc839dd0fc777fa20bf948918c160a2fa636f2f4de4a24b4"
+      "sha256": "726007f25e468b6c37cbc75baff3b15daa3a16f61c2d89c297bd0a437395ae1f"
     },
     {
       "path": "packs/starblade-ascent/sector-6.json",
-      "bytes": 11048,
-      "sha256": "16cb5a5009e9a160d2dcb1f82494b82a377ab9b82d848a77c53c554c56458c67"
+      "bytes": 11954,
+      "sha256": "9ee7212e2c5de3a8857c12ef45fc5dc9fb897a989a305b930b0cf33976ab6dbd"
     },
     {
       "path": "packs/starblade-ascent/sector-6.map",
       "bytes": 1568,
-      "sha256": "a5b1f8881b96e030158a4a2ef2c3d3fcd6381182cf18eaf4a7098ced987fc175"
+      "sha256": "665d42c7c8640e3559b28d92acd928f5e174ce25eddfa8618c48af2e711ce0da"
     },
     {
       "path": "packs/starblade-ascent/sector-7.json",
-      "bytes": 11852,
-      "sha256": "1672d3a6cc41ab3a05a0ab3494f99f77a8ace211f0e7d1e8dfd488395eb66f02"
+      "bytes": 12962,
+      "sha256": "9dc642417e58e4cc2a3098ad770037d432fabfd75b1dbf17f76c3e99152b3d81"
     },
     {
       "path": "packs/starblade-ascent/sector-7.map",
       "bytes": 1568,
-      "sha256": "4a6f33b23fb107c0674e024bc37236bf45b84f3f4f1962fa29a9026d0d78ef18"
+      "sha256": "419fe0322ebbab2d0c15f765c943ee1b9b09b9c6c580bf37afdfbb9bb22a36d0"
     },
     {
       "path": "packs/starblade-ascent/sectors.txt",
@@ -3323,8 +3413,8 @@
     },
     {
       "path": "packs/sunken-observatory/ATTRIBUTION.md",
-      "bytes": 559,
-      "sha256": "02852a3c38b4549ba53a79c9f229421cc7aa7d887df298c883581589cd868bf5"
+      "bytes": 640,
+      "sha256": "9793f1d0b2c7c51f961eca2ba303276a5f2e6aa463a6bc8ed1549a8f0d05db82"
     },
     {
       "path": "packs/sunken-observatory/AUDIO-LICENSE.txt",
@@ -3333,8 +3423,8 @@
     },
     {
       "path": "packs/sunken-observatory/atlas.png",
-      "bytes": 110034,
-      "sha256": "a253e9e36c60b45190eafd8bd3ef4403837ff81646113a2a811d046861496f03"
+      "bytes": 820211,
+      "sha256": "b5a1a3ee2eefa1b06a712377878255230f8dcc86026dc2330f673273b4f2b513"
     },
     {
       "path": "packs/sunken-observatory/audio-source.json",
@@ -3357,14 +3447,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/sunken-observatory/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/sunken-observatory/hall.bin",
       "bytes": 10156868,
       "sha256": "088b9b6c956850cd18616edb60bbb08f110d50ebd9a7d098f820021f409fd650"
     },
     {
       "path": "packs/sunken-observatory/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/sunken-observatory/hall.map",
@@ -3378,18 +3473,18 @@
     },
     {
       "path": "packs/sunken-observatory/level.bin",
-      "bytes": 1610688,
-      "sha256": "bd74cff8f893ce723d3f7b2650fb33167319e03647f21ace9ab8cae68489369a"
+      "bytes": 1838400,
+      "sha256": "c0726a4adf765e5a65d2dc12fa6579369c84c5ab1b1dee251adb7da7cfae5585"
     },
     {
       "path": "packs/sunken-observatory/level.gltf",
-      "bytes": 39015,
-      "sha256": "0c8d674e061ea46d591552e615e112d8ec06c79cd5f66bbf93d5ba88812677cd"
+      "bytes": 39403,
+      "sha256": "a911d7e9ad8d65e08e6a6aa2917715b380777d0e8bf77d8bfd4131441d1bd228"
     },
     {
       "path": "packs/sunken-observatory/manifest.json",
-      "bytes": 4745,
-      "sha256": "e0ff76aeaf7c5a4ac4acc6cb4fab77e72243e447131b974112f3bddfa472961d"
+      "bytes": 4944,
+      "sha256": "b94ab750c5ce45232f095ac9ed1f2eb0e800efb37bb49255f5bd749b865f9842"
     },
     {
       "path": "packs/sunken-observatory/music.wav",
@@ -3398,8 +3493,8 @@
     },
     {
       "path": "packs/sunken-observatory/navigation.json",
-      "bytes": 2188,
-      "sha256": "8c5b02009ec97c213992c4de8c3575024198bed7435d63cedab1584ee51ee147"
+      "bytes": 2233,
+      "sha256": "a1b0ef47e707a188fc8a7fb891e8cc32e11ec37e25825bc85aacb83722077646"
     },
     {
       "path": "packs/sunken-observatory/palette.txt",
@@ -3414,7 +3509,7 @@
     {
       "path": "packs/sunken-observatory/red-furnace.map",
       "bytes": 1568,
-      "sha256": "0d71cdd9c66d676147e4cbfa33d7204ba15e0237342e5b5c82b15e90e0ceb1aa"
+      "sha256": "13d509559d09eda8883ab1a00344f9cd2e06edd3ff6373199a9bfeefebfe9010"
     },
     {
       "path": "packs/sunken-observatory/rules.lua",
@@ -3423,8 +3518,8 @@
     },
     {
       "path": "packs/sunken-observatory/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4791,
+      "sha256": "c8bec089a70ebe9ae072392076f7706b462a691619c6415c0c5f692bfeacdaf3"
     },
     {
       "path": "packs/sunken-observatory/scene.vert",
@@ -3438,8 +3533,8 @@
     },
     {
       "path": "packs/threefold-siege/ATTRIBUTION.md",
-      "bytes": 571,
-      "sha256": "65e629a553d62511d6fe539e47daf0cf418d6c5726dd759585f4296c142070f2"
+      "bytes": 619,
+      "sha256": "5b9529c692e33ec009ca31e00ef4ce79a7c90a0e8910432f16b4252e29e363ab"
     },
     {
       "path": "packs/threefold-siege/AUDIO-LICENSE.txt",
@@ -3448,8 +3543,8 @@
     },
     {
       "path": "packs/threefold-siege/atlas.png",
-      "bytes": 106551,
-      "sha256": "45f9adc1733593a3325340bd142852703ff7301b71f5d7aafc157a803fb11d67"
+      "bytes": 847439,
+      "sha256": "7918bffe67f8115205cac13bd9307af50bc95604e9984d89bf9f15576564b2bc"
     },
     {
       "path": "packs/threefold-siege/audio-source.json",
@@ -3472,14 +3567,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/threefold-siege/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/threefold-siege/hall.bin",
       "bytes": 9918764,
       "sha256": "2e0bba90a4c0207aeee771567aeb68fe86ae0681cd0101a662ebf4f4670f00a4"
     },
     {
       "path": "packs/threefold-siege/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/threefold-siege/hall.map",
@@ -3493,18 +3593,18 @@
     },
     {
       "path": "packs/threefold-siege/level.bin",
-      "bytes": 2978208,
-      "sha256": "e4372172d3e4487dbfa75be632cff30ca5e5a971269f0e7e439b525cd68646d4"
+      "bytes": 3245280,
+      "sha256": "820ca7dfedb6343cf1fc43102f4c9109063998633fc7e19cdc98c0e6ca8eca91"
     },
     {
       "path": "packs/threefold-siege/level.gltf",
-      "bytes": 31234,
-      "sha256": "c055f1c43c8a9cc0c1aefd5fccc53111170a6cd1bbfcd0d32fe25a5c11246432"
+      "bytes": 33317,
+      "sha256": "4f3ed2ccd44d5f901286cb552f8d4ba1d2aed9448b8c5f9aea52500f5ad93b53"
     },
     {
       "path": "packs/threefold-siege/manifest.json",
-      "bytes": 7311,
-      "sha256": "2ac28f520f0dd70f1eb94320388be02cd11f78032c2cd615f923de70180dff42"
+      "bytes": 7510,
+      "sha256": "ed9f60660d83f5a51dc0ab72075cc3f31eddd0885910a7a098fe131341e8e9f6"
     },
     {
       "path": "packs/threefold-siege/music.wav",
@@ -3513,8 +3613,8 @@
     },
     {
       "path": "packs/threefold-siege/navigation.json",
-      "bytes": 3244,
-      "sha256": "10194eac235b235fbc29cac969371da6f46bcfe138e767b17864f520f6432baf"
+      "bytes": 3335,
+      "sha256": "d37454278a01f437da4f10c5504dee284aefd669b03175733d0ca8a84a0a2453"
     },
     {
       "path": "packs/threefold-siege/palette.txt",
@@ -3538,8 +3638,8 @@
     },
     {
       "path": "packs/threefold-siege/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "beb885224cdb4a3f2c56a7d850d0ef90fb1409165032e37d28c525b3803b1c21"
     },
     {
       "path": "packs/threefold-siege/scene.vert",
@@ -3548,8 +3648,8 @@
     },
     {
       "path": "packs/threefold-siege/sector-0.json",
-      "bytes": 3244,
-      "sha256": "10194eac235b235fbc29cac969371da6f46bcfe138e767b17864f520f6432baf"
+      "bytes": 3335,
+      "sha256": "d37454278a01f437da4f10c5504dee284aefd669b03175733d0ca8a84a0a2453"
     },
     {
       "path": "packs/threefold-siege/sector-0.map",
@@ -3558,8 +3658,8 @@
     },
     {
       "path": "packs/threefold-siege/sector-1.json",
-      "bytes": 3120,
-      "sha256": "2474a174f32c53d411e4ee782b92c76502a57c00cb03709f962bbeec49fc4bc8"
+      "bytes": 3214,
+      "sha256": "11f4b9204b0ea69c7c94da7982a1e1825ec821f6cf2520dfed9a71a40922b938"
     },
     {
       "path": "packs/threefold-siege/sector-1.map",
@@ -3568,8 +3668,8 @@
     },
     {
       "path": "packs/threefold-siege/sector-2.json",
-      "bytes": 3121,
-      "sha256": "5705ffde23533966b701cf94d581a187c2dcb8553d2fedef3df296eb32b4f52c"
+      "bytes": 3205,
+      "sha256": "dfbcdb2ad7efde3910d57ca6982b34c8816f089dcc8595110de1ca4845ac276d"
     },
     {
       "path": "packs/threefold-siege/sector-2.map",
@@ -3578,8 +3678,8 @@
     },
     {
       "path": "packs/threefold-siege/sector-3.json",
-      "bytes": 2947,
-      "sha256": "d41e61b38e8868458b3484702e6c19188faf9b6ec86b2872ed21da77332df886"
+      "bytes": 3041,
+      "sha256": "5042cdbe2421b204567e628f48f4fc5bcda1781153fd24a445f710bec49f8fe2"
     },
     {
       "path": "packs/threefold-siege/sector-3.map",
@@ -3588,8 +3688,8 @@
     },
     {
       "path": "packs/threefold-siege/sector-4.json",
-      "bytes": 3244,
-      "sha256": "10194eac235b235fbc29cac969371da6f46bcfe138e767b17864f520f6432baf"
+      "bytes": 3335,
+      "sha256": "d37454278a01f437da4f10c5504dee284aefd669b03175733d0ca8a84a0a2453"
     },
     {
       "path": "packs/threefold-siege/sector-4.map",
@@ -3598,8 +3698,8 @@
     },
     {
       "path": "packs/threefold-siege/sector-5.json",
-      "bytes": 3120,
-      "sha256": "ebedf2bf6a0e37953f23e3353406c8d71f8906d4bbecc0040fb3a2d6cd754e33"
+      "bytes": 3281,
+      "sha256": "b6b920f047cb86aee90d737ff45605ea24210da2c55eb0f8ca0e88020f7c726c"
     },
     {
       "path": "packs/threefold-siege/sector-5.map",
@@ -3618,8 +3718,8 @@
     },
     {
       "path": "packs/valley-of-echoes/ATTRIBUTION.md",
-      "bytes": 572,
-      "sha256": "66bd4cbd6c159094011a4a608b0a1c133958cb68304bde24dc1f2ea07f0649eb"
+      "bytes": 620,
+      "sha256": "4ed0548f622e4def04b4f90c95e1da7048bdd9d9055b22f264054c235b04a5e1"
     },
     {
       "path": "packs/valley-of-echoes/AUDIO-LICENSE.txt",
@@ -3628,8 +3728,8 @@
     },
     {
       "path": "packs/valley-of-echoes/atlas.png",
-      "bytes": 108875,
-      "sha256": "18f26347004cb57007814faa2ad44280fe7e915493b2b2b198c18238577db33a"
+      "bytes": 844916,
+      "sha256": "4b2a85058d54d21ce5d12b85135fc10c0b32f04d6d1c821e8be126e878dc1feb"
     },
     {
       "path": "packs/valley-of-echoes/audio-source.json",
@@ -3652,14 +3752,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/valley-of-echoes/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/valley-of-echoes/hall.bin",
       "bytes": 10156868,
       "sha256": "e5857f9934144b333b88ffd47c140cbbe4c33e889b7999ad6aa0bc67c88c197c"
     },
     {
       "path": "packs/valley-of-echoes/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/valley-of-echoes/hall.map",
@@ -3673,18 +3778,18 @@
     },
     {
       "path": "packs/valley-of-echoes/level.bin",
-      "bytes": 3775200,
-      "sha256": "1663c5817d50304186c260db0e94b161a8c3b5172e1022091e7197911cc76bee"
+      "bytes": 4052064,
+      "sha256": "858fca28e13a675e1ae82f86fab5457bf88f92f6bd0b7803edde5b6bc7ddb8cd"
     },
     {
       "path": "packs/valley-of-echoes/level.gltf",
-      "bytes": 36036,
-      "sha256": "45c6a74e0ecb4bb03b8a52c4862e5ee524f369688519b37fe2906160c80ab547"
+      "bytes": 38130,
+      "sha256": "ee93a3951d918d09214b297c30fb32d51a0a4069827c8b74293c811baecbe88b"
     },
     {
       "path": "packs/valley-of-echoes/manifest.json",
-      "bytes": 8115,
-      "sha256": "2042bbfda26dc8af896bc5626bcbe7c5880125d3899d10a345b3e5b557db9ed8"
+      "bytes": 8314,
+      "sha256": "3ef87a8e58217c1240d52107ad861aa32c0fc9db70197036fd0a9ff05bec2b33"
     },
     {
       "path": "packs/valley-of-echoes/music.wav",
@@ -3693,8 +3798,8 @@
     },
     {
       "path": "packs/valley-of-echoes/navigation.json",
-      "bytes": 6237,
-      "sha256": "2d00f76b42a6b8bb703878d3e6ebefac8aa34b03aebbf13229a688291295e779"
+      "bytes": 6328,
+      "sha256": "66d3a88d9662d19a1ad91234616cd08a82b0290eb360e83fe561b382fb317cea"
     },
     {
       "path": "packs/valley-of-echoes/palette.txt",
@@ -3718,8 +3823,8 @@
     },
     {
       "path": "packs/valley-of-echoes/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4789,
+      "sha256": "a2d927b5947635f2e83372de98bf06289865e16b19d365298229b12fa06487b0"
     },
     {
       "path": "packs/valley-of-echoes/scene.vert",
@@ -3728,8 +3833,8 @@
     },
     {
       "path": "packs/valley-of-echoes/sector-0.json",
-      "bytes": 6237,
-      "sha256": "2d00f76b42a6b8bb703878d3e6ebefac8aa34b03aebbf13229a688291295e779"
+      "bytes": 6328,
+      "sha256": "66d3a88d9662d19a1ad91234616cd08a82b0290eb360e83fe561b382fb317cea"
     },
     {
       "path": "packs/valley-of-echoes/sector-0.map",
@@ -3738,8 +3843,8 @@
     },
     {
       "path": "packs/valley-of-echoes/sector-1.json",
-      "bytes": 6410,
-      "sha256": "8b8deec29621197ce44cc06a28dcdf83650ead32a1663f58af1ad7c10018b803"
+      "bytes": 6504,
+      "sha256": "1f7ee8d0c14b866791c63bf01442954fb025bb7b4935c2e745e2e779a8080516"
     },
     {
       "path": "packs/valley-of-echoes/sector-1.map",
@@ -3748,8 +3853,8 @@
     },
     {
       "path": "packs/valley-of-echoes/sector-2.json",
-      "bytes": 6339,
-      "sha256": "442a2b94eb6cb14981820404fe0408a647af715528011666bc90ed2b434b1db0"
+      "bytes": 6423,
+      "sha256": "d519927c2465b1c3cdbfc10fe1bcf395290860a9581351b7ef5610b89b9924e9"
     },
     {
       "path": "packs/valley-of-echoes/sector-2.map",
@@ -3758,8 +3863,8 @@
     },
     {
       "path": "packs/valley-of-echoes/sector-3.json",
-      "bytes": 6530,
-      "sha256": "d4f489adf2ae424327e8b8c82b183186efdc4a24fcf27e956d254e0fac9600cf"
+      "bytes": 6624,
+      "sha256": "f8f91d1fdaa6b1cc30594bc8c878db08cd59d13b19c2bf8b1d2ae70b9f8c812f"
     },
     {
       "path": "packs/valley-of-echoes/sector-3.map",
@@ -3768,8 +3873,8 @@
     },
     {
       "path": "packs/valley-of-echoes/sector-4.json",
-      "bytes": 6237,
-      "sha256": "2d00f76b42a6b8bb703878d3e6ebefac8aa34b03aebbf13229a688291295e779"
+      "bytes": 6328,
+      "sha256": "66d3a88d9662d19a1ad91234616cd08a82b0290eb360e83fe561b382fb317cea"
     },
     {
       "path": "packs/valley-of-echoes/sector-4.map",
@@ -3778,8 +3883,8 @@
     },
     {
       "path": "packs/valley-of-echoes/sector-5.json",
-      "bytes": 6329,
-      "sha256": "cef3a6f601cc18cad5a41bf81d26d9dbd290ad32347741ca1e0f41d57574749e"
+      "bytes": 6416,
+      "sha256": "ce077c6e846264765650fd637e099d2bebb9b11dfcae5615d9ca9ece997bb1a6"
     },
     {
       "path": "packs/valley-of-echoes/sector-5.map",
@@ -3788,8 +3893,8 @@
     },
     {
       "path": "packs/valley-of-echoes/sector-6.json",
-      "bytes": 6432,
-      "sha256": "aa8b53f25b696b2823be85dc6b00c1480c71ebc867c83e2e056b3778ff51f7a3"
+      "bytes": 6523,
+      "sha256": "d8a18e942314c982897fb9a8323f458ed19ba027905e8ea75754588c52ac9425"
     },
     {
       "path": "packs/valley-of-echoes/sector-6.map",
@@ -3798,8 +3903,8 @@
     },
     {
       "path": "packs/valley-of-echoes/sector-7.json",
-      "bytes": 6530,
-      "sha256": "d4f489adf2ae424327e8b8c82b183186efdc4a24fcf27e956d254e0fac9600cf"
+      "bytes": 6691,
+      "sha256": "162a7d525e2ef2b32ebabfb0a3671c6e71adc71df8cbed8556eb43b78012494a"
     },
     {
       "path": "packs/valley-of-echoes/sector-7.map",
@@ -3818,8 +3923,8 @@
     },
     {
       "path": "packs/winter-harbour/ATTRIBUTION.md",
-      "bytes": 551,
-      "sha256": "59d3fab6b0b55860f23ab3e1a94a765ffd406f8ac8f01235162797d3cc486ec0"
+      "bytes": 632,
+      "sha256": "c16c452f9efd0cc948a5b0e7516b4a0d833ba2e300d067f8170b5221737fd985"
     },
     {
       "path": "packs/winter-harbour/AUDIO-LICENSE.txt",
@@ -3828,8 +3933,8 @@
     },
     {
       "path": "packs/winter-harbour/atlas.png",
-      "bytes": 111597,
-      "sha256": "12ecf2f3bcd09ccc38026b65cfc3e1e015add0857916878ae696336cc2265d28"
+      "bytes": 831528,
+      "sha256": "18271884287b51e3b4708a34b9379ebe8517e13cc921b95575b14fee906369a2"
     },
     {
       "path": "packs/winter-harbour/audio-source.json",
@@ -3852,14 +3957,19 @@
       "sha256": "9aaf9a28a434e61b995f05eea4d90e66f1fcb09eb3554bc14e9b764e71925465"
     },
     {
+      "path": "packs/winter-harbour/hall-uv.bin",
+      "bytes": 523056,
+      "sha256": "81d55e772709fa228dc8d5d720765fe33139b9be4b8614f6363d7f52f1930b5d"
+    },
+    {
       "path": "packs/winter-harbour/hall.bin",
       "bytes": 9918764,
       "sha256": "f92fafda899d0a7b7fd275e7f8cffdca30749e9009edc3f2e89ce28239b2a8cb"
     },
     {
       "path": "packs/winter-harbour/hall.gltf",
-      "bytes": 58441,
-      "sha256": "de93aa757247f04716bb3287b03902337b393bb821dabd28eb96783b87393c4c"
+      "bytes": 58551,
+      "sha256": "a00b5a45c1dae3e5d0a98c49a9e57a46793b67181ffc7e346e799f1635294e86"
     },
     {
       "path": "packs/winter-harbour/hall.map",
@@ -3873,18 +3983,18 @@
     },
     {
       "path": "packs/winter-harbour/level.bin",
-      "bytes": 592896,
-      "sha256": "497a25be04461576d64c89e59cc3edd8464f37ceae83e992d1f7c5822df56629"
+      "bytes": 689472,
+      "sha256": "6e6cbc3f73bab0caefd9049cc07ba853454f59e8373458f070c10dd61b933c72"
     },
     {
       "path": "packs/winter-harbour/level.gltf",
-      "bytes": 38157,
-      "sha256": "c4a106085f8927199f87810fc45fc93b366d637979b53b43caa7d8530f2a7171"
+      "bytes": 40175,
+      "sha256": "94c9a27d81d6599debcb6df9e5af6e09577e0676a177761a8aac428abe5dd69e"
     },
     {
       "path": "packs/winter-harbour/manifest.json",
-      "bytes": 4733,
-      "sha256": "92dc1fb7f69fe13e76d41dab8f7093afdcc99b09acd28d15ae75feeb138c1d27"
+      "bytes": 4932,
+      "sha256": "2db04b743c167fd9efb4679c8f31de1747ae14f68373df08e305492f61f6e18e"
     },
     {
       "path": "packs/winter-harbour/music.wav",
@@ -3893,8 +4003,8 @@
     },
     {
       "path": "packs/winter-harbour/navigation.json",
-      "bytes": 2188,
-      "sha256": "4462ddcaa076a8fc0ea58c130ff3bc6f15613b7c3f00daff696b28ae3e022cf0"
+      "bytes": 2232,
+      "sha256": "f90427ec71f8af29dd2fa5beff62e11687b803f8f17ba3664c78b4666f5e2981"
     },
     {
       "path": "packs/winter-harbour/palette.txt",
@@ -3909,7 +4019,7 @@
     {
       "path": "packs/winter-harbour/red-furnace.map",
       "bytes": 1568,
-      "sha256": "20455e60d5761c3ea93b7ef1e57edaa26c3b1448b838caa04441d4fd94772594"
+      "sha256": "78f116c59ac5f7b27ecd0ca453281c98a272146b730e057762c74f59b5bd00f8"
     },
     {
       "path": "packs/winter-harbour/rules.lua",
@@ -3918,8 +4028,8 @@
     },
     {
       "path": "packs/winter-harbour/scene.frag",
-      "bytes": 3169,
-      "sha256": "4d28b5d0dead7a6484628f762dffce413ae6fb3a9421406745e168a4f567f5e6"
+      "bytes": 4668,
+      "sha256": "7dadba5987c99b7583cbfe1400679ec1cac851d9fbbdc12255dcaf0720332f0a"
     },
     {
       "path": "packs/winter-harbour/scene.vert",

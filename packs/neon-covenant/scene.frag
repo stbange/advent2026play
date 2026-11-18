@@ -42,12 +42,24 @@ float visibility(int index,vec3 delta,float range) {
 void main() {
     vec2 coordinates=uv.xy;
     vec3 normal=normalize(cross(dFdx(worldPosition),dFdy(worldPosition)));
-    if(uv.z>2.5) {
+    vec2 dimensions=vec2(textureSize(atlas,0));
+    vec2 pixel=uv.xy*dimensions;
+    bool painted=pixel.x>=512.0;
+    bool mineral=painted && pixel.y<256.0;
+    bool sky=painted && pixel.y>=928.0;
+    if((uv.z>2.5 && !painted) || mineral) {
         vec3 axis=abs(normal);
         vec2 plane=axis.x>axis.y && axis.x>axis.z ? worldPosition.zy :
                    axis.y>axis.z ? worldPosition.xz : worldPosition.xy;
-        vec2 tile=floor(uv.xy*vec2(8.0,16.0));
-        coordinates=(tile*64.0+1.0+fract(plane*0.65)*62.0)/vec2(512.0,1024.0);
+        float span=mineral ? 128.0 : 64.0;
+        float repeatRate=mineral ? (pixel.y<128.0 && pixel.x<640.0 ? .19 : .31) : .65;
+        coordinates=(floor(pixel/span)*span+1.0+fract(plane*repeatRate)*(span-2.0))/dimensions;
+    }
+    if(sky) {
+        vec3 ray=normalize(worldPosition-eyePosition);
+        float u=fract(atan(ray.z,ray.x)/6.2831853);
+        float v=clamp(.86-ray.y*1.22,0.0,1.0);
+        coordinates=(vec2(512.5,928.5)+vec2(u*511.0,v*95.0))/dimensions;
     }
     vec4 texel=texture(atlas,coordinates);
     float coverage=(mod(floor(gl_FragCoord.x)+floor(gl_FragCoord.y)*2.0,4.0)+0.5)/4.0;
@@ -69,12 +81,31 @@ void main() {
             float lambert=max(0.0,dot(normal,normalize(delta)));
             light+=lightColor[i].rgb*lightColor[i].w*falloff*lambert*visibility(i,-delta,range);
         }
-        surface*=light*1.25;
-        surface=surface/(vec3(1.0)+surface);
+        if(painted) {
+            float facing=dot(normal,normalize(vec3(-.55,.70,.40)));
+            vec3 fill=true
+                ? (.48+.40*max(0.0,facing))*mix(vec3(.66),vec3(0.4588,0.5137,0.5686),.38)
+                : (.15+.09*max(0.0,facing))*mix(vec3(.8),vec3(0.2039,0.2667,0.3294),.45);
+            bool portrait=pixel.x<768.0 && pixel.y>=440.0 && pixel.y<680.0;
+            if(portrait) {
+                float intensity=dot(light,vec3(.30,.49,.21));
+                light=mix(vec3(intensity),light,.46);
+                fill+=vec3(.29,.24,.22);
+            }
+            vec3 linear=pow(surface,vec3(2.2))*(fill+light*.95);
+            surface=1.24*linear/(1.0+.65*max(linear.r,max(linear.g,linear.b)));
+        } else {
+            surface*=light*1.25;
+            surface=surface/(vec3(1.0)+surface);
+        }
         surface=pow(surface,vec3(1.0/2.2));
     }
     float haze=lighting==1?clamp((distanceFromEye-24.0)/140.0,0.0,0.32):0.0;
     vec3 lit=mix(surface,vec3(0.005,0.007,0.015),haze);
+    if(painted && lighting==1) {
+        float depth=sky?0.0:(true?.49:.20)*smoothstep(22.,230.,distanceFromEye);
+        lit=mix(surface,vec3(0.4588,0.5137,0.5686),depth);
+    }
     lit=mix(lit,vec3(0.45,0.48,0.5),clamp(float(flashAmount)/90.0,0.0,0.9));
     float dither=mod(floor(gl_FragCoord.x)+floor(gl_FragCoord.y),2.0)/255.0;
     fragment=vec4(floor((lit+dither)*64.0)/64.0,1.0);
